@@ -6,21 +6,21 @@ https://github.com/raysan5/raylib
 
 In this repository two main contents can be found:
 
-* cppcheck project and test resulst of raylib/src code
-* Unit test done with Google Test for raylib/src code.
+* **cppcheck** project and test resulst of raylib/src code
+* **Unit test** done with Google Test for raylib/src code.
 
 The best proposal for running this tools is to organize the repositories in the next way:
 
-`C:\MinGW`              -> MingGW tool
-`C:\GitHub\raylib`      -> Raylib repository
-`C:\GitHub\raylib_test` -> Raylib test repository
-`C:\GitHub\googletest`  -> Google test repository
+* `C:\MinGW`              -> MingGW tool
+* `C:\GitHub\raylib`      -> Raylib repository
+* `C:\GitHub\raylib_test` -> Raylib test repository
+* `C:\GitHub\googletest`  -> Google test repository
 
 ## CPPCHECK
 
 This tool can be downloaded from http://cppcheck.sourceforge.net/
 
-	![CppCheck](docs\cppcheck.png "cppcheck")
+![CppCheck](docs/cppcheck.png "cppcheck")
 
 The folder `raylib_test\cppcheck` contains the project for this tool, configured to analyze `../../raylib/src` folder.
 
@@ -53,7 +53,7 @@ If a different one is choosen, please update the path in the bat file.
 
 5) Configure and generate with CMake, as describe in image
 
-	![Cmake configuration](docs\configure_and_generate_with_cmake.png "Cmake configuration")
+	![Cmake configuration](docs/configure_and_generate_with_cmake.png "Cmake configuration")
 
 6)  Compile google test, using **make**:
 	`C:\GitHub\googletest\mybuild>mingw32-make`
@@ -79,7 +79,7 @@ For compiling and test execution run the bach file for one unit test file:
 
 The result shall looks something like this:
 
-	![Example execution gtest](docs\example_execution_gtest.png "Example execution gtest")
+![Example execution gtest](docs/example_execution_gtest.png "Example execution gtest")
 
 
 
