@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<analyzerinfo checksum="2289605917">
+<analyzerinfo checksum="3839185980">
         <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 176 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
             <location file="C:\GitHub\raylib\src\raudio.c" line="0" column="0"/>
         </error>
@@ -25,18 +25,6 @@
         <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;cbResult&apos; is always true" verbose="Condition &apos;cbResult&apos; is always true" cwe="571">
             <location file0="C:\GitHub\raylib\src\raudio.c" file="C:\GitHub\raylib\src\external\miniaudio.h" line="7954" column="9" info="Condition &apos;cbResult&apos; is always true"/>
             <location file0="C:\GitHub\raylib\src\raudio.c" file="C:\GitHub\raylib\src\external\miniaudio.h" line="7948" column="26" info="Assignment &apos;cbResult=1&apos;, assigned value is 1"/>
-        </error>
-        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 2) requires &apos;int&apos; but the argument type is &apos;unsigned int&apos;." verbose="%d in format string (no. 2) requires &apos;int&apos; but the argument type is &apos;unsigned int&apos;." cwe="686">
-            <location file0="C:\GitHub\raylib\src\raudio.c" file="C:\GitHub\raylib\src\raudio.c" line="805" column="9"/>
-        </error>
-        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 2) requires &apos;int&apos; but the argument type is &apos;unsigned int&apos;." verbose="%d in format string (no. 2) requires &apos;int&apos; but the argument type is &apos;unsigned int&apos;." cwe="686">
-            <location file0="C:\GitHub\raylib\src\raudio.c" file="C:\GitHub\raylib\src\raudio.c" line="806" column="9"/>
-        </error>
-        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 2) requires &apos;int&apos; but the argument type is &apos;unsigned int&apos;." verbose="%d in format string (no. 2) requires &apos;int&apos; but the argument type is &apos;unsigned int&apos;." cwe="686">
-            <location file0="C:\GitHub\raylib\src\raudio.c" file="C:\GitHub\raylib\src\raudio.c" line="807" column="9"/>
-        </error>
-        <error id="invalidPrintfArgType_sint" severity="warning" msg="%d in format string (no. 2) requires &apos;int&apos; but the argument type is &apos;unsigned int&apos;." verbose="%d in format string (no. 2) requires &apos;int&apos; but the argument type is &apos;unsigned int&apos;." cwe="686">
-            <location file0="C:\GitHub\raylib\src\raudio.c" file="C:\GitHub\raylib\src\raudio.c" line="808" column="9"/>
         </error>
         <error id="nullPointerArithmetic" severity="error" msg="Pointer addition with NULL pointer." verbose="Pointer addition with NULL pointer." cwe="682">
             <location file0="C:\GitHub\raylib\src\raudio.c" file="C:\GitHub\raylib\src\external\jar_xm.h" line="1116" column="54" info="Null pointer addition"/>

@@ -1779,10 +1779,6 @@
     <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:423:12" my-argnr="2" my-argname="v2" file="C:/GitHub/raylib/src/raymath.h" line="426" col="44" value="0"/>
     <unsafe-usage my-id="C:/GitHub/raylib/src/raylib.h:1299:23" my-argnr="1" my-argname="filename" file="C:/GitHub/raylib/src/models.c" line="957" col="21" value="0"/>
   </FileInfo>
-        <error id="memleakOnRealloc" severity="error" msg="Common realloc mistake: &apos;exts_i&apos; nulled but not freed upon failure" verbose="Common realloc mistake: &apos;exts_i&apos; nulled but not freed upon failure" cwe="401">
-            <location file0="C:\GitHub\raylib\src\models.c" file="C:\GitHub\raylib\src\external\glad.h" line="3771" column="13"/>
-            <symbol>exts_i</symbol>
-        </error>
         <error id="nullPointerArithmetic" severity="error" msg="Pointer addition with NULL pointer." verbose="Pointer addition with NULL pointer." cwe="682">
             <location file0="C:\GitHub\raylib\src\models.c" file="C:\GitHub\raylib\src\rlgl.h" line="1937" column="160" info="Null pointer addition"/>
             <location file0="C:\GitHub\raylib\src\models.c" file="C:\GitHub\raylib\src\rlgl.h" line="2222" column="43" info="Calling function &apos;rlLoadTexture&apos;, 1st argument &apos;NULL&apos; value is 0"/>

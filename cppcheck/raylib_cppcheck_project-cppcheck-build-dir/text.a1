@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<analyzerinfo checksum="1353016792">
+<analyzerinfo checksum="2938001312">
         <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 21 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
             <location file="C:\GitHub\raylib\src\text.c" line="0" column="0"/>
         </error>
