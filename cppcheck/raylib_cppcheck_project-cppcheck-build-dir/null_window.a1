@@ -1,0 +1,354 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3792083570">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 44 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\external\glfw\src\null_window.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/null_window.c:33:12" call-funcname="createNativeWindow" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="52" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/null_window.c:33:12" call-funcname="createNativeWindow" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="52" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.h:91:10" call-funcname="_glfwCreateContextOSMesa" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="62" col="18" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/null_window.c:33:12" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="36" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/null_window.c:33:12" my-argnr="2" my-argname="wndconfig" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="36" col="26" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:639:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="77" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:646:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="116" col="5" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/null_window.c:33:12" call-funcname="createNativeWindow" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="52" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/null_window.c:33:12" call-funcname="createNativeWindow" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="52" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.h:91:10" call-funcname="_glfwCreateContextOSMesa" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="62" col="18" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/null_window.c:33:12" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="36" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/null_window.c:33:12" my-argnr="2" my-argname="wndconfig" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="36" col="26" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:639:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="77" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:646:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="116" col="5" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/null_window.c:33:12" call-funcname="createNativeWindow" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="52" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/null_window.c:33:12" call-funcname="createNativeWindow" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="52" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.h:91:10" call-funcname="_glfwCreateContextOSMesa" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="62" col="18" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/null_window.c:33:12" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="36" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/null_window.c:33:12" my-argnr="2" my-argname="wndconfig" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="36" col="26" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:639:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="77" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:646:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="116" col="5" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/null_window.c:33:12" call-funcname="createNativeWindow" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="52" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/null_window.c:33:12" call-funcname="createNativeWindow" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="52" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.h:91:10" call-funcname="_glfwCreateContextOSMesa" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="62" col="18" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/null_window.c:33:12" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="36" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/null_window.c:33:12" my-argnr="2" my-argname="wndconfig" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="36" col="26" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:639:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="77" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:646:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="116" col="5" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/null_window.c:33:12" call-funcname="createNativeWindow" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="52" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/null_window.c:33:12" call-funcname="createNativeWindow" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="52" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.h:91:10" call-funcname="_glfwCreateContextOSMesa" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="62" col="18" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/null_window.c:33:12" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="36" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/null_window.c:33:12" my-argnr="2" my-argname="wndconfig" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="36" col="26" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:639:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="77" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:646:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/null_window.c" line="116" col="5" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="createNativeWindow" lineNumber="33"/>
+    <functiondecl functionName="_glfwPlatformCreateWindow" lineNumber="47"/>
+    <functiondecl functionName="_glfwPlatformDestroyWindow" lineNumber="75"/>
+    <functiondecl functionName="_glfwPlatformSetWindowTitle" lineNumber="81"/>
+    <functiondecl functionName="_glfwPlatformSetWindowIcon" lineNumber="85"/>
+    <functiondecl functionName="_glfwPlatformSetWindowMonitor" lineNumber="90"/>
+    <functiondecl functionName="_glfwPlatformGetWindowPos" lineNumber="98"/>
+    <functiondecl functionName="_glfwPlatformSetWindowPos" lineNumber="102"/>
+    <functiondecl functionName="_glfwPlatformGetWindowSize" lineNumber="106"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSize" lineNumber="114"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSizeLimits" lineNumber="120"/>
+    <functiondecl functionName="_glfwPlatformSetWindowAspectRatio" lineNumber="126"/>
+    <functiondecl functionName="_glfwPlatformGetFramebufferSize" lineNumber="130"/>
+    <functiondecl functionName="_glfwPlatformGetWindowFrameSize" lineNumber="138"/>
+    <functiondecl functionName="_glfwPlatformGetWindowContentScale" lineNumber="144"/>
+    <functiondecl functionName="_glfwPlatformIconifyWindow" lineNumber="153"/>
+    <functiondecl functionName="_glfwPlatformRestoreWindow" lineNumber="157"/>
+    <functiondecl functionName="_glfwPlatformMaximizeWindow" lineNumber="161"/>
+    <functiondecl functionName="_glfwPlatformWindowMaximized" lineNumber="165"/>
+    <functiondecl functionName="_glfwPlatformWindowHovered" lineNumber="170"/>
+    <functiondecl functionName="_glfwPlatformFramebufferTransparent" lineNumber="175"/>
+    <functiondecl functionName="_glfwPlatformSetWindowResizable" lineNumber="180"/>
+    <functiondecl functionName="_glfwPlatformSetWindowDecorated" lineNumber="184"/>
+    <functiondecl functionName="_glfwPlatformSetWindowFloating" lineNumber="188"/>
+    <functiondecl functionName="_glfwPlatformGetWindowOpacity" lineNumber="192"/>
+    <functiondecl functionName="_glfwPlatformSetWindowOpacity" lineNumber="197"/>
+    <functiondecl functionName="_glfwPlatformSetRawMouseMotion" lineNumber="201"/>
+    <functiondecl functionName="_glfwPlatformRawMouseMotionSupported" lineNumber="205"/>
+    <functiondecl functionName="_glfwPlatformShowWindow" lineNumber="210"/>
+    <functiondecl functionName="_glfwPlatformRequestWindowAttention" lineNumber="215"/>
+    <functiondecl functionName="_glfwPlatformUnhideWindow" lineNumber="219"/>
+    <functiondecl functionName="_glfwPlatformHideWindow" lineNumber="223"/>
+    <functiondecl functionName="_glfwPlatformFocusWindow" lineNumber="227"/>
+    <functiondecl functionName="_glfwPlatformWindowFocused" lineNumber="231"/>
+    <functiondecl functionName="_glfwPlatformWindowIconified" lineNumber="236"/>
+    <functiondecl functionName="_glfwPlatformWindowVisible" lineNumber="241"/>
+    <functiondecl functionName="_glfwPlatformPollEvents" lineNumber="246"/>
+    <functiondecl functionName="_glfwPlatformWaitEvents" lineNumber="250"/>
+    <functiondecl functionName="_glfwPlatformWaitEventsTimeout" lineNumber="254"/>
+    <functiondecl functionName="_glfwPlatformPostEmptyEvent" lineNumber="258"/>
+    <functiondecl functionName="_glfwPlatformGetCursorPos" lineNumber="262"/>
+    <functiondecl functionName="_glfwPlatformSetCursorPos" lineNumber="266"/>
+    <functiondecl functionName="_glfwPlatformSetCursorMode" lineNumber="270"/>
+    <functiondecl functionName="_glfwPlatformCreateCursor" lineNumber="274"/>
+    <functiondecl functionName="_glfwPlatformCreateStandardCursor" lineNumber="281"/>
+    <functiondecl functionName="_glfwPlatformDestroyCursor" lineNumber="286"/>
+    <functiondecl functionName="_glfwPlatformSetCursor" lineNumber="290"/>
+    <functiondecl functionName="_glfwPlatformSetClipboardString" lineNumber="294"/>
+    <functiondecl functionName="_glfwPlatformGetClipboardString" lineNumber="298"/>
+    <functiondecl functionName="_glfwPlatformGetScancodeName" lineNumber="303"/>
+    <functiondecl functionName="_glfwPlatformGetKeyScancode" lineNumber="308"/>
+    <functiondecl functionName="_glfwPlatformGetRequiredInstanceExtensions" lineNumber="313"/>
+    <functiondecl functionName="_glfwPlatformGetPhysicalDevicePresentationSupport" lineNumber="317"/>
+    <functiondecl functionName="_glfwPlatformCreateWindowSurface" lineNumber="324"/>
+    <functiondecl functionName="createNativeWindow" lineNumber="33"/>
+    <functiondecl functionName="_glfwPlatformCreateWindow" lineNumber="47"/>
+    <functiondecl functionName="_glfwPlatformDestroyWindow" lineNumber="75"/>
+    <functiondecl functionName="_glfwPlatformSetWindowTitle" lineNumber="81"/>
+    <functiondecl functionName="_glfwPlatformSetWindowIcon" lineNumber="85"/>
+    <functiondecl functionName="_glfwPlatformSetWindowMonitor" lineNumber="90"/>
+    <functiondecl functionName="_glfwPlatformGetWindowPos" lineNumber="98"/>
+    <functiondecl functionName="_glfwPlatformSetWindowPos" lineNumber="102"/>
+    <functiondecl functionName="_glfwPlatformGetWindowSize" lineNumber="106"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSize" lineNumber="114"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSizeLimits" lineNumber="120"/>
+    <functiondecl functionName="_glfwPlatformSetWindowAspectRatio" lineNumber="126"/>
+    <functiondecl functionName="_glfwPlatformGetFramebufferSize" lineNumber="130"/>
+    <functiondecl functionName="_glfwPlatformGetWindowFrameSize" lineNumber="138"/>
+    <functiondecl functionName="_glfwPlatformGetWindowContentScale" lineNumber="144"/>
+    <functiondecl functionName="_glfwPlatformIconifyWindow" lineNumber="153"/>
+    <functiondecl functionName="_glfwPlatformRestoreWindow" lineNumber="157"/>
+    <functiondecl functionName="_glfwPlatformMaximizeWindow" lineNumber="161"/>
+    <functiondecl functionName="_glfwPlatformWindowMaximized" lineNumber="165"/>
+    <functiondecl functionName="_glfwPlatformWindowHovered" lineNumber="170"/>
+    <functiondecl functionName="_glfwPlatformFramebufferTransparent" lineNumber="175"/>
+    <functiondecl functionName="_glfwPlatformSetWindowResizable" lineNumber="180"/>
+    <functiondecl functionName="_glfwPlatformSetWindowDecorated" lineNumber="184"/>
+    <functiondecl functionName="_glfwPlatformSetWindowFloating" lineNumber="188"/>
+    <functiondecl functionName="_glfwPlatformGetWindowOpacity" lineNumber="192"/>
+    <functiondecl functionName="_glfwPlatformSetWindowOpacity" lineNumber="197"/>
+    <functiondecl functionName="_glfwPlatformSetRawMouseMotion" lineNumber="201"/>
+    <functiondecl functionName="_glfwPlatformRawMouseMotionSupported" lineNumber="205"/>
+    <functiondecl functionName="_glfwPlatformShowWindow" lineNumber="210"/>
+    <functiondecl functionName="_glfwPlatformRequestWindowAttention" lineNumber="215"/>
+    <functiondecl functionName="_glfwPlatformUnhideWindow" lineNumber="219"/>
+    <functiondecl functionName="_glfwPlatformHideWindow" lineNumber="223"/>
+    <functiondecl functionName="_glfwPlatformFocusWindow" lineNumber="227"/>
+    <functiondecl functionName="_glfwPlatformWindowFocused" lineNumber="231"/>
+    <functiondecl functionName="_glfwPlatformWindowIconified" lineNumber="236"/>
+    <functiondecl functionName="_glfwPlatformWindowVisible" lineNumber="241"/>
+    <functiondecl functionName="_glfwPlatformPollEvents" lineNumber="246"/>
+    <functiondecl functionName="_glfwPlatformWaitEvents" lineNumber="250"/>
+    <functiondecl functionName="_glfwPlatformWaitEventsTimeout" lineNumber="254"/>
+    <functiondecl functionName="_glfwPlatformPostEmptyEvent" lineNumber="258"/>
+    <functiondecl functionName="_glfwPlatformGetCursorPos" lineNumber="262"/>
+    <functiondecl functionName="_glfwPlatformSetCursorPos" lineNumber="266"/>
+    <functiondecl functionName="_glfwPlatformSetCursorMode" lineNumber="270"/>
+    <functiondecl functionName="_glfwPlatformCreateCursor" lineNumber="274"/>
+    <functiondecl functionName="_glfwPlatformCreateStandardCursor" lineNumber="281"/>
+    <functiondecl functionName="_glfwPlatformDestroyCursor" lineNumber="286"/>
+    <functiondecl functionName="_glfwPlatformSetCursor" lineNumber="290"/>
+    <functiondecl functionName="_glfwPlatformSetClipboardString" lineNumber="294"/>
+    <functiondecl functionName="_glfwPlatformGetClipboardString" lineNumber="298"/>
+    <functiondecl functionName="_glfwPlatformGetScancodeName" lineNumber="303"/>
+    <functiondecl functionName="_glfwPlatformGetKeyScancode" lineNumber="308"/>
+    <functiondecl functionName="_glfwPlatformGetRequiredInstanceExtensions" lineNumber="313"/>
+    <functiondecl functionName="_glfwPlatformGetPhysicalDevicePresentationSupport" lineNumber="317"/>
+    <functiondecl functionName="_glfwPlatformCreateWindowSurface" lineNumber="324"/>
+    <functiondecl functionName="createNativeWindow" lineNumber="33"/>
+    <functiondecl functionName="_glfwPlatformCreateWindow" lineNumber="47"/>
+    <functiondecl functionName="_glfwPlatformDestroyWindow" lineNumber="75"/>
+    <functiondecl functionName="_glfwPlatformSetWindowTitle" lineNumber="81"/>
+    <functiondecl functionName="_glfwPlatformSetWindowIcon" lineNumber="85"/>
+    <functiondecl functionName="_glfwPlatformSetWindowMonitor" lineNumber="90"/>
+    <functiondecl functionName="_glfwPlatformGetWindowPos" lineNumber="98"/>
+    <functiondecl functionName="_glfwPlatformSetWindowPos" lineNumber="102"/>
+    <functiondecl functionName="_glfwPlatformGetWindowSize" lineNumber="106"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSize" lineNumber="114"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSizeLimits" lineNumber="120"/>
+    <functiondecl functionName="_glfwPlatformSetWindowAspectRatio" lineNumber="126"/>
+    <functiondecl functionName="_glfwPlatformGetFramebufferSize" lineNumber="130"/>
+    <functiondecl functionName="_glfwPlatformGetWindowFrameSize" lineNumber="138"/>
+    <functiondecl functionName="_glfwPlatformGetWindowContentScale" lineNumber="144"/>
+    <functiondecl functionName="_glfwPlatformIconifyWindow" lineNumber="153"/>
+    <functiondecl functionName="_glfwPlatformRestoreWindow" lineNumber="157"/>
+    <functiondecl functionName="_glfwPlatformMaximizeWindow" lineNumber="161"/>
+    <functiondecl functionName="_glfwPlatformWindowMaximized" lineNumber="165"/>
+    <functiondecl functionName="_glfwPlatformWindowHovered" lineNumber="170"/>
+    <functiondecl functionName="_glfwPlatformFramebufferTransparent" lineNumber="175"/>
+    <functiondecl functionName="_glfwPlatformSetWindowResizable" lineNumber="180"/>
+    <functiondecl functionName="_glfwPlatformSetWindowDecorated" lineNumber="184"/>
+    <functiondecl functionName="_glfwPlatformSetWindowFloating" lineNumber="188"/>
+    <functiondecl functionName="_glfwPlatformGetWindowOpacity" lineNumber="192"/>
+    <functiondecl functionName="_glfwPlatformSetWindowOpacity" lineNumber="197"/>
+    <functiondecl functionName="_glfwPlatformSetRawMouseMotion" lineNumber="201"/>
+    <functiondecl functionName="_glfwPlatformRawMouseMotionSupported" lineNumber="205"/>
+    <functiondecl functionName="_glfwPlatformShowWindow" lineNumber="210"/>
+    <functiondecl functionName="_glfwPlatformRequestWindowAttention" lineNumber="215"/>
+    <functiondecl functionName="_glfwPlatformUnhideWindow" lineNumber="219"/>
+    <functiondecl functionName="_glfwPlatformHideWindow" lineNumber="223"/>
+    <functiondecl functionName="_glfwPlatformFocusWindow" lineNumber="227"/>
+    <functiondecl functionName="_glfwPlatformWindowFocused" lineNumber="231"/>
+    <functiondecl functionName="_glfwPlatformWindowIconified" lineNumber="236"/>
+    <functiondecl functionName="_glfwPlatformWindowVisible" lineNumber="241"/>
+    <functiondecl functionName="_glfwPlatformPollEvents" lineNumber="246"/>
+    <functiondecl functionName="_glfwPlatformWaitEvents" lineNumber="250"/>
+    <functiondecl functionName="_glfwPlatformWaitEventsTimeout" lineNumber="254"/>
+    <functiondecl functionName="_glfwPlatformPostEmptyEvent" lineNumber="258"/>
+    <functiondecl functionName="_glfwPlatformGetCursorPos" lineNumber="262"/>
+    <functiondecl functionName="_glfwPlatformSetCursorPos" lineNumber="266"/>
+    <functiondecl functionName="_glfwPlatformSetCursorMode" lineNumber="270"/>
+    <functiondecl functionName="_glfwPlatformCreateCursor" lineNumber="274"/>
+    <functiondecl functionName="_glfwPlatformCreateStandardCursor" lineNumber="281"/>
+    <functiondecl functionName="_glfwPlatformDestroyCursor" lineNumber="286"/>
+    <functiondecl functionName="_glfwPlatformSetCursor" lineNumber="290"/>
+    <functiondecl functionName="_glfwPlatformSetClipboardString" lineNumber="294"/>
+    <functiondecl functionName="_glfwPlatformGetClipboardString" lineNumber="298"/>
+    <functiondecl functionName="_glfwPlatformGetScancodeName" lineNumber="303"/>
+    <functiondecl functionName="_glfwPlatformGetKeyScancode" lineNumber="308"/>
+    <functiondecl functionName="_glfwPlatformGetRequiredInstanceExtensions" lineNumber="313"/>
+    <functiondecl functionName="_glfwPlatformGetPhysicalDevicePresentationSupport" lineNumber="317"/>
+    <functiondecl functionName="_glfwPlatformCreateWindowSurface" lineNumber="324"/>
+    <functiondecl functionName="createNativeWindow" lineNumber="33"/>
+    <functiondecl functionName="_glfwPlatformCreateWindow" lineNumber="47"/>
+    <functiondecl functionName="_glfwPlatformDestroyWindow" lineNumber="75"/>
+    <functiondecl functionName="_glfwPlatformSetWindowTitle" lineNumber="81"/>
+    <functiondecl functionName="_glfwPlatformSetWindowIcon" lineNumber="85"/>
+    <functiondecl functionName="_glfwPlatformSetWindowMonitor" lineNumber="90"/>
+    <functiondecl functionName="_glfwPlatformGetWindowPos" lineNumber="98"/>
+    <functiondecl functionName="_glfwPlatformSetWindowPos" lineNumber="102"/>
+    <functiondecl functionName="_glfwPlatformGetWindowSize" lineNumber="106"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSize" lineNumber="114"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSizeLimits" lineNumber="120"/>
+    <functiondecl functionName="_glfwPlatformSetWindowAspectRatio" lineNumber="126"/>
+    <functiondecl functionName="_glfwPlatformGetFramebufferSize" lineNumber="130"/>
+    <functiondecl functionName="_glfwPlatformGetWindowFrameSize" lineNumber="138"/>
+    <functiondecl functionName="_glfwPlatformGetWindowContentScale" lineNumber="144"/>
+    <functiondecl functionName="_glfwPlatformIconifyWindow" lineNumber="153"/>
+    <functiondecl functionName="_glfwPlatformRestoreWindow" lineNumber="157"/>
+    <functiondecl functionName="_glfwPlatformMaximizeWindow" lineNumber="161"/>
+    <functiondecl functionName="_glfwPlatformWindowMaximized" lineNumber="165"/>
+    <functiondecl functionName="_glfwPlatformWindowHovered" lineNumber="170"/>
+    <functiondecl functionName="_glfwPlatformFramebufferTransparent" lineNumber="175"/>
+    <functiondecl functionName="_glfwPlatformSetWindowResizable" lineNumber="180"/>
+    <functiondecl functionName="_glfwPlatformSetWindowDecorated" lineNumber="184"/>
+    <functiondecl functionName="_glfwPlatformSetWindowFloating" lineNumber="188"/>
+    <functiondecl functionName="_glfwPlatformGetWindowOpacity" lineNumber="192"/>
+    <functiondecl functionName="_glfwPlatformSetWindowOpacity" lineNumber="197"/>
+    <functiondecl functionName="_glfwPlatformSetRawMouseMotion" lineNumber="201"/>
+    <functiondecl functionName="_glfwPlatformRawMouseMotionSupported" lineNumber="205"/>
+    <functiondecl functionName="_glfwPlatformShowWindow" lineNumber="210"/>
+    <functiondecl functionName="_glfwPlatformRequestWindowAttention" lineNumber="215"/>
+    <functiondecl functionName="_glfwPlatformUnhideWindow" lineNumber="219"/>
+    <functiondecl functionName="_glfwPlatformHideWindow" lineNumber="223"/>
+    <functiondecl functionName="_glfwPlatformFocusWindow" lineNumber="227"/>
+    <functiondecl functionName="_glfwPlatformWindowFocused" lineNumber="231"/>
+    <functiondecl functionName="_glfwPlatformWindowIconified" lineNumber="236"/>
+    <functiondecl functionName="_glfwPlatformWindowVisible" lineNumber="241"/>
+    <functiondecl functionName="_glfwPlatformPollEvents" lineNumber="246"/>
+    <functiondecl functionName="_glfwPlatformWaitEvents" lineNumber="250"/>
+    <functiondecl functionName="_glfwPlatformWaitEventsTimeout" lineNumber="254"/>
+    <functiondecl functionName="_glfwPlatformPostEmptyEvent" lineNumber="258"/>
+    <functiondecl functionName="_glfwPlatformGetCursorPos" lineNumber="262"/>
+    <functiondecl functionName="_glfwPlatformSetCursorPos" lineNumber="266"/>
+    <functiondecl functionName="_glfwPlatformSetCursorMode" lineNumber="270"/>
+    <functiondecl functionName="_glfwPlatformCreateCursor" lineNumber="274"/>
+    <functiondecl functionName="_glfwPlatformCreateStandardCursor" lineNumber="281"/>
+    <functiondecl functionName="_glfwPlatformDestroyCursor" lineNumber="286"/>
+    <functiondecl functionName="_glfwPlatformSetCursor" lineNumber="290"/>
+    <functiondecl functionName="_glfwPlatformSetClipboardString" lineNumber="294"/>
+    <functiondecl functionName="_glfwPlatformGetClipboardString" lineNumber="298"/>
+    <functiondecl functionName="_glfwPlatformGetScancodeName" lineNumber="303"/>
+    <functiondecl functionName="_glfwPlatformGetKeyScancode" lineNumber="308"/>
+    <functiondecl functionName="_glfwPlatformGetRequiredInstanceExtensions" lineNumber="313"/>
+    <functiondecl functionName="_glfwPlatformGetPhysicalDevicePresentationSupport" lineNumber="317"/>
+    <functiondecl functionName="_glfwPlatformCreateWindowSurface" lineNumber="324"/>
+    <functiondecl functionName="createNativeWindow" lineNumber="33"/>
+    <functiondecl functionName="_glfwPlatformCreateWindow" lineNumber="47"/>
+    <functiondecl functionName="_glfwPlatformDestroyWindow" lineNumber="75"/>
+    <functiondecl functionName="_glfwPlatformSetWindowTitle" lineNumber="81"/>
+    <functiondecl functionName="_glfwPlatformSetWindowIcon" lineNumber="85"/>
+    <functiondecl functionName="_glfwPlatformSetWindowMonitor" lineNumber="90"/>
+    <functiondecl functionName="_glfwPlatformGetWindowPos" lineNumber="98"/>
+    <functiondecl functionName="_glfwPlatformSetWindowPos" lineNumber="102"/>
+    <functiondecl functionName="_glfwPlatformGetWindowSize" lineNumber="106"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSize" lineNumber="114"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSizeLimits" lineNumber="120"/>
+    <functiondecl functionName="_glfwPlatformSetWindowAspectRatio" lineNumber="126"/>
+    <functiondecl functionName="_glfwPlatformGetFramebufferSize" lineNumber="130"/>
+    <functiondecl functionName="_glfwPlatformGetWindowFrameSize" lineNumber="138"/>
+    <functiondecl functionName="_glfwPlatformGetWindowContentScale" lineNumber="144"/>
+    <functiondecl functionName="_glfwPlatformIconifyWindow" lineNumber="153"/>
+    <functiondecl functionName="_glfwPlatformRestoreWindow" lineNumber="157"/>
+    <functiondecl functionName="_glfwPlatformMaximizeWindow" lineNumber="161"/>
+    <functiondecl functionName="_glfwPlatformWindowMaximized" lineNumber="165"/>
+    <functiondecl functionName="_glfwPlatformWindowHovered" lineNumber="170"/>
+    <functiondecl functionName="_glfwPlatformFramebufferTransparent" lineNumber="175"/>
+    <functiondecl functionName="_glfwPlatformSetWindowResizable" lineNumber="180"/>
+    <functiondecl functionName="_glfwPlatformSetWindowDecorated" lineNumber="184"/>
+    <functiondecl functionName="_glfwPlatformSetWindowFloating" lineNumber="188"/>
+    <functiondecl functionName="_glfwPlatformGetWindowOpacity" lineNumber="192"/>
+    <functiondecl functionName="_glfwPlatformSetWindowOpacity" lineNumber="197"/>
+    <functiondecl functionName="_glfwPlatformSetRawMouseMotion" lineNumber="201"/>
+    <functiondecl functionName="_glfwPlatformRawMouseMotionSupported" lineNumber="205"/>
+    <functiondecl functionName="_glfwPlatformShowWindow" lineNumber="210"/>
+    <functiondecl functionName="_glfwPlatformRequestWindowAttention" lineNumber="215"/>
+    <functiondecl functionName="_glfwPlatformUnhideWindow" lineNumber="219"/>
+    <functiondecl functionName="_glfwPlatformHideWindow" lineNumber="223"/>
+    <functiondecl functionName="_glfwPlatformFocusWindow" lineNumber="227"/>
+    <functiondecl functionName="_glfwPlatformWindowFocused" lineNumber="231"/>
+    <functiondecl functionName="_glfwPlatformWindowIconified" lineNumber="236"/>
+    <functiondecl functionName="_glfwPlatformWindowVisible" lineNumber="241"/>
+    <functiondecl functionName="_glfwPlatformPollEvents" lineNumber="246"/>
+    <functiondecl functionName="_glfwPlatformWaitEvents" lineNumber="250"/>
+    <functiondecl functionName="_glfwPlatformWaitEventsTimeout" lineNumber="254"/>
+    <functiondecl functionName="_glfwPlatformPostEmptyEvent" lineNumber="258"/>
+    <functiondecl functionName="_glfwPlatformGetCursorPos" lineNumber="262"/>
+    <functiondecl functionName="_glfwPlatformSetCursorPos" lineNumber="266"/>
+    <functiondecl functionName="_glfwPlatformSetCursorMode" lineNumber="270"/>
+    <functiondecl functionName="_glfwPlatformCreateCursor" lineNumber="274"/>
+    <functiondecl functionName="_glfwPlatformCreateStandardCursor" lineNumber="281"/>
+    <functiondecl functionName="_glfwPlatformDestroyCursor" lineNumber="286"/>
+    <functiondecl functionName="_glfwPlatformSetCursor" lineNumber="290"/>
+    <functiondecl functionName="_glfwPlatformSetClipboardString" lineNumber="294"/>
+    <functiondecl functionName="_glfwPlatformGetClipboardString" lineNumber="298"/>
+    <functiondecl functionName="_glfwPlatformGetScancodeName" lineNumber="303"/>
+    <functiondecl functionName="_glfwPlatformGetKeyScancode" lineNumber="308"/>
+    <functiondecl functionName="_glfwPlatformGetRequiredInstanceExtensions" lineNumber="313"/>
+    <functiondecl functionName="_glfwPlatformGetPhysicalDevicePresentationSupport" lineNumber="317"/>
+    <functiondecl functionName="_glfwPlatformCreateWindowSurface" lineNumber="324"/>
+    <functioncall functionName="MDT_EFFECTIVE_DPI"/>
+    <functioncall functionName="_glfwCreateContextOSMesa"/>
+    <functioncall functionName="_glfwInitOSMesa"/>
+    <functioncall functionName="_glfwInputError"/>
+    <functioncall functionName="bottomDecoration"/>
+    <functioncall functionName="createNativeWindow"/>
+    <functioncall functionName="ctxconfig"/>
+    <functioncall functionName="destroy"/>
+    <functioncall functionName="fbconfig"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="leftDecoration"/>
+    <functioncall functionName="mainWindow"/>
+    <functioncall functionName="rightDecoration"/>
+    <functioncall functionName="topDecoration"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="window"/>
+    <functioncall functionName="wndconfig"/>
+    <functioncall functionName="xscale"/>
+    <functioncall functionName="yscale"/>
+  </FileInfo>
+</analyzerinfo>

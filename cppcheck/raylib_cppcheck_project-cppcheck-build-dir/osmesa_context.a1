@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3662568519">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 48 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" line="0" column="0"/>
+        </error>
+        <error id="constArgument" severity="style" msg="Argument &apos;((unsigned long long)index+1)&lt;sizeof(attribs)/sizeof(attribs[0])&apos; to function assert is always 1" verbose="Argument &apos;((unsigned long long)index+1)&lt;sizeof(attribs)/sizeof(attribs[0])&apos; to function assert is always 1" cwe="570">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" file="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" line="222" column="9" info="Argument &apos;((unsigned long long)index+1)&lt;sizeof(attribs)/sizeof(attribs[0])&apos; to function assert is always 1"/>
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" file="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" line="220" column="21" info="Assignment &apos;index=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="constArgument" severity="style" msg="Argument &apos;((unsigned long long)index+1)&lt;sizeof(attribs)/sizeof(attribs[0])&apos; to function assert is always 1" verbose="Argument &apos;((unsigned long long)index+1)&lt;sizeof(attribs)/sizeof(attribs[0])&apos; to function assert is always 1" cwe="570">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" file="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" line="223" column="9" info="Argument &apos;((unsigned long long)index+1)&lt;sizeof(attribs)/sizeof(attribs[0])&apos; to function assert is always 1"/>
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" file="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" line="222" column="9" info="index is incremented&apos;, new value is 2"/>
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" file="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" line="222" column="9" info="index is incremented&apos;, new value is 1"/>
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" file="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" line="220" column="21" info="Assignment &apos;index=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="constArgument" severity="style" msg="Argument &apos;((unsigned long long)index+1)&lt;sizeof(attribs)/sizeof(attribs[0])&apos; to function assert is always 1" verbose="Argument &apos;((unsigned long long)index+1)&lt;sizeof(attribs)/sizeof(attribs[0])&apos; to function assert is always 1" cwe="570">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" file="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" line="224" column="9" info="Argument &apos;((unsigned long long)index+1)&lt;sizeof(attribs)/sizeof(attribs[0])&apos; to function assert is always 1"/>
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" file="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" line="223" column="9" info="index is incremented&apos;, new value is 4"/>
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" file="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" line="223" column="9" info="index is incremented&apos;, new value is 3"/>
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" file="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" line="222" column="9" info="index is incremented&apos;, new value is 2"/>
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" file="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" line="222" column="9" info="index is incremented&apos;, new value is 1"/>
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" file="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" line="220" column="21" info="Assignment &apos;index=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="constArgument" severity="style" msg="Argument &apos;((unsigned long long)index+1)&lt;sizeof(attribs)/sizeof(attribs[0])&apos; to function assert is always 1" verbose="Argument &apos;((unsigned long long)index+1)&lt;sizeof(attribs)/sizeof(attribs[0])&apos; to function assert is always 1" cwe="570">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" file="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" line="225" column="9" info="Argument &apos;((unsigned long long)index+1)&lt;sizeof(attribs)/sizeof(attribs[0])&apos; to function assert is always 1"/>
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" file="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" line="224" column="9" info="index is incremented&apos;, new value is 6"/>
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" file="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" line="224" column="9" info="index is incremented&apos;, new value is 5"/>
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" file="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" line="223" column="9" info="index is incremented&apos;, new value is 4"/>
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" file="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" line="223" column="9" info="index is incremented&apos;, new value is 3"/>
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" file="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" line="222" column="9" info="index is incremented&apos;, new value is 2"/>
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" file="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" line="222" column="9" info="index is incremented&apos;, new value is 1"/>
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" file="C:\GitHub\raylib\src\external\glfw\src\osmesa_context.c" line="220" column="21" info="Assignment &apos;index=0&apos;, assigned value is 0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" call-funcname="_glfwPlatformGetFramebufferSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="42" col="40" call-argexpr="&width" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" call-funcname="_glfwPlatformGetFramebufferSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="42" col="40" call-argexpr="width" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" call-funcname="_glfwPlatformGetFramebufferSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="42" col="40" call-argexpr="&height" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" call-funcname="_glfwPlatformGetFramebufferSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="42" col="40" call-argexpr="height" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="303" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="336" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="362" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="366" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c:76:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="78" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.h:91:10" my-argnr="2" my-argname="ctxconfig" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="208" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.h:91:10" my-argnr="3" my-argname="fbconfig" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="203" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" call-funcname="_glfwPlatformGetFramebufferSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="42" col="40" call-argexpr="&width" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" call-funcname="_glfwPlatformGetFramebufferSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="42" col="40" call-argexpr="width" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" call-funcname="_glfwPlatformGetFramebufferSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="42" col="40" call-argexpr="&height" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" call-funcname="_glfwPlatformGetFramebufferSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="42" col="40" call-argexpr="height" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="303" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="336" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="362" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="366" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c:76:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="78" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.h:91:10" my-argnr="2" my-argname="ctxconfig" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="208" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.h:91:10" my-argnr="3" my-argname="fbconfig" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="203" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" call-funcname="_glfwPlatformGetFramebufferSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="42" col="40" call-argexpr="&width" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" call-funcname="_glfwPlatformGetFramebufferSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="42" col="40" call-argexpr="width" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" call-funcname="_glfwPlatformGetFramebufferSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="42" col="40" call-argexpr="&height" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" call-funcname="_glfwPlatformGetFramebufferSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="42" col="40" call-argexpr="height" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="303" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="336" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="362" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="366" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c:76:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="78" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.h:91:10" my-argnr="2" my-argname="ctxconfig" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="208" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.h:91:10" my-argnr="3" my-argname="fbconfig" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="203" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" call-funcname="_glfwPlatformGetFramebufferSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="42" col="40" call-argexpr="&width" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" call-funcname="_glfwPlatformGetFramebufferSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="42" col="40" call-argexpr="width" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" call-funcname="_glfwPlatformGetFramebufferSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="42" col="40" call-argexpr="&height" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" call-funcname="_glfwPlatformGetFramebufferSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="42" col="40" call-argexpr="height" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="303" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="336" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="362" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="366" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c:76:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="78" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.h:91:10" my-argnr="2" my-argname="ctxconfig" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="208" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.h:91:10" my-argnr="3" my-argname="fbconfig" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="203" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" call-funcname="_glfwPlatformGetFramebufferSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="42" col="40" call-argexpr="&width" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" call-funcname="_glfwPlatformGetFramebufferSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="42" col="40" call-argexpr="width" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" call-funcname="_glfwPlatformGetFramebufferSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="42" col="40" call-argexpr="&height" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" call-funcname="_glfwPlatformGetFramebufferSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="42" col="40" call-argexpr="height" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="303" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="336" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="362" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="366" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c:76:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="78" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.h:91:10" my-argnr="2" my-argname="ctxconfig" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="208" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.h:91:10" my-argnr="3" my-argname="fbconfig" file="C:/GitHub/raylib/src/external/glfw/src/osmesa_context.c" line="203" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="makeContextCurrentOSMesa" lineNumber="37"/>
+    <functiondecl functionName="getProcAddressOSMesa" lineNumber="71"/>
+    <functiondecl functionName="destroyContextOSMesa" lineNumber="76"/>
+    <functiondecl functionName="swapBuffersOSMesa" lineNumber="92"/>
+    <functiondecl functionName="swapIntervalOSMesa" lineNumber="97"/>
+    <functiondecl functionName="extensionSupportedOSMesa" lineNumber="102"/>
+    <functiondecl functionName="_glfwInitOSMesa" lineNumber="113"/>
+    <functiondecl functionName="_glfwTerminateOSMesa" lineNumber="182"/>
+    <functiondecl functionName="_glfwCreateContextOSMesa" lineNumber="198"/>
+    <functiondecl functionName="glfwGetOSMesaColorBuffer" lineNumber="295"/>
+    <functiondecl functionName="glfwGetOSMesaDepthBuffer" lineNumber="326"/>
+    <functiondecl functionName="glfwGetOSMesaContext" lineNumber="359"/>
+    <functiondecl functionName="makeContextCurrentOSMesa" lineNumber="37"/>
+    <functiondecl functionName="getProcAddressOSMesa" lineNumber="71"/>
+    <functiondecl functionName="destroyContextOSMesa" lineNumber="76"/>
+    <functiondecl functionName="swapBuffersOSMesa" lineNumber="92"/>
+    <functiondecl functionName="swapIntervalOSMesa" lineNumber="97"/>
+    <functiondecl functionName="extensionSupportedOSMesa" lineNumber="102"/>
+    <functiondecl functionName="_glfwInitOSMesa" lineNumber="113"/>
+    <functiondecl functionName="_glfwTerminateOSMesa" lineNumber="182"/>
+    <functiondecl functionName="_glfwCreateContextOSMesa" lineNumber="198"/>
+    <functiondecl functionName="glfwGetOSMesaColorBuffer" lineNumber="295"/>
+    <functiondecl functionName="glfwGetOSMesaDepthBuffer" lineNumber="326"/>
+    <functiondecl functionName="glfwGetOSMesaContext" lineNumber="359"/>
+    <functiondecl functionName="makeContextCurrentOSMesa" lineNumber="37"/>
+    <functiondecl functionName="getProcAddressOSMesa" lineNumber="71"/>
+    <functiondecl functionName="destroyContextOSMesa" lineNumber="76"/>
+    <functiondecl functionName="swapBuffersOSMesa" lineNumber="92"/>
+    <functiondecl functionName="swapIntervalOSMesa" lineNumber="97"/>
+    <functiondecl functionName="extensionSupportedOSMesa" lineNumber="102"/>
+    <functiondecl functionName="_glfwInitOSMesa" lineNumber="113"/>
+    <functiondecl functionName="_glfwTerminateOSMesa" lineNumber="182"/>
+    <functiondecl functionName="_glfwCreateContextOSMesa" lineNumber="198"/>
+    <functiondecl functionName="glfwGetOSMesaColorBuffer" lineNumber="295"/>
+    <functiondecl functionName="glfwGetOSMesaDepthBuffer" lineNumber="326"/>
+    <functiondecl functionName="glfwGetOSMesaContext" lineNumber="359"/>
+    <functiondecl functionName="makeContextCurrentOSMesa" lineNumber="37"/>
+    <functiondecl functionName="getProcAddressOSMesa" lineNumber="71"/>
+    <functiondecl functionName="destroyContextOSMesa" lineNumber="76"/>
+    <functiondecl functionName="swapBuffersOSMesa" lineNumber="92"/>
+    <functiondecl functionName="swapIntervalOSMesa" lineNumber="97"/>
+    <functiondecl functionName="extensionSupportedOSMesa" lineNumber="102"/>
+    <functiondecl functionName="_glfwInitOSMesa" lineNumber="113"/>
+    <functiondecl functionName="_glfwTerminateOSMesa" lineNumber="182"/>
+    <functiondecl functionName="_glfwCreateContextOSMesa" lineNumber="198"/>
+    <functiondecl functionName="glfwGetOSMesaColorBuffer" lineNumber="295"/>
+    <functiondecl functionName="glfwGetOSMesaDepthBuffer" lineNumber="326"/>
+    <functiondecl functionName="glfwGetOSMesaContext" lineNumber="359"/>
+    <functiondecl functionName="makeContextCurrentOSMesa" lineNumber="37"/>
+    <functiondecl functionName="getProcAddressOSMesa" lineNumber="71"/>
+    <functiondecl functionName="destroyContextOSMesa" lineNumber="76"/>
+    <functiondecl functionName="swapBuffersOSMesa" lineNumber="92"/>
+    <functiondecl functionName="swapIntervalOSMesa" lineNumber="97"/>
+    <functiondecl functionName="extensionSupportedOSMesa" lineNumber="102"/>
+    <functiondecl functionName="_glfwInitOSMesa" lineNumber="113"/>
+    <functiondecl functionName="_glfwTerminateOSMesa" lineNumber="182"/>
+    <functiondecl functionName="_glfwCreateContextOSMesa" lineNumber="198"/>
+    <functiondecl functionName="glfwGetOSMesaColorBuffer" lineNumber="295"/>
+    <functiondecl functionName="glfwGetOSMesaDepthBuffer" lineNumber="326"/>
+    <functiondecl functionName="glfwGetOSMesaContext" lineNumber="359"/>
+    <functioncall functionName="CreateContextAttribs"/>
+    <functioncall functionName="CreateContextExt"/>
+    <functioncall functionName="DestroyContext"/>
+    <functioncall functionName="FreeLibrary"/>
+    <functioncall functionName="GetColorBuffer"/>
+    <functioncall functionName="GetDepthBuffer"/>
+    <functioncall functionName="GetProcAddress"/>
+    <functioncall functionName="LoadLibraryA"/>
+    <functioncall functionName="MDT_EFFECTIVE_DPI"/>
+    <functioncall functionName="MakeCurrent"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="RTLD_LOCAL"/>
+    <functioncall functionName="_glfwInputError"/>
+    <functioncall functionName="_glfwPlatformGetFramebufferSize"/>
+    <functioncall functionName="_glfwPlatformSetTls"/>
+    <functioncall functionName="_glfwTerminateOSMesa"/>
+    <functioncall functionName="accumAlphaBits"/>
+    <functioncall functionName="accumBits"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="attribs"/>
+    <functioncall functionName="bottomDecoration"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="bytesPerValue"/>
+    <functioncall functionName="calloc"/>
+    <functioncall functionName="contextSlot"/>
+    <functioncall functionName="depthBits"/>
+    <functioncall functionName="destroyContextOSMesa"/>
+    <functioncall functionName="dlclose"/>
+    <functioncall functionName="dlopen"/>
+    <functioncall functionName="dlsym"/>
+    <functioncall functionName="extensionSupportedOSMesa"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="forward"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="getProcAddressOSMesa"/>
+    <functioncall functionName="handle"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="initialized"/>
+    <functioncall functionName="leftDecoration"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mainWindow"/>
+    <functioncall functionName="major"/>
+    <functioncall functionName="makeContextCurrentOSMesa"/>
+    <functioncall functionName="mesaBuffer"/>
+    <functioncall functionName="mesaBytes"/>
+    <functioncall functionName="mesaFormat"/>
+    <functioncall functionName="mesaHeight"/>
+    <functioncall functionName="mesaWidth"/>
+    <functioncall functionName="minor"/>
+    <functioncall functionName="procname"/>
+    <functioncall functionName="profile"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rightDecoration"/>
+    <functioncall functionName="share"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="stencilBits"/>
+    <functioncall functionName="swapBuffersOSMesa"/>
+    <functioncall functionName="swapIntervalOSMesa"/>
+    <functioncall functionName="topDecoration"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="window"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="448903110">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 44 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\external\glfw\src\init.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:696:6" call-funcname="_glfwPlatformSetTls" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/init.c" line="248" col="24" call-argexpr="&_glfwMainThreadError" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:778:7" my-argnr="1" my-argname="source" file="C:/GitHub/raylib/src/external/glfw/src/init.c" line="118" col="34" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:778:7" my-argnr="1" my-argname="source" file="C:/GitHub/raylib/src/external/glfw/src/init.c" line="118" col="34" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:696:6" call-funcname="_glfwPlatformSetTls" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/init.c" line="248" col="24" call-argexpr="&_glfwMainThreadError" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:778:7" my-argnr="1" my-argname="source" file="C:/GitHub/raylib/src/external/glfw/src/init.c" line="118" col="34" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:778:7" my-argnr="1" my-argname="source" file="C:/GitHub/raylib/src/external/glfw/src/init.c" line="118" col="34" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:696:6" call-funcname="_glfwPlatformSetTls" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/init.c" line="248" col="24" call-argexpr="&_glfwMainThreadError" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:778:7" my-argnr="1" my-argname="source" file="C:/GitHub/raylib/src/external/glfw/src/init.c" line="118" col="34" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:778:7" my-argnr="1" my-argname="source" file="C:/GitHub/raylib/src/external/glfw/src/init.c" line="118" col="34" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:696:6" call-funcname="_glfwPlatformSetTls" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/init.c" line="248" col="24" call-argexpr="&_glfwMainThreadError" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:778:7" my-argnr="1" my-argname="source" file="C:/GitHub/raylib/src/external/glfw/src/init.c" line="118" col="34" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:778:7" my-argnr="1" my-argname="source" file="C:/GitHub/raylib/src/external/glfw/src/init.c" line="118" col="34" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:696:6" call-funcname="_glfwPlatformSetTls" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/init.c" line="248" col="24" call-argexpr="&_glfwMainThreadError" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:778:7" my-argnr="1" my-argname="source" file="C:/GitHub/raylib/src/external/glfw/src/init.c" line="118" col="34" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:778:7" my-argnr="1" my-argname="source" file="C:/GitHub/raylib/src/external/glfw/src/init.c" line="118" col="34" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="terminate" lineNumber="64"/>
+    <functiondecl functionName="_glfw_strdup" lineNumber="116"/>
+    <functiondecl functionName="_glfw_fminf" lineNumber="124"/>
+    <functiondecl functionName="_glfw_fmaxf" lineNumber="136"/>
+    <functiondecl functionName="_glfwInputError" lineNumber="155"/>
+    <functiondecl functionName="glfwInit" lineNumber="226"/>
+    <functiondecl functionName="glfwTerminate" lineNumber="271"/>
+    <functiondecl functionName="glfwInitHint" lineNumber="279"/>
+    <functiondecl functionName="glfwGetVersion" lineNumber="298"/>
+    <functiondecl functionName="glfwGetVersionString" lineNumber="308"/>
+    <functiondecl functionName="glfwGetError" lineNumber="313"/>
+    <functiondecl functionName="glfwSetErrorCallback" lineNumber="337"/>
+    <functiondecl functionName="terminate" lineNumber="64"/>
+    <functiondecl functionName="_glfw_strdup" lineNumber="116"/>
+    <functiondecl functionName="_glfw_fminf" lineNumber="124"/>
+    <functiondecl functionName="_glfw_fmaxf" lineNumber="136"/>
+    <functiondecl functionName="_glfwInputError" lineNumber="155"/>
+    <functiondecl functionName="glfwInit" lineNumber="226"/>
+    <functiondecl functionName="glfwTerminate" lineNumber="271"/>
+    <functiondecl functionName="glfwInitHint" lineNumber="279"/>
+    <functiondecl functionName="glfwGetVersion" lineNumber="298"/>
+    <functiondecl functionName="glfwGetVersionString" lineNumber="308"/>
+    <functiondecl functionName="glfwGetError" lineNumber="313"/>
+    <functiondecl functionName="glfwSetErrorCallback" lineNumber="337"/>
+    <functiondecl functionName="terminate" lineNumber="64"/>
+    <functiondecl functionName="_glfw_strdup" lineNumber="116"/>
+    <functiondecl functionName="_glfw_fminf" lineNumber="124"/>
+    <functiondecl functionName="_glfw_fmaxf" lineNumber="136"/>
+    <functiondecl functionName="_glfwInputError" lineNumber="155"/>
+    <functiondecl functionName="glfwInit" lineNumber="226"/>
+    <functiondecl functionName="glfwTerminate" lineNumber="271"/>
+    <functiondecl functionName="glfwInitHint" lineNumber="279"/>
+    <functiondecl functionName="glfwGetVersion" lineNumber="298"/>
+    <functiondecl functionName="glfwGetVersionString" lineNumber="308"/>
+    <functiondecl functionName="glfwGetError" lineNumber="313"/>
+    <functiondecl functionName="glfwSetErrorCallback" lineNumber="337"/>
+    <functiondecl functionName="terminate" lineNumber="64"/>
+    <functiondecl functionName="_glfw_strdup" lineNumber="116"/>
+    <functiondecl functionName="_glfw_fminf" lineNumber="124"/>
+    <functiondecl functionName="_glfw_fmaxf" lineNumber="136"/>
+    <functiondecl functionName="_glfwInputError" lineNumber="155"/>
+    <functiondecl functionName="glfwInit" lineNumber="226"/>
+    <functiondecl functionName="glfwTerminate" lineNumber="271"/>
+    <functiondecl functionName="glfwInitHint" lineNumber="279"/>
+    <functiondecl functionName="glfwGetVersion" lineNumber="298"/>
+    <functiondecl functionName="glfwGetVersionString" lineNumber="308"/>
+    <functiondecl functionName="glfwGetError" lineNumber="313"/>
+    <functiondecl functionName="glfwSetErrorCallback" lineNumber="337"/>
+    <functiondecl functionName="terminate" lineNumber="64"/>
+    <functiondecl functionName="_glfw_strdup" lineNumber="116"/>
+    <functiondecl functionName="_glfw_fminf" lineNumber="124"/>
+    <functiondecl functionName="_glfw_fmaxf" lineNumber="136"/>
+    <functiondecl functionName="_glfwInputError" lineNumber="155"/>
+    <functiondecl functionName="glfwInit" lineNumber="226"/>
+    <functiondecl functionName="glfwTerminate" lineNumber="271"/>
+    <functiondecl functionName="glfwInitHint" lineNumber="279"/>
+    <functiondecl functionName="glfwGetVersion" lineNumber="298"/>
+    <functiondecl functionName="glfwGetVersionString" lineNumber="308"/>
+    <functiondecl functionName="glfwGetError" lineNumber="313"/>
+    <functiondecl functionName="glfwSetErrorCallback" lineNumber="337"/>
+    <functioncall functionName="MDT_EFFECTIVE_DPI"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="_GLFWerror"/>
+    <functioncall functionName="_glfw"/>
+    <functioncall functionName="_glfwErrorCallback"/>
+    <functioncall functionName="_glfwFreeMonitor"/>
+    <functioncall functionName="_glfwInitHints"/>
+    <functioncall functionName="_glfwInputError"/>
+    <functioncall functionName="_glfwMainThreadError"/>
+    <functioncall functionName="_glfwPlatformCreateMutex"/>
+    <functioncall functionName="_glfwPlatformCreateTls"/>
+    <functioncall functionName="_glfwPlatformDestroyMutex"/>
+    <functioncall functionName="_glfwPlatformDestroyTls"/>
+    <functioncall functionName="_glfwPlatformGetTimerValue"/>
+    <functioncall functionName="_glfwPlatformGetTls"/>
+    <functioncall functionName="_glfwPlatformGetVersionString"/>
+    <functioncall functionName="_glfwPlatformInit"/>
+    <functioncall functionName="_glfwPlatformLockMutex"/>
+    <functioncall functionName="_glfwPlatformSetGammaRamp"/>
+    <functioncall functionName="_glfwPlatformSetTls"/>
+    <functioncall functionName="_glfwPlatformTerminate"/>
+    <functioncall functionName="_glfwPlatformUnlockMutex"/>
+    <functioncall functionName="_glfwTerminateVulkan"/>
+    <functioncall functionName="a"/>
+    <functioncall functionName="bottomDecoration"/>
+    <functioncall functionName="callbacks"/>
+    <functioncall functionName="calloc"/>
+    <functioncall functionName="cbfun"/>
+    <functioncall functionName="code"/>
+    <functioncall functionName="contextSlot"/>
+    <functioncall functionName="cursorListHead"/>
+    <functioncall functionName="description"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="errorListHead"/>
+    <functioncall functionName="errorLock"/>
+    <functioncall functionName="errorSlot"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="glfwDefaultWindowHints"/>
+    <functioncall functionName="glfwDestroyCursor"/>
+    <functioncall functionName="glfwDestroyWindow"/>
+    <functioncall functionName="glfwUpdateGamepadMappings"/>
+    <functioncall functionName="hint"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="initialized"/>
+    <functioncall functionName="leftDecoration"/>
+    <functioncall functionName="mainWindow"/>
+    <functioncall functionName="mappings"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="monitor"/>
+    <functioncall functionName="monitorCount"/>
+    <functioncall functionName="monitors"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="originalRamp"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rightDecoration"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="source"/>
+    <functioncall functionName="strcpy"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="t"/>
+    <functioncall functionName="terminate"/>
+    <functioncall functionName="topDecoration"/>
+    <functioncall functionName="va_end"/>
+    <functioncall functionName="va_start"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="vl"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="vsnprintf"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="windowListHead"/>
+  </FileInfo>
+</analyzerinfo>

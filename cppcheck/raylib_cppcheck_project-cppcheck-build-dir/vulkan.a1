@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1274850687">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 47 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\external\glfw\src\vulkan.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="227" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="237" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="255" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="282" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="311" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:688:10" call-funcname="_glfwPlatformCreateWindowSurface" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="330" col="12" my-id="C:/GitHub/raylib/src/external/glfw/src/vulkan.c:299:18" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:175:12" call-funcname="vkEnumerateInstanceExtensionProperties" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="96" col="49" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:175:12" call-funcname="vkEnumerateInstanceExtensionProperties" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="96" col="49" call-argexpr="&count" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:175:12" call-funcname="vkEnumerateInstanceExtensionProperties" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="96" col="49" call-argexpr="count" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:175:12" call-funcname="vkEnumerateInstanceExtensionProperties" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="96" col="49" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:175:12" call-funcname="vkEnumerateInstanceExtensionProperties" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="113" col="49" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:175:12" call-funcname="vkEnumerateInstanceExtensionProperties" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="113" col="49" call-argexpr="&count" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="227" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="237" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="255" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="282" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="311" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:174:22" call-funcname="vkGetInstanceProcAddr" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="260" col="25" my-id="C:/GitHub/raylib/src/external/glfw/src/vulkan.c:249:20" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:688:10" call-funcname="_glfwPlatformCreateWindowSurface" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="330" col="12" my-id="C:/GitHub/raylib/src/external/glfw/src/vulkan.c:299:18" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="227" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="237" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="255" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="282" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="311" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:688:10" call-funcname="_glfwPlatformCreateWindowSurface" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="330" col="12" my-id="C:/GitHub/raylib/src/external/glfw/src/vulkan.c:299:18" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:175:12" call-funcname="vkEnumerateInstanceExtensionProperties" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="96" col="49" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:175:12" call-funcname="vkEnumerateInstanceExtensionProperties" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="96" col="49" call-argexpr="&count" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:175:12" call-funcname="vkEnumerateInstanceExtensionProperties" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="96" col="49" call-argexpr="count" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:175:12" call-funcname="vkEnumerateInstanceExtensionProperties" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="96" col="49" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:175:12" call-funcname="vkEnumerateInstanceExtensionProperties" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="113" col="49" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:175:12" call-funcname="vkEnumerateInstanceExtensionProperties" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="113" col="49" call-argexpr="&count" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="227" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="237" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="255" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="282" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="311" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:174:22" call-funcname="vkGetInstanceProcAddr" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="260" col="25" my-id="C:/GitHub/raylib/src/external/glfw/src/vulkan.c:249:20" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:688:10" call-funcname="_glfwPlatformCreateWindowSurface" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="330" col="12" my-id="C:/GitHub/raylib/src/external/glfw/src/vulkan.c:299:18" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="227" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="237" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="255" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="282" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="311" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:688:10" call-funcname="_glfwPlatformCreateWindowSurface" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="330" col="12" my-id="C:/GitHub/raylib/src/external/glfw/src/vulkan.c:299:18" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="227" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="237" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="255" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="282" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="311" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:688:10" call-funcname="_glfwPlatformCreateWindowSurface" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="330" col="12" my-id="C:/GitHub/raylib/src/external/glfw/src/vulkan.c:299:18" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="227" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="237" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="255" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="282" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="311" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:688:10" call-funcname="_glfwPlatformCreateWindowSurface" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/vulkan.c" line="330" col="12" my-id="C:/GitHub/raylib/src/external/glfw/src/vulkan.c:299:18" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="_glfwInitVulkan" lineNumber="44"/>
+    <functiondecl functionName="_glfwTerminateVulkan" lineNumber="157"/>
+    <functiondecl functionName="_glfwGetVulkanResultString" lineNumber="165"/>
+    <functiondecl functionName="glfwVulkanSupported" lineNumber="225"/>
+    <functiondecl functionName="glfwGetRequiredInstanceExtensions" lineNumber="231"/>
+    <functiondecl functionName="glfwGetInstanceProcAddress" lineNumber="249"/>
+    <functiondecl functionName="glfwGetPhysicalDevicePresentationSupport" lineNumber="275"/>
+    <functiondecl functionName="glfwCreateWindowSurface" lineNumber="299"/>
+    <functiondecl functionName="_glfwInitVulkan" lineNumber="44"/>
+    <functiondecl functionName="_glfwTerminateVulkan" lineNumber="157"/>
+    <functiondecl functionName="_glfwGetVulkanResultString" lineNumber="165"/>
+    <functiondecl functionName="glfwVulkanSupported" lineNumber="225"/>
+    <functiondecl functionName="glfwGetRequiredInstanceExtensions" lineNumber="231"/>
+    <functiondecl functionName="glfwGetInstanceProcAddress" lineNumber="249"/>
+    <functiondecl functionName="glfwGetPhysicalDevicePresentationSupport" lineNumber="275"/>
+    <functiondecl functionName="glfwCreateWindowSurface" lineNumber="299"/>
+    <functiondecl functionName="_glfwInitVulkan" lineNumber="44"/>
+    <functiondecl functionName="_glfwTerminateVulkan" lineNumber="157"/>
+    <functiondecl functionName="_glfwGetVulkanResultString" lineNumber="165"/>
+    <functiondecl functionName="glfwVulkanSupported" lineNumber="225"/>
+    <functiondecl functionName="glfwGetRequiredInstanceExtensions" lineNumber="231"/>
+    <functiondecl functionName="glfwGetInstanceProcAddress" lineNumber="249"/>
+    <functiondecl functionName="glfwGetPhysicalDevicePresentationSupport" lineNumber="275"/>
+    <functiondecl functionName="glfwCreateWindowSurface" lineNumber="299"/>
+    <functiondecl functionName="_glfwInitVulkan" lineNumber="44"/>
+    <functiondecl functionName="_glfwTerminateVulkan" lineNumber="157"/>
+    <functiondecl functionName="_glfwGetVulkanResultString" lineNumber="165"/>
+    <functiondecl functionName="glfwVulkanSupported" lineNumber="225"/>
+    <functiondecl functionName="glfwGetRequiredInstanceExtensions" lineNumber="231"/>
+    <functiondecl functionName="glfwGetInstanceProcAddress" lineNumber="249"/>
+    <functiondecl functionName="glfwGetPhysicalDevicePresentationSupport" lineNumber="275"/>
+    <functiondecl functionName="glfwCreateWindowSurface" lineNumber="299"/>
+    <functiondecl functionName="_glfwInitVulkan" lineNumber="44"/>
+    <functiondecl functionName="_glfwTerminateVulkan" lineNumber="157"/>
+    <functiondecl functionName="_glfwGetVulkanResultString" lineNumber="165"/>
+    <functiondecl functionName="glfwVulkanSupported" lineNumber="225"/>
+    <functiondecl functionName="glfwGetRequiredInstanceExtensions" lineNumber="231"/>
+    <functiondecl functionName="glfwGetInstanceProcAddress" lineNumber="249"/>
+    <functiondecl functionName="glfwGetPhysicalDevicePresentationSupport" lineNumber="275"/>
+    <functiondecl functionName="glfwCreateWindowSurface" lineNumber="299"/>
+    <functiondecl functionName="_glfwInitVulkan" lineNumber="44"/>
+    <functiondecl functionName="_glfwTerminateVulkan" lineNumber="157"/>
+    <functiondecl functionName="_glfwGetVulkanResultString" lineNumber="165"/>
+    <functiondecl functionName="glfwVulkanSupported" lineNumber="225"/>
+    <functiondecl functionName="glfwGetRequiredInstanceExtensions" lineNumber="231"/>
+    <functiondecl functionName="glfwGetInstanceProcAddress" lineNumber="249"/>
+    <functiondecl functionName="glfwGetPhysicalDevicePresentationSupport" lineNumber="275"/>
+    <functiondecl functionName="glfwCreateWindowSurface" lineNumber="299"/>
+    <functiondecl functionName="_glfwInitVulkan" lineNumber="44"/>
+    <functiondecl functionName="_glfwTerminateVulkan" lineNumber="157"/>
+    <functiondecl functionName="_glfwGetVulkanResultString" lineNumber="165"/>
+    <functiondecl functionName="glfwVulkanSupported" lineNumber="225"/>
+    <functiondecl functionName="glfwGetRequiredInstanceExtensions" lineNumber="231"/>
+    <functiondecl functionName="glfwGetInstanceProcAddress" lineNumber="249"/>
+    <functiondecl functionName="glfwGetPhysicalDevicePresentationSupport" lineNumber="275"/>
+    <functiondecl functionName="glfwCreateWindowSurface" lineNumber="299"/>
+    <functioncall functionName="EnumerateInstanceExtensionProperties"/>
+    <functioncall functionName="FreeLibrary"/>
+    <functioncall functionName="GetInstanceProcAddr"/>
+    <functioncall functionName="GetProcAddress"/>
+    <functioncall functionName="LoadLibraryA"/>
+    <functioncall functionName="MDT_EFFECTIVE_DPI"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="RTLD_LOCAL"/>
+    <functioncall functionName="_glfwGetVulkanResultString"/>
+    <functioncall functionName="_glfwInitVulkan"/>
+    <functioncall functionName="_glfwInputError"/>
+    <functioncall functionName="_glfwLoadLocalVulkanLoaderNS"/>
+    <functioncall functionName="_glfwPlatformCreateWindowSurface"/>
+    <functioncall functionName="_glfwPlatformGetPhysicalDevicePresentationSupport"/>
+    <functioncall functionName="_glfwPlatformGetRequiredInstanceExtensions"/>
+    <functioncall functionName="_glfwTerminateVulkan"/>
+    <functioncall functionName="allocator"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="available"/>
+    <functioncall functionName="bottomDecoration"/>
+    <functioncall functionName="calloc"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="device"/>
+    <functioncall functionName="dlclose"/>
+    <functioncall functionName="dlopen"/>
+    <functioncall functionName="dlsym"/>
+    <functioncall functionName="ep"/>
+    <functioncall functionName="err"/>
+    <functioncall functionName="extensionName"/>
+    <functioncall functionName="extensions"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="handle"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="initialized"/>
+    <functioncall functionName="instance"/>
+    <functioncall functionName="leftDecoration"/>
+    <functioncall functionName="mainWindow"/>
+    <functioncall functionName="proc"/>
+    <functioncall functionName="procname"/>
+    <functioncall functionName="queuefamily"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rightDecoration"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="surface"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="topDecoration"/>
+    <functioncall functionName="vkEnumerateInstanceExtensionProperties"/>
+    <functioncall functionName="vkGetInstanceProcAddr"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="window"/>
+  </FileInfo>
+</analyzerinfo>

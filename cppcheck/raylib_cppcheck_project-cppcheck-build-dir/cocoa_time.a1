@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1059257819">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 44 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\external\glfw\src\cocoa_time.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="_glfwInitTimerNS" lineNumber="40"/>
+    <functiondecl functionName="_glfwPlatformGetTimerValue" lineNumber="53"/>
+    <functiondecl functionName="_glfwPlatformGetTimerFrequency" lineNumber="58"/>
+    <functiondecl functionName="_glfwInitTimerNS" lineNumber="40"/>
+    <functiondecl functionName="_glfwPlatformGetTimerValue" lineNumber="53"/>
+    <functiondecl functionName="_glfwPlatformGetTimerFrequency" lineNumber="58"/>
+    <functiondecl functionName="_glfwInitTimerNS" lineNumber="40"/>
+    <functiondecl functionName="_glfwPlatformGetTimerValue" lineNumber="53"/>
+    <functiondecl functionName="_glfwPlatformGetTimerFrequency" lineNumber="58"/>
+    <functiondecl functionName="_glfwInitTimerNS" lineNumber="40"/>
+    <functiondecl functionName="_glfwPlatformGetTimerValue" lineNumber="53"/>
+    <functiondecl functionName="_glfwPlatformGetTimerFrequency" lineNumber="58"/>
+    <functiondecl functionName="_glfwInitTimerNS" lineNumber="40"/>
+    <functiondecl functionName="_glfwPlatformGetTimerValue" lineNumber="53"/>
+    <functiondecl functionName="_glfwPlatformGetTimerFrequency" lineNumber="58"/>
+    <functioncall functionName="MDT_EFFECTIVE_DPI"/>
+    <functioncall functionName="bottomDecoration"/>
+    <functioncall functionName="frequency"/>
+    <functioncall functionName="info"/>
+    <functioncall functionName="leftDecoration"/>
+    <functioncall functionName="mach_absolute_time"/>
+    <functioncall functionName="mach_timebase_info"/>
+    <functioncall functionName="mainWindow"/>
+    <functioncall functionName="numer"/>
+    <functioncall functionName="rightDecoration"/>
+    <functioncall functionName="topDecoration"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

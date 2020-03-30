@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3879129679">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 44 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\external\glfw\src\xkb_unicode.c" line="0" column="0"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;mid&apos; can be reduced." verbose="The scope of the variable &apos;mid&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\xkb_unicode.c" file="C:\GitHub\raylib\src\external\glfw\src\xkb_unicode.c" line="914" column="9"/>
+            <symbol>mid</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="_glfwKeySym2Unicode" lineNumber="910"/>
+    <functiondecl functionName="_glfwKeySym2Unicode" lineNumber="910"/>
+    <functiondecl functionName="_glfwKeySym2Unicode" lineNumber="910"/>
+    <functiondecl functionName="_glfwKeySym2Unicode" lineNumber="910"/>
+    <functiondecl functionName="_glfwKeySym2Unicode" lineNumber="910"/>
+    <functioncall functionName="MDT_EFFECTIVE_DPI"/>
+    <functioncall functionName="bottomDecoration"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="keysym"/>
+    <functioncall functionName="keysymtab"/>
+    <functioncall functionName="leftDecoration"/>
+    <functioncall functionName="mainWindow"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="mid"/>
+    <functioncall functionName="rightDecoration"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="topDecoration"/>
+    <functioncall functionName="ucs"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

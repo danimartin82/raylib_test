@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="657192436">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 44 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\external\glfw\src\wl_monitor.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:778:7" call-funcname="_glfw_strdup" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="58" col="33" call-argexpr="name" call-argvaluetype="7" call-argvalue="1024"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:760:15" call-funcname="_glfwAllocMonitor" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="128" col="32" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:760:15" call-funcname="_glfwAllocMonitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="128" col="32" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:760:15" call-funcname="_glfwAllocMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="128" col="32" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="222" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c:38:13" my-argnr="8" my-argname="make" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="57" col="43" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c:38:13" my-argnr="9" my-argname="model" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="57" col="49" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:616:6" my-argnr="1" my-argname="monitor" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="154" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:621:14" my-argnr="1" my-argname="monitor" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="191" col="14" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:621:14" my-argnr="2" my-argname="found" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="191" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" my-argnr="1" my-argname="monitor" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="197" col="13" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" my-argnr="2" my-argname="mode" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="197" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:778:7" call-funcname="_glfw_strdup" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="58" col="33" call-argexpr="name" call-argvaluetype="7" call-argvalue="1024"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:760:15" call-funcname="_glfwAllocMonitor" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="128" col="32" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:760:15" call-funcname="_glfwAllocMonitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="128" col="32" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:760:15" call-funcname="_glfwAllocMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="128" col="32" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="222" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c:38:13" my-argnr="8" my-argname="make" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="57" col="43" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c:38:13" my-argnr="9" my-argname="model" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="57" col="49" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:616:6" my-argnr="1" my-argname="monitor" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="154" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:621:14" my-argnr="1" my-argname="monitor" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="191" col="14" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:621:14" my-argnr="2" my-argname="found" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="191" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" my-argnr="1" my-argname="monitor" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="197" col="13" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" my-argnr="2" my-argname="mode" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="197" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:778:7" call-funcname="_glfw_strdup" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="58" col="33" call-argexpr="name" call-argvaluetype="7" call-argvalue="1024"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:760:15" call-funcname="_glfwAllocMonitor" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="128" col="32" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:760:15" call-funcname="_glfwAllocMonitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="128" col="32" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:760:15" call-funcname="_glfwAllocMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="128" col="32" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="222" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c:38:13" my-argnr="8" my-argname="make" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="57" col="43" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c:38:13" my-argnr="9" my-argname="model" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="57" col="49" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:616:6" my-argnr="1" my-argname="monitor" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="154" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:621:14" my-argnr="1" my-argname="monitor" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="191" col="14" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:621:14" my-argnr="2" my-argname="found" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="191" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" my-argnr="1" my-argname="monitor" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="197" col="13" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" my-argnr="2" my-argname="mode" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="197" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:778:7" call-funcname="_glfw_strdup" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="58" col="33" call-argexpr="name" call-argvaluetype="7" call-argvalue="1024"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:760:15" call-funcname="_glfwAllocMonitor" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="128" col="32" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:760:15" call-funcname="_glfwAllocMonitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="128" col="32" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:760:15" call-funcname="_glfwAllocMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="128" col="32" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="222" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c:38:13" my-argnr="8" my-argname="make" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="57" col="43" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c:38:13" my-argnr="9" my-argname="model" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="57" col="49" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:616:6" my-argnr="1" my-argname="monitor" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="154" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:621:14" my-argnr="1" my-argname="monitor" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="191" col="14" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:621:14" my-argnr="2" my-argname="found" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="191" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" my-argnr="1" my-argname="monitor" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="197" col="13" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" my-argnr="2" my-argname="mode" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="197" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:778:7" call-funcname="_glfw_strdup" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="58" col="33" call-argexpr="name" call-argvaluetype="7" call-argvalue="1024"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:760:15" call-funcname="_glfwAllocMonitor" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="128" col="32" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:760:15" call-funcname="_glfwAllocMonitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="128" col="32" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:760:15" call-funcname="_glfwAllocMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="128" col="32" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="222" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c:38:13" my-argnr="8" my-argname="make" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="57" col="43" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c:38:13" my-argnr="9" my-argname="model" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="57" col="49" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:616:6" my-argnr="1" my-argname="monitor" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="154" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:621:14" my-argnr="1" my-argname="monitor" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="191" col="14" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:621:14" my-argnr="2" my-argname="found" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="191" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" my-argnr="1" my-argname="monitor" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="197" col="13" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" my-argnr="2" my-argname="mode" file="C:/GitHub/raylib/src/external/glfw/src/wl_monitor.c" line="197" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="outputHandleGeometry" lineNumber="38"/>
+    <functiondecl functionName="outputHandleMode" lineNumber="61"/>
+    <functiondecl functionName="outputHandleDone" lineNumber="87"/>
+    <functiondecl functionName="outputHandleScale" lineNumber="94"/>
+    <functiondecl functionName="_glfwAddOutputWayland" lineNumber="115"/>
+    <functiondecl functionName="_glfwPlatformFreeMonitor" lineNumber="152"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorPos" lineNumber="158"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorContentScale" lineNumber="166"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorWorkarea" lineNumber="175"/>
+    <functiondecl functionName="_glfwPlatformGetVideoModes" lineNumber="189"/>
+    <functiondecl functionName="_glfwPlatformGetVideoMode" lineNumber="195"/>
+    <functiondecl functionName="_glfwPlatformGetGammaRamp" lineNumber="200"/>
+    <functiondecl functionName="_glfwPlatformSetGammaRamp" lineNumber="207"/>
+    <functiondecl functionName="glfwGetWaylandMonitor" lineNumber="219"/>
+    <functiondecl functionName="outputHandleGeometry" lineNumber="38"/>
+    <functiondecl functionName="outputHandleMode" lineNumber="61"/>
+    <functiondecl functionName="outputHandleDone" lineNumber="87"/>
+    <functiondecl functionName="outputHandleScale" lineNumber="94"/>
+    <functiondecl functionName="_glfwAddOutputWayland" lineNumber="115"/>
+    <functiondecl functionName="_glfwPlatformFreeMonitor" lineNumber="152"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorPos" lineNumber="158"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorContentScale" lineNumber="166"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorWorkarea" lineNumber="175"/>
+    <functiondecl functionName="_glfwPlatformGetVideoModes" lineNumber="189"/>
+    <functiondecl functionName="_glfwPlatformGetVideoMode" lineNumber="195"/>
+    <functiondecl functionName="_glfwPlatformGetGammaRamp" lineNumber="200"/>
+    <functiondecl functionName="_glfwPlatformSetGammaRamp" lineNumber="207"/>
+    <functiondecl functionName="glfwGetWaylandMonitor" lineNumber="219"/>
+    <functiondecl functionName="outputHandleGeometry" lineNumber="38"/>
+    <functiondecl functionName="outputHandleMode" lineNumber="61"/>
+    <functiondecl functionName="outputHandleDone" lineNumber="87"/>
+    <functiondecl functionName="outputHandleScale" lineNumber="94"/>
+    <functiondecl functionName="_glfwAddOutputWayland" lineNumber="115"/>
+    <functiondecl functionName="_glfwPlatformFreeMonitor" lineNumber="152"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorPos" lineNumber="158"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorContentScale" lineNumber="166"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorWorkarea" lineNumber="175"/>
+    <functiondecl functionName="_glfwPlatformGetVideoModes" lineNumber="189"/>
+    <functiondecl functionName="_glfwPlatformGetVideoMode" lineNumber="195"/>
+    <functiondecl functionName="_glfwPlatformGetGammaRamp" lineNumber="200"/>
+    <functiondecl functionName="_glfwPlatformSetGammaRamp" lineNumber="207"/>
+    <functiondecl functionName="glfwGetWaylandMonitor" lineNumber="219"/>
+    <functiondecl functionName="outputHandleGeometry" lineNumber="38"/>
+    <functiondecl functionName="outputHandleMode" lineNumber="61"/>
+    <functiondecl functionName="outputHandleDone" lineNumber="87"/>
+    <functiondecl functionName="outputHandleScale" lineNumber="94"/>
+    <functiondecl functionName="_glfwAddOutputWayland" lineNumber="115"/>
+    <functiondecl functionName="_glfwPlatformFreeMonitor" lineNumber="152"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorPos" lineNumber="158"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorContentScale" lineNumber="166"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorWorkarea" lineNumber="175"/>
+    <functiondecl functionName="_glfwPlatformGetVideoModes" lineNumber="189"/>
+    <functiondecl functionName="_glfwPlatformGetVideoMode" lineNumber="195"/>
+    <functiondecl functionName="_glfwPlatformGetGammaRamp" lineNumber="200"/>
+    <functiondecl functionName="_glfwPlatformSetGammaRamp" lineNumber="207"/>
+    <functiondecl functionName="glfwGetWaylandMonitor" lineNumber="219"/>
+    <functiondecl functionName="outputHandleGeometry" lineNumber="38"/>
+    <functiondecl functionName="outputHandleMode" lineNumber="61"/>
+    <functiondecl functionName="outputHandleDone" lineNumber="87"/>
+    <functiondecl functionName="outputHandleScale" lineNumber="94"/>
+    <functiondecl functionName="_glfwAddOutputWayland" lineNumber="115"/>
+    <functiondecl functionName="_glfwPlatformFreeMonitor" lineNumber="152"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorPos" lineNumber="158"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorContentScale" lineNumber="166"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorWorkarea" lineNumber="175"/>
+    <functiondecl functionName="_glfwPlatformGetVideoModes" lineNumber="189"/>
+    <functiondecl functionName="_glfwPlatformGetVideoMode" lineNumber="195"/>
+    <functiondecl functionName="_glfwPlatformGetGammaRamp" lineNumber="200"/>
+    <functiondecl functionName="_glfwPlatformSetGammaRamp" lineNumber="207"/>
+    <functiondecl functionName="glfwGetWaylandMonitor" lineNumber="219"/>
+    <functioncall functionName="MDT_EFFECTIVE_DPI"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="_glfwAllocMonitor"/>
+    <functioncall functionName="_glfwFreeMonitor"/>
+    <functioncall functionName="_glfwInputError"/>
+    <functioncall functionName="_glfwInputMonitor"/>
+    <functioncall functionName="_glfw_strdup"/>
+    <functioncall functionName="bottomDecoration"/>
+    <functioncall functionName="currentMode"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="factor"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="handle"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="initialized"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="leftDecoration"/>
+    <functioncall functionName="mainWindow"/>
+    <functioncall functionName="make"/>
+    <functioncall functionName="mode"/>
+    <functioncall functionName="modeCount"/>
+    <functioncall functionName="model"/>
+    <functioncall functionName="modes"/>
+    <functioncall functionName="monitor"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="output"/>
+    <functioncall functionName="outputHandleDone"/>
+    <functioncall functionName="outputHandleGeometry"/>
+    <functioncall functionName="outputHandleMode"/>
+    <functioncall functionName="outputHandleScale"/>
+    <functioncall functionName="outputListener"/>
+    <functioncall functionName="physicalHeight"/>
+    <functioncall functionName="physicalWidth"/>
+    <functioncall functionName="realloc"/>
+    <functioncall functionName="registry"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rightDecoration"/>
+    <functioncall functionName="round"/>
+    <functioncall functionName="scale"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="snprintf"/>
+    <functioncall functionName="topDecoration"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="wl_output_add_listener"/>
+    <functioncall functionName="wl_output_destroy"/>
+    <functioncall functionName="wl_output_interface"/>
+    <functioncall functionName="wl_registry_bind"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="xpos"/>
+    <functioncall functionName="xscale"/>
+    <functioncall functionName="y"/>
+    <functioncall functionName="ypos"/>
+    <functioncall functionName="yscale"/>
+  </FileInfo>
+</analyzerinfo>

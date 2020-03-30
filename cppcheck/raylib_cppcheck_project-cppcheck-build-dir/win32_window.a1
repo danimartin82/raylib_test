@@ -1,0 +1,1128 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1382386305">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 44 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\external\glfw\src\win32_window.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="&xoff" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="xoff" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="&yoff" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="yoff" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:256:13" call-funcname="updateClipRect" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="320" col="19" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:735:6" call-funcname="_glfwInputMonitorWindow" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="502" col="28" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:708:6" call-funcname="_glfwInputWindowFocus" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="606" col="34" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="742" col="30" call-argexpr="action" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\win32_window.c" line="737" col="24" info="Assuming that condition 'action==0' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="743" col="30" call-argexpr="action" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\win32_window.c" line="737" col="24" info="Assuming that condition 'action==0' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="749" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:727:6" call-funcname="_glfwInputCursorEnter" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="908" col="34" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="&xoff" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="xoff" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="&yoff" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="yoff" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:617:6" call-funcname="_glfwPlatformGetMonitorPos" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1208" col="35" call-argexpr="&xpos" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:617:6" call-funcname="_glfwPlatformGetMonitorPos" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1208" col="35" call-argexpr="&ypos" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" call-funcname="_glfwPlatformGetVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1209" col="34" call-argexpr="&mode" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" call-funcname="_glfwPlatformGetVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1209" col="34" call-argexpr="mode" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1222" col="26" call-argexpr="&fullWidth" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1222" col="26" call-argexpr="fullWidth" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1222" col="26" call-argexpr="&fullHeight" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1222" col="26" call-argexpr="fullHeight" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" call-funcname="_glfwPlatformGetWindowContentScale" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1278" col="47" call-argexpr="&xscale" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" call-funcname="_glfwPlatformGetWindowContentScale" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1278" col="47" call-argexpr="xscale" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" call-funcname="_glfwPlatformGetWindowContentScale" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1278" col="47" call-argexpr="&yscale" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" call-funcname="_glfwPlatformGetWindowContentScale" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1278" col="47" call-argexpr="yscale" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1458" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1458" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1459" col="31" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1459" col="31" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="31" call-argexpr="&width" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="31" call-argexpr="width" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="31" call-argexpr="&height" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="31" call-argexpr="height" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1948" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1957" col="35" call-argexpr="&width" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1957" col="35" call-argexpr="width" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1957" col="35" call-argexpr="&height" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1957" col="35" call-argexpr="height" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2049" col="48" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2262" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:41:14" call-funcname="getWindowStyle" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1198" col="19" my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" call-funcname="createNativeWindow" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1370" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" call-funcname="createNativeWindow" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1370" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" call-funcname="createNativeWindow" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1370" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="4"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:79:25" call-funcname="chooseImage" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1451" col="37" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:641:6" my-argnr="3"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:41:14" call-funcname="getWindowStyle" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1500" col="41" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:644:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1593" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1593" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1593" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="3"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:652:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:329:17" call-funcname="cursorInContentArea" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1805" col="12" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:671:5" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:349:13" call-funcname="updateWindowStyles" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1823" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:674:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:349:13" call-funcname="updateWindowStyles" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1828" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:675:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:667:5" call-funcname="_glfwPlatformWindowFocused" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2019" col="13" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:604:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2049" col="38" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:607:5" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:329:17" call-funcname="cursorInContentArea" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2107" col="9" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:611:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:41:14" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="45" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:67:14" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="71" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" my-argnr="1" my-argname="image" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="111" col="29" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" my-argnr="5" my-argname="fullWidth" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="203" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" my-argnr="6" my-argname="fullHeight" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="204" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:241:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="243" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:272:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="274" col="49" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:314:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="316" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:349:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="352" col="34" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:449:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="452" col="20" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:463:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="478" col="10" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:487:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="489" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" my-argnr="2" my-argname="wndconfig" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1228" col="52" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:639:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1411" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:643:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1486" col="20" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1517" col="19" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:646:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1527" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1631" col="45" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:657:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1638" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:658:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1643" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:659:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1648" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:660:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1653" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:661:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1658" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:662:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1663" col="17" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:663:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1668" col="22" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:664:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1679" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:667:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1785" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:668:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1790" col="21" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:669:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1795" col="28" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:670:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1800" col="21" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:672:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1812" col="10" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:676:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1834" col="18" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:673:7" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1843" col="25" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:603:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2008" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:607:5" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2049" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:610:6" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2101" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:667:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1785" col="12" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="&xoff" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="xoff" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="&yoff" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="yoff" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:256:13" call-funcname="updateClipRect" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="320" col="19" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:735:6" call-funcname="_glfwInputMonitorWindow" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="502" col="28" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:708:6" call-funcname="_glfwInputWindowFocus" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="606" col="34" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="742" col="30" call-argexpr="action" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\win32_window.c" line="737" col="24" info="Assuming that condition 'action==0' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="743" col="30" call-argexpr="action" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\win32_window.c" line="737" col="24" info="Assuming that condition 'action==0' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="749" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:727:6" call-funcname="_glfwInputCursorEnter" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="908" col="34" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="&xoff" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="xoff" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="&yoff" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="yoff" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:617:6" call-funcname="_glfwPlatformGetMonitorPos" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1208" col="35" call-argexpr="&xpos" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:617:6" call-funcname="_glfwPlatformGetMonitorPos" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1208" col="35" call-argexpr="&ypos" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" call-funcname="_glfwPlatformGetVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1209" col="34" call-argexpr="&mode" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" call-funcname="_glfwPlatformGetVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1209" col="34" call-argexpr="mode" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1222" col="26" call-argexpr="&fullWidth" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1222" col="26" call-argexpr="fullWidth" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1222" col="26" call-argexpr="&fullHeight" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1222" col="26" call-argexpr="fullHeight" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" call-funcname="_glfwPlatformGetWindowContentScale" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1278" col="47" call-argexpr="&xscale" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" call-funcname="_glfwPlatformGetWindowContentScale" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1278" col="47" call-argexpr="xscale" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" call-funcname="_glfwPlatformGetWindowContentScale" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1278" col="47" call-argexpr="&yscale" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" call-funcname="_glfwPlatformGetWindowContentScale" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1278" col="47" call-argexpr="yscale" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1458" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1458" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1459" col="31" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1459" col="31" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="31" call-argexpr="&width" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="31" call-argexpr="width" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="31" call-argexpr="&height" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="31" call-argexpr="height" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1948" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1957" col="35" call-argexpr="&width" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1957" col="35" call-argexpr="width" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1957" col="35" call-argexpr="&height" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1957" col="35" call-argexpr="height" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2049" col="48" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2262" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:41:14" call-funcname="getWindowStyle" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1198" col="19" my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" call-funcname="createNativeWindow" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1370" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" call-funcname="createNativeWindow" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1370" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" call-funcname="createNativeWindow" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1370" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="4"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:79:25" call-funcname="chooseImage" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1451" col="37" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:641:6" my-argnr="3"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:41:14" call-funcname="getWindowStyle" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1500" col="41" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:644:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1593" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1593" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1593" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="3"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:652:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:329:17" call-funcname="cursorInContentArea" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1805" col="12" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:671:5" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:349:13" call-funcname="updateWindowStyles" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1823" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:674:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:349:13" call-funcname="updateWindowStyles" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1828" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:675:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:667:5" call-funcname="_glfwPlatformWindowFocused" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2019" col="13" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:604:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2049" col="38" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:607:5" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:329:17" call-funcname="cursorInContentArea" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2107" col="9" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:611:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:41:14" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="45" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:67:14" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="71" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" my-argnr="1" my-argname="image" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="111" col="29" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" my-argnr="5" my-argname="fullWidth" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="203" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" my-argnr="6" my-argname="fullHeight" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="204" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:241:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="243" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:272:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="274" col="49" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:314:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="316" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:349:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="352" col="34" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:449:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="452" col="20" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:463:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="478" col="10" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:487:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="489" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" my-argnr="2" my-argname="wndconfig" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1228" col="52" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:639:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1411" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:643:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1486" col="20" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1517" col="19" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:646:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1527" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1631" col="45" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:657:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1638" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:658:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1643" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:659:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1648" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:660:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1653" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:661:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1658" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:662:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1663" col="17" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:663:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1668" col="22" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:664:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1679" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:667:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1785" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:668:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1790" col="21" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:669:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1795" col="28" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:670:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1800" col="21" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:672:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1812" col="10" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:676:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1834" col="18" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:673:7" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1843" col="25" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:603:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2008" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:607:5" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2049" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:610:6" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2101" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:667:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1785" col="12" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="&xoff" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="xoff" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="&yoff" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="yoff" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:256:13" call-funcname="updateClipRect" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="320" col="19" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:735:6" call-funcname="_glfwInputMonitorWindow" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="502" col="28" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:708:6" call-funcname="_glfwInputWindowFocus" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="606" col="34" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="742" col="30" call-argexpr="action" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\win32_window.c" line="737" col="24" info="Assuming that condition 'action==0' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="743" col="30" call-argexpr="action" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\win32_window.c" line="737" col="24" info="Assuming that condition 'action==0' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="749" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:727:6" call-funcname="_glfwInputCursorEnter" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="908" col="34" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="&xoff" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="xoff" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="&yoff" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="yoff" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:617:6" call-funcname="_glfwPlatformGetMonitorPos" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1208" col="35" call-argexpr="&xpos" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:617:6" call-funcname="_glfwPlatformGetMonitorPos" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1208" col="35" call-argexpr="&ypos" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" call-funcname="_glfwPlatformGetVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1209" col="34" call-argexpr="&mode" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" call-funcname="_glfwPlatformGetVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1209" col="34" call-argexpr="mode" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1222" col="26" call-argexpr="&fullWidth" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1222" col="26" call-argexpr="fullWidth" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1222" col="26" call-argexpr="&fullHeight" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1222" col="26" call-argexpr="fullHeight" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" call-funcname="_glfwPlatformGetWindowContentScale" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1278" col="47" call-argexpr="&xscale" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" call-funcname="_glfwPlatformGetWindowContentScale" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1278" col="47" call-argexpr="xscale" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" call-funcname="_glfwPlatformGetWindowContentScale" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1278" col="47" call-argexpr="&yscale" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" call-funcname="_glfwPlatformGetWindowContentScale" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1278" col="47" call-argexpr="yscale" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1458" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1458" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1459" col="31" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1459" col="31" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="31" call-argexpr="&width" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="31" call-argexpr="width" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="31" call-argexpr="&height" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="31" call-argexpr="height" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1948" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1957" col="35" call-argexpr="&width" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1957" col="35" call-argexpr="width" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1957" col="35" call-argexpr="&height" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1957" col="35" call-argexpr="height" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2049" col="48" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2262" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:41:14" call-funcname="getWindowStyle" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1198" col="19" my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" call-funcname="createNativeWindow" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1370" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" call-funcname="createNativeWindow" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1370" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" call-funcname="createNativeWindow" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1370" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="4"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:79:25" call-funcname="chooseImage" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1451" col="37" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:641:6" my-argnr="3"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:41:14" call-funcname="getWindowStyle" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1500" col="41" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:644:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1593" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1593" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1593" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="3"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:652:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:329:17" call-funcname="cursorInContentArea" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1805" col="12" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:671:5" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:349:13" call-funcname="updateWindowStyles" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1823" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:674:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:349:13" call-funcname="updateWindowStyles" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1828" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:675:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:667:5" call-funcname="_glfwPlatformWindowFocused" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2019" col="13" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:604:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2049" col="38" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:607:5" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:329:17" call-funcname="cursorInContentArea" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2107" col="9" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:611:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:41:14" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="45" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:67:14" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="71" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" my-argnr="1" my-argname="image" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="111" col="29" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" my-argnr="5" my-argname="fullWidth" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="203" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" my-argnr="6" my-argname="fullHeight" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="204" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:241:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="243" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:272:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="274" col="49" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:314:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="316" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:349:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="352" col="34" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:449:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="452" col="20" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:463:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="478" col="10" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:487:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="489" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" my-argnr="2" my-argname="wndconfig" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1228" col="52" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:639:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1411" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:643:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1486" col="20" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1517" col="19" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:646:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1527" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1631" col="45" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:657:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1638" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:658:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1643" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:659:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1648" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:660:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1653" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:661:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1658" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:662:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1663" col="17" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:663:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1668" col="22" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:664:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1679" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:667:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1785" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:668:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1790" col="21" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:669:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1795" col="28" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:670:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1800" col="21" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:672:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1812" col="10" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:676:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1834" col="18" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:673:7" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1843" col="25" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:603:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2008" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:607:5" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2049" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:610:6" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2101" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:667:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1785" col="12" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="&xoff" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="xoff" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="&yoff" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="yoff" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:256:13" call-funcname="updateClipRect" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="320" col="19" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_platform.h:448:6" call-funcname="_glfwIsWindowsVersionOrGreaterWin32" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="382" col="10" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_platform.h:448:6" call-funcname="_glfwIsWindowsVersionOrGreaterWin32" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="471" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_platform.h:448:6" call-funcname="_glfwIsWindowsVersionOrGreaterWin32" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="498" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:735:6" call-funcname="_glfwInputMonitorWindow" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="502" col="28" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:708:6" call-funcname="_glfwInputWindowFocus" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="606" col="34" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="742" col="30" call-argexpr="action" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\win32_window.c" line="737" col="24" info="Assuming that condition 'action==0' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="743" col="30" call-argexpr="action" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\win32_window.c" line="737" col="24" info="Assuming that condition 'action==0' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="749" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:727:6" call-funcname="_glfwInputCursorEnter" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="908" col="34" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="&xoff" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="xoff" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="&yoff" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="yoff" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:617:6" call-funcname="_glfwPlatformGetMonitorPos" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1208" col="35" call-argexpr="&xpos" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:617:6" call-funcname="_glfwPlatformGetMonitorPos" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1208" col="35" call-argexpr="&ypos" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" call-funcname="_glfwPlatformGetVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1209" col="34" call-argexpr="&mode" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" call-funcname="_glfwPlatformGetVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1209" col="34" call-argexpr="mode" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1222" col="26" call-argexpr="&fullWidth" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1222" col="26" call-argexpr="fullWidth" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1222" col="26" call-argexpr="&fullHeight" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1222" col="26" call-argexpr="fullHeight" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_platform.h:448:6" call-funcname="_glfwIsWindowsVersionOrGreaterWin32" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1254" col="9" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" call-funcname="_glfwPlatformGetWindowContentScale" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1278" col="47" call-argexpr="&xscale" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" call-funcname="_glfwPlatformGetWindowContentScale" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1278" col="47" call-argexpr="xscale" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" call-funcname="_glfwPlatformGetWindowContentScale" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1278" col="47" call-argexpr="&yscale" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" call-funcname="_glfwPlatformGetWindowContentScale" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1278" col="47" call-argexpr="yscale" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1458" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1458" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1459" col="31" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1459" col="31" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="31" call-argexpr="&width" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="31" call-argexpr="width" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="31" call-argexpr="&height" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="31" call-argexpr="height" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_platform.h:448:6" call-funcname="_glfwIsWindowsVersionOrGreaterWin32" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1815" col="10" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1948" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1957" col="35" call-argexpr="&width" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1957" col="35" call-argexpr="width" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1957" col="35" call-argexpr="&height" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1957" col="35" call-argexpr="height" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2049" col="48" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2262" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:41:14" call-funcname="getWindowStyle" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1198" col="19" my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" call-funcname="createNativeWindow" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1370" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" call-funcname="createNativeWindow" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1370" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" call-funcname="createNativeWindow" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1370" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="4"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_platform.h:446:8" call-funcname="_glfwCreateWideStringFromUTF8Win32" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1436" col="24" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:640:6" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:79:25" call-funcname="chooseImage" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1451" col="37" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:641:6" my-argnr="3"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:41:14" call-funcname="getWindowStyle" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1500" col="41" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:644:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1593" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1593" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1593" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="3"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:652:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_platform.h:458:6" call-funcname="_glfwGetMonitorContentScaleWin32" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1633" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_platform.h:458:6" call-funcname="_glfwGetMonitorContentScaleWin32" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1633" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" my-argnr="3"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:329:17" call-funcname="cursorInContentArea" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1805" col="12" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:671:5" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:349:13" call-funcname="updateWindowStyles" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1823" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:674:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:349:13" call-funcname="updateWindowStyles" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1828" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:675:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:667:5" call-funcname="_glfwPlatformWindowFocused" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2019" col="13" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:604:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2049" col="38" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:607:5" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:329:17" call-funcname="cursorInContentArea" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2107" col="9" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:611:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:41:14" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="45" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:67:14" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="71" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" my-argnr="1" my-argname="image" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="111" col="29" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" my-argnr="5" my-argname="fullWidth" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="203" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" my-argnr="6" my-argname="fullHeight" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="204" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:241:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="243" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:272:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="274" col="49" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:314:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="316" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:349:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="352" col="34" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:449:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="452" col="20" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:463:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="478" col="10" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:487:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="489" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" my-argnr="2" my-argname="wndconfig" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1228" col="52" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:639:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1411" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:643:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1486" col="20" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1517" col="19" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:646:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1527" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1631" col="45" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:657:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1638" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:658:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1643" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:659:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1648" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:660:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1653" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:661:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1658" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:662:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1663" col="17" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:663:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1668" col="22" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:664:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1679" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:667:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1785" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:668:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1790" col="21" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:669:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1795" col="28" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:670:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1800" col="21" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:672:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1812" col="10" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:676:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1834" col="18" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:673:7" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1843" col="25" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:603:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2008" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:607:5" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2049" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:610:6" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2101" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:667:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1785" col="12" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="&xoff" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="xoff" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="&yoff" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="218" col="22" call-argexpr="yoff" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:256:13" call-funcname="updateClipRect" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="320" col="19" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:735:6" call-funcname="_glfwInputMonitorWindow" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="502" col="28" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:708:6" call-funcname="_glfwInputWindowFocus" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="606" col="34" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="742" col="30" call-argexpr="action" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\win32_window.c" line="737" col="24" info="Assuming that condition 'action==0' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="743" col="30" call-argexpr="action" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\win32_window.c" line="737" col="24" info="Assuming that condition 'action==0' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="749" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:727:6" call-funcname="_glfwInputCursorEnter" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="908" col="34" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="&xoff" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="xoff" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="&yoff" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1026" col="30" call-argexpr="yoff" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:617:6" call-funcname="_glfwPlatformGetMonitorPos" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1208" col="35" call-argexpr="&xpos" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:617:6" call-funcname="_glfwPlatformGetMonitorPos" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1208" col="35" call-argexpr="&ypos" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" call-funcname="_glfwPlatformGetVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1209" col="34" call-argexpr="&mode" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" call-funcname="_glfwPlatformGetVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1209" col="34" call-argexpr="mode" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1222" col="26" call-argexpr="&fullWidth" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1222" col="26" call-argexpr="fullWidth" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1222" col="26" call-argexpr="&fullHeight" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" call-funcname="getFullWindowSize" call-argnr="6" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1222" col="26" call-argexpr="fullHeight" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" call-funcname="_glfwPlatformGetWindowContentScale" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1278" col="47" call-argexpr="&xscale" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" call-funcname="_glfwPlatformGetWindowContentScale" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1278" col="47" call-argexpr="xscale" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" call-funcname="_glfwPlatformGetWindowContentScale" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1278" col="47" call-argexpr="&yscale" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" call-funcname="_glfwPlatformGetWindowContentScale" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1278" col="47" call-argexpr="yscale" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1458" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1458" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1459" col="31" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1459" col="31" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="31" call-argexpr="&width" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="31" call-argexpr="width" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="31" call-argexpr="&height" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="31" call-argexpr="height" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1948" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1957" col="35" call-argexpr="&width" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1957" col="35" call-argexpr="width" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1957" col="35" call-argexpr="&height" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1957" col="35" call-argexpr="height" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2049" col="48" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2262" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:41:14" call-funcname="getWindowStyle" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1198" col="19" my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" call-funcname="createNativeWindow" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1370" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" call-funcname="createNativeWindow" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1370" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" call-funcname="createNativeWindow" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1370" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="4"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:79:25" call-funcname="chooseImage" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1451" col="37" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:641:6" my-argnr="3"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:41:14" call-funcname="getWindowStyle" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1500" col="41" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:644:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1593" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1593" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1593" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="3"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1603" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:652:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:329:17" call-funcname="cursorInContentArea" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1805" col="12" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:671:5" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:349:13" call-funcname="updateWindowStyles" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1823" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:674:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:349:13" call-funcname="updateWindowStyles" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1828" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:675:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:667:5" call-funcname="_glfwPlatformWindowFocused" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2019" col="13" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:604:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" call-funcname="createIcon" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2049" col="38" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:607:5" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:329:17" call-funcname="cursorInContentArea" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2107" col="9" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:611:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:41:14" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="45" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:67:14" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="71" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:101:14" my-argnr="1" my-argname="image" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="111" col="29" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" my-argnr="5" my-argname="fullWidth" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="203" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:191:13" my-argnr="6" my-argname="fullHeight" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="204" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:241:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="243" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:272:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="274" col="49" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:314:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="316" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:349:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="352" col="34" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:449:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="452" col="20" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:463:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="478" col="10" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:487:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="489" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/win32_window.c:1192:12" my-argnr="2" my-argname="wndconfig" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1228" col="52" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:639:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1411" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:643:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1486" col="20" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1517" col="19" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:646:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1527" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:655:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1631" col="45" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:657:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1638" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:658:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1643" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:659:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1648" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:660:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1653" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:661:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1658" col="16" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:662:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1663" col="17" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:663:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1668" col="22" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:664:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1679" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:667:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1785" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:668:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1790" col="21" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:669:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1795" col="28" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:670:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1800" col="21" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:672:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1812" col="10" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:676:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1834" col="18" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:673:7" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1843" col="25" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:603:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2008" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:607:5" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2049" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:610:6" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="2101" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:667:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/win32_window.c" line="1785" col="12" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="getWindowStyle" lineNumber="41"/>
+    <functiondecl functionName="getWindowExStyle" lineNumber="67"/>
+    <functiondecl functionName="chooseImage" lineNumber="79"/>
+    <functiondecl functionName="createIcon" lineNumber="101"/>
+    <functiondecl functionName="getFullWindowSize" lineNumber="191"/>
+    <functiondecl functionName="applyAspectRatio" lineNumber="209"/>
+    <functiondecl functionName="updateCursorImage" lineNumber="241"/>
+    <functiondecl functionName="updateClipRect" lineNumber="256"/>
+    <functiondecl functionName="enableRawMouseMotion" lineNumber="272"/>
+    <functiondecl functionName="disableRawMouseMotion" lineNumber="285"/>
+    <functiondecl functionName="disableCursor" lineNumber="298"/>
+    <functiondecl functionName="enableCursor" lineNumber="314"/>
+    <functiondecl functionName="cursorInContentArea" lineNumber="329"/>
+    <functiondecl functionName="updateWindowStyles" lineNumber="349"/>
+    <functiondecl functionName="updateFramebufferTransparency" lineNumber="378"/>
+    <functiondecl functionName="getKeyMods" lineNumber="429"/>
+    <functiondecl functionName="fitToMonitor" lineNumber="449"/>
+    <functiondecl functionName="acquireMonitor" lineNumber="463"/>
+    <functiondecl functionName="releaseMonitor" lineNumber="487"/>
+    <functiondecl functionName="windowProc" lineNumber="508"/>
+    <functiondecl functionName="createNativeWindow" lineNumber="1192"/>
+    <functiondecl functionName="_glfwRegisterWindowClassWin32" lineNumber="1319"/>
+    <functiondecl functionName="_glfwUnregisterWindowClassWin32" lineNumber="1355"/>
+    <functiondecl functionName="_glfwPlatformCreateWindow" lineNumber="1365"/>
+    <functiondecl functionName="_glfwPlatformDestroyWindow" lineNumber="1409"/>
+    <functiondecl functionName="_glfwPlatformSetWindowTitle" lineNumber="1434"/>
+    <functiondecl functionName="_glfwPlatformSetWindowIcon" lineNumber="1444"/>
+    <functiondecl functionName="_glfwPlatformGetWindowPos" lineNumber="1483"/>
+    <functiondecl functionName="_glfwPlatformSetWindowPos" lineNumber="1494"/>
+    <functiondecl functionName="_glfwPlatformGetWindowSize" lineNumber="1514"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSize" lineNumber="1525"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSizeLimits" lineNumber="1557"/>
+    <functiondecl functionName="_glfwPlatformSetWindowAspectRatio" lineNumber="1576"/>
+    <functiondecl functionName="_glfwPlatformGetFramebufferSize" lineNumber="1591"/>
+    <functiondecl functionName="_glfwPlatformGetWindowFrameSize" lineNumber="1596"/>
+    <functiondecl functionName="_glfwPlatformGetWindowContentScale" lineNumber="1628"/>
+    <functiondecl functionName="_glfwPlatformIconifyWindow" lineNumber="1636"/>
+    <functiondecl functionName="_glfwPlatformRestoreWindow" lineNumber="1641"/>
+    <functiondecl functionName="_glfwPlatformMaximizeWindow" lineNumber="1646"/>
+    <functiondecl functionName="_glfwPlatformShowWindow" lineNumber="1651"/>
+    <functiondecl functionName="_glfwPlatformHideWindow" lineNumber="1656"/>
+    <functiondecl functionName="_glfwPlatformRequestWindowAttention" lineNumber="1661"/>
+    <functiondecl functionName="_glfwPlatformFocusWindow" lineNumber="1666"/>
+    <functiondecl functionName="_glfwPlatformSetWindowMonitor" lineNumber="1673"/>
+    <functiondecl functionName="_glfwPlatformWindowFocused" lineNumber="1783"/>
+    <functiondecl functionName="_glfwPlatformWindowIconified" lineNumber="1788"/>
+    <functiondecl functionName="_glfwPlatformWindowVisible" lineNumber="1793"/>
+    <functiondecl functionName="_glfwPlatformWindowMaximized" lineNumber="1798"/>
+    <functiondecl functionName="_glfwPlatformWindowHovered" lineNumber="1803"/>
+    <functiondecl functionName="_glfwPlatformFramebufferTransparent" lineNumber="1808"/>
+    <functiondecl functionName="_glfwPlatformSetWindowResizable" lineNumber="1821"/>
+    <functiondecl functionName="_glfwPlatformSetWindowDecorated" lineNumber="1826"/>
+    <functiondecl functionName="_glfwPlatformSetWindowFloating" lineNumber="1831"/>
+    <functiondecl functionName="_glfwPlatformGetWindowOpacity" lineNumber="1838"/>
+    <functiondecl functionName="_glfwPlatformSetWindowOpacity" lineNumber="1853"/>
+    <functiondecl functionName="_glfwPlatformSetRawMouseMotion" lineNumber="1871"/>
+    <functiondecl functionName="_glfwPlatformRawMouseMotionSupported" lineNumber="1882"/>
+    <functiondecl functionName="_glfwPlatformPollEvents" lineNumber="1887"/>
+    <functiondecl functionName="_glfwPlatformWaitEvents" lineNumber="1969"/>
+    <functiondecl functionName="_glfwPlatformWaitEventsTimeout" lineNumber="1976"/>
+    <functiondecl functionName="_glfwPlatformPostEmptyEvent" lineNumber="1983"/>
+    <functiondecl functionName="_glfwPlatformGetCursorPos" lineNumber="1988"/>
+    <functiondecl functionName="_glfwPlatformSetCursorPos" lineNumber="2003"/>
+    <functiondecl functionName="_glfwPlatformSetCursorMode" lineNumber="2015"/>
+    <functiondecl functionName="_glfwPlatformGetScancodeName" lineNumber="2028"/>
+    <functiondecl functionName="_glfwPlatformGetKeyScancode" lineNumber="2040"/>
+    <functiondecl functionName="_glfwPlatformCreateCursor" lineNumber="2045"/>
+    <functiondecl functionName="_glfwPlatformCreateStandardCursor" lineNumber="2056"/>
+    <functiondecl functionName="_glfwPlatformDestroyCursor" lineNumber="2099"/>
+    <functiondecl functionName="_glfwPlatformSetCursor" lineNumber="2105"/>
+    <functiondecl functionName="_glfwPlatformSetClipboardString" lineNumber="2111"/>
+    <functiondecl functionName="_glfwPlatformGetClipboardString" lineNumber="2154"/>
+    <functiondecl functionName="_glfwPlatformGetRequiredInstanceExtensions" lineNumber="2193"/>
+    <functiondecl functionName="_glfwPlatformGetPhysicalDevicePresentationSupport" lineNumber="2202"/>
+    <functiondecl functionName="_glfwPlatformCreateWindowSurface" lineNumber="2220"/>
+    <functiondecl functionName="glfwGetWin32Window" lineNumber="2259"/>
+    <functiondecl functionName="getWindowStyle" lineNumber="41"/>
+    <functiondecl functionName="getWindowExStyle" lineNumber="67"/>
+    <functiondecl functionName="chooseImage" lineNumber="79"/>
+    <functiondecl functionName="createIcon" lineNumber="101"/>
+    <functiondecl functionName="getFullWindowSize" lineNumber="191"/>
+    <functiondecl functionName="applyAspectRatio" lineNumber="209"/>
+    <functiondecl functionName="updateCursorImage" lineNumber="241"/>
+    <functiondecl functionName="updateClipRect" lineNumber="256"/>
+    <functiondecl functionName="enableRawMouseMotion" lineNumber="272"/>
+    <functiondecl functionName="disableRawMouseMotion" lineNumber="285"/>
+    <functiondecl functionName="disableCursor" lineNumber="298"/>
+    <functiondecl functionName="enableCursor" lineNumber="314"/>
+    <functiondecl functionName="cursorInContentArea" lineNumber="329"/>
+    <functiondecl functionName="updateWindowStyles" lineNumber="349"/>
+    <functiondecl functionName="updateFramebufferTransparency" lineNumber="378"/>
+    <functiondecl functionName="getKeyMods" lineNumber="429"/>
+    <functiondecl functionName="fitToMonitor" lineNumber="449"/>
+    <functiondecl functionName="acquireMonitor" lineNumber="463"/>
+    <functiondecl functionName="releaseMonitor" lineNumber="487"/>
+    <functiondecl functionName="windowProc" lineNumber="508"/>
+    <functiondecl functionName="createNativeWindow" lineNumber="1192"/>
+    <functiondecl functionName="_glfwRegisterWindowClassWin32" lineNumber="1319"/>
+    <functiondecl functionName="_glfwUnregisterWindowClassWin32" lineNumber="1355"/>
+    <functiondecl functionName="_glfwPlatformCreateWindow" lineNumber="1365"/>
+    <functiondecl functionName="_glfwPlatformDestroyWindow" lineNumber="1409"/>
+    <functiondecl functionName="_glfwPlatformSetWindowTitle" lineNumber="1434"/>
+    <functiondecl functionName="_glfwPlatformSetWindowIcon" lineNumber="1444"/>
+    <functiondecl functionName="_glfwPlatformGetWindowPos" lineNumber="1483"/>
+    <functiondecl functionName="_glfwPlatformSetWindowPos" lineNumber="1494"/>
+    <functiondecl functionName="_glfwPlatformGetWindowSize" lineNumber="1514"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSize" lineNumber="1525"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSizeLimits" lineNumber="1557"/>
+    <functiondecl functionName="_glfwPlatformSetWindowAspectRatio" lineNumber="1576"/>
+    <functiondecl functionName="_glfwPlatformGetFramebufferSize" lineNumber="1591"/>
+    <functiondecl functionName="_glfwPlatformGetWindowFrameSize" lineNumber="1596"/>
+    <functiondecl functionName="_glfwPlatformGetWindowContentScale" lineNumber="1628"/>
+    <functiondecl functionName="_glfwPlatformIconifyWindow" lineNumber="1636"/>
+    <functiondecl functionName="_glfwPlatformRestoreWindow" lineNumber="1641"/>
+    <functiondecl functionName="_glfwPlatformMaximizeWindow" lineNumber="1646"/>
+    <functiondecl functionName="_glfwPlatformShowWindow" lineNumber="1651"/>
+    <functiondecl functionName="_glfwPlatformHideWindow" lineNumber="1656"/>
+    <functiondecl functionName="_glfwPlatformRequestWindowAttention" lineNumber="1661"/>
+    <functiondecl functionName="_glfwPlatformFocusWindow" lineNumber="1666"/>
+    <functiondecl functionName="_glfwPlatformSetWindowMonitor" lineNumber="1673"/>
+    <functiondecl functionName="_glfwPlatformWindowFocused" lineNumber="1783"/>
+    <functiondecl functionName="_glfwPlatformWindowIconified" lineNumber="1788"/>
+    <functiondecl functionName="_glfwPlatformWindowVisible" lineNumber="1793"/>
+    <functiondecl functionName="_glfwPlatformWindowMaximized" lineNumber="1798"/>
+    <functiondecl functionName="_glfwPlatformWindowHovered" lineNumber="1803"/>
+    <functiondecl functionName="_glfwPlatformFramebufferTransparent" lineNumber="1808"/>
+    <functiondecl functionName="_glfwPlatformSetWindowResizable" lineNumber="1821"/>
+    <functiondecl functionName="_glfwPlatformSetWindowDecorated" lineNumber="1826"/>
+    <functiondecl functionName="_glfwPlatformSetWindowFloating" lineNumber="1831"/>
+    <functiondecl functionName="_glfwPlatformGetWindowOpacity" lineNumber="1838"/>
+    <functiondecl functionName="_glfwPlatformSetWindowOpacity" lineNumber="1853"/>
+    <functiondecl functionName="_glfwPlatformSetRawMouseMotion" lineNumber="1871"/>
+    <functiondecl functionName="_glfwPlatformRawMouseMotionSupported" lineNumber="1882"/>
+    <functiondecl functionName="_glfwPlatformPollEvents" lineNumber="1887"/>
+    <functiondecl functionName="_glfwPlatformWaitEvents" lineNumber="1969"/>
+    <functiondecl functionName="_glfwPlatformWaitEventsTimeout" lineNumber="1976"/>
+    <functiondecl functionName="_glfwPlatformPostEmptyEvent" lineNumber="1983"/>
+    <functiondecl functionName="_glfwPlatformGetCursorPos" lineNumber="1988"/>
+    <functiondecl functionName="_glfwPlatformSetCursorPos" lineNumber="2003"/>
+    <functiondecl functionName="_glfwPlatformSetCursorMode" lineNumber="2015"/>
+    <functiondecl functionName="_glfwPlatformGetScancodeName" lineNumber="2028"/>
+    <functiondecl functionName="_glfwPlatformGetKeyScancode" lineNumber="2040"/>
+    <functiondecl functionName="_glfwPlatformCreateCursor" lineNumber="2045"/>
+    <functiondecl functionName="_glfwPlatformCreateStandardCursor" lineNumber="2056"/>
+    <functiondecl functionName="_glfwPlatformDestroyCursor" lineNumber="2099"/>
+    <functiondecl functionName="_glfwPlatformSetCursor" lineNumber="2105"/>
+    <functiondecl functionName="_glfwPlatformSetClipboardString" lineNumber="2111"/>
+    <functiondecl functionName="_glfwPlatformGetClipboardString" lineNumber="2154"/>
+    <functiondecl functionName="_glfwPlatformGetRequiredInstanceExtensions" lineNumber="2193"/>
+    <functiondecl functionName="_glfwPlatformGetPhysicalDevicePresentationSupport" lineNumber="2202"/>
+    <functiondecl functionName="_glfwPlatformCreateWindowSurface" lineNumber="2220"/>
+    <functiondecl functionName="glfwGetWin32Window" lineNumber="2259"/>
+    <functiondecl functionName="getWindowStyle" lineNumber="41"/>
+    <functiondecl functionName="getWindowExStyle" lineNumber="67"/>
+    <functiondecl functionName="chooseImage" lineNumber="79"/>
+    <functiondecl functionName="createIcon" lineNumber="101"/>
+    <functiondecl functionName="getFullWindowSize" lineNumber="191"/>
+    <functiondecl functionName="applyAspectRatio" lineNumber="209"/>
+    <functiondecl functionName="updateCursorImage" lineNumber="241"/>
+    <functiondecl functionName="updateClipRect" lineNumber="256"/>
+    <functiondecl functionName="enableRawMouseMotion" lineNumber="272"/>
+    <functiondecl functionName="disableRawMouseMotion" lineNumber="285"/>
+    <functiondecl functionName="disableCursor" lineNumber="298"/>
+    <functiondecl functionName="enableCursor" lineNumber="314"/>
+    <functiondecl functionName="cursorInContentArea" lineNumber="329"/>
+    <functiondecl functionName="updateWindowStyles" lineNumber="349"/>
+    <functiondecl functionName="updateFramebufferTransparency" lineNumber="378"/>
+    <functiondecl functionName="getKeyMods" lineNumber="429"/>
+    <functiondecl functionName="fitToMonitor" lineNumber="449"/>
+    <functiondecl functionName="acquireMonitor" lineNumber="463"/>
+    <functiondecl functionName="releaseMonitor" lineNumber="487"/>
+    <functiondecl functionName="windowProc" lineNumber="508"/>
+    <functiondecl functionName="createNativeWindow" lineNumber="1192"/>
+    <functiondecl functionName="_glfwRegisterWindowClassWin32" lineNumber="1319"/>
+    <functiondecl functionName="_glfwUnregisterWindowClassWin32" lineNumber="1355"/>
+    <functiondecl functionName="_glfwPlatformCreateWindow" lineNumber="1365"/>
+    <functiondecl functionName="_glfwPlatformDestroyWindow" lineNumber="1409"/>
+    <functiondecl functionName="_glfwPlatformSetWindowTitle" lineNumber="1434"/>
+    <functiondecl functionName="_glfwPlatformSetWindowIcon" lineNumber="1444"/>
+    <functiondecl functionName="_glfwPlatformGetWindowPos" lineNumber="1483"/>
+    <functiondecl functionName="_glfwPlatformSetWindowPos" lineNumber="1494"/>
+    <functiondecl functionName="_glfwPlatformGetWindowSize" lineNumber="1514"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSize" lineNumber="1525"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSizeLimits" lineNumber="1557"/>
+    <functiondecl functionName="_glfwPlatformSetWindowAspectRatio" lineNumber="1576"/>
+    <functiondecl functionName="_glfwPlatformGetFramebufferSize" lineNumber="1591"/>
+    <functiondecl functionName="_glfwPlatformGetWindowFrameSize" lineNumber="1596"/>
+    <functiondecl functionName="_glfwPlatformGetWindowContentScale" lineNumber="1628"/>
+    <functiondecl functionName="_glfwPlatformIconifyWindow" lineNumber="1636"/>
+    <functiondecl functionName="_glfwPlatformRestoreWindow" lineNumber="1641"/>
+    <functiondecl functionName="_glfwPlatformMaximizeWindow" lineNumber="1646"/>
+    <functiondecl functionName="_glfwPlatformShowWindow" lineNumber="1651"/>
+    <functiondecl functionName="_glfwPlatformHideWindow" lineNumber="1656"/>
+    <functiondecl functionName="_glfwPlatformRequestWindowAttention" lineNumber="1661"/>
+    <functiondecl functionName="_glfwPlatformFocusWindow" lineNumber="1666"/>
+    <functiondecl functionName="_glfwPlatformSetWindowMonitor" lineNumber="1673"/>
+    <functiondecl functionName="_glfwPlatformWindowFocused" lineNumber="1783"/>
+    <functiondecl functionName="_glfwPlatformWindowIconified" lineNumber="1788"/>
+    <functiondecl functionName="_glfwPlatformWindowVisible" lineNumber="1793"/>
+    <functiondecl functionName="_glfwPlatformWindowMaximized" lineNumber="1798"/>
+    <functiondecl functionName="_glfwPlatformWindowHovered" lineNumber="1803"/>
+    <functiondecl functionName="_glfwPlatformFramebufferTransparent" lineNumber="1808"/>
+    <functiondecl functionName="_glfwPlatformSetWindowResizable" lineNumber="1821"/>
+    <functiondecl functionName="_glfwPlatformSetWindowDecorated" lineNumber="1826"/>
+    <functiondecl functionName="_glfwPlatformSetWindowFloating" lineNumber="1831"/>
+    <functiondecl functionName="_glfwPlatformGetWindowOpacity" lineNumber="1838"/>
+    <functiondecl functionName="_glfwPlatformSetWindowOpacity" lineNumber="1853"/>
+    <functiondecl functionName="_glfwPlatformSetRawMouseMotion" lineNumber="1871"/>
+    <functiondecl functionName="_glfwPlatformRawMouseMotionSupported" lineNumber="1882"/>
+    <functiondecl functionName="_glfwPlatformPollEvents" lineNumber="1887"/>
+    <functiondecl functionName="_glfwPlatformWaitEvents" lineNumber="1969"/>
+    <functiondecl functionName="_glfwPlatformWaitEventsTimeout" lineNumber="1976"/>
+    <functiondecl functionName="_glfwPlatformPostEmptyEvent" lineNumber="1983"/>
+    <functiondecl functionName="_glfwPlatformGetCursorPos" lineNumber="1988"/>
+    <functiondecl functionName="_glfwPlatformSetCursorPos" lineNumber="2003"/>
+    <functiondecl functionName="_glfwPlatformSetCursorMode" lineNumber="2015"/>
+    <functiondecl functionName="_glfwPlatformGetScancodeName" lineNumber="2028"/>
+    <functiondecl functionName="_glfwPlatformGetKeyScancode" lineNumber="2040"/>
+    <functiondecl functionName="_glfwPlatformCreateCursor" lineNumber="2045"/>
+    <functiondecl functionName="_glfwPlatformCreateStandardCursor" lineNumber="2056"/>
+    <functiondecl functionName="_glfwPlatformDestroyCursor" lineNumber="2099"/>
+    <functiondecl functionName="_glfwPlatformSetCursor" lineNumber="2105"/>
+    <functiondecl functionName="_glfwPlatformSetClipboardString" lineNumber="2111"/>
+    <functiondecl functionName="_glfwPlatformGetClipboardString" lineNumber="2154"/>
+    <functiondecl functionName="_glfwPlatformGetRequiredInstanceExtensions" lineNumber="2193"/>
+    <functiondecl functionName="_glfwPlatformGetPhysicalDevicePresentationSupport" lineNumber="2202"/>
+    <functiondecl functionName="_glfwPlatformCreateWindowSurface" lineNumber="2220"/>
+    <functiondecl functionName="glfwGetWin32Window" lineNumber="2259"/>
+    <functiondecl functionName="getWindowStyle" lineNumber="41"/>
+    <functiondecl functionName="getWindowExStyle" lineNumber="67"/>
+    <functiondecl functionName="chooseImage" lineNumber="79"/>
+    <functiondecl functionName="createIcon" lineNumber="101"/>
+    <functiondecl functionName="getFullWindowSize" lineNumber="191"/>
+    <functiondecl functionName="applyAspectRatio" lineNumber="209"/>
+    <functiondecl functionName="updateCursorImage" lineNumber="241"/>
+    <functiondecl functionName="updateClipRect" lineNumber="256"/>
+    <functiondecl functionName="enableRawMouseMotion" lineNumber="272"/>
+    <functiondecl functionName="disableRawMouseMotion" lineNumber="285"/>
+    <functiondecl functionName="disableCursor" lineNumber="298"/>
+    <functiondecl functionName="enableCursor" lineNumber="314"/>
+    <functiondecl functionName="cursorInContentArea" lineNumber="329"/>
+    <functiondecl functionName="updateWindowStyles" lineNumber="349"/>
+    <functiondecl functionName="updateFramebufferTransparency" lineNumber="378"/>
+    <functiondecl functionName="getKeyMods" lineNumber="429"/>
+    <functiondecl functionName="fitToMonitor" lineNumber="449"/>
+    <functiondecl functionName="acquireMonitor" lineNumber="463"/>
+    <functiondecl functionName="releaseMonitor" lineNumber="487"/>
+    <functiondecl functionName="windowProc" lineNumber="508"/>
+    <functiondecl functionName="createNativeWindow" lineNumber="1192"/>
+    <functiondecl functionName="_glfwRegisterWindowClassWin32" lineNumber="1319"/>
+    <functiondecl functionName="_glfwUnregisterWindowClassWin32" lineNumber="1355"/>
+    <functiondecl functionName="_glfwPlatformCreateWindow" lineNumber="1365"/>
+    <functiondecl functionName="_glfwPlatformDestroyWindow" lineNumber="1409"/>
+    <functiondecl functionName="_glfwPlatformSetWindowTitle" lineNumber="1434"/>
+    <functiondecl functionName="_glfwPlatformSetWindowIcon" lineNumber="1444"/>
+    <functiondecl functionName="_glfwPlatformGetWindowPos" lineNumber="1483"/>
+    <functiondecl functionName="_glfwPlatformSetWindowPos" lineNumber="1494"/>
+    <functiondecl functionName="_glfwPlatformGetWindowSize" lineNumber="1514"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSize" lineNumber="1525"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSizeLimits" lineNumber="1557"/>
+    <functiondecl functionName="_glfwPlatformSetWindowAspectRatio" lineNumber="1576"/>
+    <functiondecl functionName="_glfwPlatformGetFramebufferSize" lineNumber="1591"/>
+    <functiondecl functionName="_glfwPlatformGetWindowFrameSize" lineNumber="1596"/>
+    <functiondecl functionName="_glfwPlatformGetWindowContentScale" lineNumber="1628"/>
+    <functiondecl functionName="_glfwPlatformIconifyWindow" lineNumber="1636"/>
+    <functiondecl functionName="_glfwPlatformRestoreWindow" lineNumber="1641"/>
+    <functiondecl functionName="_glfwPlatformMaximizeWindow" lineNumber="1646"/>
+    <functiondecl functionName="_glfwPlatformShowWindow" lineNumber="1651"/>
+    <functiondecl functionName="_glfwPlatformHideWindow" lineNumber="1656"/>
+    <functiondecl functionName="_glfwPlatformRequestWindowAttention" lineNumber="1661"/>
+    <functiondecl functionName="_glfwPlatformFocusWindow" lineNumber="1666"/>
+    <functiondecl functionName="_glfwPlatformSetWindowMonitor" lineNumber="1673"/>
+    <functiondecl functionName="_glfwPlatformWindowFocused" lineNumber="1783"/>
+    <functiondecl functionName="_glfwPlatformWindowIconified" lineNumber="1788"/>
+    <functiondecl functionName="_glfwPlatformWindowVisible" lineNumber="1793"/>
+    <functiondecl functionName="_glfwPlatformWindowMaximized" lineNumber="1798"/>
+    <functiondecl functionName="_glfwPlatformWindowHovered" lineNumber="1803"/>
+    <functiondecl functionName="_glfwPlatformFramebufferTransparent" lineNumber="1808"/>
+    <functiondecl functionName="_glfwPlatformSetWindowResizable" lineNumber="1821"/>
+    <functiondecl functionName="_glfwPlatformSetWindowDecorated" lineNumber="1826"/>
+    <functiondecl functionName="_glfwPlatformSetWindowFloating" lineNumber="1831"/>
+    <functiondecl functionName="_glfwPlatformGetWindowOpacity" lineNumber="1838"/>
+    <functiondecl functionName="_glfwPlatformSetWindowOpacity" lineNumber="1853"/>
+    <functiondecl functionName="_glfwPlatformSetRawMouseMotion" lineNumber="1871"/>
+    <functiondecl functionName="_glfwPlatformRawMouseMotionSupported" lineNumber="1882"/>
+    <functiondecl functionName="_glfwPlatformPollEvents" lineNumber="1887"/>
+    <functiondecl functionName="_glfwPlatformWaitEvents" lineNumber="1969"/>
+    <functiondecl functionName="_glfwPlatformWaitEventsTimeout" lineNumber="1976"/>
+    <functiondecl functionName="_glfwPlatformPostEmptyEvent" lineNumber="1983"/>
+    <functiondecl functionName="_glfwPlatformGetCursorPos" lineNumber="1988"/>
+    <functiondecl functionName="_glfwPlatformSetCursorPos" lineNumber="2003"/>
+    <functiondecl functionName="_glfwPlatformSetCursorMode" lineNumber="2015"/>
+    <functiondecl functionName="_glfwPlatformGetScancodeName" lineNumber="2028"/>
+    <functiondecl functionName="_glfwPlatformGetKeyScancode" lineNumber="2040"/>
+    <functiondecl functionName="_glfwPlatformCreateCursor" lineNumber="2045"/>
+    <functiondecl functionName="_glfwPlatformCreateStandardCursor" lineNumber="2056"/>
+    <functiondecl functionName="_glfwPlatformDestroyCursor" lineNumber="2099"/>
+    <functiondecl functionName="_glfwPlatformSetCursor" lineNumber="2105"/>
+    <functiondecl functionName="_glfwPlatformSetClipboardString" lineNumber="2111"/>
+    <functiondecl functionName="_glfwPlatformGetClipboardString" lineNumber="2154"/>
+    <functiondecl functionName="_glfwPlatformGetRequiredInstanceExtensions" lineNumber="2193"/>
+    <functiondecl functionName="_glfwPlatformGetPhysicalDevicePresentationSupport" lineNumber="2202"/>
+    <functiondecl functionName="_glfwPlatformCreateWindowSurface" lineNumber="2220"/>
+    <functiondecl functionName="glfwGetWin32Window" lineNumber="2259"/>
+    <functiondecl functionName="getWindowStyle" lineNumber="41"/>
+    <functiondecl functionName="getWindowExStyle" lineNumber="67"/>
+    <functiondecl functionName="chooseImage" lineNumber="79"/>
+    <functiondecl functionName="createIcon" lineNumber="101"/>
+    <functiondecl functionName="getFullWindowSize" lineNumber="191"/>
+    <functiondecl functionName="applyAspectRatio" lineNumber="209"/>
+    <functiondecl functionName="updateCursorImage" lineNumber="241"/>
+    <functiondecl functionName="updateClipRect" lineNumber="256"/>
+    <functiondecl functionName="enableRawMouseMotion" lineNumber="272"/>
+    <functiondecl functionName="disableRawMouseMotion" lineNumber="285"/>
+    <functiondecl functionName="disableCursor" lineNumber="298"/>
+    <functiondecl functionName="enableCursor" lineNumber="314"/>
+    <functiondecl functionName="cursorInContentArea" lineNumber="329"/>
+    <functiondecl functionName="updateWindowStyles" lineNumber="349"/>
+    <functiondecl functionName="updateFramebufferTransparency" lineNumber="378"/>
+    <functiondecl functionName="getKeyMods" lineNumber="429"/>
+    <functiondecl functionName="fitToMonitor" lineNumber="449"/>
+    <functiondecl functionName="acquireMonitor" lineNumber="463"/>
+    <functiondecl functionName="releaseMonitor" lineNumber="487"/>
+    <functiondecl functionName="windowProc" lineNumber="508"/>
+    <functiondecl functionName="createNativeWindow" lineNumber="1192"/>
+    <functiondecl functionName="_glfwRegisterWindowClassWin32" lineNumber="1319"/>
+    <functiondecl functionName="_glfwUnregisterWindowClassWin32" lineNumber="1355"/>
+    <functiondecl functionName="_glfwPlatformCreateWindow" lineNumber="1365"/>
+    <functiondecl functionName="_glfwPlatformDestroyWindow" lineNumber="1409"/>
+    <functiondecl functionName="_glfwPlatformSetWindowTitle" lineNumber="1434"/>
+    <functiondecl functionName="_glfwPlatformSetWindowIcon" lineNumber="1444"/>
+    <functiondecl functionName="_glfwPlatformGetWindowPos" lineNumber="1483"/>
+    <functiondecl functionName="_glfwPlatformSetWindowPos" lineNumber="1494"/>
+    <functiondecl functionName="_glfwPlatformGetWindowSize" lineNumber="1514"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSize" lineNumber="1525"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSizeLimits" lineNumber="1557"/>
+    <functiondecl functionName="_glfwPlatformSetWindowAspectRatio" lineNumber="1576"/>
+    <functiondecl functionName="_glfwPlatformGetFramebufferSize" lineNumber="1591"/>
+    <functiondecl functionName="_glfwPlatformGetWindowFrameSize" lineNumber="1596"/>
+    <functiondecl functionName="_glfwPlatformGetWindowContentScale" lineNumber="1628"/>
+    <functiondecl functionName="_glfwPlatformIconifyWindow" lineNumber="1636"/>
+    <functiondecl functionName="_glfwPlatformRestoreWindow" lineNumber="1641"/>
+    <functiondecl functionName="_glfwPlatformMaximizeWindow" lineNumber="1646"/>
+    <functiondecl functionName="_glfwPlatformShowWindow" lineNumber="1651"/>
+    <functiondecl functionName="_glfwPlatformHideWindow" lineNumber="1656"/>
+    <functiondecl functionName="_glfwPlatformRequestWindowAttention" lineNumber="1661"/>
+    <functiondecl functionName="_glfwPlatformFocusWindow" lineNumber="1666"/>
+    <functiondecl functionName="_glfwPlatformSetWindowMonitor" lineNumber="1673"/>
+    <functiondecl functionName="_glfwPlatformWindowFocused" lineNumber="1783"/>
+    <functiondecl functionName="_glfwPlatformWindowIconified" lineNumber="1788"/>
+    <functiondecl functionName="_glfwPlatformWindowVisible" lineNumber="1793"/>
+    <functiondecl functionName="_glfwPlatformWindowMaximized" lineNumber="1798"/>
+    <functiondecl functionName="_glfwPlatformWindowHovered" lineNumber="1803"/>
+    <functiondecl functionName="_glfwPlatformFramebufferTransparent" lineNumber="1808"/>
+    <functiondecl functionName="_glfwPlatformSetWindowResizable" lineNumber="1821"/>
+    <functiondecl functionName="_glfwPlatformSetWindowDecorated" lineNumber="1826"/>
+    <functiondecl functionName="_glfwPlatformSetWindowFloating" lineNumber="1831"/>
+    <functiondecl functionName="_glfwPlatformGetWindowOpacity" lineNumber="1838"/>
+    <functiondecl functionName="_glfwPlatformSetWindowOpacity" lineNumber="1853"/>
+    <functiondecl functionName="_glfwPlatformSetRawMouseMotion" lineNumber="1871"/>
+    <functiondecl functionName="_glfwPlatformRawMouseMotionSupported" lineNumber="1882"/>
+    <functiondecl functionName="_glfwPlatformPollEvents" lineNumber="1887"/>
+    <functiondecl functionName="_glfwPlatformWaitEvents" lineNumber="1969"/>
+    <functiondecl functionName="_glfwPlatformWaitEventsTimeout" lineNumber="1976"/>
+    <functiondecl functionName="_glfwPlatformPostEmptyEvent" lineNumber="1983"/>
+    <functiondecl functionName="_glfwPlatformGetCursorPos" lineNumber="1988"/>
+    <functiondecl functionName="_glfwPlatformSetCursorPos" lineNumber="2003"/>
+    <functiondecl functionName="_glfwPlatformSetCursorMode" lineNumber="2015"/>
+    <functiondecl functionName="_glfwPlatformGetScancodeName" lineNumber="2028"/>
+    <functiondecl functionName="_glfwPlatformGetKeyScancode" lineNumber="2040"/>
+    <functiondecl functionName="_glfwPlatformCreateCursor" lineNumber="2045"/>
+    <functiondecl functionName="_glfwPlatformCreateStandardCursor" lineNumber="2056"/>
+    <functiondecl functionName="_glfwPlatformDestroyCursor" lineNumber="2099"/>
+    <functiondecl functionName="_glfwPlatformSetCursor" lineNumber="2105"/>
+    <functiondecl functionName="_glfwPlatformSetClipboardString" lineNumber="2111"/>
+    <functiondecl functionName="_glfwPlatformGetClipboardString" lineNumber="2154"/>
+    <functiondecl functionName="_glfwPlatformGetRequiredInstanceExtensions" lineNumber="2193"/>
+    <functiondecl functionName="_glfwPlatformGetPhysicalDevicePresentationSupport" lineNumber="2202"/>
+    <functiondecl functionName="_glfwPlatformCreateWindowSurface" lineNumber="2220"/>
+    <functiondecl functionName="glfwGetWin32Window" lineNumber="2259"/>
+    <functioncall functionName="AdjustWindowRectEx"/>
+    <functioncall functionName="AdjustWindowRectExForDpi"/>
+    <functioncall functionName="AdjustWindowRectExForDpi_"/>
+    <functioncall functionName="BI_BITFIELDS"/>
+    <functioncall functionName="BringWindowToTop"/>
+    <functioncall functionName="CF_UNICODETEXT"/>
+    <functioncall functionName="CP_UTF8"/>
+    <functioncall functionName="CS_OWNDC"/>
+    <functioncall functionName="CW_USEDEFAULT"/>
+    <functioncall functionName="ChangeWindowMessageFilterEx"/>
+    <functioncall functionName="ChangeWindowMessageFilterEx_"/>
+    <functioncall functionName="ClientToScreen"/>
+    <functioncall functionName="ClipCursor"/>
+    <functioncall functionName="CloseClipboard"/>
+    <functioncall functionName="CreateBitmap"/>
+    <functioncall functionName="CreateDIBSection"/>
+    <functioncall functionName="CreateIconIndirect"/>
+    <functioncall functionName="CreateRectRgn"/>
+    <functioncall functionName="CreateWindowExW"/>
+    <functioncall functionName="DIB_RGB_COLORS"/>
+    <functioncall functionName="DWM_BB_BLURREGION"/>
+    <functioncall functionName="DefWindowProcW"/>
+    <functioncall functionName="DeleteObject"/>
+    <functioncall functionName="DestroyIcon"/>
+    <functioncall functionName="DestroyWindow"/>
+    <functioncall functionName="DispatchMessageW"/>
+    <functioncall functionName="DragAcceptFiles"/>
+    <functioncall functionName="DragFinish"/>
+    <functioncall functionName="DragQueryFileW"/>
+    <functioncall functionName="DragQueryPoint"/>
+    <functioncall functionName="DwmEnableBlurBehindWindow"/>
+    <functioncall functionName="DwmIsCompositionEnabled"/>
+    <functioncall functionName="ES_CONTINUOUS"/>
+    <functioncall functionName="ES_DISPLAY_REQUIRED"/>
+    <functioncall functionName="EmptyClipboard"/>
+    <functioncall functionName="EnableBlurBehindWindow"/>
+    <functioncall functionName="EnableNonClientDpiScaling"/>
+    <functioncall functionName="EnableNonClientDpiScaling_"/>
+    <functioncall functionName="FALSE"/>
+    <functioncall functionName="FlashWindow"/>
+    <functioncall functionName="GCLP_HICON"/>
+    <functioncall functionName="GCLP_HICONSM"/>
+    <functioncall functionName="GET_XBUTTON_WPARAM"/>
+    <functioncall functionName="GET_X_LPARAM"/>
+    <functioncall functionName="GET_Y_LPARAM"/>
+    <functioncall functionName="GMEM_MOVEABLE"/>
+    <functioncall functionName="GWL_EXSTYLE"/>
+    <functioncall functionName="GWL_STYLE"/>
+    <functioncall functionName="GetActiveWindow"/>
+    <functioncall functionName="GetClassLongPtrW"/>
+    <functioncall functionName="GetClientRect"/>
+    <functioncall functionName="GetClipboardData"/>
+    <functioncall functionName="GetCursorPos"/>
+    <functioncall functionName="GetDC"/>
+    <functioncall functionName="GetDpiForWindow"/>
+    <functioncall functionName="GetDpiForWindow_"/>
+    <functioncall functionName="GetInstanceProcAddr"/>
+    <functioncall functionName="GetKeyState"/>
+    <functioncall functionName="GetLayeredWindowAttributes"/>
+    <functioncall functionName="GetMessageTime"/>
+    <functioncall functionName="GetModuleHandle"/>
+    <functioncall functionName="GetModuleHandleW"/>
+    <functioncall functionName="GetMonitorInfo"/>
+    <functioncall functionName="GetPropW"/>
+    <functioncall functionName="GetRawInputData"/>
+    <functioncall functionName="GetSystemMetrics"/>
+    <functioncall functionName="GetWindowLongW"/>
+    <functioncall functionName="GetWindowPlacement"/>
+    <functioncall functionName="GetWindowRect"/>
+    <functioncall functionName="GlobalAlloc"/>
+    <functioncall functionName="GlobalFree"/>
+    <functioncall functionName="GlobalLock"/>
+    <functioncall functionName="GlobalUnlock"/>
+    <functioncall functionName="HRAWINPUT"/>
+    <functioncall functionName="HWND_NOTOPMOST"/>
+    <functioncall functionName="HWND_TOP"/>
+    <functioncall functionName="HWND_TOPMOST"/>
+    <functioncall functionName="ICON_BIG"/>
+    <functioncall functionName="ICON_SMALL"/>
+    <functioncall functionName="IDC_ARROW"/>
+    <functioncall functionName="IDI_APPLICATION"/>
+    <functioncall functionName="IMAGE_CURSOR"/>
+    <functioncall functionName="IMAGE_ICON"/>
+    <functioncall functionName="INT_MAX"/>
+    <functioncall functionName="IsCompositionEnabled"/>
+    <functioncall functionName="IsIconic"/>
+    <functioncall functionName="IsWindowVisible"/>
+    <functioncall functionName="IsWindows7OrGreater"/>
+    <functioncall functionName="IsWindowsVistaOrGreater"/>
+    <functioncall functionName="IsWindowsXPOrGreater"/>
+    <functioncall functionName="IsZoomed"/>
+    <functioncall functionName="KHR_win32_surface"/>
+    <functioncall functionName="LR_SHARED"/>
+    <functioncall functionName="LWA_ALPHA"/>
+    <functioncall functionName="LWA_COLORKEY"/>
+    <functioncall functionName="LoadCursorW"/>
+    <functioncall functionName="LoadImageW"/>
+    <functioncall functionName="MAPVK_VK_TO_VSC"/>
+    <functioncall functionName="MDT_EFFECTIVE_DPI"/>
+    <functioncall functionName="MONITOR_DEFAULTTONEAREST"/>
+    <functioncall functionName="MSGFLT_ALLOW"/>
+    <functioncall functionName="MapVirtualKeyW"/>
+    <functioncall functionName="MonitorFromWindow"/>
+    <functioncall functionName="MoveWindow"/>
+    <functioncall functionName="MsgWaitForMultipleObjects"/>
+    <functioncall functionName="MultiByteToWideChar"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="OCR_CROSS"/>
+    <functioncall functionName="OCR_HAND"/>
+    <functioncall functionName="OCR_IBEAM"/>
+    <functioncall functionName="OCR_NO"/>
+    <functioncall functionName="OCR_NORMAL"/>
+    <functioncall functionName="OCR_SIZEALL"/>
+    <functioncall functionName="OCR_SIZENESW"/>
+    <functioncall functionName="OCR_SIZENS"/>
+    <functioncall functionName="OCR_SIZENWSE"/>
+    <functioncall functionName="OCR_SIZEWE"/>
+    <functioncall functionName="OpenClipboard"/>
+    <functioncall functionName="PFN_vkCreateWin32SurfaceKHR"/>
+    <functioncall functionName="PFN_vkGetPhysicalDeviceWin32PresentationSupportKHR"/>
+    <functioncall functionName="PM_NOREMOVE"/>
+    <functioncall functionName="PM_REMOVE"/>
+    <functioncall functionName="PeekMessageW"/>
+    <functioncall functionName="PostMessage"/>
+    <functioncall functionName="PtInRect"/>
+    <functioncall functionName="QS_ALLEVENTS"/>
+    <functioncall functionName="RAWINPUTHEADER"/>
+    <functioncall functionName="RDW_FRAME"/>
+    <functioncall functionName="RGB"/>
+    <functioncall functionName="RIDEV_REMOVE"/>
+    <functioncall functionName="RID_INPUT"/>
+    <functioncall functionName="RedrawWindow"/>
+    <functioncall functionName="RegisterClassExW"/>
+    <functioncall functionName="RegisterRawInputDevices"/>
+    <functioncall functionName="ReleaseCapture"/>
+    <functioncall functionName="ReleaseDC"/>
+    <functioncall functionName="RemovePropW"/>
+    <functioncall functionName="SM_CXICON"/>
+    <functioncall functionName="SM_CXSMICON"/>
+    <functioncall functionName="SM_CYICON"/>
+    <functioncall functionName="SM_CYSMICON"/>
+    <functioncall functionName="SPI_GETMOUSETRAILS"/>
+    <functioncall functionName="SPI_SETMOUSETRAILS"/>
+    <functioncall functionName="SWP_NOCOPYBITS"/>
+    <functioncall functionName="SWP_NOSIZE"/>
+    <functioncall functionName="SWP_NOZORDER"/>
+    <functioncall functionName="ScreenToClient"/>
+    <functioncall functionName="SendMessage"/>
+    <functioncall functionName="SetCapture"/>
+    <functioncall functionName="SetClipboardData"/>
+    <functioncall functionName="SetCursor"/>
+    <functioncall functionName="SetCursorPos"/>
+    <functioncall functionName="SetFocus"/>
+    <functioncall functionName="SetForegroundWindow"/>
+    <functioncall functionName="SetLayeredWindowAttributes"/>
+    <functioncall functionName="SetPropW"/>
+    <functioncall functionName="SetRect"/>
+    <functioncall functionName="SetThreadExecutionState"/>
+    <functioncall functionName="SetWindowLongW"/>
+    <functioncall functionName="SetWindowPlacement"/>
+    <functioncall functionName="SetWindowPos"/>
+    <functioncall functionName="SetWindowTextW"/>
+    <functioncall functionName="ShowWindow"/>
+    <functioncall functionName="SystemParametersInfo"/>
+    <functioncall functionName="TME_LEAVE"/>
+    <functioncall functionName="TRUE"/>
+    <functioncall functionName="TrackMouseEvent"/>
+    <functioncall functionName="TranslateMessage"/>
+    <functioncall functionName="USER_DEFAULT_SCREEN_DPI"/>
+    <functioncall functionName="UnregisterClassW"/>
+    <functioncall functionName="VK_STRUCTURE_TYPE_WIN32_SURFACE_CREATE_INFO_KHR"/>
+    <functioncall functionName="WHEEL_DELTA"/>
+    <functioncall functionName="WMSZ_BOTTOMRIGHT"/>
+    <functioncall functionName="WM_COPYDATA"/>
+    <functioncall functionName="WM_COPYGLOBALDATA"/>
+    <functioncall functionName="WM_DROPFILES"/>
+    <functioncall functionName="WM_NULL"/>
+    <functioncall functionName="WM_SETICON"/>
+    <functioncall functionName="WNDPROC"/>
+    <functioncall functionName="WS_CLIPCHILDREN"/>
+    <functioncall functionName="WS_EX_APPWINDOW"/>
+    <functioncall functionName="WS_EX_LAYERED"/>
+    <functioncall functionName="WS_MINIMIZEBOX"/>
+    <functioncall functionName="WS_POPUP"/>
+    <functioncall functionName="WS_THICKFRAME"/>
+    <functioncall functionName="WaitMessage"/>
+    <functioncall functionName="WindowFromPoint"/>
+    <functioncall functionName="_GLFW_WNDCLASSNAME"/>
+    <functioncall functionName="_WIN32_WINNT_VISTA"/>
+    <functioncall functionName="_WIN32_WINNT_WIN7"/>
+    <functioncall functionName="_WIN32_WINNT_WINXP"/>
+    <functioncall functionName="_glfwCenterCursorInContentArea"/>
+    <functioncall functionName="_glfwCreateContextEGL"/>
+    <functioncall functionName="_glfwCreateContextOSMesa"/>
+    <functioncall functionName="_glfwCreateContextWGL"/>
+    <functioncall functionName="_glfwCreateUTF8FromWideStringWin32"/>
+    <functioncall functionName="_glfwCreateWideStringFromUTF8Win32"/>
+    <functioncall functionName="_glfwDetectJoystickConnectionWin32"/>
+    <functioncall functionName="_glfwDetectJoystickDisconnectionWin32"/>
+    <functioncall functionName="_glfwGetMonitorContentScaleWin32"/>
+    <functioncall functionName="_glfwGetVulkanResultString"/>
+    <functioncall functionName="_glfwInitEGL"/>
+    <functioncall functionName="_glfwInitOSMesa"/>
+    <functioncall functionName="_glfwInitWGL"/>
+    <functioncall functionName="_glfwInputChar"/>
+    <functioncall functionName="_glfwInputCursorEnter"/>
+    <functioncall functionName="_glfwInputCursorPos"/>
+    <functioncall functionName="_glfwInputDrop"/>
+    <functioncall functionName="_glfwInputError"/>
+    <functioncall functionName="_glfwInputErrorWin32"/>
+    <functioncall functionName="_glfwInputFramebufferSize"/>
+    <functioncall functionName="_glfwInputKey"/>
+    <functioncall functionName="_glfwInputMonitorWindow"/>
+    <functioncall functionName="_glfwInputMouseClick"/>
+    <functioncall functionName="_glfwInputScroll"/>
+    <functioncall functionName="_glfwInputWindowCloseRequest"/>
+    <functioncall functionName="_glfwInputWindowContentScale"/>
+    <functioncall functionName="_glfwInputWindowDamage"/>
+    <functioncall functionName="_glfwInputWindowFocus"/>
+    <functioncall functionName="_glfwInputWindowIconify"/>
+    <functioncall functionName="_glfwInputWindowMaximize"/>
+    <functioncall functionName="_glfwInputWindowMonitor"/>
+    <functioncall functionName="_glfwInputWindowPos"/>
+    <functioncall functionName="_glfwInputWindowSize"/>
+    <functioncall functionName="_glfwIsWindows10AnniversaryUpdateOrGreaterWin32"/>
+    <functioncall functionName="_glfwIsWindows10BuildOrGreaterWin32"/>
+    <functioncall functionName="_glfwIsWindows10CreatorsUpdateOrGreaterWin32"/>
+    <functioncall functionName="_glfwIsWindowsVersionOrGreaterWin32"/>
+    <functioncall functionName="_glfwPlatformFocusWindow"/>
+    <functioncall functionName="_glfwPlatformGetCursorPos"/>
+    <functioncall functionName="_glfwPlatformGetMonitorPos"/>
+    <functioncall functionName="_glfwPlatformGetVideoMode"/>
+    <functioncall functionName="_glfwPlatformGetWindowContentScale"/>
+    <functioncall functionName="_glfwPlatformGetWindowSize"/>
+    <functioncall functionName="_glfwPlatformIconifyWindow"/>
+    <functioncall functionName="_glfwPlatformPollEvents"/>
+    <functioncall functionName="_glfwPlatformSetCursorPos"/>
+    <functioncall functionName="_glfwPlatformShowWindow"/>
+    <functioncall functionName="_glfwPlatformWindowFocused"/>
+    <functioncall functionName="_glfwPollMonitorsWin32"/>
+    <functioncall functionName="_glfwRestoreVideoModeWin32"/>
+    <functioncall functionName="_glfwSetVideoModeWin32"/>
+    <functioncall functionName="_glfwUpdateKeyNamesWin32"/>
+    <functioncall functionName="abs"/>
+    <functioncall functionName="acquireMonitor"/>
+    <functioncall functionName="acquiredMonitorCount"/>
+    <functioncall functionName="action"/>
+    <functioncall functionName="after"/>
+    <functioncall functionName="allocator"/>
+    <functioncall functionName="alpha"/>
+    <functioncall functionName="applyAspectRatio"/>
+    <functioncall functionName="area"/>
+    <functioncall functionName="autoIconify"/>
+    <functioncall functionName="bb"/>
+    <functioncall functionName="bi"/>
+    <functioncall functionName="bigIcon"/>
+    <functioncall functionName="bigImage"/>
+    <functioncall functionName="bottom"/>
+    <functioncall functionName="bottomDecoration"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="button"/>
+    <functioncall functionName="calloc"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="characterCount"/>
+    <functioncall functionName="chooseImage"/>
+    <functioncall functionName="clipRect"/>
+    <functioncall functionName="clipboardString"/>
+    <functioncall functionName="color"/>
+    <functioncall functionName="contentHeight"/>
+    <functioncall functionName="contentWidth"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="createIcon"/>
+    <functioncall functionName="createNativeWindow"/>
+    <functioncall functionName="ctxconfig"/>
+    <functioncall functionName="currDiff"/>
+    <functioncall functionName="cursor"/>
+    <functioncall functionName="cursorInContentArea"/>
+    <functioncall functionName="cursorTracked"/>
+    <functioncall functionName="dc"/>
+    <functioncall functionName="decorated"/>
+    <functioncall functionName="denom"/>
+    <functioncall functionName="destroy"/>
+    <functioncall functionName="device"/>
+    <functioncall functionName="disableCursor"/>
+    <functioncall functionName="disableRawMouseMotion"/>
+    <functioncall functionName="disabledCursorWindow"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="dpi"/>
+    <functioncall functionName="drop"/>
+    <functioncall functionName="dx"/>
+    <functioncall functionName="dy"/>
+    <functioncall functionName="enableCursor"/>
+    <functioncall functionName="enableRawMouseMotion"/>
+    <functioncall functionName="enabled"/>
+    <functioncall functionName="err"/>
+    <functioncall functionName="exStyle"/>
+    <functioncall functionName="fbconfig"/>
+    <functioncall functionName="fitToMonitor"/>
+    <functioncall functionName="flags"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="floating"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="frameAction"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="fullHeight"/>
+    <functioncall functionName="fullWidth"/>
+    <functioncall functionName="getFullWindowSize"/>
+    <functioncall functionName="getKeyMods"/>
+    <functioncall functionName="getWindowExStyle"/>
+    <functioncall functionName="getWindowStyle"/>
+    <functioncall functionName="hIcon"/>
+    <functioncall functionName="hWnd"/>
+    <functioncall functionName="handle"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="helperWindowHandle"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="icon"/>
+    <functioncall functionName="iconified"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="ii"/>
+    <functioncall functionName="image"/>
+    <functioncall functionName="images"/>
+    <functioncall functionName="initialized"/>
+    <functioncall functionName="instance"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="key"/>
+    <functioncall functionName="keymenu"/>
+    <functioncall functionName="lLastX"/>
+    <functioncall functionName="lLastY"/>
+    <functioncall functionName="lParam"/>
+    <functioncall functionName="lastCursorPosX"/>
+    <functioncall functionName="lastCursorPosY"/>
+    <functioncall functionName="left"/>
+    <functioncall functionName="leftDecoration"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mainWindow"/>
+    <functioncall functionName="mask"/>
+    <functioncall functionName="maximized"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="mh"/>
+    <functioncall functionName="mi"/>
+    <functioncall functionName="mode"/>
+    <functioncall functionName="mods"/>
+    <functioncall functionName="monitor"/>
+    <functioncall functionName="mouseTrailSize"/>
+    <functioncall functionName="msg"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="object"/>
+    <functioncall functionName="paths"/>
+    <functioncall functionName="pixels"/>
+    <functioncall functionName="plain"/>
+    <functioncall functionName="pos"/>
+    <functioncall functionName="pt"/>
+    <functioncall functionName="queuefamily"/>
+    <functioncall functionName="ratio"/>
+    <functioncall functionName="rawInput"/>
+    <functioncall functionName="rawInputSize"/>
+    <functioncall functionName="rawMouseMotion"/>
+    <functioncall functionName="rect"/>
+    <functioncall functionName="region"/>
+    <functioncall functionName="releaseMonitor"/>
+    <functioncall functionName="resizable"/>
+    <functioncall functionName="restoreCursorPosX"/>
+    <functioncall functionName="restoreCursorPosY"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="ri"/>
+    <functioncall functionName="rid"/>
+    <functioncall functionName="right"/>
+    <functioncall functionName="rightDecoration"/>
+    <functioncall functionName="scaleToMonitor"/>
+    <functioncall functionName="scancode"/>
+    <functioncall functionName="sci"/>
+    <functioncall functionName="short"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="smallIcon"/>
+    <functioncall functionName="smallImage"/>
+    <functioncall functionName="source"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="style"/>
+    <functioncall functionName="surface"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="target"/>
+    <functioncall functionName="title"/>
+    <functioncall functionName="tme"/>
+    <functioncall functionName="top"/>
+    <functioncall functionName="topDecoration"/>
+    <functioncall functionName="transparent"/>
+    <functioncall functionName="uMsg"/>
+    <functioncall functionName="updateClipRect"/>
+    <functioncall functionName="updateCursorImage"/>
+    <functioncall functionName="updateFramebufferTransparency"/>
+    <functioncall functionName="updateWindowStyles"/>
+    <functioncall functionName="videoMode"/>
+    <functioncall functionName="vk"/>
+    <functioncall functionName="vkCreateWin32SurfaceKHR"/>
+    <functioncall functionName="vkGetPhysicalDeviceWin32PresentationSupportKHR"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="wParam"/>
+    <functioncall functionName="wc"/>
+    <functioncall functionName="wchar_t"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wideTitle"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="window"/>
+    <functioncall functionName="windowListHead"/>
+    <functioncall functionName="windowProc"/>
+    <functioncall functionName="wndconfig"/>
+    <functioncall functionName="wp"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="xhot"/>
+    <functioncall functionName="xoff"/>
+    <functioncall functionName="xpos"/>
+    <functioncall functionName="xscale"/>
+    <functioncall functionName="y"/>
+    <functioncall functionName="yhot"/>
+    <functioncall functionName="yoff"/>
+    <functioncall functionName="ypos"/>
+    <functioncall functionName="yscale"/>
+  </FileInfo>
+</analyzerinfo>

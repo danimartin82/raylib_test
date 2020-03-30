@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="160248816">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 45 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\external\glfw\src\posix_time.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="_glfwInitTimerPOSIX" lineNumber="45"/>
+    <functiondecl functionName="_glfwPlatformGetTimerValue" lineNumber="68"/>
+    <functiondecl functionName="_glfwPlatformGetTimerFrequency" lineNumber="86"/>
+    <functiondecl functionName="_glfwInitTimerPOSIX" lineNumber="45"/>
+    <functiondecl functionName="_glfwPlatformGetTimerValue" lineNumber="68"/>
+    <functiondecl functionName="_glfwPlatformGetTimerFrequency" lineNumber="86"/>
+    <functiondecl functionName="_glfwInitTimerPOSIX" lineNumber="45"/>
+    <functiondecl functionName="_glfwPlatformGetTimerValue" lineNumber="68"/>
+    <functiondecl functionName="_glfwPlatformGetTimerFrequency" lineNumber="86"/>
+    <functiondecl functionName="_glfwInitTimerPOSIX" lineNumber="45"/>
+    <functiondecl functionName="_glfwPlatformGetTimerValue" lineNumber="68"/>
+    <functiondecl functionName="_glfwPlatformGetTimerFrequency" lineNumber="86"/>
+    <functiondecl functionName="_glfwInitTimerPOSIX" lineNumber="45"/>
+    <functiondecl functionName="_glfwPlatformGetTimerValue" lineNumber="68"/>
+    <functiondecl functionName="_glfwPlatformGetTimerFrequency" lineNumber="86"/>
+    <functioncall functionName="MDT_EFFECTIVE_DPI"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="bottomDecoration"/>
+    <functioncall functionName="frequency"/>
+    <functioncall functionName="gettimeofday"/>
+    <functioncall functionName="leftDecoration"/>
+    <functioncall functionName="mainWindow"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rightDecoration"/>
+    <functioncall functionName="topDecoration"/>
+    <functioncall functionName="tv"/>
+    <functioncall functionName="tv_usec"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

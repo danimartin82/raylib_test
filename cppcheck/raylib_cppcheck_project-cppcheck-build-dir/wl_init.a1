@@ -1,0 +1,680 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1651605820">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 46 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\external\glfw\src\wl_init.c" line="0" column="0"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;cp&apos; can be reduced." verbose="The scope of the variable &apos;cp&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\wl_init.c" file="C:\GitHub\raylib\src\external\glfw\src\wl_init.c" line="532" column="10"/>
+            <symbol>cp</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;shouldRepeat&apos; can be reduced." verbose="The scope of the variable &apos;shouldRepeat&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\wl_init.c" file="C:\GitHub\raylib\src\external\glfw\src\wl_init.c" line="568" column="14"/>
+            <symbol>shouldRepeat</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;monitor&apos; can be reduced." verbose="The scope of the variable &apos;monitor&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\wl_init.c" file="C:\GitHub\raylib\src\external\glfw\src\wl_init.c" line="876" column="19"/>
+            <symbol>monitor</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;cursorTheme&apos; can be reduced." verbose="The scope of the variable &apos;cursorTheme&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\wl_init.c" file="C:\GitHub\raylib\src\external\glfw\src\wl_init.c" line="1036" column="17"/>
+            <symbol>cursorTheme</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;cursorSizeStr&apos; can be reduced." verbose="The scope of the variable &apos;cursorSizeStr&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\wl_init.c" file="C:\GitHub\raylib\src\external\glfw\src\wl_init.c" line="1037" column="17"/>
+            <symbol>cursorSizeStr</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;cursorSizeLong&apos; can be reduced." verbose="The scope of the variable &apos;cursorSizeLong&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\wl_init.c" file="C:\GitHub\raylib\src\external\glfw\src\wl_init.c" line="1039" column="10"/>
+            <symbol>cursorSizeLong</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;cursorSize&apos; can be reduced." verbose="The scope of the variable &apos;cursorSize&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\wl_init.c" file="C:\GitHub\raylib\src\external\glfw\src\wl_init.c" line="1040" column="9"/>
+            <symbol>cursorSize</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;locale&apos; is assigned a value that is never used." verbose="Variable &apos;locale&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\wl_init.c" file="C:\GitHub\raylib\src\external\glfw\src\wl_init.c" line="418" column="16"/>
+            <symbol>locale</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:52:21" call-funcname="findWindowFromDecorationSurface" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="101" col="49" call-argexpr="&focus" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:727:6" call-funcname="_glfwInputCursorEnter" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="130" col="26" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:725:6" call-funcname="_glfwInputMouseClick" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="316" col="25" call-argexpr="state==WL_POINTER_BUTTON_STATE_PRESSED?1:0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:52:21" call-funcname="findWindowFromDecorationSurface" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="474" col="49" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:708:6" call-funcname="_glfwInputWindowFocus" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="496" col="26" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="579" col="18" call-argexpr="action" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\wl_init.c" line="576" col="13" info="Assignment 'action=state==WL_KEYBOARD_KEY_STATE_PRESSED?1:0', assigned value is 0"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:734:6" call-funcname="_glfwInputMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="883" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:722:6" call-funcname="_glfwInputChar" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="551" col="13" my-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:529:17" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:134:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="143" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:783:13" my-argnr="4" my-argname="interface" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="789" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:783:13" my-argnr="4" my-argname="interface" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="789" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:52:21" call-funcname="findWindowFromDecorationSurface" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="101" col="49" call-argexpr="&focus" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:727:6" call-funcname="_glfwInputCursorEnter" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="130" col="26" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:725:6" call-funcname="_glfwInputMouseClick" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="316" col="25" call-argexpr="state==WL_POINTER_BUTTON_STATE_PRESSED?1:0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:52:21" call-funcname="findWindowFromDecorationSurface" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="474" col="49" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:708:6" call-funcname="_glfwInputWindowFocus" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="496" col="26" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="579" col="18" call-argexpr="action" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\wl_init.c" line="576" col="13" info="Assignment 'action=state==WL_KEYBOARD_KEY_STATE_PRESSED?1:0', assigned value is 0"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:734:6" call-funcname="_glfwInputMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="883" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:722:6" call-funcname="_glfwInputChar" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="551" col="13" my-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:529:17" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:134:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="143" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:783:13" my-argnr="4" my-argname="interface" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="789" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:783:13" my-argnr="4" my-argname="interface" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="789" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:52:21" call-funcname="findWindowFromDecorationSurface" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="101" col="49" call-argexpr="&focus" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:727:6" call-funcname="_glfwInputCursorEnter" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="130" col="26" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:725:6" call-funcname="_glfwInputMouseClick" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="316" col="25" call-argexpr="state==WL_POINTER_BUTTON_STATE_PRESSED?1:0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:52:21" call-funcname="findWindowFromDecorationSurface" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="474" col="49" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:708:6" call-funcname="_glfwInputWindowFocus" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="496" col="26" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="579" col="18" call-argexpr="action" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\wl_init.c" line="576" col="13" info="Assignment 'action=state==WL_KEYBOARD_KEY_STATE_PRESSED?1:0', assigned value is 0"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:734:6" call-funcname="_glfwInputMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="883" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:722:6" call-funcname="_glfwInputChar" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="551" col="13" my-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:529:17" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:134:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="143" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:783:13" my-argnr="4" my-argname="interface" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="789" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:783:13" my-argnr="4" my-argname="interface" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="789" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:52:21" call-funcname="findWindowFromDecorationSurface" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="101" col="49" call-argexpr="&focus" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:727:6" call-funcname="_glfwInputCursorEnter" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="130" col="26" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:725:6" call-funcname="_glfwInputMouseClick" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="316" col="25" call-argexpr="state==WL_POINTER_BUTTON_STATE_PRESSED?1:0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:52:21" call-funcname="findWindowFromDecorationSurface" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="474" col="49" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:708:6" call-funcname="_glfwInputWindowFocus" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="496" col="26" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="579" col="18" call-argexpr="action" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\wl_init.c" line="576" col="13" info="Assignment 'action=state==WL_KEYBOARD_KEY_STATE_PRESSED?1:0', assigned value is 0"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:734:6" call-funcname="_glfwInputMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="883" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:722:6" call-funcname="_glfwInputChar" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="551" col="13" my-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:529:17" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:134:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="143" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:783:13" my-argnr="4" my-argname="interface" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="789" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:783:13" my-argnr="4" my-argname="interface" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="789" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:52:21" call-funcname="findWindowFromDecorationSurface" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="101" col="49" call-argexpr="&focus" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:727:6" call-funcname="_glfwInputCursorEnter" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="130" col="26" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:725:6" call-funcname="_glfwInputMouseClick" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="316" col="25" call-argexpr="state==WL_POINTER_BUTTON_STATE_PRESSED?1:0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:52:21" call-funcname="findWindowFromDecorationSurface" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="474" col="49" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:708:6" call-funcname="_glfwInputWindowFocus" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="496" col="26" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:720:6" call-funcname="_glfwInputKey" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="579" col="18" call-argexpr="action" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\wl_init.c" line="576" col="13" info="Assignment 'action=state==WL_KEYBOARD_KEY_STATE_PRESSED?1:0', assigned value is 0"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:734:6" call-funcname="_glfwInputMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="883" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:722:6" call-funcname="_glfwInputChar" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="551" col="13" my-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:529:17" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:134:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="143" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:783:13" my-argnr="4" my-argname="interface" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="789" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_init.c:783:13" my-argnr="4" my-argname="interface" file="C:/GitHub/raylib/src/external/glfw/src/wl_init.c" line="789" col="16" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="min" lineNumber="47"/>
+    <functiondecl functionName="findWindowFromDecorationSurface" lineNumber="52"/>
+    <functiondecl functionName="pointerHandleEnter" lineNumber="86"/>
+    <functiondecl functionName="pointerHandleLeave" lineNumber="116"/>
+    <functiondecl functionName="setCursor" lineNumber="134"/>
+    <functiondecl functionName="pointerHandleMotion" lineNumber="179"/>
+    <functiondecl functionName="pointerHandleButton" lineNumber="238"/>
+    <functiondecl functionName="pointerHandleAxis" lineNumber="324"/>
+    <functiondecl functionName="keyboardHandleKeymap" lineNumber="359"/>
+    <functiondecl functionName="keyboardHandleEnter" lineNumber="461"/>
+    <functiondecl functionName="keyboardHandleLeave" lineNumber="484"/>
+    <functiondecl functionName="toGLFWKeyCode" lineNumber="499"/>
+    <functiondecl functionName="inputChar" lineNumber="529"/>
+    <functiondecl functionName="keyboardHandleKey" lineNumber="558"/>
+    <functiondecl functionName="keyboardHandleModifiers" lineNumber="601"/>
+    <functiondecl functionName="seatHandleCapabilities" lineNumber="670"/>
+    <functiondecl functionName="seatHandleName" lineNumber="697"/>
+    <functiondecl functionName="dataOfferHandleOffer" lineNumber="708"/>
+    <functiondecl functionName="dataDeviceHandleDataOffer" lineNumber="718"/>
+    <functiondecl functionName="dataDeviceHandleEnter" lineNumber="729"/>
+    <functiondecl functionName="dataDeviceHandleLeave" lineNumber="739"/>
+    <functiondecl functionName="dataDeviceHandleMotion" lineNumber="744"/>
+    <functiondecl functionName="dataDeviceHandleDrop" lineNumber="752"/>
+    <functiondecl functionName="dataDeviceHandleSelection" lineNumber="757"/>
+    <functiondecl functionName="wmBaseHandlePing" lineNumber="772"/>
+    <functiondecl functionName="registryHandleGlobal" lineNumber="783"/>
+    <functiondecl functionName="registryHandleGlobalRemove" lineNumber="871"/>
+    <functiondecl functionName="createKeyTables" lineNumber="897"/>
+    <functiondecl functionName="_glfwPlatformInit" lineNumber="1034"/>
+    <functiondecl functionName="_glfwPlatformTerminate" lineNumber="1214"/>
+    <functiondecl functionName="_glfwPlatformGetVersionString" lineNumber="1305"/>
+    <functiondecl functionName="min" lineNumber="47"/>
+    <functiondecl functionName="findWindowFromDecorationSurface" lineNumber="52"/>
+    <functiondecl functionName="pointerHandleEnter" lineNumber="86"/>
+    <functiondecl functionName="pointerHandleLeave" lineNumber="116"/>
+    <functiondecl functionName="setCursor" lineNumber="134"/>
+    <functiondecl functionName="pointerHandleMotion" lineNumber="179"/>
+    <functiondecl functionName="pointerHandleButton" lineNumber="238"/>
+    <functiondecl functionName="pointerHandleAxis" lineNumber="324"/>
+    <functiondecl functionName="keyboardHandleKeymap" lineNumber="359"/>
+    <functiondecl functionName="keyboardHandleEnter" lineNumber="461"/>
+    <functiondecl functionName="keyboardHandleLeave" lineNumber="484"/>
+    <functiondecl functionName="toGLFWKeyCode" lineNumber="499"/>
+    <functiondecl functionName="inputChar" lineNumber="529"/>
+    <functiondecl functionName="keyboardHandleKey" lineNumber="558"/>
+    <functiondecl functionName="keyboardHandleModifiers" lineNumber="601"/>
+    <functiondecl functionName="seatHandleCapabilities" lineNumber="670"/>
+    <functiondecl functionName="seatHandleName" lineNumber="697"/>
+    <functiondecl functionName="dataOfferHandleOffer" lineNumber="708"/>
+    <functiondecl functionName="dataDeviceHandleDataOffer" lineNumber="718"/>
+    <functiondecl functionName="dataDeviceHandleEnter" lineNumber="729"/>
+    <functiondecl functionName="dataDeviceHandleLeave" lineNumber="739"/>
+    <functiondecl functionName="dataDeviceHandleMotion" lineNumber="744"/>
+    <functiondecl functionName="dataDeviceHandleDrop" lineNumber="752"/>
+    <functiondecl functionName="dataDeviceHandleSelection" lineNumber="757"/>
+    <functiondecl functionName="wmBaseHandlePing" lineNumber="772"/>
+    <functiondecl functionName="registryHandleGlobal" lineNumber="783"/>
+    <functiondecl functionName="registryHandleGlobalRemove" lineNumber="871"/>
+    <functiondecl functionName="createKeyTables" lineNumber="897"/>
+    <functiondecl functionName="_glfwPlatformInit" lineNumber="1034"/>
+    <functiondecl functionName="_glfwPlatformTerminate" lineNumber="1214"/>
+    <functiondecl functionName="_glfwPlatformGetVersionString" lineNumber="1305"/>
+    <functiondecl functionName="min" lineNumber="47"/>
+    <functiondecl functionName="findWindowFromDecorationSurface" lineNumber="52"/>
+    <functiondecl functionName="pointerHandleEnter" lineNumber="86"/>
+    <functiondecl functionName="pointerHandleLeave" lineNumber="116"/>
+    <functiondecl functionName="setCursor" lineNumber="134"/>
+    <functiondecl functionName="pointerHandleMotion" lineNumber="179"/>
+    <functiondecl functionName="pointerHandleButton" lineNumber="238"/>
+    <functiondecl functionName="pointerHandleAxis" lineNumber="324"/>
+    <functiondecl functionName="keyboardHandleKeymap" lineNumber="359"/>
+    <functiondecl functionName="keyboardHandleEnter" lineNumber="461"/>
+    <functiondecl functionName="keyboardHandleLeave" lineNumber="484"/>
+    <functiondecl functionName="toGLFWKeyCode" lineNumber="499"/>
+    <functiondecl functionName="inputChar" lineNumber="529"/>
+    <functiondecl functionName="keyboardHandleKey" lineNumber="558"/>
+    <functiondecl functionName="keyboardHandleModifiers" lineNumber="601"/>
+    <functiondecl functionName="seatHandleCapabilities" lineNumber="670"/>
+    <functiondecl functionName="seatHandleName" lineNumber="697"/>
+    <functiondecl functionName="dataOfferHandleOffer" lineNumber="708"/>
+    <functiondecl functionName="dataDeviceHandleDataOffer" lineNumber="718"/>
+    <functiondecl functionName="dataDeviceHandleEnter" lineNumber="729"/>
+    <functiondecl functionName="dataDeviceHandleLeave" lineNumber="739"/>
+    <functiondecl functionName="dataDeviceHandleMotion" lineNumber="744"/>
+    <functiondecl functionName="dataDeviceHandleDrop" lineNumber="752"/>
+    <functiondecl functionName="dataDeviceHandleSelection" lineNumber="757"/>
+    <functiondecl functionName="wmBaseHandlePing" lineNumber="772"/>
+    <functiondecl functionName="registryHandleGlobal" lineNumber="783"/>
+    <functiondecl functionName="registryHandleGlobalRemove" lineNumber="871"/>
+    <functiondecl functionName="createKeyTables" lineNumber="897"/>
+    <functiondecl functionName="_glfwPlatformInit" lineNumber="1034"/>
+    <functiondecl functionName="_glfwPlatformTerminate" lineNumber="1214"/>
+    <functiondecl functionName="_glfwPlatformGetVersionString" lineNumber="1305"/>
+    <functiondecl functionName="min" lineNumber="47"/>
+    <functiondecl functionName="findWindowFromDecorationSurface" lineNumber="52"/>
+    <functiondecl functionName="pointerHandleEnter" lineNumber="86"/>
+    <functiondecl functionName="pointerHandleLeave" lineNumber="116"/>
+    <functiondecl functionName="setCursor" lineNumber="134"/>
+    <functiondecl functionName="pointerHandleMotion" lineNumber="179"/>
+    <functiondecl functionName="pointerHandleButton" lineNumber="238"/>
+    <functiondecl functionName="pointerHandleAxis" lineNumber="324"/>
+    <functiondecl functionName="keyboardHandleKeymap" lineNumber="359"/>
+    <functiondecl functionName="keyboardHandleEnter" lineNumber="461"/>
+    <functiondecl functionName="keyboardHandleLeave" lineNumber="484"/>
+    <functiondecl functionName="toGLFWKeyCode" lineNumber="499"/>
+    <functiondecl functionName="inputChar" lineNumber="529"/>
+    <functiondecl functionName="keyboardHandleKey" lineNumber="558"/>
+    <functiondecl functionName="keyboardHandleModifiers" lineNumber="601"/>
+    <functiondecl functionName="seatHandleCapabilities" lineNumber="670"/>
+    <functiondecl functionName="seatHandleName" lineNumber="697"/>
+    <functiondecl functionName="dataOfferHandleOffer" lineNumber="708"/>
+    <functiondecl functionName="dataDeviceHandleDataOffer" lineNumber="718"/>
+    <functiondecl functionName="dataDeviceHandleEnter" lineNumber="729"/>
+    <functiondecl functionName="dataDeviceHandleLeave" lineNumber="739"/>
+    <functiondecl functionName="dataDeviceHandleMotion" lineNumber="744"/>
+    <functiondecl functionName="dataDeviceHandleDrop" lineNumber="752"/>
+    <functiondecl functionName="dataDeviceHandleSelection" lineNumber="757"/>
+    <functiondecl functionName="wmBaseHandlePing" lineNumber="772"/>
+    <functiondecl functionName="registryHandleGlobal" lineNumber="783"/>
+    <functiondecl functionName="registryHandleGlobalRemove" lineNumber="871"/>
+    <functiondecl functionName="createKeyTables" lineNumber="897"/>
+    <functiondecl functionName="_glfwPlatformInit" lineNumber="1034"/>
+    <functiondecl functionName="_glfwPlatformTerminate" lineNumber="1214"/>
+    <functiondecl functionName="_glfwPlatformGetVersionString" lineNumber="1305"/>
+    <functiondecl functionName="min" lineNumber="47"/>
+    <functiondecl functionName="findWindowFromDecorationSurface" lineNumber="52"/>
+    <functiondecl functionName="pointerHandleEnter" lineNumber="86"/>
+    <functiondecl functionName="pointerHandleLeave" lineNumber="116"/>
+    <functiondecl functionName="setCursor" lineNumber="134"/>
+    <functiondecl functionName="pointerHandleMotion" lineNumber="179"/>
+    <functiondecl functionName="pointerHandleButton" lineNumber="238"/>
+    <functiondecl functionName="pointerHandleAxis" lineNumber="324"/>
+    <functiondecl functionName="keyboardHandleKeymap" lineNumber="359"/>
+    <functiondecl functionName="keyboardHandleEnter" lineNumber="461"/>
+    <functiondecl functionName="keyboardHandleLeave" lineNumber="484"/>
+    <functiondecl functionName="toGLFWKeyCode" lineNumber="499"/>
+    <functiondecl functionName="inputChar" lineNumber="529"/>
+    <functiondecl functionName="keyboardHandleKey" lineNumber="558"/>
+    <functiondecl functionName="keyboardHandleModifiers" lineNumber="601"/>
+    <functiondecl functionName="seatHandleCapabilities" lineNumber="670"/>
+    <functiondecl functionName="seatHandleName" lineNumber="697"/>
+    <functiondecl functionName="dataOfferHandleOffer" lineNumber="708"/>
+    <functiondecl functionName="dataDeviceHandleDataOffer" lineNumber="718"/>
+    <functiondecl functionName="dataDeviceHandleEnter" lineNumber="729"/>
+    <functiondecl functionName="dataDeviceHandleLeave" lineNumber="739"/>
+    <functiondecl functionName="dataDeviceHandleMotion" lineNumber="744"/>
+    <functiondecl functionName="dataDeviceHandleDrop" lineNumber="752"/>
+    <functiondecl functionName="dataDeviceHandleSelection" lineNumber="757"/>
+    <functiondecl functionName="wmBaseHandlePing" lineNumber="772"/>
+    <functiondecl functionName="registryHandleGlobal" lineNumber="783"/>
+    <functiondecl functionName="registryHandleGlobalRemove" lineNumber="871"/>
+    <functiondecl functionName="createKeyTables" lineNumber="897"/>
+    <functiondecl functionName="_glfwPlatformInit" lineNumber="1034"/>
+    <functiondecl functionName="_glfwPlatformTerminate" lineNumber="1214"/>
+    <functiondecl functionName="_glfwPlatformGetVersionString" lineNumber="1305"/>
+    <functioncall functionName="BTN_LEFT"/>
+    <functioncall functionName="CLOCK_MONOTONIC"/>
+    <functioncall functionName="FreeLibrary"/>
+    <functioncall functionName="GetProcAddress"/>
+    <functioncall functionName="KEY_0"/>
+    <functioncall functionName="KEY_1"/>
+    <functioncall functionName="KEY_2"/>
+    <functioncall functionName="KEY_3"/>
+    <functioncall functionName="KEY_4"/>
+    <functioncall functionName="KEY_5"/>
+    <functioncall functionName="KEY_6"/>
+    <functioncall functionName="KEY_7"/>
+    <functioncall functionName="KEY_8"/>
+    <functioncall functionName="KEY_9"/>
+    <functioncall functionName="KEY_A"/>
+    <functioncall functionName="KEY_APOSTROPHE"/>
+    <functioncall functionName="KEY_B"/>
+    <functioncall functionName="KEY_BACKSLASH"/>
+    <functioncall functionName="KEY_BACKSPACE"/>
+    <functioncall functionName="KEY_C"/>
+    <functioncall functionName="KEY_CAPSLOCK"/>
+    <functioncall functionName="KEY_COMMA"/>
+    <functioncall functionName="KEY_D"/>
+    <functioncall functionName="KEY_DELETE"/>
+    <functioncall functionName="KEY_DOT"/>
+    <functioncall functionName="KEY_DOWN"/>
+    <functioncall functionName="KEY_E"/>
+    <functioncall functionName="KEY_END"/>
+    <functioncall functionName="KEY_ENTER"/>
+    <functioncall functionName="KEY_EQUAL"/>
+    <functioncall functionName="KEY_ESC"/>
+    <functioncall functionName="KEY_F"/>
+    <functioncall functionName="KEY_F1"/>
+    <functioncall functionName="KEY_F10"/>
+    <functioncall functionName="KEY_F11"/>
+    <functioncall functionName="KEY_F12"/>
+    <functioncall functionName="KEY_F13"/>
+    <functioncall functionName="KEY_F14"/>
+    <functioncall functionName="KEY_F15"/>
+    <functioncall functionName="KEY_F16"/>
+    <functioncall functionName="KEY_F17"/>
+    <functioncall functionName="KEY_F18"/>
+    <functioncall functionName="KEY_F19"/>
+    <functioncall functionName="KEY_F2"/>
+    <functioncall functionName="KEY_F20"/>
+    <functioncall functionName="KEY_F21"/>
+    <functioncall functionName="KEY_F22"/>
+    <functioncall functionName="KEY_F23"/>
+    <functioncall functionName="KEY_F24"/>
+    <functioncall functionName="KEY_F3"/>
+    <functioncall functionName="KEY_F4"/>
+    <functioncall functionName="KEY_F5"/>
+    <functioncall functionName="KEY_F6"/>
+    <functioncall functionName="KEY_F7"/>
+    <functioncall functionName="KEY_F8"/>
+    <functioncall functionName="KEY_F9"/>
+    <functioncall functionName="KEY_G"/>
+    <functioncall functionName="KEY_GRAVE"/>
+    <functioncall functionName="KEY_H"/>
+    <functioncall functionName="KEY_HOME"/>
+    <functioncall functionName="KEY_I"/>
+    <functioncall functionName="KEY_INSERT"/>
+    <functioncall functionName="KEY_J"/>
+    <functioncall functionName="KEY_K"/>
+    <functioncall functionName="KEY_KP0"/>
+    <functioncall functionName="KEY_KP1"/>
+    <functioncall functionName="KEY_KP2"/>
+    <functioncall functionName="KEY_KP3"/>
+    <functioncall functionName="KEY_KP4"/>
+    <functioncall functionName="KEY_KP5"/>
+    <functioncall functionName="KEY_KP6"/>
+    <functioncall functionName="KEY_KP7"/>
+    <functioncall functionName="KEY_KP8"/>
+    <functioncall functionName="KEY_KP9"/>
+    <functioncall functionName="KEY_KPCOMMA"/>
+    <functioncall functionName="KEY_KPDOT"/>
+    <functioncall functionName="KEY_KPENTER"/>
+    <functioncall functionName="KEY_KPEQUAL"/>
+    <functioncall functionName="KEY_KPMINUS"/>
+    <functioncall functionName="KEY_KPPLUS"/>
+    <functioncall functionName="KEY_KPSLASH"/>
+    <functioncall functionName="KEY_L"/>
+    <functioncall functionName="KEY_LEFT"/>
+    <functioncall functionName="KEY_LEFTALT"/>
+    <functioncall functionName="KEY_LEFTBRACE"/>
+    <functioncall functionName="KEY_LEFTCTRL"/>
+    <functioncall functionName="KEY_LEFTMETA"/>
+    <functioncall functionName="KEY_LEFTSHIFT"/>
+    <functioncall functionName="KEY_M"/>
+    <functioncall functionName="KEY_MENU"/>
+    <functioncall functionName="KEY_MINUS"/>
+    <functioncall functionName="KEY_N"/>
+    <functioncall functionName="KEY_NUMLOCK"/>
+    <functioncall functionName="KEY_O"/>
+    <functioncall functionName="KEY_P"/>
+    <functioncall functionName="KEY_PAGEDOWN"/>
+    <functioncall functionName="KEY_PAGEUP"/>
+    <functioncall functionName="KEY_PAUSE"/>
+    <functioncall functionName="KEY_PRINT"/>
+    <functioncall functionName="KEY_Q"/>
+    <functioncall functionName="KEY_R"/>
+    <functioncall functionName="KEY_RIGHT"/>
+    <functioncall functionName="KEY_RIGHTALT"/>
+    <functioncall functionName="KEY_RIGHTBRACE"/>
+    <functioncall functionName="KEY_RIGHTCTRL"/>
+    <functioncall functionName="KEY_RIGHTMETA"/>
+    <functioncall functionName="KEY_RIGHTSHIFT"/>
+    <functioncall functionName="KEY_S"/>
+    <functioncall functionName="KEY_SCROLLLOCK"/>
+    <functioncall functionName="KEY_SEMICOLON"/>
+    <functioncall functionName="KEY_SLASH"/>
+    <functioncall functionName="KEY_SPACE"/>
+    <functioncall functionName="KEY_T"/>
+    <functioncall functionName="KEY_TAB"/>
+    <functioncall functionName="KEY_U"/>
+    <functioncall functionName="KEY_UP"/>
+    <functioncall functionName="KEY_V"/>
+    <functioncall functionName="KEY_W"/>
+    <functioncall functionName="KEY_X"/>
+    <functioncall functionName="KEY_Y"/>
+    <functioncall functionName="KEY_Z"/>
+    <functioncall functionName="LoadLibraryA"/>
+    <functioncall functionName="MAP_SHARED"/>
+    <functioncall functionName="MDT_EFFECTIVE_DPI"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="PFN_wl_cursor_image_get_buffer"/>
+    <functioncall functionName="PFN_wl_cursor_theme_destroy"/>
+    <functioncall functionName="PFN_wl_cursor_theme_get_cursor"/>
+    <functioncall functionName="PFN_wl_cursor_theme_load"/>
+    <functioncall functionName="PFN_wl_egl_window_create"/>
+    <functioncall functionName="PFN_wl_egl_window_destroy"/>
+    <functioncall functionName="PFN_wl_egl_window_resize"/>
+    <functioncall functionName="PFN_xkb_context_new"/>
+    <functioncall functionName="PFN_xkb_context_unref"/>
+    <functioncall functionName="PFN_xkb_keymap_key_repeats"/>
+    <functioncall functionName="PFN_xkb_keymap_mod_get_index"/>
+    <functioncall functionName="PFN_xkb_keymap_new_from_string"/>
+    <functioncall functionName="PFN_xkb_keymap_unref"/>
+    <functioncall functionName="PFN_xkb_state_key_get_syms"/>
+    <functioncall functionName="PFN_xkb_state_new"/>
+    <functioncall functionName="PFN_xkb_state_serialize_mods"/>
+    <functioncall functionName="PFN_xkb_state_unref"/>
+    <functioncall functionName="PFN_xkb_state_update_mask"/>
+    <functioncall functionName="PROT_READ"/>
+    <functioncall functionName="RTLD_LOCAL"/>
+    <functioncall functionName="TFD_CLOEXEC"/>
+    <functioncall functionName="XDG_TOPLEVEL_RESIZE_EDGE_BOTTOM"/>
+    <functioncall functionName="XDG_TOPLEVEL_RESIZE_EDGE_BOTTOM_LEFT"/>
+    <functioncall functionName="XDG_TOPLEVEL_RESIZE_EDGE_BOTTOM_RIGHT"/>
+    <functioncall functionName="XDG_TOPLEVEL_RESIZE_EDGE_LEFT"/>
+    <functioncall functionName="XDG_TOPLEVEL_RESIZE_EDGE_NONE"/>
+    <functioncall functionName="XDG_TOPLEVEL_RESIZE_EDGE_RIGHT"/>
+    <functioncall functionName="XDG_TOPLEVEL_RESIZE_EDGE_TOP"/>
+    <functioncall functionName="XDG_TOPLEVEL_RESIZE_EDGE_TOP_LEFT"/>
+    <functioncall functionName="XDG_TOPLEVEL_RESIZE_EDGE_TOP_RIGHT"/>
+    <functioncall functionName="XKB_KEYMAP_FORMAT_TEXT_V1"/>
+    <functioncall functionName="XKB_STATE_LAYOUT_LATCHED"/>
+    <functioncall functionName="_GLFW_DECORATION_WIDTH"/>
+    <functioncall functionName="_glfwAddOutputWayland"/>
+    <functioncall functionName="_glfwInitTimerPOSIX"/>
+    <functioncall functionName="_glfwInputChar"/>
+    <functioncall functionName="_glfwInputCursorEnter"/>
+    <functioncall functionName="_glfwInputCursorPos"/>
+    <functioncall functionName="_glfwInputError"/>
+    <functioncall functionName="_glfwInputKey"/>
+    <functioncall functionName="_glfwInputMonitor"/>
+    <functioncall functionName="_glfwInputMouseClick"/>
+    <functioncall functionName="_glfwInputScroll"/>
+    <functioncall functionName="_glfwInputWindowFocus"/>
+    <functioncall functionName="_glfwKeySym2Unicode"/>
+    <functioncall functionName="_glfwPlatformSetCursor"/>
+    <functioncall functionName="_glfwTerminateEGL"/>
+    <functioncall functionName="action"/>
+    <functioncall functionName="altMask"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="bottomDecoration"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="capsLockMask"/>
+    <functioncall functionName="clipboardSendString"/>
+    <functioncall functionName="clipboardString"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="code"/>
+    <functioncall functionName="compositor"/>
+    <functioncall functionName="compositorVersion"/>
+    <functioncall functionName="context"/>
+    <functioncall functionName="context_new"/>
+    <functioncall functionName="context_unref"/>
+    <functioncall functionName="controlMask"/>
+    <functioncall functionName="cp"/>
+    <functioncall functionName="createKeyTables"/>
+    <functioncall functionName="currentCursor"/>
+    <functioncall functionName="cursor"/>
+    <functioncall functionName="cursorName"/>
+    <functioncall functionName="cursorPosX"/>
+    <functioncall functionName="cursorPosY"/>
+    <functioncall functionName="cursorSize"/>
+    <functioncall functionName="cursorSizeEnd"/>
+    <functioncall functionName="cursorSizeLong"/>
+    <functioncall functionName="cursorSizeStr"/>
+    <functioncall functionName="cursorSurface"/>
+    <functioncall functionName="cursorTheme"/>
+    <functioncall functionName="cursorThemeHiDPI"/>
+    <functioncall functionName="cursorTimerfd"/>
+    <functioncall functionName="dataDevice"/>
+    <functioncall functionName="dataDeviceHandleDataOffer"/>
+    <functioncall functionName="dataDeviceHandleDrop"/>
+    <functioncall functionName="dataDeviceHandleEnter"/>
+    <functioncall functionName="dataDeviceHandleLeave"/>
+    <functioncall functionName="dataDeviceHandleMotion"/>
+    <functioncall functionName="dataDeviceHandleSelection"/>
+    <functioncall functionName="dataDeviceListener"/>
+    <functioncall functionName="dataDeviceManager"/>
+    <functioncall functionName="dataOffer"/>
+    <functioncall functionName="dataOfferHandleOffer"/>
+    <functioncall functionName="dataOfferListener"/>
+    <functioncall functionName="dataSource"/>
+    <functioncall functionName="decorationManager"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="display"/>
+    <functioncall functionName="dlclose"/>
+    <functioncall functionName="dlopen"/>
+    <functioncall functionName="dlsym"/>
+    <functioncall functionName="edges"/>
+    <functioncall functionName="fd"/>
+    <functioncall functionName="findWindowFromDecorationSurface"/>
+    <functioncall functionName="focus"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="getenv"/>
+    <functioncall functionName="glfwButton"/>
+    <functioncall functionName="group"/>
+    <functioncall functionName="handle"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="idleInhibitManager"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="image"/>
+    <functioncall functionName="image_get_buffer"/>
+    <functioncall functionName="inputChar"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="interface"/>
+    <functioncall functionName="key"/>
+    <functioncall functionName="keyCode"/>
+    <functioncall functionName="keyboard"/>
+    <functioncall functionName="keyboardFocus"/>
+    <functioncall functionName="keyboardHandleEnter"/>
+    <functioncall functionName="keyboardHandleKey"/>
+    <functioncall functionName="keyboardHandleKeymap"/>
+    <functioncall functionName="keyboardHandleLeave"/>
+    <functioncall functionName="keyboardHandleModifiers"/>
+    <functioncall functionName="keyboardListener"/>
+    <functioncall functionName="keyboardRepeatRate"/>
+    <functioncall functionName="keycodes"/>
+    <functioncall functionName="keymap"/>
+    <functioncall functionName="keymap_key_repeats"/>
+    <functioncall functionName="keymap_mod_get_index"/>
+    <functioncall functionName="keymap_new_from_string"/>
+    <functioncall functionName="keymap_unref"/>
+    <functioncall functionName="leftDecoration"/>
+    <functioncall functionName="locale"/>
+    <functioncall functionName="mainWindow"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="mapStr"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="mmap"/>
+    <functioncall functionName="modifiers"/>
+    <functioncall functionName="mods"/>
+    <functioncall functionName="modsDepressed"/>
+    <functioncall functionName="modsLatched"/>
+    <functioncall functionName="modsLocked"/>
+    <functioncall functionName="monitor"/>
+    <functioncall functionName="monitorCount"/>
+    <functioncall functionName="munmap"/>
+    <functioncall functionName="n1"/>
+    <functioncall functionName="n2"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="numLockMask"/>
+    <functioncall functionName="plain"/>
+    <functioncall functionName="pointer"/>
+    <functioncall functionName="pointerConstraints"/>
+    <functioncall functionName="pointerFocus"/>
+    <functioncall functionName="pointerHandleAxis"/>
+    <functioncall functionName="pointerHandleButton"/>
+    <functioncall functionName="pointerHandleEnter"/>
+    <functioncall functionName="pointerHandleLeave"/>
+    <functioncall functionName="pointerHandleMotion"/>
+    <functioncall functionName="pointerListener"/>
+    <functioncall functionName="registry"/>
+    <functioncall functionName="registryHandleGlobal"/>
+    <functioncall functionName="registryHandleGlobalRemove"/>
+    <functioncall functionName="registryListener"/>
+    <functioncall functionName="relativePointerManager"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rightDecoration"/>
+    <functioncall functionName="scale"/>
+    <functioncall functionName="scancode"/>
+    <functioncall functionName="scancodes"/>
+    <functioncall functionName="seat"/>
+    <functioncall functionName="seatHandleCapabilities"/>
+    <functioncall functionName="seatHandleName"/>
+    <functioncall functionName="seatListener"/>
+    <functioncall functionName="seatVersion"/>
+    <functioncall functionName="serial"/>
+    <functioncall functionName="setCursor"/>
+    <functioncall functionName="shiftMask"/>
+    <functioncall functionName="shm"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="state"/>
+    <functioncall functionName="state_key_get_syms"/>
+    <functioncall functionName="state_new"/>
+    <functioncall functionName="state_serialize_mods"/>
+    <functioncall functionName="state_unref"/>
+    <functioncall functionName="state_update_mask"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="strtol"/>
+    <functioncall functionName="subcompositor"/>
+    <functioncall functionName="superMask"/>
+    <functioncall functionName="surface"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="sx"/>
+    <functioncall functionName="sy"/>
+    <functioncall functionName="sym"/>
+    <functioncall functionName="syms"/>
+    <functioncall functionName="theme"/>
+    <functioncall functionName="theme_destroy"/>
+    <functioncall functionName="theme_get_cursor"/>
+    <functioncall functionName="theme_load"/>
+    <functioncall functionName="timer"/>
+    <functioncall functionName="timerfd"/>
+    <functioncall functionName="timerfd_create"/>
+    <functioncall functionName="timerfd_settime"/>
+    <functioncall functionName="toGLFWKeyCode"/>
+    <functioncall functionName="topDecoration"/>
+    <functioncall functionName="toplevel"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="version"/>
+    <functioncall functionName="viewporter"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="which"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="window"/>
+    <functioncall functionName="windowListHead"/>
+    <functioncall functionName="wl_compositor_create_surface"/>
+    <functioncall functionName="wl_compositor_destroy"/>
+    <functioncall functionName="wl_compositor_interface"/>
+    <functioncall functionName="wl_cursor_image_get_buffer"/>
+    <functioncall functionName="wl_cursor_theme_destroy"/>
+    <functioncall functionName="wl_cursor_theme_get_cursor"/>
+    <functioncall functionName="wl_cursor_theme_load"/>
+    <functioncall functionName="wl_data_device_add_listener"/>
+    <functioncall functionName="wl_data_device_destroy"/>
+    <functioncall functionName="wl_data_device_manager_destroy"/>
+    <functioncall functionName="wl_data_device_manager_get_data_device"/>
+    <functioncall functionName="wl_data_device_manager_interface"/>
+    <functioncall functionName="wl_data_offer_add_listener"/>
+    <functioncall functionName="wl_data_offer_destroy"/>
+    <functioncall functionName="wl_data_source_destroy"/>
+    <functioncall functionName="wl_display_connect"/>
+    <functioncall functionName="wl_display_disconnect"/>
+    <functioncall functionName="wl_display_flush"/>
+    <functioncall functionName="wl_display_get_registry"/>
+    <functioncall functionName="wl_display_roundtrip"/>
+    <functioncall functionName="wl_fixed_to_double"/>
+    <functioncall functionName="wl_keyboard_add_listener"/>
+    <functioncall functionName="wl_keyboard_destroy"/>
+    <functioncall functionName="wl_pointer_add_listener"/>
+    <functioncall functionName="wl_pointer_destroy"/>
+    <functioncall functionName="wl_pointer_set_cursor"/>
+    <functioncall functionName="wl_registry_add_listener"/>
+    <functioncall functionName="wl_registry_bind"/>
+    <functioncall functionName="wl_registry_destroy"/>
+    <functioncall functionName="wl_seat_add_listener"/>
+    <functioncall functionName="wl_seat_destroy"/>
+    <functioncall functionName="wl_seat_get_keyboard"/>
+    <functioncall functionName="wl_seat_get_pointer"/>
+    <functioncall functionName="wl_seat_interface"/>
+    <functioncall functionName="wl_shm_destroy"/>
+    <functioncall functionName="wl_shm_interface"/>
+    <functioncall functionName="wl_subcompositor_destroy"/>
+    <functioncall functionName="wl_subcompositor_interface"/>
+    <functioncall functionName="wl_surface_attach"/>
+    <functioncall functionName="wl_surface_commit"/>
+    <functioncall functionName="wl_surface_damage"/>
+    <functioncall functionName="wl_surface_destroy"/>
+    <functioncall functionName="wl_surface_get_user_data"/>
+    <functioncall functionName="wl_surface_set_buffer_scale"/>
+    <functioncall functionName="wmBase"/>
+    <functioncall functionName="wmBaseHandlePing"/>
+    <functioncall functionName="wmBaseListener"/>
+    <functioncall functionName="wp_viewporter_destroy"/>
+    <functioncall functionName="wp_viewporter_interface"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="xdg_toplevel_move"/>
+    <functioncall functionName="xdg_toplevel_resize"/>
+    <functioncall functionName="xdg_toplevel_show_window_menu"/>
+    <functioncall functionName="xdg_wm_base_add_listener"/>
+    <functioncall functionName="xdg_wm_base_destroy"/>
+    <functioncall functionName="xdg_wm_base_interface"/>
+    <functioncall functionName="xdg_wm_base_pong"/>
+    <functioncall functionName="xkb_context_new"/>
+    <functioncall functionName="xkb_context_unref"/>
+    <functioncall functionName="xkb_keymap_key_repeats"/>
+    <functioncall functionName="xkb_keymap_mod_get_index"/>
+    <functioncall functionName="xkb_keymap_new_from_string"/>
+    <functioncall functionName="xkb_keymap_unref"/>
+    <functioncall functionName="xkb_state_key_get_syms"/>
+    <functioncall functionName="xkb_state_new"/>
+    <functioncall functionName="xkb_state_serialize_mods"/>
+    <functioncall functionName="xkb_state_unref"/>
+    <functioncall functionName="xkb_state_update_mask"/>
+    <functioncall functionName="y"/>
+    <functioncall functionName="zwp_idle_inhibit_manager_v1_destroy"/>
+    <functioncall functionName="zwp_idle_inhibit_manager_v1_interface"/>
+    <functioncall functionName="zwp_pointer_constraints_v1_destroy"/>
+    <functioncall functionName="zwp_pointer_constraints_v1_interface"/>
+    <functioncall functionName="zwp_relative_pointer_manager_v1_destroy"/>
+    <functioncall functionName="zwp_relative_pointer_manager_v1_interface"/>
+    <functioncall functionName="zxdg_decoration_manager_v1_destroy"/>
+    <functioncall functionName="zxdg_decoration_manager_v1_interface"/>
+  </FileInfo>
+</analyzerinfo>

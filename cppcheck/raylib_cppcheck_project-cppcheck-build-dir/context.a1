@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4082731197">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 44 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\external\glfw\src\context.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="56" col="28" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="94" col="28" call-argexpr="ctxconfig->major" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\context.c" line="83" col="31" info="Assuming that condition 'ctxconfig->major<1' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="142" col="28" call-argexpr="ctxconfig->major" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\context.c" line="133" col="30" info="Assuming that condition 'ctxconfig->major<1' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="618" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="639" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="648" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="664" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="682" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="748" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:755:10" my-argnr="1" my-argname="ctxconfig" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="51" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:753:10" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="360" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:753:10" my-argnr="2" my-argname="ctxconfig" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="360" col="30" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="56" col="28" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="94" col="28" call-argexpr="ctxconfig->major" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\context.c" line="83" col="31" info="Assuming that condition 'ctxconfig->major<1' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="142" col="28" call-argexpr="ctxconfig->major" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\context.c" line="133" col="30" info="Assuming that condition 'ctxconfig->major<1' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="618" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="639" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="648" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="664" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="682" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="748" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:755:10" my-argnr="1" my-argname="ctxconfig" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="51" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:753:10" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="360" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:753:10" my-argnr="2" my-argname="ctxconfig" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="360" col="30" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="56" col="28" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="94" col="28" call-argexpr="ctxconfig->major" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\context.c" line="83" col="31" info="Assuming that condition 'ctxconfig->major<1' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="142" col="28" call-argexpr="ctxconfig->major" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\context.c" line="133" col="30" info="Assuming that condition 'ctxconfig->major<1' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="618" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="639" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="648" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="664" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="682" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="748" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:755:10" my-argnr="1" my-argname="ctxconfig" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="51" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:753:10" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="360" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:753:10" my-argnr="2" my-argname="ctxconfig" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="360" col="30" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="56" col="28" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="94" col="28" call-argexpr="ctxconfig->major" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\context.c" line="83" col="31" info="Assuming that condition 'ctxconfig->major<1' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="142" col="28" call-argexpr="ctxconfig->major" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\context.c" line="133" col="30" info="Assuming that condition 'ctxconfig->major<1' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="618" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="639" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="648" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="664" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="682" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="748" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:755:10" my-argnr="1" my-argname="ctxconfig" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="51" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:753:10" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="360" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:753:10" my-argnr="2" my-argname="ctxconfig" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="360" col="30" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="56" col="28" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="94" col="28" call-argexpr="ctxconfig->major" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\context.c" line="83" col="31" info="Assuming that condition 'ctxconfig->major<1' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="142" col="28" call-argexpr="ctxconfig->major" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\context.c" line="133" col="30" info="Assuming that condition 'ctxconfig->major<1' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="618" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="639" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="648" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="664" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="682" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="748" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:755:10" my-argnr="1" my-argname="ctxconfig" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="51" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:753:10" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="360" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:753:10" my-argnr="2" my-argname="ctxconfig" file="C:/GitHub/raylib/src/external/glfw/src/context.c" line="360" col="30" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="_glfwIsValidContextConfig" lineNumber="49"/>
+    <functiondecl functionName="_glfwChooseFBConfig" lineNumber="178"/>
+    <functiondecl functionName="_glfwRefreshContextAttribs" lineNumber="346"/>
+    <functiondecl functionName="_glfwStringInExtensionString" lineNumber="582"/>
+    <functiondecl functionName="glfwMakeContextCurrent" lineNumber="613"/>
+    <functiondecl functionName="glfwGetCurrentContext" lineNumber="637"/>
+    <functiondecl functionName="glfwSwapBuffers" lineNumber="643"/>
+    <functiondecl functionName="glfwSwapInterval" lineNumber="660"/>
+    <functiondecl functionName="glfwExtensionSupported" lineNumber="677"/>
+    <functiondecl functionName="glfwGetProcAddress" lineNumber="743"/>
+    <functiondecl functionName="_glfwIsValidContextConfig" lineNumber="49"/>
+    <functiondecl functionName="_glfwChooseFBConfig" lineNumber="178"/>
+    <functiondecl functionName="_glfwRefreshContextAttribs" lineNumber="346"/>
+    <functiondecl functionName="_glfwStringInExtensionString" lineNumber="582"/>
+    <functiondecl functionName="glfwMakeContextCurrent" lineNumber="613"/>
+    <functiondecl functionName="glfwGetCurrentContext" lineNumber="637"/>
+    <functiondecl functionName="glfwSwapBuffers" lineNumber="643"/>
+    <functiondecl functionName="glfwSwapInterval" lineNumber="660"/>
+    <functiondecl functionName="glfwExtensionSupported" lineNumber="677"/>
+    <functiondecl functionName="glfwGetProcAddress" lineNumber="743"/>
+    <functiondecl functionName="_glfwIsValidContextConfig" lineNumber="49"/>
+    <functiondecl functionName="_glfwChooseFBConfig" lineNumber="178"/>
+    <functiondecl functionName="_glfwRefreshContextAttribs" lineNumber="346"/>
+    <functiondecl functionName="_glfwStringInExtensionString" lineNumber="582"/>
+    <functiondecl functionName="glfwMakeContextCurrent" lineNumber="613"/>
+    <functiondecl functionName="glfwGetCurrentContext" lineNumber="637"/>
+    <functiondecl functionName="glfwSwapBuffers" lineNumber="643"/>
+    <functiondecl functionName="glfwSwapInterval" lineNumber="660"/>
+    <functiondecl functionName="glfwExtensionSupported" lineNumber="677"/>
+    <functiondecl functionName="glfwGetProcAddress" lineNumber="743"/>
+    <functiondecl functionName="_glfwIsValidContextConfig" lineNumber="49"/>
+    <functiondecl functionName="_glfwChooseFBConfig" lineNumber="178"/>
+    <functiondecl functionName="_glfwRefreshContextAttribs" lineNumber="346"/>
+    <functiondecl functionName="_glfwStringInExtensionString" lineNumber="582"/>
+    <functiondecl functionName="glfwMakeContextCurrent" lineNumber="613"/>
+    <functiondecl functionName="glfwGetCurrentContext" lineNumber="637"/>
+    <functiondecl functionName="glfwSwapBuffers" lineNumber="643"/>
+    <functiondecl functionName="glfwSwapInterval" lineNumber="660"/>
+    <functiondecl functionName="glfwExtensionSupported" lineNumber="677"/>
+    <functiondecl functionName="glfwGetProcAddress" lineNumber="743"/>
+    <functiondecl functionName="_glfwIsValidContextConfig" lineNumber="49"/>
+    <functiondecl functionName="_glfwChooseFBConfig" lineNumber="178"/>
+    <functiondecl functionName="_glfwRefreshContextAttribs" lineNumber="346"/>
+    <functiondecl functionName="_glfwStringInExtensionString" lineNumber="582"/>
+    <functiondecl functionName="glfwMakeContextCurrent" lineNumber="613"/>
+    <functiondecl functionName="glfwGetCurrentContext" lineNumber="637"/>
+    <functiondecl functionName="glfwSwapBuffers" lineNumber="643"/>
+    <functiondecl functionName="glfwSwapInterval" lineNumber="660"/>
+    <functiondecl functionName="glfwExtensionSupported" lineNumber="677"/>
+    <functiondecl functionName="glfwGetProcAddress" lineNumber="743"/>
+    <functioncall functionName="GetIntegerv"/>
+    <functioncall functionName="GetString"/>
+    <functioncall functionName="GetStringi"/>
+    <functioncall functionName="MDT_EFFECTIVE_DPI"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="UINT_MAX"/>
+    <functioncall functionName="_glfwInputError"/>
+    <functioncall functionName="_glfwPlatformGetTls"/>
+    <functioncall functionName="_glfwStringInExtensionString"/>
+    <functioncall functionName="accumAlphaBits"/>
+    <functioncall functionName="accumBlueBits"/>
+    <functioncall functionName="accumGreenBits"/>
+    <functioncall functionName="accumRedBits"/>
+    <functioncall functionName="alphaBits"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="auxBuffers"/>
+    <functioncall functionName="behavior"/>
+    <functioncall functionName="blueBits"/>
+    <functioncall functionName="bottomDecoration"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="client"/>
+    <functioncall functionName="colorDiff"/>
+    <functioncall functionName="contextSlot"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="current"/>
+    <functioncall functionName="debug"/>
+    <functioncall functionName="depthBits"/>
+    <functioncall functionName="doublebuffer"/>
+    <functioncall functionName="en"/>
+    <functioncall functionName="extension"/>
+    <functioncall functionName="extensionSupported"/>
+    <functioncall functionName="extensions"/>
+    <functioncall functionName="extraDiff"/>
+    <functioncall functionName="flags"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="getProcAddress"/>
+    <functioncall functionName="glClear"/>
+    <functioncall functionName="glfwExtensionSupported"/>
+    <functioncall functionName="glfwMakeContextCurrent"/>
+    <functioncall functionName="greenBits"/>
+    <functioncall functionName="handle"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="initialized"/>
+    <functioncall functionName="interval"/>
+    <functioncall functionName="leftDecoration"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="mainWindow"/>
+    <functioncall functionName="major"/>
+    <functioncall functionName="makeCurrent"/>
+    <functioncall functionName="mask"/>
+    <functioncall functionName="minor"/>
+    <functioncall functionName="missing"/>
+    <functioncall functionName="previous"/>
+    <functioncall functionName="procname"/>
+    <functioncall functionName="profile"/>
+    <functioncall functionName="redBits"/>
+    <functioncall functionName="release"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="revision"/>
+    <functioncall functionName="rightDecoration"/>
+    <functioncall functionName="robustness"/>
+    <functioncall functionName="sRGB"/>
+    <functioncall functionName="samples"/>
+    <functioncall functionName="share"/>
+    <functioncall functionName="source"/>
+    <functioncall functionName="sscanf"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="stencilBits"/>
+    <functioncall functionName="stereo"/>
+    <functioncall functionName="strategy"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="strncmp"/>
+    <functioncall functionName="strstr"/>
+    <functioncall functionName="swapBuffers"/>
+    <functioncall functionName="swapInterval"/>
+    <functioncall functionName="terminator"/>
+    <functioncall functionName="topDecoration"/>
+    <functioncall functionName="transparent"/>
+    <functioncall functionName="version"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="where"/>
+    <functioncall functionName="window"/>
+  </FileInfo>
+</analyzerinfo>

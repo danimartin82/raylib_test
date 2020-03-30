@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="838807456">
+        <error id="uselessAssignmentPtrArg" severity="warning" msg="Assignment of function parameter has no effect outside the function. Did you forget dereferencing it?" verbose="Assignment of function parameter has no effect outside the function. Did you forget dereferencing it?" cwe="398">
+            <location file0="C:\GitHub\raylib\src\external\glfw\deps\glad_gl.c" file="C:\GitHub\raylib\src\external\glfw\deps\glad_gl.c" line="1661" column="9"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/deps/glad_gl.c:1609:12" call-funcname="glad_gl_get_extensions" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/deps/glad_gl.c" line="1705" col="32" call-argexpr="&exts" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/deps/glad_gl.c:1609:12" call-funcname="glad_gl_get_extensions" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/deps/glad_gl.c" line="1705" col="32" call-argexpr="&num_exts_i" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/deps/glad_gl.c:1609:12" call-funcname="glad_gl_get_extensions" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/deps/glad_gl.c" line="1705" col="32" call-argexpr="&exts_i" call-argvaluetype="7" call-argvalue="1"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/deps/glad/gl.h:3829:19" my-argnr="1" my-argname="load" file="C:/GitHub/raylib/src/external/glfw/deps/glad_gl.c" line="1756" col="40" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/deps/glad_gl.c:1697:20" my-argnr="1" my-argname="name" file="C:/GitHub/raylib/src/external/glfw/deps/glad_gl.c" line="1698" col="62" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="glad_gl_load_GL_VERSION_1_0" lineNumber="794"/>
+    <functiondecl functionName="glad_gl_load_GL_VERSION_1_1" lineNumber="1103"/>
+    <functiondecl functionName="glad_gl_load_GL_VERSION_1_2" lineNumber="1136"/>
+    <functiondecl functionName="glad_gl_load_GL_VERSION_1_3" lineNumber="1143"/>
+    <functiondecl functionName="glad_gl_load_GL_VERSION_1_4" lineNumber="1192"/>
+    <functiondecl functionName="glad_gl_load_GL_VERSION_1_5" lineNumber="1242"/>
+    <functiondecl functionName="glad_gl_load_GL_VERSION_2_0" lineNumber="1264"/>
+    <functiondecl functionName="glad_gl_load_GL_VERSION_2_1" lineNumber="1360"/>
+    <functiondecl functionName="glad_gl_load_GL_VERSION_3_0" lineNumber="1369"/>
+    <functiondecl functionName="glad_gl_load_GL_VERSION_3_1" lineNumber="1456"/>
+    <functiondecl functionName="glad_gl_load_GL_VERSION_3_2" lineNumber="1474"/>
+    <functiondecl functionName="glad_gl_load_GL_VERSION_3_3" lineNumber="1496"/>
+    <functiondecl functionName="glad_gl_load_GL_ARB_multisample" lineNumber="1557"/>
+    <functiondecl functionName="glad_gl_load_GL_ARB_robustness" lineNumber="1562"/>
+    <functiondecl functionName="glad_gl_load_GL_KHR_debug" lineNumber="1586"/>
+    <functiondecl functionName="glad_gl_get_extensions" lineNumber="1609"/>
+    <functiondecl functionName="glad_gl_free_extensions" lineNumber="1654"/>
+    <functiondecl functionName="glad_gl_has_extension" lineNumber="1664"/>
+    <functiondecl functionName="glad_gl_get_proc_from_userptr" lineNumber="1697"/>
+    <functiondecl functionName="glad_gl_find_extensions_gl" lineNumber="1701"/>
+    <functiondecl functionName="glad_gl_find_core_gl" lineNumber="1716"/>
+    <functiondecl functionName="gladLoadGLUserPtr" lineNumber="1753"/>
+    <functiondecl functionName="gladLoadGL" lineNumber="1785"/>
+    <functioncall functionName="GLAD_GL_ARB_multisample"/>
+    <functioncall functionName="GLAD_GL_ARB_robustness"/>
+    <functioncall functionName="GLAD_GL_KHR_debug"/>
+    <functioncall functionName="GLAD_GL_VERSION_1_0"/>
+    <functioncall functionName="GLAD_GL_VERSION_1_1"/>
+    <functioncall functionName="GLAD_GL_VERSION_1_2"/>
+    <functioncall functionName="GLAD_GL_VERSION_1_3"/>
+    <functioncall functionName="GLAD_GL_VERSION_1_4"/>
+    <functioncall functionName="GLAD_GL_VERSION_1_5"/>
+    <functioncall functionName="GLAD_GL_VERSION_2_0"/>
+    <functioncall functionName="GLAD_GL_VERSION_2_1"/>
+    <functioncall functionName="GLAD_GL_VERSION_3_0"/>
+    <functioncall functionName="GLAD_GL_VERSION_3_1"/>
+    <functioncall functionName="GLAD_GL_VERSION_3_2"/>
+    <functioncall functionName="GLAD_GL_VERSION_3_3"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="e"/>
+    <functioncall functionName="ext"/>
+    <functioncall functionName="extensions"/>
+    <functioncall functionName="exts"/>
+    <functioncall functionName="exts_i"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="gl_str_tmp"/>
+    <functioncall functionName="gladLoadGLUserPtr"/>
+    <functioncall functionName="glad_glGetIntegerv"/>
+    <functioncall functionName="glad_glGetString"/>
+    <functioncall functionName="glad_glGetStringi"/>
+    <functioncall functionName="glad_gl_find_core_gl"/>
+    <functioncall functionName="glad_gl_find_extensions_gl"/>
+    <functioncall functionName="glad_gl_free_extensions"/>
+    <functioncall functionName="glad_gl_get_extensions"/>
+    <functioncall functionName="glad_gl_get_proc_from_userptr"/>
+    <functioncall functionName="glad_gl_has_extension"/>
+    <functioncall functionName="glad_gl_load_GL_ARB_multisample"/>
+    <functioncall functionName="glad_gl_load_GL_ARB_robustness"/>
+    <functioncall functionName="glad_gl_load_GL_KHR_debug"/>
+    <functioncall functionName="glad_gl_load_GL_VERSION_1_0"/>
+    <functioncall functionName="glad_gl_load_GL_VERSION_1_1"/>
+    <functioncall functionName="glad_gl_load_GL_VERSION_1_2"/>
+    <functioncall functionName="glad_gl_load_GL_VERSION_1_3"/>
+    <functioncall functionName="glad_gl_load_GL_VERSION_1_4"/>
+    <functioncall functionName="glad_gl_load_GL_VERSION_1_5"/>
+    <functioncall functionName="glad_gl_load_GL_VERSION_2_0"/>
+    <functioncall functionName="glad_gl_load_GL_VERSION_2_1"/>
+    <functioncall functionName="glad_gl_load_GL_VERSION_3_0"/>
+    <functioncall functionName="glad_gl_load_GL_VERSION_3_1"/>
+    <functioncall functionName="glad_gl_load_GL_VERSION_3_2"/>
+    <functioncall functionName="glad_gl_load_GL_VERSION_3_3"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="load"/>
+    <functioncall functionName="local_str"/>
+    <functioncall functionName="major"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="minor"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="num_exts_i"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="sscanf"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="strncmp"/>
+    <functioncall functionName="strstr"/>
+    <functioncall functionName="terminator"/>
+    <functioncall functionName="userptr"/>
+    <functioncall functionName="version"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,513 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4103963100">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 47 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="0" column="0"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;key&apos; can be reduced." verbose="The scope of the variable &apos;key&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="236" column="19"/>
+            <symbol>key</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="430" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="432" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="434" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="436" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="438" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="440" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="442" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="444" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="446" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="448" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="450" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="452" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="454" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="456" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:900:8" call-funcname="_glfwCreateCursorX11" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="840" col="32" call-argexpr="&image" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:900:8" call-funcname="_glfwCreateCursorX11" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="840" col="32" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:900:8" call-funcname="_glfwCreateCursorX11" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="840" col="32" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="895" col="20" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="1024"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="895" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:889:6" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:801:13" my-argnr="1" my-argname="xscale" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="830" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:801:13" my-argnr="2" my-argname="yscale" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="831" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:859:12" my-argnr="2" my-argname="event" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="861" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="430" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="432" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="434" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="436" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="438" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="440" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="442" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="444" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="446" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="448" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="450" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="452" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="454" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="456" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:900:8" call-funcname="_glfwCreateCursorX11" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="840" col="32" call-argexpr="&image" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:900:8" call-funcname="_glfwCreateCursorX11" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="840" col="32" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:900:8" call-funcname="_glfwCreateCursorX11" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="840" col="32" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="895" col="20" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="1024"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="895" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:889:6" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:801:13" my-argnr="1" my-argname="xscale" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="830" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:801:13" my-argnr="2" my-argname="yscale" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="831" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:859:12" my-argnr="2" my-argname="event" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="861" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="430" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="432" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="434" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="436" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="438" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="440" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="442" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="444" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="446" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="448" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="450" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="452" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="454" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="456" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:900:8" call-funcname="_glfwCreateCursorX11" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="840" col="32" call-argexpr="&image" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:900:8" call-funcname="_glfwCreateCursorX11" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="840" col="32" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:900:8" call-funcname="_glfwCreateCursorX11" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="840" col="32" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="895" col="20" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="1024"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="895" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:889:6" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:801:13" my-argnr="1" my-argname="xscale" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="830" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:801:13" my-argnr="2" my-argname="yscale" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="831" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:859:12" my-argnr="2" my-argname="event" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="861" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="430" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="432" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="434" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="436" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="438" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="440" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="442" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="444" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="446" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="448" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="450" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="452" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="454" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="456" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:900:8" call-funcname="_glfwCreateCursorX11" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="840" col="32" call-argexpr="&image" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:900:8" call-funcname="_glfwCreateCursorX11" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="840" col="32" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:900:8" call-funcname="_glfwCreateCursorX11" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="840" col="32" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="895" col="20" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="1024"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="895" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:889:6" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:801:13" my-argnr="1" my-argname="xscale" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="830" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:801:13" my-argnr="2" my-argname="yscale" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="831" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:859:12" my-argnr="2" my-argname="event" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="861" col="27" value="0"/>
+  </FileInfo>
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." verbose="%u in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;signed int&apos;." cwe="686">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="789" column="9"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="430" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="432" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="434" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="436" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="438" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="440" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="442" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="444" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="446" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="448" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="450" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="452" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="454" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:356:13" call-funcname="getSupportedAtom" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="456" col="25" call-argexpr="supportedAtoms" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_init.c" line="458" col="8" info="Assuming that condition 'if(supportedAtoms)' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_platform.h:446:8" call-funcname="_glfwCreateCursorX11" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="840" col="32" call-argexpr="&image" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_platform.h:446:8" call-funcname="_glfwCreateCursorX11" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="840" col="32" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/x11_platform.h:446:8" call-funcname="_glfwCreateCursorX11" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="840" col="32" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="895" col="20" call-argexpr="buffer" call-argvaluetype="7" call-argvalue="1024"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="895" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/x11_platform.h:456:6" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:801:13" my-argnr="1" my-argname="xscale" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="830" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:801:13" my-argnr="2" my-argname="yscale" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="831" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_init.c:859:12" my-argnr="2" my-argname="event" file="C:/GitHub/raylib/src/external/glfw/src/x11_init.c" line="861" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="translateKeyCode" lineNumber="44"/>
+    <functiondecl functionName="createKeyTables" lineNumber="234"/>
+    <functiondecl functionName="hasUsableInputMethodStyle" lineNumber="333"/>
+    <functiondecl functionName="getSupportedAtom" lineNumber="356"/>
+    <functiondecl functionName="detectEWMH" lineNumber="373"/>
+    <functiondecl functionName="initExtensions" lineNumber="464"/>
+    <functiondecl functionName="getSystemContentScale" lineNumber="801"/>
+    <functiondecl functionName="createHiddenCursor" lineNumber="836"/>
+    <functiondecl functionName="createHelperWindow" lineNumber="845"/>
+    <functiondecl functionName="errorHandler" lineNumber="859"/>
+    <functiondecl functionName="_glfwGrabErrorHandlerX11" lineNumber="872"/>
+    <functiondecl functionName="_glfwReleaseErrorHandlerX11" lineNumber="880"/>
+    <functiondecl functionName="_glfwInputErrorX11" lineNumber="889"/>
+    <functiondecl functionName="_glfwCreateCursorX11" lineNumber="900"/>
+    <functiondecl functionName="_glfwPlatformInit" lineNumber="939"/>
+    <functiondecl functionName="_glfwPlatformTerminate" lineNumber="1010"/>
+    <functiondecl functionName="_glfwPlatformGetVersionString" lineNumber="1097"/>
+    <functiondecl functionName="translateKeyCode" lineNumber="44"/>
+    <functiondecl functionName="createKeyTables" lineNumber="234"/>
+    <functiondecl functionName="hasUsableInputMethodStyle" lineNumber="333"/>
+    <functiondecl functionName="getSupportedAtom" lineNumber="356"/>
+    <functiondecl functionName="detectEWMH" lineNumber="373"/>
+    <functiondecl functionName="initExtensions" lineNumber="464"/>
+    <functiondecl functionName="getSystemContentScale" lineNumber="801"/>
+    <functiondecl functionName="createHiddenCursor" lineNumber="836"/>
+    <functiondecl functionName="createHelperWindow" lineNumber="845"/>
+    <functiondecl functionName="errorHandler" lineNumber="859"/>
+    <functiondecl functionName="_glfwGrabErrorHandlerX11" lineNumber="872"/>
+    <functiondecl functionName="_glfwReleaseErrorHandlerX11" lineNumber="880"/>
+    <functiondecl functionName="_glfwInputErrorX11" lineNumber="889"/>
+    <functiondecl functionName="_glfwCreateCursorX11" lineNumber="900"/>
+    <functiondecl functionName="_glfwPlatformInit" lineNumber="939"/>
+    <functiondecl functionName="_glfwPlatformTerminate" lineNumber="1010"/>
+    <functiondecl functionName="_glfwPlatformGetVersionString" lineNumber="1097"/>
+    <functiondecl functionName="translateKeyCode" lineNumber="44"/>
+    <functiondecl functionName="createKeyTables" lineNumber="234"/>
+    <functiondecl functionName="hasUsableInputMethodStyle" lineNumber="333"/>
+    <functiondecl functionName="getSupportedAtom" lineNumber="356"/>
+    <functiondecl functionName="detectEWMH" lineNumber="373"/>
+    <functiondecl functionName="initExtensions" lineNumber="464"/>
+    <functiondecl functionName="getSystemContentScale" lineNumber="801"/>
+    <functiondecl functionName="createHiddenCursor" lineNumber="836"/>
+    <functiondecl functionName="createHelperWindow" lineNumber="845"/>
+    <functiondecl functionName="errorHandler" lineNumber="859"/>
+    <functiondecl functionName="_glfwGrabErrorHandlerX11" lineNumber="872"/>
+    <functiondecl functionName="_glfwReleaseErrorHandlerX11" lineNumber="880"/>
+    <functiondecl functionName="_glfwInputErrorX11" lineNumber="889"/>
+    <functiondecl functionName="_glfwCreateCursorX11" lineNumber="900"/>
+    <functiondecl functionName="_glfwPlatformInit" lineNumber="939"/>
+    <functiondecl functionName="_glfwPlatformTerminate" lineNumber="1010"/>
+    <functiondecl functionName="_glfwPlatformGetVersionString" lineNumber="1097"/>
+    <functiondecl functionName="translateKeyCode" lineNumber="44"/>
+    <functiondecl functionName="createKeyTables" lineNumber="234"/>
+    <functiondecl functionName="hasUsableInputMethodStyle" lineNumber="333"/>
+    <functiondecl functionName="getSupportedAtom" lineNumber="356"/>
+    <functiondecl functionName="detectEWMH" lineNumber="373"/>
+    <functiondecl functionName="initExtensions" lineNumber="464"/>
+    <functiondecl functionName="getSystemContentScale" lineNumber="801"/>
+    <functiondecl functionName="createHiddenCursor" lineNumber="836"/>
+    <functiondecl functionName="createHelperWindow" lineNumber="845"/>
+    <functiondecl functionName="errorHandler" lineNumber="859"/>
+    <functiondecl functionName="_glfwGrabErrorHandlerX11" lineNumber="872"/>
+    <functiondecl functionName="_glfwReleaseErrorHandlerX11" lineNumber="880"/>
+    <functiondecl functionName="_glfwInputErrorX11" lineNumber="889"/>
+    <functiondecl functionName="_glfwCreateCursorX11" lineNumber="900"/>
+    <functiondecl functionName="_glfwPlatformInit" lineNumber="939"/>
+    <functiondecl functionName="_glfwPlatformTerminate" lineNumber="1010"/>
+    <functiondecl functionName="_glfwPlatformGetVersionString" lineNumber="1097"/>
+    <functiondecl functionName="translateKeyCode" lineNumber="44"/>
+    <functiondecl functionName="createKeyTables" lineNumber="234"/>
+    <functiondecl functionName="hasUsableInputMethodStyle" lineNumber="333"/>
+    <functiondecl functionName="getSupportedAtom" lineNumber="356"/>
+    <functiondecl functionName="detectEWMH" lineNumber="373"/>
+    <functiondecl functionName="initExtensions" lineNumber="464"/>
+    <functiondecl functionName="getSystemContentScale" lineNumber="801"/>
+    <functiondecl functionName="createHiddenCursor" lineNumber="836"/>
+    <functiondecl functionName="createHelperWindow" lineNumber="845"/>
+    <functiondecl functionName="errorHandler" lineNumber="859"/>
+    <functiondecl functionName="_glfwGrabErrorHandlerX11" lineNumber="872"/>
+    <functiondecl functionName="_glfwReleaseErrorHandlerX11" lineNumber="880"/>
+    <functiondecl functionName="_glfwInputErrorX11" lineNumber="889"/>
+    <functiondecl functionName="_glfwCreateCursorX11" lineNumber="900"/>
+    <functiondecl functionName="_glfwPlatformInit" lineNumber="939"/>
+    <functiondecl functionName="_glfwPlatformTerminate" lineNumber="1010"/>
+    <functiondecl functionName="_glfwPlatformGetVersionString" lineNumber="1097"/>
+    <functioncall functionName="CLIPBOARD"/>
+    <functioncall functionName="CWEventMask"/>
+    <functioncall functionName="Cursor"/>
+    <functioncall functionName="DefaultScreen"/>
+    <functioncall functionName="DefaultVisual"/>
+    <functioncall functionName="False"/>
+    <functioncall functionName="FreeLibrary"/>
+    <functioncall functionName="FreeScreenResources"/>
+    <functioncall functionName="GetCrtcGammaSize"/>
+    <functioncall functionName="GetProcAddress"/>
+    <functioncall functionName="GetScreenResourcesCurrent"/>
+    <functioncall functionName="ImageCreate"/>
+    <functioncall functionName="ImageDestroy"/>
+    <functioncall functionName="ImageLoadCursor"/>
+    <functioncall functionName="InputOnly"/>
+    <functioncall functionName="IsActive"/>
+    <functioncall functionName="LC_CTYPE"/>
+    <functioncall functionName="LoadLibraryA"/>
+    <functioncall functionName="MDT_EFFECTIVE_DPI"/>
+    <functioncall functionName="NET_SUPPORTED"/>
+    <functioncall functionName="NET_SUPPORTING_WM_CHECK"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="None"/>
+    <functioncall functionName="PFN_XF86VidModeGetGammaRamp"/>
+    <functioncall functionName="PFN_XF86VidModeGetGammaRampSize"/>
+    <functioncall functionName="PFN_XF86VidModeQueryExtension"/>
+    <functioncall functionName="PFN_XF86VidModeSetGammaRamp"/>
+    <functioncall functionName="PFN_XGetXCBConnection"/>
+    <functioncall functionName="PFN_XIQueryVersion"/>
+    <functioncall functionName="PFN_XISelectEvents"/>
+    <functioncall functionName="PFN_XRRAllocGamma"/>
+    <functioncall functionName="PFN_XRRFreeCrtcInfo"/>
+    <functioncall functionName="PFN_XRRFreeGamma"/>
+    <functioncall functionName="PFN_XRRFreeOutputInfo"/>
+    <functioncall functionName="PFN_XRRFreeScreenResources"/>
+    <functioncall functionName="PFN_XRRGetCrtcGamma"/>
+    <functioncall functionName="PFN_XRRGetCrtcGammaSize"/>
+    <functioncall functionName="PFN_XRRGetCrtcInfo"/>
+    <functioncall functionName="PFN_XRRGetOutputInfo"/>
+    <functioncall functionName="PFN_XRRGetOutputPrimary"/>
+    <functioncall functionName="PFN_XRRGetScreenResourcesCurrent"/>
+    <functioncall functionName="PFN_XRRQueryExtension"/>
+    <functioncall functionName="PFN_XRRQueryVersion"/>
+    <functioncall functionName="PFN_XRRSelectInput"/>
+    <functioncall functionName="PFN_XRRSetCrtcConfig"/>
+    <functioncall functionName="PFN_XRRSetCrtcGamma"/>
+    <functioncall functionName="PFN_XRRUpdateConfiguration"/>
+    <functioncall functionName="PFN_XRenderFindVisualFormat"/>
+    <functioncall functionName="PFN_XRenderQueryExtension"/>
+    <functioncall functionName="PFN_XRenderQueryVersion"/>
+    <functioncall functionName="PFN_XcursorGetDefaultSize"/>
+    <functioncall functionName="PFN_XcursorGetTheme"/>
+    <functioncall functionName="PFN_XcursorImageCreate"/>
+    <functioncall functionName="PFN_XcursorImageDestroy"/>
+    <functioncall functionName="PFN_XcursorImageLoadCursor"/>
+    <functioncall functionName="PFN_XcursorLibraryLoadImage"/>
+    <functioncall functionName="PFN_XineramaIsActive"/>
+    <functioncall functionName="PFN_XineramaQueryExtension"/>
+    <functioncall functionName="PFN_XineramaQueryScreens"/>
+    <functioncall functionName="PropertyChangeMask"/>
+    <functioncall functionName="QueryExtension"/>
+    <functioncall functionName="QueryVersion"/>
+    <functioncall functionName="RROutputChangeNotifyMask"/>
+    <functioncall functionName="RTLD_LOCAL"/>
+    <functioncall functionName="RootWindow"/>
+    <functioncall functionName="SelectInput"/>
+    <functioncall functionName="Success"/>
+    <functioncall functionName="True"/>
+    <functioncall functionName="XA_ATOM"/>
+    <functioncall functionName="XA_WINDOW"/>
+    <functioncall functionName="XCloseDisplay"/>
+    <functioncall functionName="XCloseIM"/>
+    <functioncall functionName="XCreateWindow"/>
+    <functioncall functionName="XDestroyWindow"/>
+    <functioncall functionName="XF86VidModeQueryExtension"/>
+    <functioncall functionName="XFree"/>
+    <functioncall functionName="XFreeCursor"/>
+    <functioncall functionName="XGetErrorText"/>
+    <functioncall functionName="XGetIMValues"/>
+    <functioncall functionName="XGetKeyboardMapping"/>
+    <functioncall functionName="XGetSelectionOwner"/>
+    <functioncall functionName="XIMStatusNothing"/>
+    <functioncall functionName="XIQueryVersion"/>
+    <functioncall functionName="XInitThreads"/>
+    <functioncall functionName="XInternAtom"/>
+    <functioncall functionName="XNQueryInputStyle"/>
+    <functioncall functionName="XOpenDisplay"/>
+    <functioncall functionName="XOpenIM"/>
+    <functioncall functionName="XQueryExtension"/>
+    <functioncall functionName="XRRFreeScreenResources"/>
+    <functioncall functionName="XRRGetCrtcGammaSize"/>
+    <functioncall functionName="XRRGetScreenResourcesCurrent"/>
+    <functioncall functionName="XRRQueryExtension"/>
+    <functioncall functionName="XRRQueryVersion"/>
+    <functioncall functionName="XRRSelectInput"/>
+    <functioncall functionName="XRenderQueryExtension"/>
+    <functioncall functionName="XRenderQueryVersion"/>
+    <functioncall functionName="XResourceManagerString"/>
+    <functioncall functionName="XSetErrorHandler"/>
+    <functioncall functionName="XSetLocaleModifiers"/>
+    <functioncall functionName="XSupportsLocale"/>
+    <functioncall functionName="XSync"/>
+    <functioncall functionName="XUniqueContext"/>
+    <functioncall functionName="XcursorImageCreate"/>
+    <functioncall functionName="XcursorImageDestroy"/>
+    <functioncall functionName="XcursorImageLoadCursor"/>
+    <functioncall functionName="XineramaIsActive"/>
+    <functioncall functionName="XineramaQueryExtension"/>
+    <functioncall functionName="XkbAllStateComponentsMask"/>
+    <functioncall functionName="XkbFreeKeyboard"/>
+    <functioncall functionName="XkbFreeNames"/>
+    <functioncall functionName="XkbGetMap"/>
+    <functioncall functionName="XkbGetNames"/>
+    <functioncall functionName="XkbGetState"/>
+    <functioncall functionName="XkbGroupStateMask"/>
+    <functioncall functionName="XkbKeyNameLength"/>
+    <functioncall functionName="XkbKeyNamesMask"/>
+    <functioncall functionName="XkbKeycodeToKeysym"/>
+    <functioncall functionName="XkbQueryExtension"/>
+    <functioncall functionName="XkbSelectEventDetails"/>
+    <functioncall functionName="XkbSetDetectableAutoRepeat"/>
+    <functioncall functionName="XkbStateNotify"/>
+    <functioncall functionName="XkbUseCoreKbd"/>
+    <functioncall functionName="XrmDestroyDatabase"/>
+    <functioncall functionName="XrmGetResource"/>
+    <functioncall functionName="XrmGetStringDatabase"/>
+    <functioncall functionName="XrmInitialize"/>
+    <functioncall functionName="_glfwCreateCursorX11"/>
+    <functioncall functionName="_glfwGetWindowPropertyX11"/>
+    <functioncall functionName="_glfwGrabErrorHandlerX11"/>
+    <functioncall functionName="_glfwInitTimerPOSIX"/>
+    <functioncall functionName="_glfwInputError"/>
+    <functioncall functionName="_glfwPollMonitorsX11"/>
+    <functioncall functionName="_glfwPushSelectionToManagerX11"/>
+    <functioncall functionName="_glfwReleaseErrorHandlerX11"/>
+    <functioncall functionName="_glfwTerminateEGL"/>
+    <functioncall functionName="_glfwTerminateGLX"/>
+    <functioncall functionName="addr"/>
+    <functioncall functionName="atof"/>
+    <functioncall functionName="atomCount"/>
+    <functioncall functionName="atomName"/>
+    <functioncall functionName="available"/>
+    <functioncall functionName="bottomDecoration"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="clipboardString"/>
+    <functioncall functionName="contentScaleX"/>
+    <functioncall functionName="contentScaleY"/>
+    <functioncall functionName="count_styles"/>
+    <functioncall functionName="createHelperWindow"/>
+    <functioncall functionName="createHiddenCursor"/>
+    <functioncall functionName="createKeyTables"/>
+    <functioncall functionName="db"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="desc"/>
+    <functioncall functionName="detectEWMH"/>
+    <functioncall functionName="display"/>
+    <functioncall functionName="dlclose"/>
+    <functioncall functionName="dlopen"/>
+    <functioncall functionName="dlsym"/>
+    <functioncall functionName="dummy"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="errorBase"/>
+    <functioncall functionName="errorCode"/>
+    <functioncall functionName="errorHandler"/>
+    <functioncall functionName="error_code"/>
+    <functioncall functionName="eventBase"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="getSupportedAtom"/>
+    <functioncall functionName="getSystemContentScale"/>
+    <functioncall functionName="getenv"/>
+    <functioncall functionName="group"/>
+    <functioncall functionName="handle"/>
+    <functioncall functionName="hasUsableInputMethodStyle"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="helperWindowHandle"/>
+    <functioncall functionName="hiddenCursorHandle"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="im"/>
+    <functioncall functionName="image"/>
+    <functioncall functionName="initExtensions"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="key"/>
+    <functioncall functionName="keySym"/>
+    <functioncall functionName="keySyms"/>
+    <functioncall functionName="keycodes"/>
+    <functioncall functionName="leftDecoration"/>
+    <functioncall functionName="mainWindow"/>
+    <functioncall functionName="major"/>
+    <functioncall functionName="majorOpcode"/>
+    <functioncall functionName="max_key_code"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="min_key_code"/>
+    <functioncall functionName="minor"/>
+    <functioncall functionName="monitorBroken"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="native"/>
+    <functioncall functionName="ncrtc"/>
+    <functioncall functionName="pixels"/>
+    <functioncall functionName="primarySelectionString"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rightDecoration"/>
+    <functioncall functionName="rms"/>
+    <functioncall functionName="root"/>
+    <functioncall functionName="scancode"/>
+    <functioncall functionName="scancodes"/>
+    <functioncall functionName="screen"/>
+    <functioncall functionName="setlocale"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="snprintf"/>
+    <functioncall functionName="sr"/>
+    <functioncall functionName="state"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="styles"/>
+    <functioncall functionName="supported"/>
+    <functioncall functionName="supportedAtoms"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="topDecoration"/>
+    <functioncall functionName="translateKeyCode"/>
+    <functioncall functionName="type"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="wa"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="windowFromChild"/>
+    <functioncall functionName="windowFromRoot"/>
+    <functioncall functionName="xhot"/>
+    <functioncall functionName="yhot"/>
+  </FileInfo>
+</analyzerinfo>

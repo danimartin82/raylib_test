@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2190004234">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 44 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\external\glfw\src\linux_joystick.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:731:6" call-funcname="_glfwInputJoystickButton" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="52" col="29" call-argexpr="value?1:0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:766:16" call-funcname="_glfwAllocJoystick" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="226" col="27" call-argexpr="name" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:766:16" call-funcname="_glfwAllocJoystick" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="226" col="27" call-argexpr="guid" call-argvaluetype="7" call-argvalue="33"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:731:6" call-funcname="_glfwInputJoystickButton" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="52" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c:50:13" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c:59:13" my-argnr="1" my-argname="js" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="61" col="23" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c:246:13" my-argnr="1" my-argname="js" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="248" col="11" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:731:6" call-funcname="_glfwInputJoystickButton" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="52" col="29" call-argexpr="value?1:0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:766:16" call-funcname="_glfwAllocJoystick" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="226" col="27" call-argexpr="name" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:766:16" call-funcname="_glfwAllocJoystick" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="226" col="27" call-argexpr="guid" call-argvaluetype="7" call-argvalue="33"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:731:6" call-funcname="_glfwInputJoystickButton" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="52" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c:50:13" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c:59:13" my-argnr="1" my-argname="js" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="61" col="23" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c:246:13" my-argnr="1" my-argname="js" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="248" col="11" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:731:6" call-funcname="_glfwInputJoystickButton" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="52" col="29" call-argexpr="value?1:0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:766:16" call-funcname="_glfwAllocJoystick" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="226" col="27" call-argexpr="name" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:766:16" call-funcname="_glfwAllocJoystick" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="226" col="27" call-argexpr="guid" call-argvaluetype="7" call-argvalue="33"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:731:6" call-funcname="_glfwInputJoystickButton" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="52" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c:50:13" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c:59:13" my-argnr="1" my-argname="js" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="61" col="23" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c:246:13" my-argnr="1" my-argname="js" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="248" col="11" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:731:6" call-funcname="_glfwInputJoystickButton" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="52" col="29" call-argexpr="value?1:0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:766:16" call-funcname="_glfwAllocJoystick" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="226" col="27" call-argexpr="name" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:766:16" call-funcname="_glfwAllocJoystick" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="226" col="27" call-argexpr="guid" call-argvaluetype="7" call-argvalue="33"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:731:6" call-funcname="_glfwInputJoystickButton" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="52" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c:50:13" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c:59:13" my-argnr="1" my-argname="js" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="61" col="23" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c:246:13" my-argnr="1" my-argname="js" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="248" col="11" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:731:6" call-funcname="_glfwInputJoystickButton" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="52" col="29" call-argexpr="value?1:0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:766:16" call-funcname="_glfwAllocJoystick" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="226" col="27" call-argexpr="name" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:766:16" call-funcname="_glfwAllocJoystick" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="226" col="27" call-argexpr="guid" call-argvaluetype="7" call-argvalue="33"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:731:6" call-funcname="_glfwInputJoystickButton" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="52" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c:50:13" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c:59:13" my-argnr="1" my-argname="js" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="61" col="23" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c:246:13" my-argnr="1" my-argname="js" file="C:/GitHub/raylib/src/external/glfw/src/linux_joystick.c" line="248" col="11" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="handleKeyEvent" lineNumber="50"/>
+    <functiondecl functionName="handleAbsEvent" lineNumber="59"/>
+    <functiondecl functionName="pollAbsState" lineNumber="107"/>
+    <functiondecl functionName="openJoystickDevice" lineNumber="127"/>
+    <functiondecl functionName="closeJoystick" lineNumber="246"/>
+    <functiondecl functionName="compareJoysticks" lineNumber="255"/>
+    <functiondecl functionName="_glfwInitJoysticksLinux" lineNumber="269"/>
+    <functiondecl functionName="_glfwTerminateJoysticksLinux" lineNumber="325"/>
+    <functiondecl functionName="_glfwDetectJoystickConnectionLinux" lineNumber="347"/>
+    <functiondecl functionName="_glfwPlatformPollJoystick" lineNumber="390"/>
+    <functiondecl functionName="_glfwPlatformUpdateGamepadGUID" lineNumber="430"/>
+    <functiondecl functionName="handleKeyEvent" lineNumber="50"/>
+    <functiondecl functionName="handleAbsEvent" lineNumber="59"/>
+    <functiondecl functionName="pollAbsState" lineNumber="107"/>
+    <functiondecl functionName="openJoystickDevice" lineNumber="127"/>
+    <functiondecl functionName="closeJoystick" lineNumber="246"/>
+    <functiondecl functionName="compareJoysticks" lineNumber="255"/>
+    <functiondecl functionName="_glfwInitJoysticksLinux" lineNumber="269"/>
+    <functiondecl functionName="_glfwTerminateJoysticksLinux" lineNumber="325"/>
+    <functiondecl functionName="_glfwDetectJoystickConnectionLinux" lineNumber="347"/>
+    <functiondecl functionName="_glfwPlatformPollJoystick" lineNumber="390"/>
+    <functiondecl functionName="_glfwPlatformUpdateGamepadGUID" lineNumber="430"/>
+    <functiondecl functionName="handleKeyEvent" lineNumber="50"/>
+    <functiondecl functionName="handleAbsEvent" lineNumber="59"/>
+    <functiondecl functionName="pollAbsState" lineNumber="107"/>
+    <functiondecl functionName="openJoystickDevice" lineNumber="127"/>
+    <functiondecl functionName="closeJoystick" lineNumber="246"/>
+    <functiondecl functionName="compareJoysticks" lineNumber="255"/>
+    <functiondecl functionName="_glfwInitJoysticksLinux" lineNumber="269"/>
+    <functiondecl functionName="_glfwTerminateJoysticksLinux" lineNumber="325"/>
+    <functiondecl functionName="_glfwDetectJoystickConnectionLinux" lineNumber="347"/>
+    <functiondecl functionName="_glfwPlatformPollJoystick" lineNumber="390"/>
+    <functiondecl functionName="_glfwPlatformUpdateGamepadGUID" lineNumber="430"/>
+    <functiondecl functionName="handleKeyEvent" lineNumber="50"/>
+    <functiondecl functionName="handleAbsEvent" lineNumber="59"/>
+    <functiondecl functionName="pollAbsState" lineNumber="107"/>
+    <functiondecl functionName="openJoystickDevice" lineNumber="127"/>
+    <functiondecl functionName="closeJoystick" lineNumber="246"/>
+    <functiondecl functionName="compareJoysticks" lineNumber="255"/>
+    <functiondecl functionName="_glfwInitJoysticksLinux" lineNumber="269"/>
+    <functiondecl functionName="_glfwTerminateJoysticksLinux" lineNumber="325"/>
+    <functiondecl functionName="_glfwDetectJoystickConnectionLinux" lineNumber="347"/>
+    <functiondecl functionName="_glfwPlatformPollJoystick" lineNumber="390"/>
+    <functiondecl functionName="_glfwPlatformUpdateGamepadGUID" lineNumber="430"/>
+    <functiondecl functionName="handleKeyEvent" lineNumber="50"/>
+    <functiondecl functionName="handleAbsEvent" lineNumber="59"/>
+    <functiondecl functionName="pollAbsState" lineNumber="107"/>
+    <functiondecl functionName="openJoystickDevice" lineNumber="127"/>
+    <functiondecl functionName="closeJoystick" lineNumber="246"/>
+    <functiondecl functionName="compareJoysticks" lineNumber="255"/>
+    <functiondecl functionName="_glfwInitJoysticksLinux" lineNumber="269"/>
+    <functiondecl functionName="_glfwTerminateJoysticksLinux" lineNumber="325"/>
+    <functiondecl functionName="_glfwDetectJoystickConnectionLinux" lineNumber="347"/>
+    <functiondecl functionName="_glfwPlatformPollJoystick" lineNumber="390"/>
+    <functiondecl functionName="_glfwPlatformUpdateGamepadGUID" lineNumber="430"/>
+    <functioncall functionName="ABS_HAT0X"/>
+    <functioncall functionName="BTN_MISC"/>
+    <functioncall functionName="EVIOCGABS"/>
+    <functioncall functionName="EVIOCGBIT"/>
+    <functioncall functionName="EVIOCGID"/>
+    <functioncall functionName="EVIOCGNAME"/>
+    <functioncall functionName="EV_ABS"/>
+    <functioncall functionName="EV_KEY"/>
+    <functioncall functionName="IN_ATTRIB"/>
+    <functioncall functionName="IN_CLOEXEC"/>
+    <functioncall functionName="IN_DELETE"/>
+    <functioncall functionName="MDT_EFFECTIVE_DPI"/>
+    <functioncall functionName="O_NONBLOCK"/>
+    <functioncall functionName="PATH_MAX"/>
+    <functioncall functionName="_GLFWjoystick"/>
+    <functioncall functionName="_glfwAllocJoystick"/>
+    <functioncall functionName="_glfwFreeJoystick"/>
+    <functioncall functionName="_glfwInputError"/>
+    <functioncall functionName="_glfwInputJoystick"/>
+    <functioncall functionName="_glfwInputJoystickAxis"/>
+    <functioncall functionName="_glfwInputJoystickButton"/>
+    <functioncall functionName="_glfwInputJoystickHat"/>
+    <functioncall functionName="absBits"/>
+    <functioncall functionName="axis"/>
+    <functioncall functionName="axisCount"/>
+    <functioncall functionName="bottomDecoration"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="buttonCount"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="closeJoystick"/>
+    <functioncall functionName="closedir"/>
+    <functioncall functionName="code"/>
+    <functioncall functionName="compareJoysticks"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="d_name"/>
+    <functioncall functionName="dir"/>
+    <functioncall functionName="dirname"/>
+    <functioncall functionName="dropped"/>
+    <functioncall functionName="e"/>
+    <functioncall functionName="errno"/>
+    <functioncall functionName="evBits"/>
+    <functioncall functionName="fd"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="fp"/>
+    <functioncall functionName="guid"/>
+    <functioncall functionName="handleAbsEvent"/>
+    <functioncall functionName="handleKeyEvent"/>
+    <functioncall functionName="hat"/>
+    <functioncall functionName="hatCount"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="info"/>
+    <functioncall functionName="inotify"/>
+    <functioncall functionName="inotify_add_watch"/>
+    <functioncall functionName="inotify_init1"/>
+    <functioncall functionName="inotify_rm_watch"/>
+    <functioncall functionName="ioctl"/>
+    <functioncall functionName="jid"/>
+    <functioncall functionName="joysticks"/>
+    <functioncall functionName="js"/>
+    <functioncall functionName="keyBits"/>
+    <functioncall functionName="leftDecoration"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="linjs"/>
+    <functioncall functionName="mainWindow"/>
+    <functioncall functionName="match"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="minimum"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="normalized"/>
+    <functioncall functionName="offset"/>
+    <functioncall functionName="open"/>
+    <functioncall functionName="openJoystickDevice"/>
+    <functioncall functionName="opendir"/>
+    <functioncall functionName="path"/>
+    <functioncall functionName="pollAbsState"/>
+    <functioncall functionName="present"/>
+    <functioncall functionName="qsort"/>
+    <functioncall functionName="range"/>
+    <functioncall functionName="read"/>
+    <functioncall functionName="readdir"/>
+    <functioncall functionName="regcomp"/>
+    <functioncall functionName="regex"/>
+    <functioncall functionName="regexec"/>
+    <functioncall functionName="regfree"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rightDecoration"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="snprintf"/>
+    <functioncall functionName="sp"/>
+    <functioncall functionName="sprintf"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="strerror"/>
+    <functioncall functionName="strncpy"/>
+    <functioncall functionName="topDecoration"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="version"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="watch"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

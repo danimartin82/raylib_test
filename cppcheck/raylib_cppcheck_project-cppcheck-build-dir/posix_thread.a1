@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2079806670">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 44 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\external\glfw\src\posix_thread.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:693:10" my-argnr="1" my-argname="tls" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="42" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:694:6" my-argnr="1" my-argname="tls" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="57" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:695:7" my-argnr="1" my-argname="tls" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="64" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:696:6" my-argnr="1" my-argname="tls" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="70" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:698:10" my-argnr="1" my-argname="mutex" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="76" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:699:6" my-argnr="1" my-argname="mutex" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="89" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:700:6" my-argnr="1" my-argname="mutex" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="96" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:701:6" my-argnr="1" my-argname="mutex" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="102" col="12" value="0"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:693:10" my-argnr="1" my-argname="tls" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="42" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:694:6" my-argnr="1" my-argname="tls" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="57" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:695:7" my-argnr="1" my-argname="tls" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="64" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:696:6" my-argnr="1" my-argname="tls" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="70" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:698:10" my-argnr="1" my-argname="mutex" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="76" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:699:6" my-argnr="1" my-argname="mutex" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="89" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:700:6" my-argnr="1" my-argname="mutex" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="96" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:701:6" my-argnr="1" my-argname="mutex" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="102" col="12" value="0"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:693:10" my-argnr="1" my-argname="tls" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="42" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:694:6" my-argnr="1" my-argname="tls" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="57" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:695:7" my-argnr="1" my-argname="tls" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="64" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:696:6" my-argnr="1" my-argname="tls" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="70" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:698:10" my-argnr="1" my-argname="mutex" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="76" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:699:6" my-argnr="1" my-argname="mutex" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="89" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:700:6" my-argnr="1" my-argname="mutex" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="96" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:701:6" my-argnr="1" my-argname="mutex" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="102" col="12" value="0"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:693:10" my-argnr="1" my-argname="tls" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="42" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:694:6" my-argnr="1" my-argname="tls" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="57" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:695:7" my-argnr="1" my-argname="tls" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="64" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:696:6" my-argnr="1" my-argname="tls" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="70" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:698:10" my-argnr="1" my-argname="mutex" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="76" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:699:6" my-argnr="1" my-argname="mutex" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="89" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:700:6" my-argnr="1" my-argname="mutex" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="96" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:701:6" my-argnr="1" my-argname="mutex" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="102" col="12" value="0"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:693:10" my-argnr="1" my-argname="tls" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="42" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:694:6" my-argnr="1" my-argname="tls" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="57" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:695:7" my-argnr="1" my-argname="tls" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="64" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:696:6" my-argnr="1" my-argname="tls" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="70" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:698:10" my-argnr="1" my-argname="mutex" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="76" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:699:6" my-argnr="1" my-argname="mutex" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="89" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:700:6" my-argnr="1" my-argname="mutex" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="96" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:701:6" my-argnr="1" my-argname="mutex" file="C:/GitHub/raylib/src/external/glfw/src/posix_thread.c" line="102" col="12" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="_glfwPlatformCreateTls" lineNumber="40"/>
+    <functiondecl functionName="_glfwPlatformDestroyTls" lineNumber="55"/>
+    <functiondecl functionName="_glfwPlatformGetTls" lineNumber="62"/>
+    <functiondecl functionName="_glfwPlatformSetTls" lineNumber="68"/>
+    <functiondecl functionName="_glfwPlatformCreateMutex" lineNumber="74"/>
+    <functiondecl functionName="_glfwPlatformDestroyMutex" lineNumber="87"/>
+    <functiondecl functionName="_glfwPlatformLockMutex" lineNumber="94"/>
+    <functiondecl functionName="_glfwPlatformUnlockMutex" lineNumber="100"/>
+    <functiondecl functionName="_glfwPlatformCreateTls" lineNumber="40"/>
+    <functiondecl functionName="_glfwPlatformDestroyTls" lineNumber="55"/>
+    <functiondecl functionName="_glfwPlatformGetTls" lineNumber="62"/>
+    <functiondecl functionName="_glfwPlatformSetTls" lineNumber="68"/>
+    <functiondecl functionName="_glfwPlatformCreateMutex" lineNumber="74"/>
+    <functiondecl functionName="_glfwPlatformDestroyMutex" lineNumber="87"/>
+    <functiondecl functionName="_glfwPlatformLockMutex" lineNumber="94"/>
+    <functiondecl functionName="_glfwPlatformUnlockMutex" lineNumber="100"/>
+    <functiondecl functionName="_glfwPlatformCreateTls" lineNumber="40"/>
+    <functiondecl functionName="_glfwPlatformDestroyTls" lineNumber="55"/>
+    <functiondecl functionName="_glfwPlatformGetTls" lineNumber="62"/>
+    <functiondecl functionName="_glfwPlatformSetTls" lineNumber="68"/>
+    <functiondecl functionName="_glfwPlatformCreateMutex" lineNumber="74"/>
+    <functiondecl functionName="_glfwPlatformDestroyMutex" lineNumber="87"/>
+    <functiondecl functionName="_glfwPlatformLockMutex" lineNumber="94"/>
+    <functiondecl functionName="_glfwPlatformUnlockMutex" lineNumber="100"/>
+    <functiondecl functionName="_glfwPlatformCreateTls" lineNumber="40"/>
+    <functiondecl functionName="_glfwPlatformDestroyTls" lineNumber="55"/>
+    <functiondecl functionName="_glfwPlatformGetTls" lineNumber="62"/>
+    <functiondecl functionName="_glfwPlatformSetTls" lineNumber="68"/>
+    <functiondecl functionName="_glfwPlatformCreateMutex" lineNumber="74"/>
+    <functiondecl functionName="_glfwPlatformDestroyMutex" lineNumber="87"/>
+    <functiondecl functionName="_glfwPlatformLockMutex" lineNumber="94"/>
+    <functiondecl functionName="_glfwPlatformUnlockMutex" lineNumber="100"/>
+    <functiondecl functionName="_glfwPlatformCreateTls" lineNumber="40"/>
+    <functiondecl functionName="_glfwPlatformDestroyTls" lineNumber="55"/>
+    <functiondecl functionName="_glfwPlatformGetTls" lineNumber="62"/>
+    <functiondecl functionName="_glfwPlatformSetTls" lineNumber="68"/>
+    <functiondecl functionName="_glfwPlatformCreateMutex" lineNumber="74"/>
+    <functiondecl functionName="_glfwPlatformDestroyMutex" lineNumber="87"/>
+    <functiondecl functionName="_glfwPlatformLockMutex" lineNumber="94"/>
+    <functiondecl functionName="_glfwPlatformUnlockMutex" lineNumber="100"/>
+    <functioncall functionName="MDT_EFFECTIVE_DPI"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="_GLFWmutex"/>
+    <functioncall functionName="_GLFWtls"/>
+    <functioncall functionName="_glfwInputError"/>
+    <functioncall functionName="allocated"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="bottomDecoration"/>
+    <functioncall functionName="handle"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="key"/>
+    <functioncall functionName="leftDecoration"/>
+    <functioncall functionName="mainWindow"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="mutex"/>
+    <functioncall functionName="pthread_getspecific"/>
+    <functioncall functionName="pthread_key_create"/>
+    <functioncall functionName="pthread_key_delete"/>
+    <functioncall functionName="pthread_mutex_destroy"/>
+    <functioncall functionName="pthread_mutex_init"/>
+    <functioncall functionName="pthread_mutex_lock"/>
+    <functioncall functionName="pthread_mutex_unlock"/>
+    <functioncall functionName="pthread_setspecific"/>
+    <functioncall functionName="rightDecoration"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="tls"/>
+    <functioncall functionName="topDecoration"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="813506744">
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/deps/glad_vulkan.c:410:12" call-funcname="glad_vk_get_extensions" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/deps/glad_vulkan.c" line="521" col="32" call-argexpr="&extension_count" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/deps/glad_vulkan.c:410:12" call-funcname="glad_vk_get_extensions" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/deps/glad_vulkan.c" line="521" col="32" call-argexpr="&extensions" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/deps/glad_vulkan.c:410:12" call-funcname="glad_vk_get_extensions" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/deps/glad_vulkan.c" line="521" col="10" my-id="C:/GitHub/raylib/src/external/glfw/deps/glad_vulkan.c:518:12" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/deps/glad_vulkan.c:532:12" call-funcname="glad_vk_find_core_vulkan" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/deps/glad_vulkan.c" line="569" col="15" my-id="C:/GitHub/raylib/src/external/glfw/deps/glad/vulkan.h:3469:19" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/deps/glad/vulkan.h:3469:19" my-argnr="2" my-argname="load" file="C:/GitHub/raylib/src/external/glfw/deps/glad_vulkan.c" line="567" col="68" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/deps/glad_vulkan.c:514:20" my-argnr="1" my-argname="name" file="C:/GitHub/raylib/src/external/glfw/deps/glad_vulkan.c" line="515" col="62" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="glad_vk_load_VK_VERSION_1_0" lineNumber="210"/>
+    <functiondecl functionName="glad_vk_load_VK_VERSION_1_1" lineNumber="350"/>
+    <functiondecl functionName="glad_vk_load_VK_EXT_debug_report" lineNumber="381"/>
+    <functiondecl functionName="glad_vk_load_VK_KHR_surface" lineNumber="387"/>
+    <functiondecl functionName="glad_vk_load_VK_KHR_swapchain" lineNumber="395"/>
+    <functiondecl functionName="glad_vk_get_extensions" lineNumber="410"/>
+    <functiondecl functionName="glad_vk_free_extensions" lineNumber="492"/>
+    <functiondecl functionName="glad_vk_has_extension" lineNumber="502"/>
+    <functiondecl functionName="glad_vk_get_proc_from_userptr" lineNumber="514"/>
+    <functiondecl functionName="glad_vk_find_extensions_vulkan" lineNumber="518"/>
+    <functiondecl functionName="glad_vk_find_core_vulkan" lineNumber="532"/>
+    <functiondecl functionName="gladLoadVulkanUserPtr" lineNumber="563"/>
+    <functiondecl functionName="gladLoadVulkan" lineNumber="587"/>
+    <functioncall functionName="GLAD_VK_EXT_debug_report"/>
+    <functioncall functionName="GLAD_VK_KHR_surface"/>
+    <functioncall functionName="GLAD_VK_KHR_swapchain"/>
+    <functioncall functionName="GLAD_VK_VERSION_1_0"/>
+    <functioncall functionName="GLAD_VK_VERSION_1_1"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="PFN_vkGetDeviceProcAddr"/>
+    <functioncall functionName="PFN_vkGetInstanceProcAddr"/>
+    <functioncall functionName="VK_COLOR_SPACE_SRGB_NONLINEAR_KHR"/>
+    <functioncall functionName="VK_DEBUG_REPORT_OBJECT_TYPE_DEBUG_REPORT_CALLBACK_EXT_EXT"/>
+    <functioncall functionName="VK_DEBUG_REPORT_OBJECT_TYPE_VALIDATION_CACHE_EXT_EXT"/>
+    <functioncall functionName="VK_STRUCTURE_TYPE_DEBUG_REPORT_CALLBACK_CREATE_INFO_EXT"/>
+    <functioncall functionName="VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_SHADER_DRAW_PARAMETERS_FEATURES"/>
+    <functioncall functionName="VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VARIABLE_POINTERS_FEATURES"/>
+    <functioncall functionName="apiVersion"/>
+    <functioncall functionName="calloc"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="device_extension_count"/>
+    <functioncall functionName="ext_properties"/>
+    <functioncall functionName="extensionName"/>
+    <functioncall functionName="extension_count"/>
+    <functioncall functionName="extensions"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="gladLoadVulkanUserPtr"/>
+    <functioncall functionName="glad_vkEnumerateDeviceExtensionProperties"/>
+    <functioncall functionName="glad_vkEnumerateInstanceExtensionProperties"/>
+    <functioncall functionName="glad_vkEnumerateInstanceVersion"/>
+    <functioncall functionName="glad_vkGetPhysicalDeviceProperties"/>
+    <functioncall functionName="glad_vk_find_core_vulkan"/>
+    <functioncall functionName="glad_vk_find_extensions_vulkan"/>
+    <functioncall functionName="glad_vk_free_extensions"/>
+    <functioncall functionName="glad_vk_get_extensions"/>
+    <functioncall functionName="glad_vk_get_proc_from_userptr"/>
+    <functioncall functionName="glad_vk_has_extension"/>
+    <functioncall functionName="glad_vk_load_VK_EXT_debug_report"/>
+    <functioncall functionName="glad_vk_load_VK_KHR_surface"/>
+    <functioncall functionName="glad_vk_load_VK_KHR_swapchain"/>
+    <functioncall functionName="glad_vk_load_VK_VERSION_1_0"/>
+    <functioncall functionName="glad_vk_load_VK_VERSION_1_1"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="instance_extension_count"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="load"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="minor"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="physical_device"/>
+    <functioncall functionName="properties"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="total_extension_count"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="userptr"/>
+    <functioncall functionName="version"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

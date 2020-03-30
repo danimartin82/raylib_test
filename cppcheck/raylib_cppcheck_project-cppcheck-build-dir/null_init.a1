@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4102772447">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 44 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\external\glfw\src\null_init.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="_glfwPlatformInit" lineNumber="37"/>
+    <functiondecl functionName="_glfwPlatformTerminate" lineNumber="43"/>
+    <functiondecl functionName="_glfwPlatformGetVersionString" lineNumber="48"/>
+    <functiondecl functionName="_glfwPlatformInit" lineNumber="37"/>
+    <functiondecl functionName="_glfwPlatformTerminate" lineNumber="43"/>
+    <functiondecl functionName="_glfwPlatformGetVersionString" lineNumber="48"/>
+    <functiondecl functionName="_glfwPlatformInit" lineNumber="37"/>
+    <functiondecl functionName="_glfwPlatformTerminate" lineNumber="43"/>
+    <functiondecl functionName="_glfwPlatformGetVersionString" lineNumber="48"/>
+    <functiondecl functionName="_glfwPlatformInit" lineNumber="37"/>
+    <functiondecl functionName="_glfwPlatformTerminate" lineNumber="43"/>
+    <functiondecl functionName="_glfwPlatformGetVersionString" lineNumber="48"/>
+    <functiondecl functionName="_glfwPlatformInit" lineNumber="37"/>
+    <functiondecl functionName="_glfwPlatformTerminate" lineNumber="43"/>
+    <functiondecl functionName="_glfwPlatformGetVersionString" lineNumber="48"/>
+    <functioncall functionName="MDT_EFFECTIVE_DPI"/>
+    <functioncall functionName="_glfwInitTimerPOSIX"/>
+    <functioncall functionName="_glfwTerminateOSMesa"/>
+    <functioncall functionName="bottomDecoration"/>
+    <functioncall functionName="leftDecoration"/>
+    <functioncall functionName="mainWindow"/>
+    <functioncall functionName="rightDecoration"/>
+    <functioncall functionName="topDecoration"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

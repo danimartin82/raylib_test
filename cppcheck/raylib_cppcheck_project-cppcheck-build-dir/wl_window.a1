@@ -1,0 +1,1106 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3845495079">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 46 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" line="0" column="0"/>
+        </error>
+        <error id="strdupCalled" severity="style" msg="Obsolete function &apos;strdup&apos; called. It is recommended to use &apos;_strdup&apos; instead." verbose="Obsolete function &apos;strdup&apos; called. It is recommended to use &apos;_strdup&apos; instead." cwe="477">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" file="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" line="1565" column="36"/>
+        </error>
+        <error id="memleakOnRealloc" severity="error" msg="Common realloc mistake: &apos;clipboard&apos; nulled but not freed upon failure" verbose="Common realloc mistake: &apos;clipboard&apos; nulled but not freed upon failure" cwe="401">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" file="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" line="1595" column="5"/>
+            <symbol>clipboard</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;path&apos; can be reduced." verbose="The scope of the variable &apos;path&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" file="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" line="78" column="17"/>
+            <symbol>path</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;name&apos; can be reduced." verbose="The scope of the variable &apos;name&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" file="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" line="79" column="11"/>
+            <symbol>name</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;region&apos; can be reduced." verbose="The scope of the variable &apos;region&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" file="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" line="191" column="23"/>
+            <symbol>region</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;monitorScale&apos; can be reduced." verbose="The scope of the variable &apos;monitorScale&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" file="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" line="343" column="9"/>
+            <symbol>monitorScale</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;aspectRatio&apos; can be reduced." verbose="The scope of the variable &apos;aspectRatio&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" file="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" line="480" column="11"/>
+            <symbol>aspectRatio</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;targetRatio&apos; can be reduced." verbose="The scope of the variable &apos;targetRatio&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" file="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" line="481" column="11"/>
+            <symbol>targetRatio</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;read_ret&apos; can be reduced." verbose="The scope of the variable &apos;read_ret&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" file="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" line="713" column="13"/>
+            <symbol>read_ret</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;i&apos; can be reduced." verbose="The scope of the variable &apos;i&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" file="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" line="714" column="23"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;defaultCursor&apos; can be reduced." verbose="The scope of the variable &apos;defaultCursor&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" file="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" line="1412" column="23"/>
+            <symbol>defaultCursor</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;ret&apos; can be reduced." verbose="The scope of the variable &apos;ret&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" file="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" line="1488" column="9"/>
+            <symbol>ret</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:132:26" call-funcname="createShmBuffer" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="225" col="56" call-argexpr="&image" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:185:13" call-funcname="createDecoration" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="229" col="21" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:708:6" call-funcname="_glfwInputWindowFocus" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="535" col="26" call-argexpr="activated" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" line="533" col="23" info="Assuming that condition 'activated' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:412:13" call-funcname="setIdleInhibitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="628" col="25" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:412:13" call-funcname="setIdleInhibitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="633" col="25" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:727:6" call-funcname="_glfwInputCursorEnter" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="837" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:708:6" call-funcname="_glfwInputWindowFocus" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="842" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:718:6" call-funcname="_glfwInputWindowMonitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="996" col="28" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:412:13" call-funcname="setIdleInhibitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1057" col="25" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:705:13" call-funcname="handleEvents" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1142" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1744" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1751" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:430:17" call-funcname="createSurface" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="784" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:778:7" call-funcname="_glfw_strdup" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="878" col="24" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:640:6" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="948" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="948" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="948" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="3"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:459:13" call-funcname="setFullscreen" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1051" col="9" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:664:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:1168:17" call-funcname="isPointerLocked" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1172" col="9" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:603:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:611:6" call-funcname="_glfwPlatformSetCursor" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1183" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:604:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:132:26" call-funcname="createShmBuffer" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1201" col="25" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:607:5" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:132:26" my-argnr="1" my-argname="image" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="136" col="18" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:185:13" my-argnr="1" my-argname="decoration" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="193" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:247:13" my-argnr="1" my-argname="decoration" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="249" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:300:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="302" col="17" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:430:17" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="433" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:459:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="462" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:582:17" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="584" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:643:13" my-argnr="2" my-argname="cursorWayland" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="647" col="34" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="782" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="4" my-argname="fbconfig" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="782" col="30" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:640:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="876" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:646:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="917" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:647:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="926" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:652:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="957" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:657:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="981" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:658:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="987" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:659:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1002" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:660:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1011" col="10" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:661:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1020" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:669:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1078" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:670:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1083" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:671:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1088" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:672:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1093" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:675:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1105" col="10" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:607:5" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1201" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:609:5" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1238" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:610:6" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1295" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:1341:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1344" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:1168:17" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1407" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:626:6" my-argnr="1" my-argname="string" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1565" col="43" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:669:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1078" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:670:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1083" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:671:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1088" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:672:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1093" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:1168:17" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1407" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:626:6" my-argnr="1" my-argname="string" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1565" col="43" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:132:26" call-funcname="createShmBuffer" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="225" col="56" call-argexpr="&image" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:185:13" call-funcname="createDecoration" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="229" col="21" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:708:6" call-funcname="_glfwInputWindowFocus" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="535" col="26" call-argexpr="activated" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" line="533" col="23" info="Assuming that condition 'activated' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:412:13" call-funcname="setIdleInhibitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="628" col="25" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:412:13" call-funcname="setIdleInhibitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="633" col="25" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:727:6" call-funcname="_glfwInputCursorEnter" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="837" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:708:6" call-funcname="_glfwInputWindowFocus" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="842" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:718:6" call-funcname="_glfwInputWindowMonitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="996" col="28" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:412:13" call-funcname="setIdleInhibitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1057" col="25" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:705:13" call-funcname="handleEvents" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1142" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1744" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1751" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:430:17" call-funcname="createSurface" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="784" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:778:7" call-funcname="_glfw_strdup" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="878" col="24" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:640:6" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="948" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="948" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="948" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="3"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:459:13" call-funcname="setFullscreen" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1051" col="9" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:664:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:1168:17" call-funcname="isPointerLocked" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1172" col="9" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:603:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:611:6" call-funcname="_glfwPlatformSetCursor" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1183" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:604:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:132:26" call-funcname="createShmBuffer" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1201" col="25" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:607:5" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:132:26" my-argnr="1" my-argname="image" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="136" col="18" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:185:13" my-argnr="1" my-argname="decoration" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="193" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:247:13" my-argnr="1" my-argname="decoration" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="249" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:300:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="302" col="17" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:430:17" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="433" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:459:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="462" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:582:17" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="584" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:643:13" my-argnr="2" my-argname="cursorWayland" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="647" col="34" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="782" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="4" my-argname="fbconfig" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="782" col="30" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:640:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="876" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:646:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="917" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:647:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="926" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:652:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="957" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:657:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="981" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:658:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="987" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:659:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1002" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:660:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1011" col="10" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:661:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1020" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:669:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1078" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:670:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1083" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:671:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1088" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:672:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1093" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:675:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1105" col="10" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:607:5" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1201" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:609:5" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1238" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:610:6" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1295" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:1341:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1344" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:1168:17" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1407" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:626:6" my-argnr="1" my-argname="string" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1565" col="43" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:669:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1078" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:670:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1083" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:671:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1088" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:672:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1093" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:1168:17" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1407" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:626:6" my-argnr="1" my-argname="string" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1565" col="43" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:132:26" call-funcname="createShmBuffer" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="225" col="56" call-argexpr="&image" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:185:13" call-funcname="createDecoration" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="229" col="21" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:708:6" call-funcname="_glfwInputWindowFocus" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="535" col="26" call-argexpr="activated" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" line="533" col="23" info="Assuming that condition 'activated' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:412:13" call-funcname="setIdleInhibitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="628" col="25" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:412:13" call-funcname="setIdleInhibitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="633" col="25" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:727:6" call-funcname="_glfwInputCursorEnter" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="837" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:708:6" call-funcname="_glfwInputWindowFocus" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="842" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:718:6" call-funcname="_glfwInputWindowMonitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="996" col="28" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:412:13" call-funcname="setIdleInhibitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1057" col="25" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:705:13" call-funcname="handleEvents" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1142" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:643:13" call-funcname="setCursorImage" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1455" col="27" call-argexpr="&cursorWayland" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1744" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1751" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:430:17" call-funcname="createSurface" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="784" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:778:7" call-funcname="_glfw_strdup" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="878" col="24" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:640:6" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="948" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="948" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="948" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="3"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:459:13" call-funcname="setFullscreen" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1051" col="9" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:664:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:1168:17" call-funcname="isPointerLocked" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1172" col="9" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:603:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:611:6" call-funcname="_glfwPlatformSetCursor" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1183" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:604:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:132:26" call-funcname="createShmBuffer" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1201" col="25" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:607:5" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:132:26" my-argnr="1" my-argname="image" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="136" col="18" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:185:13" my-argnr="1" my-argname="decoration" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="193" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:247:13" my-argnr="1" my-argname="decoration" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="249" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:300:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="302" col="17" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:430:17" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="433" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:459:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="462" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:582:17" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="584" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:643:13" my-argnr="2" my-argname="cursorWayland" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="647" col="34" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="782" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="4" my-argname="fbconfig" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="782" col="30" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:640:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="876" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:646:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="917" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:647:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="926" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:652:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="957" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:657:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="981" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:658:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="987" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:659:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1002" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:660:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1011" col="10" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:661:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1020" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:669:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1078" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:670:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1083" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:671:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1088" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:672:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1093" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:675:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1105" col="10" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:607:5" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1201" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:609:5" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1238" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:610:6" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1295" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:1341:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1344" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:1168:17" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1407" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:626:6" my-argnr="1" my-argname="string" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1565" col="43" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:669:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1078" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:670:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1083" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:671:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1088" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:672:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1093" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:1168:17" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1407" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:626:6" my-argnr="1" my-argname="string" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1565" col="43" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:132:26" call-funcname="createShmBuffer" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="225" col="56" call-argexpr="&image" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:185:13" call-funcname="createDecoration" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="229" col="21" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:708:6" call-funcname="_glfwInputWindowFocus" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="535" col="26" call-argexpr="activated" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" line="533" col="23" info="Assuming that condition 'activated' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:412:13" call-funcname="setIdleInhibitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="628" col="25" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:412:13" call-funcname="setIdleInhibitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="633" col="25" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:727:6" call-funcname="_glfwInputCursorEnter" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="837" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:708:6" call-funcname="_glfwInputWindowFocus" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="842" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:718:6" call-funcname="_glfwInputWindowMonitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="996" col="28" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:412:13" call-funcname="setIdleInhibitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1057" col="25" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:705:13" call-funcname="handleEvents" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1142" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1744" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1751" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:430:17" call-funcname="createSurface" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="784" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:778:7" call-funcname="_glfw_strdup" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="878" col="24" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:640:6" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="948" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="948" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="948" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="3"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:459:13" call-funcname="setFullscreen" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1051" col="9" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:664:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:1168:17" call-funcname="isPointerLocked" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1172" col="9" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:603:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:611:6" call-funcname="_glfwPlatformSetCursor" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1183" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:604:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:132:26" call-funcname="createShmBuffer" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1201" col="25" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:607:5" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:132:26" my-argnr="1" my-argname="image" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="136" col="18" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:185:13" my-argnr="1" my-argname="decoration" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="193" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:247:13" my-argnr="1" my-argname="decoration" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="249" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:300:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="302" col="17" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:430:17" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="433" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:459:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="462" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:582:17" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="584" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:643:13" my-argnr="2" my-argname="cursorWayland" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="647" col="34" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="782" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="4" my-argname="fbconfig" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="782" col="30" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:640:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="876" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:646:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="917" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:647:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="926" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:652:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="957" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:657:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="981" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:658:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="987" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:659:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1002" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:660:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1011" col="10" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:661:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1020" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:669:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1078" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:670:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1083" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:671:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1088" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:672:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1093" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:675:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1105" col="10" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:607:5" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1201" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:609:5" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1238" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:610:6" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1295" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:1341:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1344" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:1168:17" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1407" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:626:6" my-argnr="1" my-argname="string" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1565" col="43" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:669:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1078" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:670:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1083" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:671:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1088" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:672:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1093" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:1168:17" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1407" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:626:6" my-argnr="1" my-argname="string" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1565" col="43" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:132:26" call-funcname="createShmBuffer" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="225" col="56" call-argexpr="&image" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:185:13" call-funcname="createDecoration" call-argnr="5" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="229" col="21" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:708:6" call-funcname="_glfwInputWindowFocus" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="535" col="26" call-argexpr="activated" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\wl_window.c" line="533" col="23" info="Assuming that condition 'activated' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:412:13" call-funcname="setIdleInhibitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="628" col="25" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:412:13" call-funcname="setIdleInhibitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="633" col="25" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:727:6" call-funcname="_glfwInputCursorEnter" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="837" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:708:6" call-funcname="_glfwInputWindowFocus" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="842" col="30" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:718:6" call-funcname="_glfwInputWindowMonitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="996" col="28" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:412:13" call-funcname="setIdleInhibitor" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1057" col="25" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:705:13" call-funcname="handleEvents" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1142" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1744" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1751" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:430:17" call-funcname="createSurface" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="784" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:778:7" call-funcname="_glfw_strdup" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="878" col="24" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:640:6" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="948" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="948" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:645:6" call-funcname="_glfwPlatformGetWindowSize" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="948" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:651:6" my-argnr="3"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:459:13" call-funcname="setFullscreen" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1051" col="9" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:664:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:1168:17" call-funcname="isPointerLocked" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1172" col="9" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:603:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:611:6" call-funcname="_glfwPlatformSetCursor" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1183" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:604:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:132:26" call-funcname="createShmBuffer" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1201" col="25" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:607:5" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:132:26" my-argnr="1" my-argname="image" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="136" col="18" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:185:13" my-argnr="1" my-argname="decoration" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="193" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:247:13" my-argnr="1" my-argname="decoration" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="249" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:300:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="302" col="17" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:430:17" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="433" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:459:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="462" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:582:17" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="584" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:643:13" my-argnr="2" my-argname="cursorWayland" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="647" col="34" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="782" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:635:5" my-argnr="4" my-argname="fbconfig" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="782" col="30" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:640:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="876" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:646:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="917" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:647:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="926" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:652:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="957" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:657:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="981" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:658:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="987" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:659:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1002" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:660:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1011" col="10" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:661:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1020" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:669:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1078" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:670:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1083" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:671:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1088" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:672:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1093" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:675:6" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1105" col="10" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:607:5" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1201" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:609:5" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1238" col="5" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:610:6" my-argnr="1" my-argname="cursor" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1295" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:1341:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1344" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:1168:17" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1407" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:626:6" my-argnr="1" my-argname="string" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1565" col="43" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:669:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1078" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:670:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1083" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:671:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1088" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:672:5" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1093" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/wl_window.c:1168:17" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1407" col="12" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:626:6" my-argnr="1" my-argname="string" file="C:/GitHub/raylib/src/external/glfw/src/wl_window.c" line="1565" col="43" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="createTmpfileCloexec" lineNumber="44"/>
+    <functiondecl functionName="createAnonymousFile" lineNumber="75"/>
+    <functiondecl functionName="createShmBuffer" lineNumber="132"/>
+    <functiondecl functionName="createDecoration" lineNumber="185"/>
+    <functiondecl functionName="createDecorations" lineNumber="215"/>
+    <functiondecl functionName="destroyDecoration" lineNumber="247"/>
+    <functiondecl functionName="destroyDecorations" lineNumber="260"/>
+    <functiondecl functionName="xdgDecorationHandleConfigure" lineNumber="268"/>
+    <functiondecl functionName="setOpaqueRegion" lineNumber="285"/>
+    <functiondecl functionName="resizeWindow" lineNumber="300"/>
+    <functiondecl functionName="checkScaleChange" lineNumber="339"/>
+    <functiondecl functionName="surfaceHandleEnter" lineNumber="366"/>
+    <functiondecl functionName="surfaceHandleLeave" lineNumber="386"/>
+    <functiondecl functionName="setIdleInhibitor" lineNumber="412"/>
+    <functiondecl functionName="createSurface" lineNumber="430"/>
+    <functiondecl functionName="setFullscreen" lineNumber="459"/>
+    <functiondecl functionName="xdgToplevelHandleConfigure" lineNumber="473"/>
+    <functiondecl functionName="xdgToplevelHandleClose" lineNumber="538"/>
+    <functiondecl functionName="xdgSurfaceHandleConfigure" lineNumber="550"/>
+    <functiondecl functionName="setXdgDecorations" lineNumber="561"/>
+    <functiondecl functionName="createXdgSurface" lineNumber="582"/>
+    <functiondecl functionName="setCursorImage" lineNumber="643"/>
+    <functiondecl functionName="incrementCursorImage" lineNumber="689"/>
+    <functiondecl functionName="handleEvents" lineNumber="705"/>
+    <functiondecl functionName="_glfwPlatformCreateWindow" lineNumber="777"/>
+    <functiondecl functionName="_glfwPlatformDestroyWindow" lineNumber="832"/>
+    <functiondecl functionName="_glfwPlatformSetWindowTitle" lineNumber="874"/>
+    <functiondecl functionName="_glfwPlatformSetWindowIcon" lineNumber="883"/>
+    <functiondecl functionName="_glfwPlatformGetWindowPos" lineNumber="890"/>
+    <functiondecl functionName="_glfwPlatformSetWindowPos" lineNumber="899"/>
+    <functiondecl functionName="_glfwPlatformGetWindowSize" lineNumber="907"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSize" lineNumber="915"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSizeLimits" lineNumber="922"/>
+    <functiondecl functionName="_glfwPlatformSetWindowAspectRatio" lineNumber="938"/>
+    <functiondecl functionName="_glfwPlatformGetFramebufferSize" lineNumber="945"/>
+    <functiondecl functionName="_glfwPlatformGetWindowFrameSize" lineNumber="953"/>
+    <functiondecl functionName="_glfwPlatformGetWindowContentScale" lineNumber="970"/>
+    <functiondecl functionName="_glfwPlatformIconifyWindow" lineNumber="979"/>
+    <functiondecl functionName="_glfwPlatformRestoreWindow" lineNumber="985"/>
+    <functiondecl functionName="_glfwPlatformMaximizeWindow" lineNumber="1000"/>
+    <functiondecl functionName="_glfwPlatformShowWindow" lineNumber="1009"/>
+    <functiondecl functionName="_glfwPlatformHideWindow" lineNumber="1018"/>
+    <functiondecl functionName="_glfwPlatformRequestWindowAttention" lineNumber="1030"/>
+    <functiondecl functionName="_glfwPlatformFocusWindow" lineNumber="1037"/>
+    <functiondecl functionName="_glfwPlatformSetWindowMonitor" lineNumber="1043"/>
+    <functiondecl functionName="_glfwPlatformWindowFocused" lineNumber="1064"/>
+    <functiondecl functionName="_glfwPlatformWindowIconified" lineNumber="1069"/>
+    <functiondecl functionName="_glfwPlatformWindowVisible" lineNumber="1076"/>
+    <functiondecl functionName="_glfwPlatformWindowMaximized" lineNumber="1081"/>
+    <functiondecl functionName="_glfwPlatformWindowHovered" lineNumber="1086"/>
+    <functiondecl functionName="_glfwPlatformFramebufferTransparent" lineNumber="1091"/>
+    <functiondecl functionName="_glfwPlatformSetWindowResizable" lineNumber="1096"/>
+    <functiondecl functionName="_glfwPlatformSetWindowDecorated" lineNumber="1103"/>
+    <functiondecl functionName="_glfwPlatformSetWindowFloating" lineNumber="1114"/>
+    <functiondecl functionName="_glfwPlatformGetWindowOpacity" lineNumber="1121"/>
+    <functiondecl functionName="_glfwPlatformSetWindowOpacity" lineNumber="1126"/>
+    <functiondecl functionName="_glfwPlatformSetRawMouseMotion" lineNumber="1130"/>
+    <functiondecl functionName="_glfwPlatformRawMouseMotionSupported" lineNumber="1135"/>
+    <functiondecl functionName="_glfwPlatformPollEvents" lineNumber="1140"/>
+    <functiondecl functionName="_glfwPlatformWaitEvents" lineNumber="1145"/>
+    <functiondecl functionName="_glfwPlatformWaitEventsTimeout" lineNumber="1150"/>
+    <functiondecl functionName="_glfwPlatformPostEmptyEvent" lineNumber="1155"/>
+    <functiondecl functionName="_glfwPlatformGetCursorPos" lineNumber="1160"/>
+    <functiondecl functionName="_glfwPlatformSetCursorPos" lineNumber="1170"/>
+    <functiondecl functionName="_glfwPlatformSetCursorMode" lineNumber="1181"/>
+    <functiondecl functionName="_glfwPlatformGetScancodeName" lineNumber="1186"/>
+    <functiondecl functionName="_glfwPlatformGetKeyScancode" lineNumber="1192"/>
+    <functiondecl functionName="_glfwPlatformCreateCursor" lineNumber="1197"/>
+    <functiondecl functionName="_glfwPlatformCreateStandardCursor" lineNumber="1212"/>
+    <functiondecl functionName="_glfwPlatformDestroyCursor" lineNumber="1292"/>
+    <functiondecl functionName="relativePointerHandleRelativeMotion" lineNumber="1302"/>
+    <functiondecl functionName="lockedPointerHandleLocked" lineNumber="1336"/>
+    <functiondecl functionName="unlockPointer" lineNumber="1341"/>
+    <functiondecl functionName="lockedPointerHandleUnlocked" lineNumber="1357"/>
+    <functiondecl functionName="lockPointer" lineNumber="1367"/>
+    <functiondecl functionName="isPointerLocked" lineNumber="1405"/>
+    <functiondecl functionName="_glfwPlatformSetCursor" lineNumber="1410"/>
+    <functiondecl functionName="dataSourceHandleTarget" lineNumber="1469"/>
+    <functiondecl functionName="dataSourceHandleSend" lineNumber="1481"/>
+    <functiondecl functionName="dataSourceHandleCancelled" lineNumber="1530"/>
+    <functiondecl functionName="_glfwPlatformSetClipboardString" lineNumber="1551"/>
+    <functiondecl functionName="growClipboardString" lineNumber="1591"/>
+    <functiondecl functionName="_glfwPlatformGetClipboardString" lineNumber="1607"/>
+    <functiondecl functionName="_glfwPlatformGetRequiredInstanceExtensions" lineNumber="1674"/>
+    <functiondecl functionName="_glfwPlatformGetPhysicalDevicePresentationSupport" lineNumber="1683"/>
+    <functiondecl functionName="_glfwPlatformCreateWindowSurface" lineNumber="1703"/>
+    <functiondecl functionName="glfwGetWaylandDisplay" lineNumber="1742"/>
+    <functiondecl functionName="glfwGetWaylandWindow" lineNumber="1748"/>
+    <functiondecl functionName="createTmpfileCloexec" lineNumber="44"/>
+    <functiondecl functionName="createAnonymousFile" lineNumber="75"/>
+    <functiondecl functionName="createShmBuffer" lineNumber="132"/>
+    <functiondecl functionName="createDecoration" lineNumber="185"/>
+    <functiondecl functionName="createDecorations" lineNumber="215"/>
+    <functiondecl functionName="destroyDecoration" lineNumber="247"/>
+    <functiondecl functionName="destroyDecorations" lineNumber="260"/>
+    <functiondecl functionName="xdgDecorationHandleConfigure" lineNumber="268"/>
+    <functiondecl functionName="setOpaqueRegion" lineNumber="285"/>
+    <functiondecl functionName="resizeWindow" lineNumber="300"/>
+    <functiondecl functionName="checkScaleChange" lineNumber="339"/>
+    <functiondecl functionName="surfaceHandleEnter" lineNumber="366"/>
+    <functiondecl functionName="surfaceHandleLeave" lineNumber="386"/>
+    <functiondecl functionName="setIdleInhibitor" lineNumber="412"/>
+    <functiondecl functionName="createSurface" lineNumber="430"/>
+    <functiondecl functionName="setFullscreen" lineNumber="459"/>
+    <functiondecl functionName="xdgToplevelHandleConfigure" lineNumber="473"/>
+    <functiondecl functionName="xdgToplevelHandleClose" lineNumber="538"/>
+    <functiondecl functionName="xdgSurfaceHandleConfigure" lineNumber="550"/>
+    <functiondecl functionName="setXdgDecorations" lineNumber="561"/>
+    <functiondecl functionName="createXdgSurface" lineNumber="582"/>
+    <functiondecl functionName="setCursorImage" lineNumber="643"/>
+    <functiondecl functionName="incrementCursorImage" lineNumber="689"/>
+    <functiondecl functionName="handleEvents" lineNumber="705"/>
+    <functiondecl functionName="_glfwPlatformCreateWindow" lineNumber="777"/>
+    <functiondecl functionName="_glfwPlatformDestroyWindow" lineNumber="832"/>
+    <functiondecl functionName="_glfwPlatformSetWindowTitle" lineNumber="874"/>
+    <functiondecl functionName="_glfwPlatformSetWindowIcon" lineNumber="883"/>
+    <functiondecl functionName="_glfwPlatformGetWindowPos" lineNumber="890"/>
+    <functiondecl functionName="_glfwPlatformSetWindowPos" lineNumber="899"/>
+    <functiondecl functionName="_glfwPlatformGetWindowSize" lineNumber="907"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSize" lineNumber="915"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSizeLimits" lineNumber="922"/>
+    <functiondecl functionName="_glfwPlatformSetWindowAspectRatio" lineNumber="938"/>
+    <functiondecl functionName="_glfwPlatformGetFramebufferSize" lineNumber="945"/>
+    <functiondecl functionName="_glfwPlatformGetWindowFrameSize" lineNumber="953"/>
+    <functiondecl functionName="_glfwPlatformGetWindowContentScale" lineNumber="970"/>
+    <functiondecl functionName="_glfwPlatformIconifyWindow" lineNumber="979"/>
+    <functiondecl functionName="_glfwPlatformRestoreWindow" lineNumber="985"/>
+    <functiondecl functionName="_glfwPlatformMaximizeWindow" lineNumber="1000"/>
+    <functiondecl functionName="_glfwPlatformShowWindow" lineNumber="1009"/>
+    <functiondecl functionName="_glfwPlatformHideWindow" lineNumber="1018"/>
+    <functiondecl functionName="_glfwPlatformRequestWindowAttention" lineNumber="1030"/>
+    <functiondecl functionName="_glfwPlatformFocusWindow" lineNumber="1037"/>
+    <functiondecl functionName="_glfwPlatformSetWindowMonitor" lineNumber="1043"/>
+    <functiondecl functionName="_glfwPlatformWindowFocused" lineNumber="1064"/>
+    <functiondecl functionName="_glfwPlatformWindowIconified" lineNumber="1069"/>
+    <functiondecl functionName="_glfwPlatformWindowVisible" lineNumber="1076"/>
+    <functiondecl functionName="_glfwPlatformWindowMaximized" lineNumber="1081"/>
+    <functiondecl functionName="_glfwPlatformWindowHovered" lineNumber="1086"/>
+    <functiondecl functionName="_glfwPlatformFramebufferTransparent" lineNumber="1091"/>
+    <functiondecl functionName="_glfwPlatformSetWindowResizable" lineNumber="1096"/>
+    <functiondecl functionName="_glfwPlatformSetWindowDecorated" lineNumber="1103"/>
+    <functiondecl functionName="_glfwPlatformSetWindowFloating" lineNumber="1114"/>
+    <functiondecl functionName="_glfwPlatformGetWindowOpacity" lineNumber="1121"/>
+    <functiondecl functionName="_glfwPlatformSetWindowOpacity" lineNumber="1126"/>
+    <functiondecl functionName="_glfwPlatformSetRawMouseMotion" lineNumber="1130"/>
+    <functiondecl functionName="_glfwPlatformRawMouseMotionSupported" lineNumber="1135"/>
+    <functiondecl functionName="_glfwPlatformPollEvents" lineNumber="1140"/>
+    <functiondecl functionName="_glfwPlatformWaitEvents" lineNumber="1145"/>
+    <functiondecl functionName="_glfwPlatformWaitEventsTimeout" lineNumber="1150"/>
+    <functiondecl functionName="_glfwPlatformPostEmptyEvent" lineNumber="1155"/>
+    <functiondecl functionName="_glfwPlatformGetCursorPos" lineNumber="1160"/>
+    <functiondecl functionName="_glfwPlatformSetCursorPos" lineNumber="1170"/>
+    <functiondecl functionName="_glfwPlatformSetCursorMode" lineNumber="1181"/>
+    <functiondecl functionName="_glfwPlatformGetScancodeName" lineNumber="1186"/>
+    <functiondecl functionName="_glfwPlatformGetKeyScancode" lineNumber="1192"/>
+    <functiondecl functionName="_glfwPlatformCreateCursor" lineNumber="1197"/>
+    <functiondecl functionName="_glfwPlatformCreateStandardCursor" lineNumber="1212"/>
+    <functiondecl functionName="_glfwPlatformDestroyCursor" lineNumber="1292"/>
+    <functiondecl functionName="relativePointerHandleRelativeMotion" lineNumber="1302"/>
+    <functiondecl functionName="lockedPointerHandleLocked" lineNumber="1336"/>
+    <functiondecl functionName="unlockPointer" lineNumber="1341"/>
+    <functiondecl functionName="lockedPointerHandleUnlocked" lineNumber="1357"/>
+    <functiondecl functionName="lockPointer" lineNumber="1367"/>
+    <functiondecl functionName="isPointerLocked" lineNumber="1405"/>
+    <functiondecl functionName="_glfwPlatformSetCursor" lineNumber="1410"/>
+    <functiondecl functionName="dataSourceHandleTarget" lineNumber="1469"/>
+    <functiondecl functionName="dataSourceHandleSend" lineNumber="1481"/>
+    <functiondecl functionName="dataSourceHandleCancelled" lineNumber="1530"/>
+    <functiondecl functionName="_glfwPlatformSetClipboardString" lineNumber="1551"/>
+    <functiondecl functionName="growClipboardString" lineNumber="1591"/>
+    <functiondecl functionName="_glfwPlatformGetClipboardString" lineNumber="1607"/>
+    <functiondecl functionName="_glfwPlatformGetRequiredInstanceExtensions" lineNumber="1674"/>
+    <functiondecl functionName="_glfwPlatformGetPhysicalDevicePresentationSupport" lineNumber="1683"/>
+    <functiondecl functionName="_glfwPlatformCreateWindowSurface" lineNumber="1703"/>
+    <functiondecl functionName="glfwGetWaylandDisplay" lineNumber="1742"/>
+    <functiondecl functionName="glfwGetWaylandWindow" lineNumber="1748"/>
+    <functiondecl functionName="createTmpfileCloexec" lineNumber="44"/>
+    <functiondecl functionName="createAnonymousFile" lineNumber="75"/>
+    <functiondecl functionName="createShmBuffer" lineNumber="132"/>
+    <functiondecl functionName="createDecoration" lineNumber="185"/>
+    <functiondecl functionName="createDecorations" lineNumber="215"/>
+    <functiondecl functionName="destroyDecoration" lineNumber="247"/>
+    <functiondecl functionName="destroyDecorations" lineNumber="260"/>
+    <functiondecl functionName="xdgDecorationHandleConfigure" lineNumber="268"/>
+    <functiondecl functionName="setOpaqueRegion" lineNumber="285"/>
+    <functiondecl functionName="resizeWindow" lineNumber="300"/>
+    <functiondecl functionName="checkScaleChange" lineNumber="339"/>
+    <functiondecl functionName="surfaceHandleEnter" lineNumber="366"/>
+    <functiondecl functionName="surfaceHandleLeave" lineNumber="386"/>
+    <functiondecl functionName="setIdleInhibitor" lineNumber="412"/>
+    <functiondecl functionName="createSurface" lineNumber="430"/>
+    <functiondecl functionName="setFullscreen" lineNumber="459"/>
+    <functiondecl functionName="xdgToplevelHandleConfigure" lineNumber="473"/>
+    <functiondecl functionName="xdgToplevelHandleClose" lineNumber="538"/>
+    <functiondecl functionName="xdgSurfaceHandleConfigure" lineNumber="550"/>
+    <functiondecl functionName="setXdgDecorations" lineNumber="561"/>
+    <functiondecl functionName="createXdgSurface" lineNumber="582"/>
+    <functiondecl functionName="setCursorImage" lineNumber="643"/>
+    <functiondecl functionName="incrementCursorImage" lineNumber="689"/>
+    <functiondecl functionName="handleEvents" lineNumber="705"/>
+    <functiondecl functionName="_glfwPlatformCreateWindow" lineNumber="777"/>
+    <functiondecl functionName="_glfwPlatformDestroyWindow" lineNumber="832"/>
+    <functiondecl functionName="_glfwPlatformSetWindowTitle" lineNumber="874"/>
+    <functiondecl functionName="_glfwPlatformSetWindowIcon" lineNumber="883"/>
+    <functiondecl functionName="_glfwPlatformGetWindowPos" lineNumber="890"/>
+    <functiondecl functionName="_glfwPlatformSetWindowPos" lineNumber="899"/>
+    <functiondecl functionName="_glfwPlatformGetWindowSize" lineNumber="907"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSize" lineNumber="915"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSizeLimits" lineNumber="922"/>
+    <functiondecl functionName="_glfwPlatformSetWindowAspectRatio" lineNumber="938"/>
+    <functiondecl functionName="_glfwPlatformGetFramebufferSize" lineNumber="945"/>
+    <functiondecl functionName="_glfwPlatformGetWindowFrameSize" lineNumber="953"/>
+    <functiondecl functionName="_glfwPlatformGetWindowContentScale" lineNumber="970"/>
+    <functiondecl functionName="_glfwPlatformIconifyWindow" lineNumber="979"/>
+    <functiondecl functionName="_glfwPlatformRestoreWindow" lineNumber="985"/>
+    <functiondecl functionName="_glfwPlatformMaximizeWindow" lineNumber="1000"/>
+    <functiondecl functionName="_glfwPlatformShowWindow" lineNumber="1009"/>
+    <functiondecl functionName="_glfwPlatformHideWindow" lineNumber="1018"/>
+    <functiondecl functionName="_glfwPlatformRequestWindowAttention" lineNumber="1030"/>
+    <functiondecl functionName="_glfwPlatformFocusWindow" lineNumber="1037"/>
+    <functiondecl functionName="_glfwPlatformSetWindowMonitor" lineNumber="1043"/>
+    <functiondecl functionName="_glfwPlatformWindowFocused" lineNumber="1064"/>
+    <functiondecl functionName="_glfwPlatformWindowIconified" lineNumber="1069"/>
+    <functiondecl functionName="_glfwPlatformWindowVisible" lineNumber="1076"/>
+    <functiondecl functionName="_glfwPlatformWindowMaximized" lineNumber="1081"/>
+    <functiondecl functionName="_glfwPlatformWindowHovered" lineNumber="1086"/>
+    <functiondecl functionName="_glfwPlatformFramebufferTransparent" lineNumber="1091"/>
+    <functiondecl functionName="_glfwPlatformSetWindowResizable" lineNumber="1096"/>
+    <functiondecl functionName="_glfwPlatformSetWindowDecorated" lineNumber="1103"/>
+    <functiondecl functionName="_glfwPlatformSetWindowFloating" lineNumber="1114"/>
+    <functiondecl functionName="_glfwPlatformGetWindowOpacity" lineNumber="1121"/>
+    <functiondecl functionName="_glfwPlatformSetWindowOpacity" lineNumber="1126"/>
+    <functiondecl functionName="_glfwPlatformSetRawMouseMotion" lineNumber="1130"/>
+    <functiondecl functionName="_glfwPlatformRawMouseMotionSupported" lineNumber="1135"/>
+    <functiondecl functionName="_glfwPlatformPollEvents" lineNumber="1140"/>
+    <functiondecl functionName="_glfwPlatformWaitEvents" lineNumber="1145"/>
+    <functiondecl functionName="_glfwPlatformWaitEventsTimeout" lineNumber="1150"/>
+    <functiondecl functionName="_glfwPlatformPostEmptyEvent" lineNumber="1155"/>
+    <functiondecl functionName="_glfwPlatformGetCursorPos" lineNumber="1160"/>
+    <functiondecl functionName="_glfwPlatformSetCursorPos" lineNumber="1170"/>
+    <functiondecl functionName="_glfwPlatformSetCursorMode" lineNumber="1181"/>
+    <functiondecl functionName="_glfwPlatformGetScancodeName" lineNumber="1186"/>
+    <functiondecl functionName="_glfwPlatformGetKeyScancode" lineNumber="1192"/>
+    <functiondecl functionName="_glfwPlatformCreateCursor" lineNumber="1197"/>
+    <functiondecl functionName="_glfwPlatformCreateStandardCursor" lineNumber="1212"/>
+    <functiondecl functionName="_glfwPlatformDestroyCursor" lineNumber="1292"/>
+    <functiondecl functionName="relativePointerHandleRelativeMotion" lineNumber="1302"/>
+    <functiondecl functionName="lockedPointerHandleLocked" lineNumber="1336"/>
+    <functiondecl functionName="unlockPointer" lineNumber="1341"/>
+    <functiondecl functionName="lockedPointerHandleUnlocked" lineNumber="1357"/>
+    <functiondecl functionName="lockPointer" lineNumber="1367"/>
+    <functiondecl functionName="isPointerLocked" lineNumber="1405"/>
+    <functiondecl functionName="_glfwPlatformSetCursor" lineNumber="1410"/>
+    <functiondecl functionName="dataSourceHandleTarget" lineNumber="1469"/>
+    <functiondecl functionName="dataSourceHandleSend" lineNumber="1481"/>
+    <functiondecl functionName="dataSourceHandleCancelled" lineNumber="1530"/>
+    <functiondecl functionName="_glfwPlatformSetClipboardString" lineNumber="1551"/>
+    <functiondecl functionName="growClipboardString" lineNumber="1591"/>
+    <functiondecl functionName="_glfwPlatformGetClipboardString" lineNumber="1607"/>
+    <functiondecl functionName="_glfwPlatformGetRequiredInstanceExtensions" lineNumber="1674"/>
+    <functiondecl functionName="_glfwPlatformGetPhysicalDevicePresentationSupport" lineNumber="1683"/>
+    <functiondecl functionName="_glfwPlatformCreateWindowSurface" lineNumber="1703"/>
+    <functiondecl functionName="glfwGetWaylandDisplay" lineNumber="1742"/>
+    <functiondecl functionName="glfwGetWaylandWindow" lineNumber="1748"/>
+    <functiondecl functionName="createTmpfileCloexec" lineNumber="44"/>
+    <functiondecl functionName="createAnonymousFile" lineNumber="75"/>
+    <functiondecl functionName="createShmBuffer" lineNumber="132"/>
+    <functiondecl functionName="createDecoration" lineNumber="185"/>
+    <functiondecl functionName="createDecorations" lineNumber="215"/>
+    <functiondecl functionName="destroyDecoration" lineNumber="247"/>
+    <functiondecl functionName="destroyDecorations" lineNumber="260"/>
+    <functiondecl functionName="xdgDecorationHandleConfigure" lineNumber="268"/>
+    <functiondecl functionName="setOpaqueRegion" lineNumber="285"/>
+    <functiondecl functionName="resizeWindow" lineNumber="300"/>
+    <functiondecl functionName="checkScaleChange" lineNumber="339"/>
+    <functiondecl functionName="surfaceHandleEnter" lineNumber="366"/>
+    <functiondecl functionName="surfaceHandleLeave" lineNumber="386"/>
+    <functiondecl functionName="setIdleInhibitor" lineNumber="412"/>
+    <functiondecl functionName="createSurface" lineNumber="430"/>
+    <functiondecl functionName="setFullscreen" lineNumber="459"/>
+    <functiondecl functionName="xdgToplevelHandleConfigure" lineNumber="473"/>
+    <functiondecl functionName="xdgToplevelHandleClose" lineNumber="538"/>
+    <functiondecl functionName="xdgSurfaceHandleConfigure" lineNumber="550"/>
+    <functiondecl functionName="setXdgDecorations" lineNumber="561"/>
+    <functiondecl functionName="createXdgSurface" lineNumber="582"/>
+    <functiondecl functionName="setCursorImage" lineNumber="643"/>
+    <functiondecl functionName="incrementCursorImage" lineNumber="689"/>
+    <functiondecl functionName="handleEvents" lineNumber="705"/>
+    <functiondecl functionName="_glfwPlatformCreateWindow" lineNumber="777"/>
+    <functiondecl functionName="_glfwPlatformDestroyWindow" lineNumber="832"/>
+    <functiondecl functionName="_glfwPlatformSetWindowTitle" lineNumber="874"/>
+    <functiondecl functionName="_glfwPlatformSetWindowIcon" lineNumber="883"/>
+    <functiondecl functionName="_glfwPlatformGetWindowPos" lineNumber="890"/>
+    <functiondecl functionName="_glfwPlatformSetWindowPos" lineNumber="899"/>
+    <functiondecl functionName="_glfwPlatformGetWindowSize" lineNumber="907"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSize" lineNumber="915"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSizeLimits" lineNumber="922"/>
+    <functiondecl functionName="_glfwPlatformSetWindowAspectRatio" lineNumber="938"/>
+    <functiondecl functionName="_glfwPlatformGetFramebufferSize" lineNumber="945"/>
+    <functiondecl functionName="_glfwPlatformGetWindowFrameSize" lineNumber="953"/>
+    <functiondecl functionName="_glfwPlatformGetWindowContentScale" lineNumber="970"/>
+    <functiondecl functionName="_glfwPlatformIconifyWindow" lineNumber="979"/>
+    <functiondecl functionName="_glfwPlatformRestoreWindow" lineNumber="985"/>
+    <functiondecl functionName="_glfwPlatformMaximizeWindow" lineNumber="1000"/>
+    <functiondecl functionName="_glfwPlatformShowWindow" lineNumber="1009"/>
+    <functiondecl functionName="_glfwPlatformHideWindow" lineNumber="1018"/>
+    <functiondecl functionName="_glfwPlatformRequestWindowAttention" lineNumber="1030"/>
+    <functiondecl functionName="_glfwPlatformFocusWindow" lineNumber="1037"/>
+    <functiondecl functionName="_glfwPlatformSetWindowMonitor" lineNumber="1043"/>
+    <functiondecl functionName="_glfwPlatformWindowFocused" lineNumber="1064"/>
+    <functiondecl functionName="_glfwPlatformWindowIconified" lineNumber="1069"/>
+    <functiondecl functionName="_glfwPlatformWindowVisible" lineNumber="1076"/>
+    <functiondecl functionName="_glfwPlatformWindowMaximized" lineNumber="1081"/>
+    <functiondecl functionName="_glfwPlatformWindowHovered" lineNumber="1086"/>
+    <functiondecl functionName="_glfwPlatformFramebufferTransparent" lineNumber="1091"/>
+    <functiondecl functionName="_glfwPlatformSetWindowResizable" lineNumber="1096"/>
+    <functiondecl functionName="_glfwPlatformSetWindowDecorated" lineNumber="1103"/>
+    <functiondecl functionName="_glfwPlatformSetWindowFloating" lineNumber="1114"/>
+    <functiondecl functionName="_glfwPlatformGetWindowOpacity" lineNumber="1121"/>
+    <functiondecl functionName="_glfwPlatformSetWindowOpacity" lineNumber="1126"/>
+    <functiondecl functionName="_glfwPlatformSetRawMouseMotion" lineNumber="1130"/>
+    <functiondecl functionName="_glfwPlatformRawMouseMotionSupported" lineNumber="1135"/>
+    <functiondecl functionName="_glfwPlatformPollEvents" lineNumber="1140"/>
+    <functiondecl functionName="_glfwPlatformWaitEvents" lineNumber="1145"/>
+    <functiondecl functionName="_glfwPlatformWaitEventsTimeout" lineNumber="1150"/>
+    <functiondecl functionName="_glfwPlatformPostEmptyEvent" lineNumber="1155"/>
+    <functiondecl functionName="_glfwPlatformGetCursorPos" lineNumber="1160"/>
+    <functiondecl functionName="_glfwPlatformSetCursorPos" lineNumber="1170"/>
+    <functiondecl functionName="_glfwPlatformSetCursorMode" lineNumber="1181"/>
+    <functiondecl functionName="_glfwPlatformGetScancodeName" lineNumber="1186"/>
+    <functiondecl functionName="_glfwPlatformGetKeyScancode" lineNumber="1192"/>
+    <functiondecl functionName="_glfwPlatformCreateCursor" lineNumber="1197"/>
+    <functiondecl functionName="_glfwPlatformCreateStandardCursor" lineNumber="1212"/>
+    <functiondecl functionName="_glfwPlatformDestroyCursor" lineNumber="1292"/>
+    <functiondecl functionName="relativePointerHandleRelativeMotion" lineNumber="1302"/>
+    <functiondecl functionName="lockedPointerHandleLocked" lineNumber="1336"/>
+    <functiondecl functionName="unlockPointer" lineNumber="1341"/>
+    <functiondecl functionName="lockedPointerHandleUnlocked" lineNumber="1357"/>
+    <functiondecl functionName="lockPointer" lineNumber="1367"/>
+    <functiondecl functionName="isPointerLocked" lineNumber="1405"/>
+    <functiondecl functionName="_glfwPlatformSetCursor" lineNumber="1410"/>
+    <functiondecl functionName="dataSourceHandleTarget" lineNumber="1469"/>
+    <functiondecl functionName="dataSourceHandleSend" lineNumber="1481"/>
+    <functiondecl functionName="dataSourceHandleCancelled" lineNumber="1530"/>
+    <functiondecl functionName="_glfwPlatformSetClipboardString" lineNumber="1551"/>
+    <functiondecl functionName="growClipboardString" lineNumber="1591"/>
+    <functiondecl functionName="_glfwPlatformGetClipboardString" lineNumber="1607"/>
+    <functiondecl functionName="_glfwPlatformGetRequiredInstanceExtensions" lineNumber="1674"/>
+    <functiondecl functionName="_glfwPlatformGetPhysicalDevicePresentationSupport" lineNumber="1683"/>
+    <functiondecl functionName="_glfwPlatformCreateWindowSurface" lineNumber="1703"/>
+    <functiondecl functionName="glfwGetWaylandDisplay" lineNumber="1742"/>
+    <functiondecl functionName="glfwGetWaylandWindow" lineNumber="1748"/>
+    <functiondecl functionName="createTmpfileCloexec" lineNumber="44"/>
+    <functiondecl functionName="createAnonymousFile" lineNumber="75"/>
+    <functiondecl functionName="createShmBuffer" lineNumber="132"/>
+    <functiondecl functionName="createDecoration" lineNumber="185"/>
+    <functiondecl functionName="createDecorations" lineNumber="215"/>
+    <functiondecl functionName="destroyDecoration" lineNumber="247"/>
+    <functiondecl functionName="destroyDecorations" lineNumber="260"/>
+    <functiondecl functionName="xdgDecorationHandleConfigure" lineNumber="268"/>
+    <functiondecl functionName="setOpaqueRegion" lineNumber="285"/>
+    <functiondecl functionName="resizeWindow" lineNumber="300"/>
+    <functiondecl functionName="checkScaleChange" lineNumber="339"/>
+    <functiondecl functionName="surfaceHandleEnter" lineNumber="366"/>
+    <functiondecl functionName="surfaceHandleLeave" lineNumber="386"/>
+    <functiondecl functionName="setIdleInhibitor" lineNumber="412"/>
+    <functiondecl functionName="createSurface" lineNumber="430"/>
+    <functiondecl functionName="setFullscreen" lineNumber="459"/>
+    <functiondecl functionName="xdgToplevelHandleConfigure" lineNumber="473"/>
+    <functiondecl functionName="xdgToplevelHandleClose" lineNumber="538"/>
+    <functiondecl functionName="xdgSurfaceHandleConfigure" lineNumber="550"/>
+    <functiondecl functionName="setXdgDecorations" lineNumber="561"/>
+    <functiondecl functionName="createXdgSurface" lineNumber="582"/>
+    <functiondecl functionName="setCursorImage" lineNumber="643"/>
+    <functiondecl functionName="incrementCursorImage" lineNumber="689"/>
+    <functiondecl functionName="handleEvents" lineNumber="705"/>
+    <functiondecl functionName="_glfwPlatformCreateWindow" lineNumber="777"/>
+    <functiondecl functionName="_glfwPlatformDestroyWindow" lineNumber="832"/>
+    <functiondecl functionName="_glfwPlatformSetWindowTitle" lineNumber="874"/>
+    <functiondecl functionName="_glfwPlatformSetWindowIcon" lineNumber="883"/>
+    <functiondecl functionName="_glfwPlatformGetWindowPos" lineNumber="890"/>
+    <functiondecl functionName="_glfwPlatformSetWindowPos" lineNumber="899"/>
+    <functiondecl functionName="_glfwPlatformGetWindowSize" lineNumber="907"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSize" lineNumber="915"/>
+    <functiondecl functionName="_glfwPlatformSetWindowSizeLimits" lineNumber="922"/>
+    <functiondecl functionName="_glfwPlatformSetWindowAspectRatio" lineNumber="938"/>
+    <functiondecl functionName="_glfwPlatformGetFramebufferSize" lineNumber="945"/>
+    <functiondecl functionName="_glfwPlatformGetWindowFrameSize" lineNumber="953"/>
+    <functiondecl functionName="_glfwPlatformGetWindowContentScale" lineNumber="970"/>
+    <functiondecl functionName="_glfwPlatformIconifyWindow" lineNumber="979"/>
+    <functiondecl functionName="_glfwPlatformRestoreWindow" lineNumber="985"/>
+    <functiondecl functionName="_glfwPlatformMaximizeWindow" lineNumber="1000"/>
+    <functiondecl functionName="_glfwPlatformShowWindow" lineNumber="1009"/>
+    <functiondecl functionName="_glfwPlatformHideWindow" lineNumber="1018"/>
+    <functiondecl functionName="_glfwPlatformRequestWindowAttention" lineNumber="1030"/>
+    <functiondecl functionName="_glfwPlatformFocusWindow" lineNumber="1037"/>
+    <functiondecl functionName="_glfwPlatformSetWindowMonitor" lineNumber="1043"/>
+    <functiondecl functionName="_glfwPlatformWindowFocused" lineNumber="1064"/>
+    <functiondecl functionName="_glfwPlatformWindowIconified" lineNumber="1069"/>
+    <functiondecl functionName="_glfwPlatformWindowVisible" lineNumber="1076"/>
+    <functiondecl functionName="_glfwPlatformWindowMaximized" lineNumber="1081"/>
+    <functiondecl functionName="_glfwPlatformWindowHovered" lineNumber="1086"/>
+    <functiondecl functionName="_glfwPlatformFramebufferTransparent" lineNumber="1091"/>
+    <functiondecl functionName="_glfwPlatformSetWindowResizable" lineNumber="1096"/>
+    <functiondecl functionName="_glfwPlatformSetWindowDecorated" lineNumber="1103"/>
+    <functiondecl functionName="_glfwPlatformSetWindowFloating" lineNumber="1114"/>
+    <functiondecl functionName="_glfwPlatformGetWindowOpacity" lineNumber="1121"/>
+    <functiondecl functionName="_glfwPlatformSetWindowOpacity" lineNumber="1126"/>
+    <functiondecl functionName="_glfwPlatformSetRawMouseMotion" lineNumber="1130"/>
+    <functiondecl functionName="_glfwPlatformRawMouseMotionSupported" lineNumber="1135"/>
+    <functiondecl functionName="_glfwPlatformPollEvents" lineNumber="1140"/>
+    <functiondecl functionName="_glfwPlatformWaitEvents" lineNumber="1145"/>
+    <functiondecl functionName="_glfwPlatformWaitEventsTimeout" lineNumber="1150"/>
+    <functiondecl functionName="_glfwPlatformPostEmptyEvent" lineNumber="1155"/>
+    <functiondecl functionName="_glfwPlatformGetCursorPos" lineNumber="1160"/>
+    <functiondecl functionName="_glfwPlatformSetCursorPos" lineNumber="1170"/>
+    <functiondecl functionName="_glfwPlatformSetCursorMode" lineNumber="1181"/>
+    <functiondecl functionName="_glfwPlatformGetScancodeName" lineNumber="1186"/>
+    <functiondecl functionName="_glfwPlatformGetKeyScancode" lineNumber="1192"/>
+    <functiondecl functionName="_glfwPlatformCreateCursor" lineNumber="1197"/>
+    <functiondecl functionName="_glfwPlatformCreateStandardCursor" lineNumber="1212"/>
+    <functiondecl functionName="_glfwPlatformDestroyCursor" lineNumber="1292"/>
+    <functiondecl functionName="relativePointerHandleRelativeMotion" lineNumber="1302"/>
+    <functiondecl functionName="lockedPointerHandleLocked" lineNumber="1336"/>
+    <functiondecl functionName="unlockPointer" lineNumber="1341"/>
+    <functiondecl functionName="lockedPointerHandleUnlocked" lineNumber="1357"/>
+    <functiondecl functionName="lockPointer" lineNumber="1367"/>
+    <functiondecl functionName="isPointerLocked" lineNumber="1405"/>
+    <functiondecl functionName="_glfwPlatformSetCursor" lineNumber="1410"/>
+    <functiondecl functionName="dataSourceHandleTarget" lineNumber="1469"/>
+    <functiondecl functionName="dataSourceHandleSend" lineNumber="1481"/>
+    <functiondecl functionName="dataSourceHandleCancelled" lineNumber="1530"/>
+    <functiondecl functionName="_glfwPlatformSetClipboardString" lineNumber="1551"/>
+    <functiondecl functionName="growClipboardString" lineNumber="1591"/>
+    <functiondecl functionName="_glfwPlatformGetClipboardString" lineNumber="1607"/>
+    <functiondecl functionName="_glfwPlatformGetRequiredInstanceExtensions" lineNumber="1674"/>
+    <functiondecl functionName="_glfwPlatformGetPhysicalDevicePresentationSupport" lineNumber="1683"/>
+    <functiondecl functionName="_glfwPlatformCreateWindowSurface" lineNumber="1703"/>
+    <functiondecl functionName="glfwGetWaylandDisplay" lineNumber="1742"/>
+    <functiondecl functionName="glfwGetWaylandWindow" lineNumber="1748"/>
+    <functioncall functionName="ENOENT"/>
+    <functioncall functionName="GetInstanceProcAddr"/>
+    <functioncall functionName="KHR_wayland_surface"/>
+    <functioncall functionName="MAP_SHARED"/>
+    <functioncall functionName="MDT_EFFECTIVE_DPI"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="O_CLOEXEC"/>
+    <functioncall functionName="PFN_vkCreateWaylandSurfaceKHR"/>
+    <functioncall functionName="PFN_vkGetPhysicalDeviceWaylandPresentationSupportKHR"/>
+    <functioncall functionName="POLLIN"/>
+    <functioncall functionName="PROT_WRITE"/>
+    <functioncall functionName="VK_STRUCTURE_TYPE_WAYLAND_SURFACE_CREATE_INFO_KHR"/>
+    <functioncall functionName="WL_SHM_FORMAT_ARGB8888"/>
+    <functioncall functionName="ZWP_POINTER_CONSTRAINTS_V1_LIFETIME_PERSISTENT"/>
+    <functioncall functionName="ZXDG_TOPLEVEL_DECORATION_V1_MODE_SERVER_SIDE"/>
+    <functioncall functionName="_GLFW_DECORATION_HORIZONTAL"/>
+    <functioncall functionName="_GLFW_DECORATION_TOP"/>
+    <functioncall functionName="_GLFW_DECORATION_WIDTH"/>
+    <functioncall functionName="_glfwCreateContextEGL"/>
+    <functioncall functionName="_glfwCreateContextOSMesa"/>
+    <functioncall functionName="_glfwGetVulkanResultString"/>
+    <functioncall functionName="_glfwInitEGL"/>
+    <functioncall functionName="_glfwInitOSMesa"/>
+    <functioncall functionName="_glfwInputCursorEnter"/>
+    <functioncall functionName="_glfwInputCursorPos"/>
+    <functioncall functionName="_glfwInputError"/>
+    <functioncall functionName="_glfwInputFramebufferSize"/>
+    <functioncall functionName="_glfwInputKey"/>
+    <functioncall functionName="_glfwInputWindowCloseRequest"/>
+    <functioncall functionName="_glfwInputWindowContentScale"/>
+    <functioncall functionName="_glfwInputWindowDamage"/>
+    <functioncall functionName="_glfwInputWindowFocus"/>
+    <functioncall functionName="_glfwInputWindowMonitor"/>
+    <functioncall functionName="_glfwInputWindowSize"/>
+    <functioncall functionName="_glfwPlatformGetWindowSize"/>
+    <functioncall functionName="_glfwPlatformIconifyWindow"/>
+    <functioncall functionName="_glfwPlatformSetCursor"/>
+    <functioncall functionName="_glfwPlatformSetWindowSize"/>
+    <functioncall functionName="_glfw_strdup"/>
+    <functioncall functionName="activated"/>
+    <functioncall functionName="allocator"/>
+    <functioncall functionName="alpha"/>
+    <functioncall functionName="aspectRatio"/>
+    <functioncall functionName="autoIconify"/>
+    <functioncall functionName="bottom"/>
+    <functioncall functionName="bottomDecoration"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="calloc"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="checkScaleChange"/>
+    <functioncall functionName="clipboard"/>
+    <functioncall functionName="clipboardSendSize"/>
+    <functioncall functionName="clipboardSendString"/>
+    <functioncall functionName="clipboardSize"/>
+    <functioncall functionName="clipboardString"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="compositor"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="createAnonymousFile"/>
+    <functioncall functionName="createDecoration"/>
+    <functioncall functionName="createDecorations"/>
+    <functioncall functionName="createShmBuffer"/>
+    <functioncall functionName="createSurface"/>
+    <functioncall functionName="createTmpfileCloexec"/>
+    <functioncall functionName="createXdgSurface"/>
+    <functioncall functionName="ctxconfig"/>
+    <functioncall functionName="currentCursor"/>
+    <functioncall functionName="currentImage"/>
+    <functioncall functionName="cursor"/>
+    <functioncall functionName="cursorHiDPI"/>
+    <functioncall functionName="cursorPosX"/>
+    <functioncall functionName="cursorPosY"/>
+    <functioncall functionName="cursorSurface"/>
+    <functioncall functionName="cursorTheme"/>
+    <functioncall functionName="cursorThemeHiDPI"/>
+    <functioncall functionName="cursorTimerfd"/>
+    <functioncall functionName="cursorWayland"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="dataDevice"/>
+    <functioncall functionName="dataDeviceManager"/>
+    <functioncall functionName="dataOffer"/>
+    <functioncall functionName="dataSource"/>
+    <functioncall functionName="dataSourceHandleCancelled"/>
+    <functioncall functionName="dataSourceHandleSend"/>
+    <functioncall functionName="dataSourceHandleTarget"/>
+    <functioncall functionName="dataSourceListener"/>
+    <functioncall functionName="decoration"/>
+    <functioncall functionName="decorationManager"/>
+    <functioncall functionName="defaultCursor"/>
+    <functioncall functionName="defaultCursorHiDPI"/>
+    <functioncall functionName="denom"/>
+    <functioncall functionName="destroy"/>
+    <functioncall functionName="destroyDecoration"/>
+    <functioncall functionName="destroyDecorations"/>
+    <functioncall functionName="device"/>
+    <functioncall functionName="display"/>
+    <functioncall functionName="dx"/>
+    <functioncall functionName="dxUnaccel"/>
+    <functioncall functionName="dy"/>
+    <functioncall functionName="dyUnaccel"/>
+    <functioncall functionName="enabled"/>
+    <functioncall functionName="err"/>
+    <functioncall functionName="fbconfig"/>
+    <functioncall functionName="fd"/>
+    <functioncall functionName="fds"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="found"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="fullscreen"/>
+    <functioncall functionName="getenv"/>
+    <functioncall functionName="growClipboardString"/>
+    <functioncall functionName="handle"/>
+    <functioncall functionName="handleEvents"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="hotspot_x"/>
+    <functioncall functionName="hotspot_y"/>
+    <functioncall functionName="hovered"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="idleInhibitManager"/>
+    <functioncall functionName="idleInhibitor"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="image"/>
+    <functioncall functionName="image_count"/>
+    <functioncall functionName="image_get_buffer"/>
+    <functioncall functionName="incrementCursorImage"/>
+    <functioncall functionName="initialized"/>
+    <functioncall functionName="instance"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="isPointerLocked"/>
+    <functioncall functionName="key"/>
+    <functioncall functionName="keyboardFocus"/>
+    <functioncall functionName="keyboardLastKey"/>
+    <functioncall functionName="keyboardLastScancode"/>
+    <functioncall functionName="left"/>
+    <functioncall functionName="leftDecoration"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="lockPointer"/>
+    <functioncall functionName="lockedPointer"/>
+    <functioncall functionName="lockedPointerHandleLocked"/>
+    <functioncall functionName="lockedPointerHandleUnlocked"/>
+    <functioncall functionName="lockedPointerListener"/>
+    <functioncall functionName="mainWindow"/>
+    <functioncall functionName="maxheight"/>
+    <functioncall functionName="maximized"/>
+    <functioncall functionName="maxwidth"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="mimeType"/>
+    <functioncall functionName="minheight"/>
+    <functioncall functionName="minwidth"/>
+    <functioncall functionName="mkostemp"/>
+    <functioncall functionName="mmap"/>
+    <functioncall functionName="modifiers"/>
+    <functioncall functionName="monitor"/>
+    <functioncall functionName="monitorScale"/>
+    <functioncall functionName="monitors"/>
+    <functioncall functionName="monitorsCount"/>
+    <functioncall functionName="monitorsSize"/>
+    <functioncall functionName="munmap"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="native"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="opaque"/>
+    <functioncall functionName="output"/>
+    <functioncall functionName="parent"/>
+    <functioncall functionName="path"/>
+    <functioncall functionName="pipe2"/>
+    <functioncall functionName="pixels"/>
+    <functioncall functionName="pointer"/>
+    <functioncall functionName="pointerConstraints"/>
+    <functioncall functionName="pointerFocus"/>
+    <functioncall functionName="poll"/>
+    <functioncall functionName="pool"/>
+    <functioncall functionName="posix_fallocate"/>
+    <functioncall functionName="queuefamily"/>
+    <functioncall functionName="rawMouseMotion"/>
+    <functioncall functionName="read"/>
+    <functioncall functionName="realloc"/>
+    <functioncall functionName="refreshRate"/>
+    <functioncall functionName="region"/>
+    <functioncall functionName="relativePointer"/>
+    <functioncall functionName="relativePointerHandleRelativeMotion"/>
+    <functioncall functionName="relativePointerListener"/>
+    <functioncall functionName="relativePointerManager"/>
+    <functioncall functionName="repeats"/>
+    <functioncall functionName="resizeWindow"/>
+    <functioncall functionName="ret"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="right"/>
+    <functioncall functionName="rightDecoration"/>
+    <functioncall functionName="scale"/>
+    <functioncall functionName="scaledHeight"/>
+    <functioncall functionName="scaledWidth"/>
+    <functioncall functionName="sci"/>
+    <functioncall functionName="serial"/>
+    <functioncall functionName="serverSide"/>
+    <functioncall functionName="setCursorImage"/>
+    <functioncall functionName="setFullscreen"/>
+    <functioncall functionName="setIdleInhibitor"/>
+    <functioncall functionName="setOpaqueRegion"/>
+    <functioncall functionName="setXdgDecorations"/>
+    <functioncall functionName="shm"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="state"/>
+    <functioncall functionName="states"/>
+    <functioncall functionName="strcat"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="strcpy"/>
+    <functioncall functionName="strdup"/>
+    <functioncall functionName="stride"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="subcompositor"/>
+    <functioncall functionName="subsurface"/>
+    <functioncall functionName="surface"/>
+    <functioncall functionName="surfaceHandleEnter"/>
+    <functioncall functionName="surfaceHandleLeave"/>
+    <functioncall functionName="surfaceListener"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="targetRatio"/>
+    <functioncall functionName="template"/>
+    <functioncall functionName="theme_get_cursor"/>
+    <functioncall functionName="timeout"/>
+    <functioncall functionName="timer"/>
+    <functioncall functionName="timerfd"/>
+    <functioncall functionName="timerfd_settime"/>
+    <functioncall functionName="title"/>
+    <functioncall functionName="tmpname"/>
+    <functioncall functionName="top"/>
+    <functioncall functionName="topDecoration"/>
+    <functioncall functionName="toplevel"/>
+    <functioncall functionName="transparent"/>
+    <functioncall functionName="unlink"/>
+    <functioncall functionName="unlockPointer"/>
+    <functioncall functionName="viewport"/>
+    <functioncall functionName="viewporter"/>
+    <functioncall functionName="virtualCursorPosX"/>
+    <functioncall functionName="virtualCursorPosY"/>
+    <functioncall functionName="visible"/>
+    <functioncall functionName="vkCreateWaylandSurfaceKHR"/>
+    <functioncall functionName="vkGetPhysicalDeviceWaylandPresentationSupportKHR"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="window"/>
+    <functioncall functionName="windowListHead"/>
+    <functioncall functionName="window_create"/>
+    <functioncall functionName="window_destroy"/>
+    <functioncall functionName="window_resize"/>
+    <functioncall functionName="wl"/>
+    <functioncall functionName="wlCursor"/>
+    <functioncall functionName="wl_array_for_each"/>
+    <functioncall functionName="wl_buffer_destroy"/>
+    <functioncall functionName="wl_compositor_create_region"/>
+    <functioncall functionName="wl_compositor_create_surface"/>
+    <functioncall functionName="wl_cursor_image_get_buffer"/>
+    <functioncall functionName="wl_cursor_theme_get_cursor"/>
+    <functioncall functionName="wl_data_device_manager_create_data_source"/>
+    <functioncall functionName="wl_data_device_set_selection"/>
+    <functioncall functionName="wl_data_offer_receive"/>
+    <functioncall functionName="wl_data_source_add_listener"/>
+    <functioncall functionName="wl_data_source_destroy"/>
+    <functioncall functionName="wl_data_source_offer"/>
+    <functioncall functionName="wl_display_cancel_read"/>
+    <functioncall functionName="wl_display_dispatch_pending"/>
+    <functioncall functionName="wl_display_flush"/>
+    <functioncall functionName="wl_display_get_fd"/>
+    <functioncall functionName="wl_display_prepare_read"/>
+    <functioncall functionName="wl_display_read_events"/>
+    <functioncall functionName="wl_display_roundtrip"/>
+    <functioncall functionName="wl_display_sync"/>
+    <functioncall functionName="wl_egl_window_create"/>
+    <functioncall functionName="wl_egl_window_destroy"/>
+    <functioncall functionName="wl_egl_window_resize"/>
+    <functioncall functionName="wl_fixed_from_double"/>
+    <functioncall functionName="wl_fixed_to_double"/>
+    <functioncall functionName="wl_output_get_user_data"/>
+    <functioncall functionName="wl_pointer_set_cursor"/>
+    <functioncall functionName="wl_region_add"/>
+    <functioncall functionName="wl_region_destroy"/>
+    <functioncall functionName="wl_shm_create_pool"/>
+    <functioncall functionName="wl_shm_pool_create_buffer"/>
+    <functioncall functionName="wl_shm_pool_destroy"/>
+    <functioncall functionName="wl_subcompositor_get_subsurface"/>
+    <functioncall functionName="wl_subsurface_destroy"/>
+    <functioncall functionName="wl_subsurface_set_position"/>
+    <functioncall functionName="wl_surface_add_listener"/>
+    <functioncall functionName="wl_surface_attach"/>
+    <functioncall functionName="wl_surface_commit"/>
+    <functioncall functionName="wl_surface_damage"/>
+    <functioncall functionName="wl_surface_destroy"/>
+    <functioncall functionName="wl_surface_set_buffer_scale"/>
+    <functioncall functionName="wl_surface_set_opaque_region"/>
+    <functioncall functionName="wl_surface_set_user_data"/>
+    <functioncall functionName="wmBase"/>
+    <functioncall functionName="wndconfig"/>
+    <functioncall functionName="wp_viewport_destroy"/>
+    <functioncall functionName="wp_viewport_set_destination"/>
+    <functioncall functionName="wp_viewporter_get_viewport"/>
+    <functioncall functionName="write"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="xdgDecorationHandleConfigure"/>
+    <functioncall functionName="xdgDecorationListener"/>
+    <functioncall functionName="xdgSurfaceHandleConfigure"/>
+    <functioncall functionName="xdgSurfaceListener"/>
+    <functioncall functionName="xdgToplevelHandleClose"/>
+    <functioncall functionName="xdgToplevelHandleConfigure"/>
+    <functioncall functionName="xdgToplevelListener"/>
+    <functioncall functionName="xdg_surface_ack_configure"/>
+    <functioncall functionName="xdg_surface_add_listener"/>
+    <functioncall functionName="xdg_surface_destroy"/>
+    <functioncall functionName="xdg_surface_get_toplevel"/>
+    <functioncall functionName="xdg_toplevel_add_listener"/>
+    <functioncall functionName="xdg_toplevel_destroy"/>
+    <functioncall functionName="xdg_toplevel_set_fullscreen"/>
+    <functioncall functionName="xdg_toplevel_set_max_size"/>
+    <functioncall functionName="xdg_toplevel_set_maximized"/>
+    <functioncall functionName="xdg_toplevel_set_min_size"/>
+    <functioncall functionName="xdg_toplevel_set_minimized"/>
+    <functioncall functionName="xdg_toplevel_set_title"/>
+    <functioncall functionName="xdg_toplevel_unset_fullscreen"/>
+    <functioncall functionName="xdg_toplevel_unset_maximized"/>
+    <functioncall functionName="xdg_wm_base_get_xdg_surface"/>
+    <functioncall functionName="xhot"/>
+    <functioncall functionName="xpos"/>
+    <functioncall functionName="xscale"/>
+    <functioncall functionName="y"/>
+    <functioncall functionName="yhot"/>
+    <functioncall functionName="ypos"/>
+    <functioncall functionName="yscale"/>
+    <functioncall functionName="zwp_idle_inhibit_manager_v1_create_inhibitor"/>
+    <functioncall functionName="zwp_idle_inhibitor_v1_destroy"/>
+    <functioncall functionName="zwp_locked_pointer_v1_add_listener"/>
+    <functioncall functionName="zwp_locked_pointer_v1_destroy"/>
+    <functioncall functionName="zwp_locked_pointer_v1_set_cursor_position_hint"/>
+    <functioncall functionName="zwp_pointer_constraints_v1_lock_pointer"/>
+    <functioncall functionName="zwp_relative_pointer_manager_v1_get_relative_pointer"/>
+    <functioncall functionName="zwp_relative_pointer_v1_add_listener"/>
+    <functioncall functionName="zwp_relative_pointer_v1_destroy"/>
+    <functioncall functionName="zxdg_decoration_manager_v1_get_toplevel_decoration"/>
+    <functioncall functionName="zxdg_toplevel_decoration_v1_add_listener"/>
+    <functioncall functionName="zxdg_toplevel_decoration_v1_destroy"/>
+    <functioncall functionName="zxdg_toplevel_decoration_v1_set_mode"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1462420517">
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:281:13" call-funcname="android_app_write_cmd" call-argnr="2" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="290" col="26" call-argexpr="APP_CMD_INPUT_CHANGED" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:297:13" call-funcname="android_app_set_window" call-argnr="2" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="410" col="27" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:287:13" call-funcname="android_app_set_input" call-argnr="2" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="420" col="26" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:39:13" call-funcname="free_saved_state" call-argnr="1" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="176" col="5" my-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:174:13" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.h:318:8" call-funcname="android_app_read_cmd" call-argnr="1" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="202" col="18" my-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:201:13" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:243:28" call-funcname="android_app_create" call-argnr="2" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="441" col="26" my-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:424:6" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.h:318:8" my-argnr="1" my-argname="android_app" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="51" col="14" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:64:13" my-argnr="1" my-argname="android_app" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="66" col="32" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:188:13" my-argnr="1" my-argname="app" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="190" col="33" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:281:13" my-argnr="1" my-argname="android_app" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="282" col="15" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:281:13" call-funcname="android_app_write_cmd" call-argnr="2" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="290" col="26" call-argexpr="APP_CMD_INPUT_CHANGED" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:297:13" call-funcname="android_app_set_window" call-argnr="2" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="410" col="27" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:287:13" call-funcname="android_app_set_input" call-argnr="2" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="420" col="26" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:39:13" call-funcname="free_saved_state" call-argnr="1" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="176" col="5" my-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:174:13" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.h:318:8" call-funcname="android_app_read_cmd" call-argnr="1" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="202" col="18" my-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:201:13" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:297:13" call-funcname="android_app_set_window" call-argnr="2" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="405" col="5" my-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:403:13" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:287:13" call-funcname="android_app_set_input" call-argnr="2" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="415" col="5" my-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:413:13" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:243:28" call-funcname="android_app_create" call-argnr="2" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="441" col="26" my-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:424:6" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.h:318:8" my-argnr="1" my-argname="android_app" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="51" col="14" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:64:13" my-argnr="1" my-argname="android_app" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="66" col="32" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:188:13" my-argnr="1" my-argname="app" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="190" col="33" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:281:13" my-argnr="1" my-argname="android_app" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="282" col="15" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c:424:6" my-argnr="1" my-argname="activity" file="C:/GitHub/raylib/src/external/android/native_app_glue/android_native_app_glue.c" line="427" col="5" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="free_saved_state" lineNumber="39"/>
+    <functiondecl functionName="android_app_read_cmd" lineNumber="49"/>
+    <functiondecl functionName="print_cur_config" lineNumber="64"/>
+    <functiondecl functionName="android_app_pre_exec_cmd" lineNumber="89"/>
+    <functiondecl functionName="android_app_post_exec_cmd" lineNumber="146"/>
+    <functiondecl functionName="app_dummy" lineNumber="170"/>
+    <functiondecl functionName="android_app_destroy" lineNumber="174"/>
+    <functiondecl functionName="process_input" lineNumber="188"/>
+    <functiondecl functionName="process_cmd" lineNumber="201"/>
+    <functiondecl functionName="android_app_entry" lineNumber="208"/>
+    <functiondecl functionName="android_app_create" lineNumber="243"/>
+    <functiondecl functionName="android_app_write_cmd" lineNumber="281"/>
+    <functiondecl functionName="android_app_set_input" lineNumber="287"/>
+    <functiondecl functionName="android_app_set_window" lineNumber="297"/>
+    <functiondecl functionName="android_app_set_activity_state" lineNumber="312"/>
+    <functiondecl functionName="android_app_free" lineNumber="321"/>
+    <functiondecl functionName="onDestroy" lineNumber="336"/>
+    <functiondecl functionName="onStart" lineNumber="341"/>
+    <functiondecl functionName="onResume" lineNumber="346"/>
+    <functiondecl functionName="onSaveInstanceState" lineNumber="351"/>
+    <functiondecl functionName="onPause" lineNumber="375"/>
+    <functiondecl functionName="onStop" lineNumber="380"/>
+    <functiondecl functionName="onConfigurationChanged" lineNumber="385"/>
+    <functiondecl functionName="onLowMemory" lineNumber="391"/>
+    <functiondecl functionName="onWindowFocusChanged" lineNumber="397"/>
+    <functiondecl functionName="onNativeWindowCreated" lineNumber="403"/>
+    <functiondecl functionName="onNativeWindowDestroyed" lineNumber="408"/>
+    <functiondecl functionName="onInputQueueCreated" lineNumber="413"/>
+    <functiondecl functionName="onInputQueueDestroyed" lineNumber="418"/>
+    <functiondecl functionName="ANativeActivity_onCreate" lineNumber="424"/>
+    <functiondecl functionName="free_saved_state" lineNumber="39"/>
+    <functiondecl functionName="android_app_read_cmd" lineNumber="49"/>
+    <functiondecl functionName="print_cur_config" lineNumber="64"/>
+    <functiondecl functionName="android_app_pre_exec_cmd" lineNumber="89"/>
+    <functiondecl functionName="android_app_post_exec_cmd" lineNumber="146"/>
+    <functiondecl functionName="app_dummy" lineNumber="170"/>
+    <functiondecl functionName="android_app_destroy" lineNumber="174"/>
+    <functiondecl functionName="process_input" lineNumber="188"/>
+    <functiondecl functionName="process_cmd" lineNumber="201"/>
+    <functiondecl functionName="android_app_entry" lineNumber="208"/>
+    <functiondecl functionName="android_app_create" lineNumber="243"/>
+    <functiondecl functionName="android_app_write_cmd" lineNumber="281"/>
+    <functiondecl functionName="android_app_set_input" lineNumber="287"/>
+    <functiondecl functionName="android_app_set_window" lineNumber="297"/>
+    <functiondecl functionName="android_app_set_activity_state" lineNumber="312"/>
+    <functiondecl functionName="android_app_free" lineNumber="321"/>
+    <functiondecl functionName="onDestroy" lineNumber="336"/>
+    <functiondecl functionName="onStart" lineNumber="341"/>
+    <functiondecl functionName="onResume" lineNumber="346"/>
+    <functiondecl functionName="onSaveInstanceState" lineNumber="351"/>
+    <functiondecl functionName="onPause" lineNumber="375"/>
+    <functiondecl functionName="onStop" lineNumber="380"/>
+    <functiondecl functionName="onConfigurationChanged" lineNumber="385"/>
+    <functiondecl functionName="onLowMemory" lineNumber="391"/>
+    <functiondecl functionName="onWindowFocusChanged" lineNumber="397"/>
+    <functiondecl functionName="onNativeWindowCreated" lineNumber="403"/>
+    <functiondecl functionName="onNativeWindowDestroyed" lineNumber="408"/>
+    <functiondecl functionName="onInputQueueCreated" lineNumber="413"/>
+    <functiondecl functionName="onInputQueueDestroyed" lineNumber="418"/>
+    <functiondecl functionName="ANativeActivity_onCreate" lineNumber="424"/>
+    <functioncall functionName="AConfiguration_delete"/>
+    <functioncall functionName="AConfiguration_fromAssetManager"/>
+    <functioncall functionName="AConfiguration_getCountry"/>
+    <functioncall functionName="AConfiguration_getDensity"/>
+    <functioncall functionName="AConfiguration_getKeyboard"/>
+    <functioncall functionName="AConfiguration_getKeysHidden"/>
+    <functioncall functionName="AConfiguration_getLanguage"/>
+    <functioncall functionName="AConfiguration_getMcc"/>
+    <functioncall functionName="AConfiguration_getMnc"/>
+    <functioncall functionName="AConfiguration_getNavHidden"/>
+    <functioncall functionName="AConfiguration_getNavigation"/>
+    <functioncall functionName="AConfiguration_getOrientation"/>
+    <functioncall functionName="AConfiguration_getScreenLong"/>
+    <functioncall functionName="AConfiguration_getScreenSize"/>
+    <functioncall functionName="AConfiguration_getSdkVersion"/>
+    <functioncall functionName="AConfiguration_getTouchscreen"/>
+    <functioncall functionName="AConfiguration_getUiModeNight"/>
+    <functioncall functionName="AConfiguration_getUiModeType"/>
+    <functioncall functionName="AConfiguration_new"/>
+    <functioncall functionName="AInputEvent_getType"/>
+    <functioncall functionName="AInputQueue_attachLooper"/>
+    <functioncall functionName="AInputQueue_detachLooper"/>
+    <functioncall functionName="AInputQueue_finishEvent"/>
+    <functioncall functionName="AInputQueue_getEvent"/>
+    <functioncall functionName="AInputQueue_preDispatchEvent"/>
+    <functioncall functionName="ALOOPER_EVENT_INPUT"/>
+    <functioncall functionName="ALOOPER_PREPARE_ALLOW_NON_CALLBACKS"/>
+    <functioncall functionName="ALooper_addFd"/>
+    <functioncall functionName="ALooper_prepare"/>
+    <functioncall functionName="ANDROID_LOG_ERROR"/>
+    <functioncall functionName="ANDROID_LOG_VERBOSE"/>
+    <functioncall functionName="APP_CMD_CONFIG_CHANGED"/>
+    <functioncall functionName="APP_CMD_CONTENT_RECT_CHANGED"/>
+    <functioncall functionName="APP_CMD_DESTROY"/>
+    <functioncall functionName="APP_CMD_GAINED_FOCUS"/>
+    <functioncall functionName="APP_CMD_INIT_WINDOW"/>
+    <functioncall functionName="APP_CMD_INPUT_CHANGED"/>
+    <functioncall functionName="APP_CMD_LOST_FOCUS"/>
+    <functioncall functionName="APP_CMD_LOW_MEMORY"/>
+    <functioncall functionName="APP_CMD_PAUSE"/>
+    <functioncall functionName="APP_CMD_RESUME"/>
+    <functioncall functionName="APP_CMD_SAVE_STATE"/>
+    <functioncall functionName="APP_CMD_START"/>
+    <functioncall functionName="APP_CMD_STOP"/>
+    <functioncall functionName="APP_CMD_TERM_WINDOW"/>
+    <functioncall functionName="APP_CMD_WINDOW_REDRAW_NEEDED"/>
+    <functioncall functionName="APP_CMD_WINDOW_RESIZED"/>
+    <functioncall functionName="LOOPER_ID_INPUT"/>
+    <functioncall functionName="LOOPER_ID_MAIN"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="PTHREAD_CREATE_DETACHED"/>
+    <functioncall functionName="__android_log_print"/>
+    <functioncall functionName="activity"/>
+    <functioncall functionName="android_app"/>
+    <functioncall functionName="android_app_create"/>
+    <functioncall functionName="android_app_destroy"/>
+    <functioncall functionName="android_app_entry"/>
+    <functioncall functionName="android_app_free"/>
+    <functioncall functionName="android_app_post_exec_cmd"/>
+    <functioncall functionName="android_app_pre_exec_cmd"/>
+    <functioncall functionName="android_app_read_cmd"/>
+    <functioncall functionName="android_app_set_activity_state"/>
+    <functioncall functionName="android_app_set_input"/>
+    <functioncall functionName="android_app_set_window"/>
+    <functioncall functionName="android_app_write_cmd"/>
+    <functioncall functionName="android_main"/>
+    <functioncall functionName="app"/>
+    <functioncall functionName="assetManager"/>
+    <functioncall functionName="attr"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="cmd"/>
+    <functioncall functionName="cmdPollSource"/>
+    <functioncall functionName="cond"/>
+    <functioncall functionName="config"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="country"/>
+    <functioncall functionName="destroyed"/>
+    <functioncall functionName="errno"/>
+    <functioncall functionName="event"/>
+    <functioncall functionName="focused"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="free_saved_state"/>
+    <functioncall functionName="handled"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="inputPollSource"/>
+    <functioncall functionName="inputQueue"/>
+    <functioncall functionName="instance"/>
+    <functioncall functionName="lang"/>
+    <functioncall functionName="looper"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="msgpipe"/>
+    <functioncall functionName="msgread"/>
+    <functioncall functionName="msgwrite"/>
+    <functioncall functionName="mutex"/>
+    <functioncall functionName="onAppCmd"/>
+    <functioncall functionName="onConfigurationChanged"/>
+    <functioncall functionName="onDestroy"/>
+    <functioncall functionName="onInputEvent"/>
+    <functioncall functionName="onInputQueueCreated"/>
+    <functioncall functionName="onInputQueueDestroyed"/>
+    <functioncall functionName="onLowMemory"/>
+    <functioncall functionName="onNativeWindowCreated"/>
+    <functioncall functionName="onNativeWindowDestroyed"/>
+    <functioncall functionName="onPause"/>
+    <functioncall functionName="onResume"/>
+    <functioncall functionName="onSaveInstanceState"/>
+    <functioncall functionName="onStart"/>
+    <functioncall functionName="onStop"/>
+    <functioncall functionName="onWindowFocusChanged"/>
+    <functioncall functionName="param"/>
+    <functioncall functionName="pendingInputQueue"/>
+    <functioncall functionName="pendingWindow"/>
+    <functioncall functionName="pipe"/>
+    <functioncall functionName="print_cur_config"/>
+    <functioncall functionName="process_cmd"/>
+    <functioncall functionName="process_input"/>
+    <functioncall functionName="pthread_attr_init"/>
+    <functioncall functionName="pthread_attr_setdetachstate"/>
+    <functioncall functionName="pthread_cond_broadcast"/>
+    <functioncall functionName="pthread_cond_destroy"/>
+    <functioncall functionName="pthread_cond_init"/>
+    <functioncall functionName="pthread_cond_wait"/>
+    <functioncall functionName="pthread_create"/>
+    <functioncall functionName="pthread_mutex_destroy"/>
+    <functioncall functionName="pthread_mutex_init"/>
+    <functioncall functionName="pthread_mutex_lock"/>
+    <functioncall functionName="pthread_mutex_unlock"/>
+    <functioncall functionName="queue"/>
+    <functioncall functionName="read"/>
+    <functioncall functionName="running"/>
+    <functioncall functionName="savedState"/>
+    <functioncall functionName="savedStateSize"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="stateSaved"/>
+    <functioncall functionName="strerror"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="thread"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="window"/>
+    <functioncall functionName="write"/>
+  </FileInfo>
+</analyzerinfo>

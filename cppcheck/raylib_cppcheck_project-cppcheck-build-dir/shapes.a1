@@ -1,0 +1,1040 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="187591351">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 63 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\shapes.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/rlgl.h:453:12" call-funcname="rlTranslatef" call-argnr="1" file="C:/GitHub/raylib/src/shapes.c" line="132" col="21" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/raylib.h:1063:12" call-funcname="DrawCircleSector" call-argnr="3" file="C:/GitHub/raylib/src/shapes.c" line="381" col="21" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:467:12" call-funcname="rlVertex2f" call-argnr="1" file="C:/GitHub/raylib/src/shapes.c" line="1346" col="27" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:467:12" call-funcname="rlVertex2f" call-argnr="2" file="C:/GitHub/raylib/src/shapes.c" line="1346" col="27" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/raylib.h:1092:12" call-funcname="CheckCollisionCircles" call-argnr="2" file="C:/GitHub/raylib/src/shapes.c" line="1419" col="33" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:423:12" my-argnr="1" my-argname="v1" file="C:/GitHub/raylib/src/raymath.h" line="425" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:423:12" my-argnr="2" my-argname="v2" file="C:/GitHub/raylib/src/raymath.h" line="426" col="44" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:1319:12" my-argnr="2" my-argname="outAxis" file="C:/GitHub/raylib/src/raymath.h" line="1340" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:1319:12" my-argnr="3" my-argname="outAngle" file="C:/GitHub/raylib/src/raymath.h" line="1341" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:423:12" my-argnr="2" my-argname="v2" file="C:/GitHub/raylib/src/raymath.h" line="426" col="44" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/rlgl.h:453:12" call-funcname="rlTranslatef" call-argnr="1" file="C:/GitHub/raylib/src/shapes.c" line="132" col="21" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/raylib.h:1063:12" call-funcname="DrawCircleSector" call-argnr="3" file="C:/GitHub/raylib/src/shapes.c" line="381" col="21" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:467:12" call-funcname="rlVertex2f" call-argnr="1" file="C:/GitHub/raylib/src/shapes.c" line="1346" col="27" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:467:12" call-funcname="rlVertex2f" call-argnr="2" file="C:/GitHub/raylib/src/shapes.c" line="1346" col="27" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/raylib.h:1092:12" call-funcname="CheckCollisionCircles" call-argnr="2" file="C:/GitHub/raylib/src/shapes.c" line="1419" col="33" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:423:12" my-argnr="1" my-argname="v1" file="C:/GitHub/raylib/src/raymath.h" line="425" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:423:12" my-argnr="2" my-argname="v2" file="C:/GitHub/raylib/src/raymath.h" line="426" col="44" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:1319:12" my-argnr="2" my-argname="outAxis" file="C:/GitHub/raylib/src/raymath.h" line="1340" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:1319:12" my-argnr="3" my-argname="outAngle" file="C:/GitHub/raylib/src/raymath.h" line="1341" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:423:12" my-argnr="2" my-argname="v2" file="C:/GitHub/raylib/src/raymath.h" line="426" col="44" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/rlgl.h:453:12" call-funcname="rlTranslatef" call-argnr="1" file="C:/GitHub/raylib/src/shapes.c" line="132" col="21" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/raylib.h:1063:12" call-funcname="DrawCircleSector" call-argnr="3" file="C:/GitHub/raylib/src/shapes.c" line="381" col="21" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:467:12" call-funcname="rlVertex2f" call-argnr="1" file="C:/GitHub/raylib/src/shapes.c" line="1346" col="27" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:467:12" call-funcname="rlVertex2f" call-argnr="2" file="C:/GitHub/raylib/src/shapes.c" line="1346" col="27" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/raylib.h:1092:12" call-funcname="CheckCollisionCircles" call-argnr="2" file="C:/GitHub/raylib/src/shapes.c" line="1419" col="33" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:423:12" my-argnr="1" my-argname="v1" file="C:/GitHub/raylib/src/raymath.h" line="425" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:423:12" my-argnr="2" my-argname="v2" file="C:/GitHub/raylib/src/raymath.h" line="426" col="44" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:1319:12" my-argnr="2" my-argname="outAxis" file="C:/GitHub/raylib/src/raymath.h" line="1340" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:1319:12" my-argnr="3" my-argname="outAngle" file="C:/GitHub/raylib/src/raymath.h" line="1341" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:423:12" my-argnr="2" my-argname="v2" file="C:/GitHub/raylib/src/raymath.h" line="426" col="44" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/rlgl.h:453:12" call-funcname="rlTranslatef" call-argnr="1" file="C:/GitHub/raylib/src/shapes.c" line="132" col="21" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/raylib.h:1063:12" call-funcname="DrawCircleSector" call-argnr="3" file="C:/GitHub/raylib/src/shapes.c" line="381" col="21" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:467:12" call-funcname="rlVertex2f" call-argnr="1" file="C:/GitHub/raylib/src/shapes.c" line="1366" col="27" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:467:12" call-funcname="rlVertex2f" call-argnr="2" file="C:/GitHub/raylib/src/shapes.c" line="1366" col="27" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/raylib.h:1092:12" call-funcname="CheckCollisionCircles" call-argnr="2" file="C:/GitHub/raylib/src/shapes.c" line="1419" col="33" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:423:12" my-argnr="1" my-argname="v1" file="C:/GitHub/raylib/src/raymath.h" line="425" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:423:12" my-argnr="2" my-argname="v2" file="C:/GitHub/raylib/src/raymath.h" line="426" col="44" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:1319:12" my-argnr="2" my-argname="outAxis" file="C:/GitHub/raylib/src/raymath.h" line="1340" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:1319:12" my-argnr="3" my-argname="outAngle" file="C:/GitHub/raylib/src/raymath.h" line="1341" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:423:12" my-argnr="2" my-argname="v2" file="C:/GitHub/raylib/src/raymath.h" line="426" col="44" value="0"/>
+  </FileInfo>
+        <error id="memleakOnRealloc" severity="error" msg="Common realloc mistake: &apos;exts_i&apos; nulled but not freed upon failure" verbose="Common realloc mistake: &apos;exts_i&apos; nulled but not freed upon failure" cwe="401">
+            <location file0="C:\GitHub\raylib\src\shapes.c" file="C:\GitHub\raylib\src\external\glad.h" line="3771" column="13"/>
+            <symbol>exts_i</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;matRotation&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;matRotation&apos;. The initialized value is overwritten before it is read." cwe="563">
+            <location file0="C:\GitHub\raylib\src\shapes.c" file="C:\GitHub\raylib\src\rlgl.h" line="996" column="17" info="matRotation is overwritten"/>
+            <location file0="C:\GitHub\raylib\src\shapes.c" file="C:\GitHub\raylib\src\rlgl.h" line="993" column="24" info="matRotation is initialized"/>
+            <symbol>matRotation</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;matrix&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;matrix&apos;. The initialized value is overwritten before it is read." cwe="563">
+            <location file0="C:\GitHub\raylib\src\shapes.c" file="C:\GitHub\raylib\src\rlgl.h" line="3215" column="12" info="matrix is overwritten"/>
+            <location file0="C:\GitHub\raylib\src\shapes.c" file="C:\GitHub\raylib\src\rlgl.h" line="3206" column="19" info="matrix is initialized"/>
+            <symbol>matrix</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The expression &apos;eyesCount == 1&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398">
+            <location file0="C:\GitHub\raylib\src\shapes.c" file="C:\GitHub\raylib\src\rlgl.h" line="2773" column="23"/>
+            <location file0="C:\GitHub\raylib\src\shapes.c" file="C:\GitHub\raylib\src\rlgl.h" line="2766" column="21" info="&apos;eyesCount&apos; is assigned value &apos;1&apos; here."/>
+        </error>
+        <error id="duplicateAssignExpression" severity="style" msg="Same expression used in consecutive assignments of &apos;mipWidth&apos; and &apos;mipHeight&apos;." verbose="Finding variables &apos;mipWidth&apos; and &apos;mipHeight&apos; that are assigned the same expression is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398">
+            <location file0="C:\GitHub\raylib\src\shapes.c" file="C:\GitHub\raylib\src\rlgl.h" line="3452" column="22"/>
+            <location file0="C:\GitHub\raylib\src\shapes.c" file="C:\GitHub\raylib\src\rlgl.h" line="3453" column="22"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/raymath.h:741:14" call-funcname="MatrixTranslate" call-argnr="1" file="C:/GitHub/raylib/src/rlgl.h" line="984" col="44" call-argexpr="x" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\GitHub\raylib\src\shapes.c" line="132" col="22" info="Calling function 'rlTranslatef', 1st argument '0' value is 0"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/rlgl.h:468:12" call-funcname="rlVertex3f" call-argnr="1" file="C:/GitHub/raylib/src/rlgl.h" line="1194" col="15" call-argexpr="x" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\GitHub\raylib\src\shapes.c" line="1366" col="28" info="Calling function 'rlVertex2f', 1st argument '0' value is 0"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/rlgl.h:517:20" call-funcname="rlLoadTexture" call-argnr="1" file="C:/GitHub/raylib/src/rlgl.h" line="1673" col="48" call-argexpr="pixels" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="2" file="C:/GitHub/raylib/src/rlgl.h" line="1931" col="30" call-argexpr="&glInternalFormat" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="2" file="C:/GitHub/raylib/src/rlgl.h" line="1931" col="30" call-argexpr="glInternalFormat" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="3" file="C:/GitHub/raylib/src/rlgl.h" line="1931" col="30" call-argexpr="&glFormat" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="3" file="C:/GitHub/raylib/src/rlgl.h" line="1931" col="30" call-argexpr="glFormat" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="4" file="C:/GitHub/raylib/src/rlgl.h" line="1931" col="30" call-argexpr="&glType" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="4" file="C:/GitHub/raylib/src/rlgl.h" line="1931" col="30" call-argexpr="glType" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="2" file="C:/GitHub/raylib/src/rlgl.h" line="2086" col="26" call-argexpr="&glInternalFormat" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="2" file="C:/GitHub/raylib/src/rlgl.h" line="2086" col="26" call-argexpr="glInternalFormat" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="3" file="C:/GitHub/raylib/src/rlgl.h" line="2086" col="26" call-argexpr="&glFormat" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="3" file="C:/GitHub/raylib/src/rlgl.h" line="2086" col="26" call-argexpr="glFormat" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="4" file="C:/GitHub/raylib/src/rlgl.h" line="2086" col="26" call-argexpr="&glType" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="4" file="C:/GitHub/raylib/src/rlgl.h" line="2086" col="26" call-argexpr="glType" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="2" file="C:/GitHub/raylib/src/rlgl.h" line="2137" col="26" call-argexpr="&glInternalFormat" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="2" file="C:/GitHub/raylib/src/rlgl.h" line="2137" col="26" call-argexpr="glInternalFormat" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="3" file="C:/GitHub/raylib/src/rlgl.h" line="2137" col="26" call-argexpr="&glFormat" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="3" file="C:/GitHub/raylib/src/rlgl.h" line="2137" col="26" call-argexpr="glFormat" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="4" file="C:/GitHub/raylib/src/rlgl.h" line="2137" col="26" call-argexpr="&glType" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="4" file="C:/GitHub/raylib/src/rlgl.h" line="2137" col="26" call-argexpr="glType" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:517:20" call-funcname="rlLoadTexture" call-argnr="1" file="C:/GitHub/raylib/src/rlgl.h" line="2222" col="42" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:530:12" call-funcname="rlRenderTextureAttach" call-argnr="3" file="C:/GitHub/raylib/src/rlgl.h" line="2244" col="26" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:536:12" call-funcname="rlUpdateMeshAt" call-argnr="4" file="C:/GitHub/raylib/src/rlgl.h" line="2534" col="19" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="2" file="C:/GitHub/raylib/src/rlgl.h" line="2893" col="26" call-argexpr="&glInternalFormat" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="2" file="C:/GitHub/raylib/src/rlgl.h" line="2893" col="26" call-argexpr="glInternalFormat" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="3" file="C:/GitHub/raylib/src/rlgl.h" line="2893" col="26" call-argexpr="&glFormat" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="3" file="C:/GitHub/raylib/src/rlgl.h" line="2893" col="26" call-argexpr="glFormat" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="4" file="C:/GitHub/raylib/src/rlgl.h" line="2893" col="26" call-argexpr="&glType" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:521:12" call-funcname="rlGetGlTextureFormats" call-argnr="4" file="C:/GitHub/raylib/src/rlgl.h" line="2893" col="26" call-argexpr="glType" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/raylib.h:1348:14" call-funcname="LoadShaderCode" call-argnr="1" file="C:/GitHub/raylib/src/rlgl.h" line="3002" col="28" call-argexpr="vShaderStr" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\rlgl.h" line="3004" col="20" info="Assuming that condition 'vShaderStr!=NULL' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/raylib.h:1348:14" call-funcname="LoadShaderCode" call-argnr="2" file="C:/GitHub/raylib/src/rlgl.h" line="3002" col="28" call-argexpr="fShaderStr" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="C:\GitHub\raylib\src\rlgl.h" line="3005" col="20" info="Assuming that condition 'fShaderStr!=NULL' is not redundant"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/rlgl.h:872:13" call-funcname="SetShaderDefaultLocations" call-argnr="1" file="C:/GitHub/raylib/src/rlgl.h" line="3042" col="53" call-argexpr="&shader" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/raylib.h:1378:12" call-funcname="BeginBlendMode" call-argnr="1" file="C:/GitHub/raylib/src/rlgl.h" line="3567" col="19" call-argexpr="BLEND_ALPHA" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:453:12" call-funcname="rlTranslatef" call-argnr="1" file="C:/GitHub/raylib/src/shapes.c" line="132" col="21" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/raylib.h:1063:12" call-funcname="DrawCircleSector" call-argnr="3" file="C:/GitHub/raylib/src/shapes.c" line="381" col="21" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:467:12" call-funcname="rlVertex2f" call-argnr="1" file="C:/GitHub/raylib/src/shapes.c" line="1366" col="27" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/rlgl.h:467:12" call-funcname="rlVertex2f" call-argnr="2" file="C:/GitHub/raylib/src/shapes.c" line="1366" col="27" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/raylib.h:1092:12" call-funcname="CheckCollisionCircles" call-argnr="2" file="C:/GitHub/raylib/src/shapes.c" line="1419" col="33" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/raylib.h:1360:12" call-funcname="SetShaderValueV" call-argnr="3" file="C:/GitHub/raylib/src/rlgl.h" line="3118" col="5" my-id="C:/GitHub/raylib/src/raylib.h:1359:12" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Bounds checking">
+    <array-index>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/rlgl.h:456:12" my-argnr="1" my-argname="matf" file="C:/GitHub/raylib/src/rlgl.h" line="1015" col="20" value="0"/>
+    </array-index>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:423:12" my-argnr="1" my-argname="v1" file="C:/GitHub/raylib/src/raymath.h" line="425" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:423:12" my-argnr="2" my-argname="v2" file="C:/GitHub/raylib/src/raymath.h" line="426" col="44" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:1319:12" my-argnr="2" my-argname="outAxis" file="C:/GitHub/raylib/src/raymath.h" line="1340" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:1319:12" my-argnr="3" my-argname="outAngle" file="C:/GitHub/raylib/src/raymath.h" line="1341" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glad.h:89:11" my-argnr="1" my-argname="load" file="C:/GitHub/raylib/src/external/glad.h" line="5423" col="36" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/rlgl.h:456:12" my-argnr="1" my-argname="matf" file="C:/GitHub/raylib/src/rlgl.h" line="1015" col="20" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/rlgl.h:521:12" my-argnr="2" my-argname="glInternalFormat" file="C:/GitHub/raylib/src/rlgl.h" line="2149" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/rlgl.h:521:12" my-argnr="3" my-argname="glFormat" file="C:/GitHub/raylib/src/rlgl.h" line="2150" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/rlgl.h:521:12" my-argnr="4" my-argname="glType" file="C:/GitHub/raylib/src/rlgl.h" line="2151" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/rlgl.h:524:12" my-argnr="1" my-argname="texture" file="C:/GitHub/raylib/src/rlgl.h" line="2312" col="34" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/rlgl.h:534:12" my-argnr="1" my-argname="mesh" file="C:/GitHub/raylib/src/rlgl.h" line="2382" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/rlgl.h:872:13" my-argnr="1" my-argname="shader" file="C:/GitHub/raylib/src/rlgl.h" line="4014" col="5" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raymath.h:423:12" my-argnr="2" my-argname="v2" file="C:/GitHub/raylib/src/raymath.h" line="426" col="44" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="DrawPixel" lineNumber="72"/>
+    <functiondecl functionName="DrawPixelV" lineNumber="82"/>
+    <functiondecl functionName="DrawLine" lineNumber="92"/>
+    <functiondecl functionName="DrawLineV" lineNumber="102"/>
+    <functiondecl functionName="DrawLineEx" lineNumber="112"/>
+    <functiondecl functionName="DrawLineBezier" lineNumber="156"/>
+    <functiondecl functionName="DrawLineStrip" lineNumber="177"/>
+    <functiondecl functionName="DrawCircle" lineNumber="196"/>
+    <functiondecl functionName="DrawCircleSector" lineNumber="202"/>
+    <functiondecl functionName="DrawCircleSectorLines" lineNumber="294"/>
+    <functiondecl functionName="DrawCircleGradient" lineNumber="360"/>
+    <functiondecl functionName="DrawCircleV" lineNumber="379"/>
+    <functiondecl functionName="DrawCircleLines" lineNumber="385"/>
+    <functiondecl functionName="DrawEllipse" lineNumber="402"/>
+    <functiondecl functionName="DrawEllipseLines" lineNumber="418"/>
+    <functiondecl functionName="DrawRing" lineNumber="432"/>
+    <functiondecl functionName="DrawRingLines" lineNumber="528"/>
+    <functiondecl functionName="DrawRectangle" lineNumber="611"/>
+    <functiondecl functionName="DrawRectangleV" lineNumber="618"/>
+    <functiondecl functionName="DrawRectangleRec" lineNumber="624"/>
+    <functiondecl functionName="DrawRectanglePro" lineNumber="630"/>
+    <functiondecl functionName="DrawRectangleGradientV" lineNumber="662"/>
+    <functiondecl functionName="DrawRectangleGradientH" lineNumber="669"/>
+    <functiondecl functionName="DrawRectangleGradientEx" lineNumber="676"/>
+    <functiondecl functionName="DrawRectangleLines" lineNumber="708"/>
+    <functiondecl functionName="DrawRectangleLinesEx" lineNumber="734"/>
+    <functiondecl functionName="DrawRectangleRounded" lineNumber="749"/>
+    <functiondecl functionName="DrawRectangleRoundedLines" lineNumber="971"/>
+    <functiondecl functionName="DrawTriangle" lineNumber="1211"/>
+    <functiondecl functionName="DrawTriangleLines" lineNumber="1247"/>
+    <functiondecl functionName="DrawTriangleFan" lineNumber="1266"/>
+    <functiondecl functionName="DrawTriangleStrip" lineNumber="1297"/>
+    <functiondecl functionName="DrawPoly" lineNumber="1326"/>
+    <functiondecl functionName="DrawPolyLines" lineNumber="1378"/>
+    <functiondecl functionName="CheckCollisionPointRec" lineNumber="1407"/>
+    <functiondecl functionName="CheckCollisionPointCircle" lineNumber="1417"/>
+    <functiondecl functionName="CheckCollisionPointTriangle" lineNumber="1423"/>
+    <functiondecl functionName="CheckCollisionRecs" lineNumber="1441"/>
+    <functiondecl functionName="CheckCollisionCircles" lineNumber="1452"/>
+    <functiondecl functionName="CheckCollisionCircleRec" lineNumber="1468"/>
+    <functiondecl functionName="GetCollisionRec" lineNumber="1489"/>
+    <functiondecl functionName="EaseCubicInOut" lineNumber="1561"/>
+    <functiondecl functionName="DrawPixel" lineNumber="72"/>
+    <functiondecl functionName="DrawPixelV" lineNumber="82"/>
+    <functiondecl functionName="DrawLine" lineNumber="92"/>
+    <functiondecl functionName="DrawLineV" lineNumber="102"/>
+    <functiondecl functionName="DrawLineEx" lineNumber="112"/>
+    <functiondecl functionName="DrawLineBezier" lineNumber="156"/>
+    <functiondecl functionName="DrawLineStrip" lineNumber="177"/>
+    <functiondecl functionName="DrawCircle" lineNumber="196"/>
+    <functiondecl functionName="DrawCircleSector" lineNumber="202"/>
+    <functiondecl functionName="DrawCircleSectorLines" lineNumber="294"/>
+    <functiondecl functionName="DrawCircleGradient" lineNumber="360"/>
+    <functiondecl functionName="DrawCircleV" lineNumber="379"/>
+    <functiondecl functionName="DrawCircleLines" lineNumber="385"/>
+    <functiondecl functionName="DrawEllipse" lineNumber="402"/>
+    <functiondecl functionName="DrawEllipseLines" lineNumber="418"/>
+    <functiondecl functionName="DrawRing" lineNumber="432"/>
+    <functiondecl functionName="DrawRingLines" lineNumber="528"/>
+    <functiondecl functionName="DrawRectangle" lineNumber="611"/>
+    <functiondecl functionName="DrawRectangleV" lineNumber="618"/>
+    <functiondecl functionName="DrawRectangleRec" lineNumber="624"/>
+    <functiondecl functionName="DrawRectanglePro" lineNumber="630"/>
+    <functiondecl functionName="DrawRectangleGradientV" lineNumber="662"/>
+    <functiondecl functionName="DrawRectangleGradientH" lineNumber="669"/>
+    <functiondecl functionName="DrawRectangleGradientEx" lineNumber="676"/>
+    <functiondecl functionName="DrawRectangleLines" lineNumber="708"/>
+    <functiondecl functionName="DrawRectangleLinesEx" lineNumber="734"/>
+    <functiondecl functionName="DrawRectangleRounded" lineNumber="749"/>
+    <functiondecl functionName="DrawRectangleRoundedLines" lineNumber="971"/>
+    <functiondecl functionName="DrawTriangle" lineNumber="1211"/>
+    <functiondecl functionName="DrawTriangleLines" lineNumber="1247"/>
+    <functiondecl functionName="DrawTriangleFan" lineNumber="1266"/>
+    <functiondecl functionName="DrawTriangleStrip" lineNumber="1297"/>
+    <functiondecl functionName="DrawPoly" lineNumber="1326"/>
+    <functiondecl functionName="DrawPolyLines" lineNumber="1378"/>
+    <functiondecl functionName="CheckCollisionPointRec" lineNumber="1407"/>
+    <functiondecl functionName="CheckCollisionPointCircle" lineNumber="1417"/>
+    <functiondecl functionName="CheckCollisionPointTriangle" lineNumber="1423"/>
+    <functiondecl functionName="CheckCollisionRecs" lineNumber="1441"/>
+    <functiondecl functionName="CheckCollisionCircles" lineNumber="1452"/>
+    <functiondecl functionName="CheckCollisionCircleRec" lineNumber="1468"/>
+    <functiondecl functionName="GetCollisionRec" lineNumber="1489"/>
+    <functiondecl functionName="EaseCubicInOut" lineNumber="1561"/>
+    <functiondecl functionName="DrawPixel" lineNumber="72"/>
+    <functiondecl functionName="DrawPixelV" lineNumber="82"/>
+    <functiondecl functionName="DrawLine" lineNumber="92"/>
+    <functiondecl functionName="DrawLineV" lineNumber="102"/>
+    <functiondecl functionName="DrawLineEx" lineNumber="112"/>
+    <functiondecl functionName="DrawLineBezier" lineNumber="156"/>
+    <functiondecl functionName="DrawLineStrip" lineNumber="177"/>
+    <functiondecl functionName="DrawCircle" lineNumber="196"/>
+    <functiondecl functionName="DrawCircleSector" lineNumber="202"/>
+    <functiondecl functionName="DrawCircleSectorLines" lineNumber="294"/>
+    <functiondecl functionName="DrawCircleGradient" lineNumber="360"/>
+    <functiondecl functionName="DrawCircleV" lineNumber="379"/>
+    <functiondecl functionName="DrawCircleLines" lineNumber="385"/>
+    <functiondecl functionName="DrawEllipse" lineNumber="402"/>
+    <functiondecl functionName="DrawEllipseLines" lineNumber="418"/>
+    <functiondecl functionName="DrawRing" lineNumber="432"/>
+    <functiondecl functionName="DrawRingLines" lineNumber="528"/>
+    <functiondecl functionName="DrawRectangle" lineNumber="611"/>
+    <functiondecl functionName="DrawRectangleV" lineNumber="618"/>
+    <functiondecl functionName="DrawRectangleRec" lineNumber="624"/>
+    <functiondecl functionName="DrawRectanglePro" lineNumber="630"/>
+    <functiondecl functionName="DrawRectangleGradientV" lineNumber="662"/>
+    <functiondecl functionName="DrawRectangleGradientH" lineNumber="669"/>
+    <functiondecl functionName="DrawRectangleGradientEx" lineNumber="676"/>
+    <functiondecl functionName="DrawRectangleLines" lineNumber="708"/>
+    <functiondecl functionName="DrawRectangleLinesEx" lineNumber="734"/>
+    <functiondecl functionName="DrawRectangleRounded" lineNumber="749"/>
+    <functiondecl functionName="DrawRectangleRoundedLines" lineNumber="971"/>
+    <functiondecl functionName="DrawTriangle" lineNumber="1211"/>
+    <functiondecl functionName="DrawTriangleLines" lineNumber="1247"/>
+    <functiondecl functionName="DrawTriangleFan" lineNumber="1266"/>
+    <functiondecl functionName="DrawTriangleStrip" lineNumber="1297"/>
+    <functiondecl functionName="DrawPoly" lineNumber="1326"/>
+    <functiondecl functionName="DrawPolyLines" lineNumber="1378"/>
+    <functiondecl functionName="CheckCollisionPointRec" lineNumber="1407"/>
+    <functiondecl functionName="CheckCollisionPointCircle" lineNumber="1417"/>
+    <functiondecl functionName="CheckCollisionPointTriangle" lineNumber="1423"/>
+    <functiondecl functionName="CheckCollisionRecs" lineNumber="1441"/>
+    <functiondecl functionName="CheckCollisionCircles" lineNumber="1452"/>
+    <functiondecl functionName="CheckCollisionCircleRec" lineNumber="1468"/>
+    <functiondecl functionName="GetCollisionRec" lineNumber="1489"/>
+    <functiondecl functionName="EaseCubicInOut" lineNumber="1561"/>
+    <functiondecl functionName="DrawPixel" lineNumber="72"/>
+    <functiondecl functionName="DrawPixelV" lineNumber="82"/>
+    <functiondecl functionName="DrawLine" lineNumber="92"/>
+    <functiondecl functionName="DrawLineV" lineNumber="102"/>
+    <functiondecl functionName="DrawLineEx" lineNumber="112"/>
+    <functiondecl functionName="DrawLineBezier" lineNumber="156"/>
+    <functiondecl functionName="DrawLineStrip" lineNumber="177"/>
+    <functiondecl functionName="DrawCircle" lineNumber="196"/>
+    <functiondecl functionName="DrawCircleSector" lineNumber="202"/>
+    <functiondecl functionName="DrawCircleSectorLines" lineNumber="294"/>
+    <functiondecl functionName="DrawCircleGradient" lineNumber="360"/>
+    <functiondecl functionName="DrawCircleV" lineNumber="379"/>
+    <functiondecl functionName="DrawCircleLines" lineNumber="385"/>
+    <functiondecl functionName="DrawEllipse" lineNumber="402"/>
+    <functiondecl functionName="DrawEllipseLines" lineNumber="418"/>
+    <functiondecl functionName="DrawRing" lineNumber="432"/>
+    <functiondecl functionName="DrawRingLines" lineNumber="528"/>
+    <functiondecl functionName="DrawRectangle" lineNumber="611"/>
+    <functiondecl functionName="DrawRectangleV" lineNumber="618"/>
+    <functiondecl functionName="DrawRectangleRec" lineNumber="624"/>
+    <functiondecl functionName="DrawRectanglePro" lineNumber="630"/>
+    <functiondecl functionName="DrawRectangleGradientV" lineNumber="662"/>
+    <functiondecl functionName="DrawRectangleGradientH" lineNumber="669"/>
+    <functiondecl functionName="DrawRectangleGradientEx" lineNumber="676"/>
+    <functiondecl functionName="DrawRectangleLines" lineNumber="708"/>
+    <functiondecl functionName="DrawRectangleLinesEx" lineNumber="734"/>
+    <functiondecl functionName="DrawRectangleRounded" lineNumber="749"/>
+    <functiondecl functionName="DrawRectangleRoundedLines" lineNumber="971"/>
+    <functiondecl functionName="DrawTriangle" lineNumber="1211"/>
+    <functiondecl functionName="DrawTriangleLines" lineNumber="1247"/>
+    <functiondecl functionName="DrawTriangleFan" lineNumber="1266"/>
+    <functiondecl functionName="DrawTriangleStrip" lineNumber="1297"/>
+    <functiondecl functionName="DrawPoly" lineNumber="1326"/>
+    <functiondecl functionName="DrawPolyLines" lineNumber="1378"/>
+    <functiondecl functionName="CheckCollisionPointRec" lineNumber="1407"/>
+    <functiondecl functionName="CheckCollisionPointCircle" lineNumber="1417"/>
+    <functiondecl functionName="CheckCollisionPointTriangle" lineNumber="1423"/>
+    <functiondecl functionName="CheckCollisionRecs" lineNumber="1441"/>
+    <functiondecl functionName="CheckCollisionCircles" lineNumber="1452"/>
+    <functiondecl functionName="CheckCollisionCircleRec" lineNumber="1468"/>
+    <functiondecl functionName="GetCollisionRec" lineNumber="1489"/>
+    <functiondecl functionName="EaseCubicInOut" lineNumber="1561"/>
+    <functiondecl functionName="DrawPixel" lineNumber="72"/>
+    <functiondecl functionName="DrawPixelV" lineNumber="82"/>
+    <functiondecl functionName="DrawLine" lineNumber="92"/>
+    <functiondecl functionName="DrawLineV" lineNumber="102"/>
+    <functiondecl functionName="DrawLineEx" lineNumber="112"/>
+    <functiondecl functionName="DrawLineBezier" lineNumber="156"/>
+    <functiondecl functionName="DrawLineStrip" lineNumber="177"/>
+    <functiondecl functionName="DrawCircle" lineNumber="196"/>
+    <functiondecl functionName="DrawCircleSector" lineNumber="202"/>
+    <functiondecl functionName="DrawCircleSectorLines" lineNumber="294"/>
+    <functiondecl functionName="DrawCircleGradient" lineNumber="360"/>
+    <functiondecl functionName="DrawCircleV" lineNumber="379"/>
+    <functiondecl functionName="DrawCircleLines" lineNumber="385"/>
+    <functiondecl functionName="DrawEllipse" lineNumber="402"/>
+    <functiondecl functionName="DrawEllipseLines" lineNumber="418"/>
+    <functiondecl functionName="DrawRing" lineNumber="432"/>
+    <functiondecl functionName="DrawRingLines" lineNumber="528"/>
+    <functiondecl functionName="DrawRectangle" lineNumber="611"/>
+    <functiondecl functionName="DrawRectangleV" lineNumber="618"/>
+    <functiondecl functionName="DrawRectangleRec" lineNumber="624"/>
+    <functiondecl functionName="DrawRectanglePro" lineNumber="630"/>
+    <functiondecl functionName="DrawRectangleGradientV" lineNumber="662"/>
+    <functiondecl functionName="DrawRectangleGradientH" lineNumber="669"/>
+    <functiondecl functionName="DrawRectangleGradientEx" lineNumber="676"/>
+    <functiondecl functionName="DrawRectangleLines" lineNumber="708"/>
+    <functiondecl functionName="DrawRectangleLinesEx" lineNumber="734"/>
+    <functiondecl functionName="DrawRectangleRounded" lineNumber="749"/>
+    <functiondecl functionName="DrawRectangleRoundedLines" lineNumber="971"/>
+    <functiondecl functionName="DrawTriangle" lineNumber="1211"/>
+    <functiondecl functionName="DrawTriangleLines" lineNumber="1247"/>
+    <functiondecl functionName="DrawTriangleFan" lineNumber="1266"/>
+    <functiondecl functionName="DrawTriangleStrip" lineNumber="1297"/>
+    <functiondecl functionName="DrawPoly" lineNumber="1326"/>
+    <functiondecl functionName="DrawPolyLines" lineNumber="1378"/>
+    <functiondecl functionName="CheckCollisionPointRec" lineNumber="1407"/>
+    <functiondecl functionName="CheckCollisionPointCircle" lineNumber="1417"/>
+    <functiondecl functionName="CheckCollisionPointTriangle" lineNumber="1423"/>
+    <functiondecl functionName="CheckCollisionRecs" lineNumber="1441"/>
+    <functiondecl functionName="CheckCollisionCircles" lineNumber="1452"/>
+    <functiondecl functionName="CheckCollisionCircleRec" lineNumber="1468"/>
+    <functiondecl functionName="GetCollisionRec" lineNumber="1489"/>
+    <functiondecl functionName="EaseCubicInOut" lineNumber="1561"/>
+    <functioncall functionName="BLEND_ADDITIVE"/>
+    <functioncall functionName="BLEND_ALPHA"/>
+    <functioncall functionName="BLEND_MULTIPLIED"/>
+    <functioncall functionName="BeginBlendMode"/>
+    <functioncall functionName="BeginShaderMode"/>
+    <functioncall functionName="CAMERA_FIRST_PERSON"/>
+    <functioncall functionName="CAMERA_FREE"/>
+    <functioncall functionName="CAMERA_ORBITAL"/>
+    <functioncall functionName="CAMERA_ORTHOGRAPHIC"/>
+    <functioncall functionName="CAMERA_THIRD_PERSON"/>
+    <functioncall functionName="COMPRESSED_ASTC_4x4_RGBA"/>
+    <functioncall functionName="COMPRESSED_ASTC_8x8_RGBA"/>
+    <functioncall functionName="COMPRESSED_DXT1_RGB"/>
+    <functioncall functionName="COMPRESSED_DXT1_RGBA"/>
+    <functioncall functionName="COMPRESSED_DXT3_RGBA"/>
+    <functioncall functionName="COMPRESSED_DXT5_RGBA"/>
+    <functioncall functionName="COMPRESSED_ETC1_RGB"/>
+    <functioncall functionName="COMPRESSED_ETC2_EAC_RGBA"/>
+    <functioncall functionName="COMPRESSED_ETC2_RGB"/>
+    <functioncall functionName="COMPRESSED_PVRT_RGB"/>
+    <functioncall functionName="COMPRESSED_PVRT_RGBA"/>
+    <functioncall functionName="CUBEMAP_CROSS_FOUR_BY_THREE"/>
+    <functioncall functionName="CUBEMAP_CROSS_THREE_BY_FOUR"/>
+    <functioncall functionName="CUBEMAP_LINE_HORIZONTAL"/>
+    <functioncall functionName="CUBEMAP_LINE_VERTICAL"/>
+    <functioncall functionName="CUBEMAP_PANORAMA"/>
+    <functioncall functionName="CheckCollisionCircles"/>
+    <functioncall functionName="CheckCollisionRecs"/>
+    <functioncall functionName="CompileShader"/>
+    <functioncall functionName="DrawBuffersDefault"/>
+    <functioncall functionName="DrawCircleSector"/>
+    <functioncall functionName="DrawCircleSectorLines"/>
+    <functioncall functionName="DrawLineEx"/>
+    <functioncall functionName="DrawRectangle"/>
+    <functioncall functionName="DrawRectanglePro"/>
+    <functioncall functionName="DrawRectangleRec"/>
+    <functioncall functionName="EaseCubicInOut"/>
+    <functioncall functionName="FILTER_ANISOTROPIC_16X"/>
+    <functioncall functionName="FILTER_ANISOTROPIC_4X"/>
+    <functioncall functionName="FILTER_ANISOTROPIC_8X"/>
+    <functioncall functionName="FILTER_BILINEAR"/>
+    <functioncall functionName="FILTER_TRILINEAR"/>
+    <functioncall functionName="FONT_BITMAP"/>
+    <functioncall functionName="FONT_SDF"/>
+    <functioncall functionName="GAMEPAD_AXIS_LEFT_TRIGGER"/>
+    <functioncall functionName="GAMEPAD_AXIS_LEFT_X"/>
+    <functioncall functionName="GAMEPAD_AXIS_LEFT_Y"/>
+    <functioncall functionName="GAMEPAD_AXIS_RIGHT_TRIGGER"/>
+    <functioncall functionName="GAMEPAD_AXIS_RIGHT_X"/>
+    <functioncall functionName="GAMEPAD_AXIS_RIGHT_Y"/>
+    <functioncall functionName="GAMEPAD_BUTTON_LEFT_FACE_DOWN"/>
+    <functioncall functionName="GAMEPAD_BUTTON_LEFT_FACE_LEFT"/>
+    <functioncall functionName="GAMEPAD_BUTTON_LEFT_FACE_RIGHT"/>
+    <functioncall functionName="GAMEPAD_BUTTON_LEFT_FACE_UP"/>
+    <functioncall functionName="GAMEPAD_BUTTON_LEFT_THUMB"/>
+    <functioncall functionName="GAMEPAD_BUTTON_LEFT_TRIGGER_1"/>
+    <functioncall functionName="GAMEPAD_BUTTON_LEFT_TRIGGER_2"/>
+    <functioncall functionName="GAMEPAD_BUTTON_MIDDLE"/>
+    <functioncall functionName="GAMEPAD_BUTTON_MIDDLE_LEFT"/>
+    <functioncall functionName="GAMEPAD_BUTTON_MIDDLE_RIGHT"/>
+    <functioncall functionName="GAMEPAD_BUTTON_RIGHT_FACE_DOWN"/>
+    <functioncall functionName="GAMEPAD_BUTTON_RIGHT_FACE_LEFT"/>
+    <functioncall functionName="GAMEPAD_BUTTON_RIGHT_FACE_RIGHT"/>
+    <functioncall functionName="GAMEPAD_BUTTON_RIGHT_FACE_UP"/>
+    <functioncall functionName="GAMEPAD_BUTTON_RIGHT_THUMB"/>
+    <functioncall functionName="GAMEPAD_BUTTON_RIGHT_TRIGGER_1"/>
+    <functioncall functionName="GAMEPAD_BUTTON_RIGHT_TRIGGER_2"/>
+    <functioncall functionName="GLAD_GL_AMD_debug_output"/>
+    <functioncall functionName="GLAD_GL_ARB_ES2_compatibility"/>
+    <functioncall functionName="GLAD_GL_ARB_buffer_storage"/>
+    <functioncall functionName="GLAD_GL_ARB_debug_output"/>
+    <functioncall functionName="GLAD_GL_ARB_draw_buffers"/>
+    <functioncall functionName="GLAD_GL_ARB_draw_buffers_blend"/>
+    <functioncall functionName="GLAD_GL_ARB_fragment_program"/>
+    <functioncall functionName="GLAD_GL_ARB_framebuffer_object"/>
+    <functioncall functionName="GLAD_GL_ARB_multisample"/>
+    <functioncall functionName="GLAD_GL_ARB_sample_locations"/>
+    <functioncall functionName="GLAD_GL_ARB_texture_compression"/>
+    <functioncall functionName="GLAD_GL_ARB_texture_multisample"/>
+    <functioncall functionName="GLAD_GL_ARB_uniform_buffer_object"/>
+    <functioncall functionName="GLAD_GL_ARB_vertex_array_object"/>
+    <functioncall functionName="GLAD_GL_ARB_vertex_attrib_binding"/>
+    <functioncall functionName="GLAD_GL_ARB_vertex_buffer_object"/>
+    <functioncall functionName="GLAD_GL_ARB_vertex_program"/>
+    <functioncall functionName="GLAD_GL_ARB_vertex_shader"/>
+    <functioncall functionName="GLAD_GL_ATI_element_array"/>
+    <functioncall functionName="GLAD_GL_ATI_fragment_shader"/>
+    <functioncall functionName="GLAD_GL_ATI_vertex_array_object"/>
+    <functioncall functionName="GLAD_GL_EXT_blend_color"/>
+    <functioncall functionName="GLAD_GL_EXT_blend_equation_separate"/>
+    <functioncall functionName="GLAD_GL_EXT_blend_func_separate"/>
+    <functioncall functionName="GLAD_GL_EXT_debug_marker"/>
+    <functioncall functionName="GLAD_GL_EXT_framebuffer_blit"/>
+    <functioncall functionName="GLAD_GL_EXT_framebuffer_multisample"/>
+    <functioncall functionName="GLAD_GL_EXT_framebuffer_object"/>
+    <functioncall functionName="GLAD_GL_EXT_vertex_array"/>
+    <functioncall functionName="GLAD_GL_EXT_vertex_shader"/>
+    <functioncall functionName="GLAD_GL_VERSION_1_0"/>
+    <functioncall functionName="GLAD_GL_VERSION_1_1"/>
+    <functioncall functionName="GLAD_GL_VERSION_1_2"/>
+    <functioncall functionName="GLAD_GL_VERSION_1_3"/>
+    <functioncall functionName="GLAD_GL_VERSION_1_4"/>
+    <functioncall functionName="GLAD_GL_VERSION_1_5"/>
+    <functioncall functionName="GLAD_GL_VERSION_2_0"/>
+    <functioncall functionName="GLAD_GL_VERSION_2_1"/>
+    <functioncall functionName="GLAD_GL_VERSION_3_0"/>
+    <functioncall functionName="GLAD_GL_VERSION_3_1"/>
+    <functioncall functionName="GLAD_GL_VERSION_3_2"/>
+    <functioncall functionName="GLAD_GL_VERSION_3_3"/>
+    <functioncall functionName="GenDrawCube"/>
+    <functioncall functionName="GenDrawQuad"/>
+    <functioncall functionName="GetPixelDataSize"/>
+    <functioncall functionName="GetShaderLocation"/>
+    <functioncall functionName="GetShapesTexture"/>
+    <functioncall functionName="GetShapesTextureRec"/>
+    <functioncall functionName="GetTextureDefault"/>
+    <functioncall functionName="LOC_COLOR_AMBIENT"/>
+    <functioncall functionName="LOC_COLOR_DIFFUSE"/>
+    <functioncall functionName="LOC_COLOR_SPECULAR"/>
+    <functioncall functionName="LOC_MAP_ALBEDO"/>
+    <functioncall functionName="LOC_MAP_BRDF"/>
+    <functioncall functionName="LOC_MAP_CUBEMAP"/>
+    <functioncall functionName="LOC_MAP_EMISSION"/>
+    <functioncall functionName="LOC_MAP_HEIGHT"/>
+    <functioncall functionName="LOC_MAP_IRRADIANCE"/>
+    <functioncall functionName="LOC_MAP_METALNESS"/>
+    <functioncall functionName="LOC_MAP_NORMAL"/>
+    <functioncall functionName="LOC_MAP_OCCLUSION"/>
+    <functioncall functionName="LOC_MAP_PREFILTER"/>
+    <functioncall functionName="LOC_MAP_ROUGHNESS"/>
+    <functioncall functionName="LOC_MATRIX_MODEL"/>
+    <functioncall functionName="LOC_MATRIX_MVP"/>
+    <functioncall functionName="LOC_MATRIX_PROJECTION"/>
+    <functioncall functionName="LOC_MATRIX_VIEW"/>
+    <functioncall functionName="LOC_VECTOR_VIEW"/>
+    <functioncall functionName="LOC_VERTEX_COLOR"/>
+    <functioncall functionName="LOC_VERTEX_NORMAL"/>
+    <functioncall functionName="LOC_VERTEX_POSITION"/>
+    <functioncall functionName="LOC_VERTEX_TANGENT"/>
+    <functioncall functionName="LOC_VERTEX_TEXCOORD01"/>
+    <functioncall functionName="LOC_VERTEX_TEXCOORD02"/>
+    <functioncall functionName="LOG_ALL"/>
+    <functioncall functionName="LOG_DEBUG"/>
+    <functioncall functionName="LOG_ERROR"/>
+    <functioncall functionName="LOG_FATAL"/>
+    <functioncall functionName="LOG_INFO"/>
+    <functioncall functionName="LOG_NONE"/>
+    <functioncall functionName="LOG_TRACE"/>
+    <functioncall functionName="LOG_WARNING"/>
+    <functioncall functionName="LoadBuffersDefault"/>
+    <functioncall functionName="LoadFileText"/>
+    <functioncall functionName="LoadShaderCode"/>
+    <functioncall functionName="LoadShaderDefault"/>
+    <functioncall functionName="LoadShaderProgram"/>
+    <functioncall functionName="MAP_ALBEDO"/>
+    <functioncall functionName="MAP_BRDF"/>
+    <functioncall functionName="MAP_CUBEMAP"/>
+    <functioncall functionName="MAP_EMISSION"/>
+    <functioncall functionName="MAP_HEIGHT"/>
+    <functioncall functionName="MAP_IRRADIANCE"/>
+    <functioncall functionName="MAP_METALNESS"/>
+    <functioncall functionName="MAP_OCCLUSION"/>
+    <functioncall functionName="MAP_PREFILTER"/>
+    <functioncall functionName="MatrixDeterminant"/>
+    <functioncall functionName="MatrixFrustum"/>
+    <functioncall functionName="MatrixIdentity"/>
+    <functioncall functionName="MatrixInvert"/>
+    <functioncall functionName="MatrixMultiply"/>
+    <functioncall functionName="MatrixOrtho"/>
+    <functioncall functionName="MatrixPerspective"/>
+    <functioncall functionName="MatrixRotate"/>
+    <functioncall functionName="MatrixScale"/>
+    <functioncall functionName="MatrixToFloatV"/>
+    <functioncall functionName="MatrixTrace"/>
+    <functioncall functionName="MatrixTranslate"/>
+    <functioncall functionName="NPT_3PATCH_HORIZONTAL"/>
+    <functioncall functionName="NPT_3PATCH_VERTICAL"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="OPENGL_21"/>
+    <functioncall functionName="OPENGL_33"/>
+    <functioncall functionName="OPENGL_ES_20"/>
+    <functioncall functionName="QuaternionLength"/>
+    <functioncall functionName="QuaternionLerp"/>
+    <functioncall functionName="QuaternionNlerp"/>
+    <functioncall functionName="QuaternionNormalize"/>
+    <functioncall functionName="QuaternionTransform"/>
+    <functioncall functionName="SetShaderDefaultLocations"/>
+    <functioncall functionName="SetShaderValueMatrix"/>
+    <functioncall functionName="SetShaderValueV"/>
+    <functioncall functionName="TRACELOG"/>
+    <functioncall functionName="TRACELOGD"/>
+    <functioncall functionName="UNCOMPRESSED_GRAY_ALPHA"/>
+    <functioncall functionName="UNCOMPRESSED_R32"/>
+    <functioncall functionName="UNCOMPRESSED_R32G32B32"/>
+    <functioncall functionName="UNCOMPRESSED_R32G32B32A32"/>
+    <functioncall functionName="UNCOMPRESSED_R4G4B4A4"/>
+    <functioncall functionName="UNCOMPRESSED_R5G5B5A1"/>
+    <functioncall functionName="UNCOMPRESSED_R5G6B5"/>
+    <functioncall functionName="UNCOMPRESSED_R8G8B8"/>
+    <functioncall functionName="UNCOMPRESSED_R8G8B8A8"/>
+    <functioncall functionName="UNIFORM_INT"/>
+    <functioncall functionName="UNIFORM_IVEC2"/>
+    <functioncall functionName="UNIFORM_IVEC3"/>
+    <functioncall functionName="UNIFORM_IVEC4"/>
+    <functioncall functionName="UNIFORM_SAMPLER2D"/>
+    <functioncall functionName="UNIFORM_VEC2"/>
+    <functioncall functionName="UNIFORM_VEC3"/>
+    <functioncall functionName="UNIFORM_VEC4"/>
+    <functioncall functionName="UnloadBuffersDefault"/>
+    <functioncall functionName="UnloadShaderDefault"/>
+    <functioncall functionName="UpdateBuffersDefault"/>
+    <functioncall functionName="Vector2Divide"/>
+    <functioncall functionName="Vector2Length"/>
+    <functioncall functionName="Vector3CrossProduct"/>
+    <functioncall functionName="Vector3DotProduct"/>
+    <functioncall functionName="Vector3Length"/>
+    <functioncall functionName="Vector3Normalize"/>
+    <functioncall functionName="Vector3Subtract"/>
+    <functioncall functionName="Vector3Transform"/>
+    <functioncall functionName="WRAP_CLAMP"/>
+    <functioncall functionName="WRAP_MIRROR_CLAMP"/>
+    <functioncall functionName="WRAP_MIRROR_REPEAT"/>
+    <functioncall functionName="a"/>
+    <functioncall functionName="acosf"/>
+    <functioncall functionName="alpha"/>
+    <functioncall functionName="amount"/>
+    <functioncall functionName="angle"/>
+    <functioncall functionName="animNormals"/>
+    <functioncall functionName="animVertices"/>
+    <functioncall functionName="asinf"/>
+    <functioncall functionName="atan2f"/>
+    <functioncall functionName="axis"/>
+    <functioncall functionName="b"/>
+    <functioncall functionName="beta"/>
+    <functioncall functionName="boneIds"/>
+    <functioncall functionName="boneWeights"/>
+    <functioncall functionName="bottom"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="bufferId"/>
+    <functioncall functionName="c"/>
+    <functioncall functionName="cCounter"/>
+    <functioncall functionName="ca"/>
+    <functioncall functionName="calloc"/>
+    <functioncall functionName="cardinalAxis"/>
+    <functioncall functionName="cb"/>
+    <functioncall functionName="ceilf"/>
+    <functioncall functionName="center"/>
+    <functioncall functionName="centerX"/>
+    <functioncall functionName="centerY"/>
+    <functioncall functionName="cg"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="color"/>
+    <functioncall functionName="color1"/>
+    <functioncall functionName="color2"/>
+    <functioncall functionName="colors"/>
+    <functioncall functionName="cos2Theta"/>
+    <functioncall functionName="cosHalfTheta"/>
+    <functioncall functionName="cosf"/>
+    <functioncall functionName="cosres"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="cr"/>
+    <functioncall functionName="cubeVAO"/>
+    <functioncall functionName="cubeVBO"/>
+    <functioncall functionName="cubemapId"/>
+    <functioncall functionName="current"/>
+    <functioncall functionName="currentBuffer"/>
+    <functioncall functionName="currentDepth"/>
+    <functioncall functionName="currentMatrix"/>
+    <functioncall functionName="d"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="dataSize"/>
+    <functioncall functionName="debugMarker"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="defaultFShaderId"/>
+    <functioncall functionName="defaultFShaderStr"/>
+    <functioncall functionName="defaultShader"/>
+    <functioncall functionName="defaultTextureId"/>
+    <functioncall functionName="defaultVShaderId"/>
+    <functioncall functionName="defaultVShaderStr"/>
+    <functioncall functionName="den"/>
+    <functioncall functionName="denom"/>
+    <functioncall functionName="depthBits"/>
+    <functioncall functionName="depthTexture"/>
+    <functioncall functionName="det"/>
+    <functioncall functionName="div"/>
+    <functioncall functionName="doTransform"/>
+    <functioncall functionName="drawHint"/>
+    <functioncall functionName="draws"/>
+    <functioncall functionName="drawsCounter"/>
+    <functioncall functionName="dx"/>
+    <functioncall functionName="dxx"/>
+    <functioncall functionName="dy"/>
+    <functioncall functionName="dynamic"/>
+    <functioncall functionName="dyy"/>
+    <functioncall functionName="e"/>
+    <functioncall functionName="endAngle"/>
+    <functioncall functionName="endPos"/>
+    <functioncall functionName="endPosX"/>
+    <functioncall functionName="endPosY"/>
+    <functioncall functionName="ext"/>
+    <functioncall functionName="extList"/>
+    <functioncall functionName="extensions"/>
+    <functioncall functionName="exts"/>
+    <functioncall functionName="exts_i"/>
+    <functioncall functionName="eye"/>
+    <functioncall functionName="fShaderId"/>
+    <functioncall functionName="fShaderStr"/>
+    <functioncall functionName="fabs"/>
+    <functioncall functionName="fabsf"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="far"/>
+    <functioncall functionName="fbo"/>
+    <functioncall functionName="fboProjection"/>
+    <functioncall functionName="find_coreGL"/>
+    <functioncall functionName="find_extensionsGL"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="floor"/>
+    <functioncall functionName="fmaxf"/>
+    <functioncall functionName="fminf"/>
+    <functioncall functionName="fn"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="fragmentShaderId"/>
+    <functioncall functionName="framebufferHeight"/>
+    <functioncall functionName="framebufferWidth"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="free_exts"/>
+    <functioncall functionName="from"/>
+    <functioncall functionName="fsCode"/>
+    <functioncall functionName="fsFileName"/>
+    <functioncall functionName="g"/>
+    <functioncall functionName="gamma"/>
+    <functioncall functionName="get_exts"/>
+    <functioncall functionName="glFormat"/>
+    <functioncall functionName="glInternalFormat"/>
+    <functioncall functionName="glType"/>
+    <functioncall functionName="gladLoadGLLoader"/>
+    <functioncall functionName="glad_glActiveTexture"/>
+    <functioncall functionName="glad_glAttachShader"/>
+    <functioncall functionName="glad_glBindAttribLocation"/>
+    <functioncall functionName="glad_glBindBuffer"/>
+    <functioncall functionName="glad_glBindFramebuffer"/>
+    <functioncall functionName="glad_glBindRenderbuffer"/>
+    <functioncall functionName="glad_glBindTexture"/>
+    <functioncall functionName="glad_glBindVertexArray"/>
+    <functioncall functionName="glad_glBlendFunc"/>
+    <functioncall functionName="glad_glBufferData"/>
+    <functioncall functionName="glad_glBufferSubData"/>
+    <functioncall functionName="glad_glCheckFramebufferStatus"/>
+    <functioncall functionName="glad_glClear"/>
+    <functioncall functionName="glad_glClearColor"/>
+    <functioncall functionName="glad_glClearDepth"/>
+    <functioncall functionName="glad_glCompileShader"/>
+    <functioncall functionName="glad_glCompressedTexImage2D"/>
+    <functioncall functionName="glad_glCreateProgram"/>
+    <functioncall functionName="glad_glCreateShader"/>
+    <functioncall functionName="glad_glCullFace"/>
+    <functioncall functionName="glad_glDeleteBuffers"/>
+    <functioncall functionName="glad_glDeleteFramebuffers"/>
+    <functioncall functionName="glad_glDeleteProgram"/>
+    <functioncall functionName="glad_glDeleteRenderbuffers"/>
+    <functioncall functionName="glad_glDeleteShader"/>
+    <functioncall functionName="glad_glDeleteTextures"/>
+    <functioncall functionName="glad_glDeleteVertexArrays"/>
+    <functioncall functionName="glad_glDepthFunc"/>
+    <functioncall functionName="glad_glDetachShader"/>
+    <functioncall functionName="glad_glDisable"/>
+    <functioncall functionName="glad_glDisableVertexAttribArray"/>
+    <functioncall functionName="glad_glDrawArrays"/>
+    <functioncall functionName="glad_glDrawElements"/>
+    <functioncall functionName="glad_glEnable"/>
+    <functioncall functionName="glad_glEnableVertexAttribArray"/>
+    <functioncall functionName="glad_glFramebufferRenderbuffer"/>
+    <functioncall functionName="glad_glFramebufferTexture2D"/>
+    <functioncall functionName="glad_glFrontFace"/>
+    <functioncall functionName="glad_glGenBuffers"/>
+    <functioncall functionName="glad_glGenFramebuffers"/>
+    <functioncall functionName="glad_glGenRenderbuffers"/>
+    <functioncall functionName="glad_glGenTextures"/>
+    <functioncall functionName="glad_glGenVertexArrays"/>
+    <functioncall functionName="glad_glGenerateMipmap"/>
+    <functioncall functionName="glad_glGetActiveUniform"/>
+    <functioncall functionName="glad_glGetAttribLocation"/>
+    <functioncall functionName="glad_glGetFloatv"/>
+    <functioncall functionName="glad_glGetIntegerv"/>
+    <functioncall functionName="glad_glGetProgramInfoLog"/>
+    <functioncall functionName="glad_glGetProgramiv"/>
+    <functioncall functionName="glad_glGetShaderInfoLog"/>
+    <functioncall functionName="glad_glGetShaderiv"/>
+    <functioncall functionName="glad_glGetString"/>
+    <functioncall functionName="glad_glGetStringi"/>
+    <functioncall functionName="glad_glGetTexImage"/>
+    <functioncall functionName="glad_glGetUniformLocation"/>
+    <functioncall functionName="glad_glInsertEventMarkerEXT"/>
+    <functioncall functionName="glad_glLinkProgram"/>
+    <functioncall functionName="glad_glPixelStorei"/>
+    <functioncall functionName="glad_glPolygonMode"/>
+    <functioncall functionName="glad_glReadPixels"/>
+    <functioncall functionName="glad_glRenderbufferStorage"/>
+    <functioncall functionName="glad_glScissor"/>
+    <functioncall functionName="glad_glShaderSource"/>
+    <functioncall functionName="glad_glTexImage2D"/>
+    <functioncall functionName="glad_glTexParameterf"/>
+    <functioncall functionName="glad_glTexParameteri"/>
+    <functioncall functionName="glad_glTexParameteriv"/>
+    <functioncall functionName="glad_glTexSubImage2D"/>
+    <functioncall functionName="glad_glUniform1f"/>
+    <functioncall functionName="glad_glUniform1fv"/>
+    <functioncall functionName="glad_glUniform1i"/>
+    <functioncall functionName="glad_glUniform1iv"/>
+    <functioncall functionName="glad_glUniform2fv"/>
+    <functioncall functionName="glad_glUniform2iv"/>
+    <functioncall functionName="glad_glUniform3fv"/>
+    <functioncall functionName="glad_glUniform3iv"/>
+    <functioncall functionName="glad_glUniform4f"/>
+    <functioncall functionName="glad_glUniform4fv"/>
+    <functioncall functionName="glad_glUniform4iv"/>
+    <functioncall functionName="glad_glUniformMatrix4fv"/>
+    <functioncall functionName="glad_glUseProgram"/>
+    <functioncall functionName="glad_glVertexAttrib2f"/>
+    <functioncall functionName="glad_glVertexAttrib3f"/>
+    <functioncall functionName="glad_glVertexAttrib4f"/>
+    <functioncall functionName="glad_glVertexAttribPointer"/>
+    <functioncall functionName="glad_glViewport"/>
+    <functioncall functionName="has_ext"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="indices"/>
+    <functioncall functionName="innerRadius"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="j"/>
+    <functioncall functionName="k"/>
+    <functioncall functionName="left"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="lengthSq"/>
+    <functioncall functionName="lengthSquared"/>
+    <functioncall functionName="limit"/>
+    <functioncall functionName="lineThick"/>
+    <functioncall functionName="load"/>
+    <functioncall functionName="load_GL_AMD_debug_output"/>
+    <functioncall functionName="load_GL_ARB_ES2_compatibility"/>
+    <functioncall functionName="load_GL_ARB_buffer_storage"/>
+    <functioncall functionName="load_GL_ARB_debug_output"/>
+    <functioncall functionName="load_GL_ARB_draw_buffers"/>
+    <functioncall functionName="load_GL_ARB_draw_buffers_blend"/>
+    <functioncall functionName="load_GL_ARB_fragment_program"/>
+    <functioncall functionName="load_GL_ARB_framebuffer_object"/>
+    <functioncall functionName="load_GL_ARB_multisample"/>
+    <functioncall functionName="load_GL_ARB_sample_locations"/>
+    <functioncall functionName="load_GL_ARB_texture_compression"/>
+    <functioncall functionName="load_GL_ARB_texture_multisample"/>
+    <functioncall functionName="load_GL_ARB_uniform_buffer_object"/>
+    <functioncall functionName="load_GL_ARB_vertex_array_object"/>
+    <functioncall functionName="load_GL_ARB_vertex_attrib_binding"/>
+    <functioncall functionName="load_GL_ARB_vertex_buffer_object"/>
+    <functioncall functionName="load_GL_ARB_vertex_program"/>
+    <functioncall functionName="load_GL_ARB_vertex_shader"/>
+    <functioncall functionName="load_GL_ATI_element_array"/>
+    <functioncall functionName="load_GL_ATI_fragment_shader"/>
+    <functioncall functionName="load_GL_ATI_vertex_array_object"/>
+    <functioncall functionName="load_GL_EXT_blend_color"/>
+    <functioncall functionName="load_GL_EXT_blend_equation_separate"/>
+    <functioncall functionName="load_GL_EXT_blend_func_separate"/>
+    <functioncall functionName="load_GL_EXT_debug_marker"/>
+    <functioncall functionName="load_GL_EXT_framebuffer_blit"/>
+    <functioncall functionName="load_GL_EXT_framebuffer_multisample"/>
+    <functioncall functionName="load_GL_EXT_framebuffer_object"/>
+    <functioncall functionName="load_GL_EXT_vertex_array"/>
+    <functioncall functionName="load_GL_EXT_vertex_shader"/>
+    <functioncall functionName="load_GL_VERSION_1_0"/>
+    <functioncall functionName="load_GL_VERSION_1_1"/>
+    <functioncall functionName="load_GL_VERSION_1_2"/>
+    <functioncall functionName="load_GL_VERSION_1_3"/>
+    <functioncall functionName="load_GL_VERSION_1_4"/>
+    <functioncall functionName="load_GL_VERSION_1_5"/>
+    <functioncall functionName="load_GL_VERSION_2_0"/>
+    <functioncall functionName="load_GL_VERSION_2_1"/>
+    <functioncall functionName="load_GL_VERSION_3_0"/>
+    <functioncall functionName="load_GL_VERSION_3_1"/>
+    <functioncall functionName="load_GL_VERSION_3_2"/>
+    <functioncall functionName="load_GL_VERSION_3_3"/>
+    <functioncall functionName="loader"/>
+    <functioncall functionName="location"/>
+    <functioncall functionName="locs"/>
+    <functioncall functionName="log"/>
+    <functioncall functionName="m0"/>
+    <functioncall functionName="m00"/>
+    <functioncall functionName="m1"/>
+    <functioncall functionName="m10"/>
+    <functioncall functionName="m11"/>
+    <functioncall functionName="m12"/>
+    <functioncall functionName="m13"/>
+    <functioncall functionName="m14"/>
+    <functioncall functionName="m15"/>
+    <functioncall functionName="m2"/>
+    <functioncall functionName="m22"/>
+    <functioncall functionName="m3"/>
+    <functioncall functionName="m4"/>
+    <functioncall functionName="m5"/>
+    <functioncall functionName="m6"/>
+    <functioncall functionName="m7"/>
+    <functioncall functionName="m8"/>
+    <functioncall functionName="m9"/>
+    <functioncall functionName="major"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="mat"/>
+    <functioncall functionName="matMVP"/>
+    <functioncall functionName="matModelView"/>
+    <functioncall functionName="matOrtho"/>
+    <functioncall functionName="matPerps"/>
+    <functioncall functionName="matProjection"/>
+    <functioncall functionName="matRotation"/>
+    <functioncall functionName="matScale"/>
+    <functioncall functionName="matTranslation"/>
+    <functioncall functionName="matView"/>
+    <functioncall functionName="matViewProj"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="maxAnisotropicLevel"/>
+    <functioncall functionName="maxLength"/>
+    <functioncall functionName="mesh"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="minor"/>
+    <functioncall functionName="mip"/>
+    <functioncall functionName="mipHeight"/>
+    <functioncall functionName="mipOffset"/>
+    <functioncall functionName="mipSize"/>
+    <functioncall functionName="mipWidth"/>
+    <functioncall functionName="mipmapCount"/>
+    <functioncall functionName="mipmaps"/>
+    <functioncall functionName="mode"/>
+    <functioncall functionName="modelview"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="namelen"/>
+    <functioncall functionName="near"/>
+    <functioncall functionName="normal"/>
+    <functioncall functionName="normals"/>
+    <functioncall functionName="num"/>
+    <functioncall functionName="numExt"/>
+    <functioncall functionName="num_exts_i"/>
+    <functioncall functionName="outerRadius"/>
+    <functioncall functionName="p"/>
+    <functioncall functionName="param"/>
+    <functioncall functionName="pixels"/>
+    <functioncall functionName="point"/>
+    <functioncall functionName="pointsCount"/>
+    <functioncall functionName="posX"/>
+    <functioncall functionName="posY"/>
+    <functioncall functionName="powf"/>
+    <functioncall functionName="previous"/>
+    <functioncall functionName="program"/>
+    <functioncall functionName="proj"/>
+    <functioncall functionName="projection"/>
+    <functioncall functionName="q"/>
+    <functioncall functionName="q1"/>
+    <functioncall functionName="q2"/>
+    <functioncall functionName="quadVAO"/>
+    <functioncall functionName="quadVBO"/>
+    <functioncall functionName="quat"/>
+    <functioncall functionName="r"/>
+    <functioncall functionName="radius"/>
+    <functioncall functionName="radius2"/>
+    <functioncall functionName="rads"/>
+    <functioncall functionName="rbo"/>
+    <functioncall functionName="realloc"/>
+    <functioncall functionName="rec"/>
+    <functioncall functionName="rec1"/>
+    <functioncall functionName="rec2"/>
+    <functioncall functionName="recCenterX"/>
+    <functioncall functionName="recCenterY"/>
+    <functioncall functionName="res"/>
+    <functioncall functionName="resAngle"/>
+    <functioncall functionName="resAxis"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="right"/>
+    <functioncall functionName="rl"/>
+    <functioncall functionName="rlBegin"/>
+    <functioncall functionName="rlCheckBufferLimit"/>
+    <functioncall functionName="rlColor4ub"/>
+    <functioncall functionName="rlDeleteBuffers"/>
+    <functioncall functionName="rlDeleteShader"/>
+    <functioncall functionName="rlDeleteVertexArrays"/>
+    <functioncall functionName="rlDisableTexture"/>
+    <functioncall functionName="rlEnableTexture"/>
+    <functioncall functionName="rlEnd"/>
+    <functioncall functionName="rlGetGlTextureFormats"/>
+    <functioncall functionName="rlLoadTexture"/>
+    <functioncall functionName="rlLoadTextureDepth"/>
+    <functioncall functionName="rlNormal3f"/>
+    <functioncall functionName="rlPopMatrix"/>
+    <functioncall functionName="rlPushMatrix"/>
+    <functioncall functionName="rlRenderTextureAttach"/>
+    <functioncall functionName="rlRenderTextureComplete"/>
+    <functioncall functionName="rlRotatef"/>
+    <functioncall functionName="rlTexCoord2f"/>
+    <functioncall functionName="rlTranslatef"/>
+    <functioncall functionName="rlUpdateMeshAt"/>
+    <functioncall functionName="rlVertex2f"/>
+    <functioncall functionName="rlVertex2i"/>
+    <functioncall functionName="rlVertex3f"/>
+    <functioncall functionName="rlglDraw"/>
+    <functioncall functionName="rotation"/>
+    <functioncall functionName="roughness"/>
+    <functioncall functionName="roughnessLoc"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="screenData"/>
+    <functioncall functionName="segments"/>
+    <functioncall functionName="shader"/>
+    <functioncall functionName="shaderLoc"/>
+    <functioncall functionName="shaderStr"/>
+    <functioncall functionName="shapesTexture"/>
+    <functioncall functionName="shapesTextureRec"/>
+    <functioncall functionName="short"/>
+    <functioncall functionName="showCapLines"/>
+    <functioncall functionName="sides"/>
+    <functioncall functionName="sinHalfTheta"/>
+    <functioncall functionName="sinf"/>
+    <functioncall functionName="sinres"/>
+    <functioncall functionName="siny"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="source"/>
+    <functioncall functionName="sqrt"/>
+    <functioncall functionName="sqrtf"/>
+    <functioncall functionName="sscanf"/>
+    <functioncall functionName="stackCounter"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="startAngle"/>
+    <functioncall functionName="startPos"/>
+    <functioncall functionName="startPosX"/>
+    <functioncall functionName="startPosY"/>
+    <functioncall functionName="status"/>
+    <functioncall functionName="stepLength"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="strncmp"/>
+    <functioncall functionName="strstr"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="swizzleMask"/>
+    <functioncall functionName="tan"/>
+    <functioncall functionName="tangents"/>
+    <functioncall functionName="target"/>
+    <functioncall functionName="tb"/>
+    <functioncall functionName="tcCounter"/>
+    <functioncall functionName="tempPos"/>
+    <functioncall functionName="terminator"/>
+    <functioncall functionName="texAnisoFilter"/>
+    <functioncall functionName="texCompASTC"/>
+    <functioncall functionName="texCompDXT"/>
+    <functioncall functionName="texCompETC1"/>
+    <functioncall functionName="texCompETC2"/>
+    <functioncall functionName="texCompPVRT"/>
+    <functioncall functionName="texDepth"/>
+    <functioncall functionName="texFloat32"/>
+    <functioncall functionName="texIsPOT"/>
+    <functioncall functionName="texMirrorClamp"/>
+    <functioncall functionName="texNPOT"/>
+    <functioncall functionName="texcoords"/>
+    <functioncall functionName="texcoords2"/>
+    <functioncall functionName="text"/>
+    <functioncall functionName="texture"/>
+    <functioncall functionName="textureId"/>
+    <functioncall functionName="th"/>
+    <functioncall functionName="thick"/>
+    <functioncall functionName="tmp"/>
+    <functioncall functionName="to"/>
+    <functioncall functionName="top"/>
+    <functioncall functionName="trace"/>
+    <functioncall functionName="transform"/>
+    <functioncall functionName="triangleCount"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="type"/>
+    <functioncall functionName="uniformCount"/>
+    <functioncall functionName="uniformLoc"/>
+    <functioncall functionName="uniformName"/>
+    <functioncall functionName="uniformType"/>
+    <functioncall functionName="up"/>
+    <functioncall functionName="useDepthTexture"/>
+    <functioncall functionName="v"/>
+    <functioncall functionName="v0"/>
+    <functioncall functionName="v1"/>
+    <functioncall functionName="v2"/>
+    <functioncall functionName="vCount"/>
+    <functioncall functionName="vCounter"/>
+    <functioncall functionName="vShaderId"/>
+    <functioncall functionName="vShaderStr"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="vao"/>
+    <functioncall functionName="vaoId"/>
+    <functioncall functionName="vec"/>
+    <functioncall functionName="version"/>
+    <functioncall functionName="vertexAlignment"/>
+    <functioncall functionName="vertexCount"/>
+    <functioncall functionName="vertexOffset"/>
+    <functioncall functionName="vertexShaderId"/>
+    <functioncall functionName="vertices"/>
+    <functioncall functionName="view"/>
+    <functioncall functionName="vn"/>
+    <functioncall functionName="vsCode"/>
+    <functioncall functionName="vsFileName"/>
+    <functioncall functionName="w"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="wx"/>
+    <functioncall functionName="wy"/>
+    <functioncall functionName="wz"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="x0"/>
+    <functioncall functionName="x1"/>
+    <functioncall functionName="y"/>
+    <functioncall functionName="y0"/>
+    <functioncall functionName="yy"/>
+    <functioncall functionName="z"/>
+    <functioncall functionName="z0"/>
+    <functioncall functionName="z1"/>
+    <functioncall functionName="zfar"/>
+    <functioncall functionName="znear"/>
+    <functioncall functionName="zz"/>
+  </FileInfo>
+</analyzerinfo>

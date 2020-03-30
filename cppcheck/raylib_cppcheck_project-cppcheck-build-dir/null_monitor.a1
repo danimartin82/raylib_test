@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3490328750">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 44 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\external\glfw\src\null_monitor.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="_glfwPlatformFreeMonitor" lineNumber="37"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorPos" lineNumber="41"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorContentScale" lineNumber="45"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorWorkarea" lineNumber="54"/>
+    <functiondecl functionName="_glfwPlatformGetVideoModes" lineNumber="60"/>
+    <functiondecl functionName="_glfwPlatformGetVideoMode" lineNumber="65"/>
+    <functiondecl functionName="_glfwPlatformGetGammaRamp" lineNumber="69"/>
+    <functiondecl functionName="_glfwPlatformSetGammaRamp" lineNumber="74"/>
+    <functiondecl functionName="_glfwPlatformFreeMonitor" lineNumber="37"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorPos" lineNumber="41"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorContentScale" lineNumber="45"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorWorkarea" lineNumber="54"/>
+    <functiondecl functionName="_glfwPlatformGetVideoModes" lineNumber="60"/>
+    <functiondecl functionName="_glfwPlatformGetVideoMode" lineNumber="65"/>
+    <functiondecl functionName="_glfwPlatformGetGammaRamp" lineNumber="69"/>
+    <functiondecl functionName="_glfwPlatformSetGammaRamp" lineNumber="74"/>
+    <functiondecl functionName="_glfwPlatformFreeMonitor" lineNumber="37"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorPos" lineNumber="41"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorContentScale" lineNumber="45"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorWorkarea" lineNumber="54"/>
+    <functiondecl functionName="_glfwPlatformGetVideoModes" lineNumber="60"/>
+    <functiondecl functionName="_glfwPlatformGetVideoMode" lineNumber="65"/>
+    <functiondecl functionName="_glfwPlatformGetGammaRamp" lineNumber="69"/>
+    <functiondecl functionName="_glfwPlatformSetGammaRamp" lineNumber="74"/>
+    <functiondecl functionName="_glfwPlatformFreeMonitor" lineNumber="37"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorPos" lineNumber="41"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorContentScale" lineNumber="45"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorWorkarea" lineNumber="54"/>
+    <functiondecl functionName="_glfwPlatformGetVideoModes" lineNumber="60"/>
+    <functiondecl functionName="_glfwPlatformGetVideoMode" lineNumber="65"/>
+    <functiondecl functionName="_glfwPlatformGetGammaRamp" lineNumber="69"/>
+    <functiondecl functionName="_glfwPlatformSetGammaRamp" lineNumber="74"/>
+    <functiondecl functionName="_glfwPlatformFreeMonitor" lineNumber="37"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorPos" lineNumber="41"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorContentScale" lineNumber="45"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorWorkarea" lineNumber="54"/>
+    <functiondecl functionName="_glfwPlatformGetVideoModes" lineNumber="60"/>
+    <functiondecl functionName="_glfwPlatformGetVideoMode" lineNumber="65"/>
+    <functiondecl functionName="_glfwPlatformGetGammaRamp" lineNumber="69"/>
+    <functiondecl functionName="_glfwPlatformSetGammaRamp" lineNumber="74"/>
+    <functioncall functionName="MDT_EFFECTIVE_DPI"/>
+    <functioncall functionName="bottomDecoration"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="leftDecoration"/>
+    <functioncall functionName="mainWindow"/>
+    <functioncall functionName="rightDecoration"/>
+    <functioncall functionName="topDecoration"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="xscale"/>
+    <functioncall functionName="yscale"/>
+  </FileInfo>
+</analyzerinfo>

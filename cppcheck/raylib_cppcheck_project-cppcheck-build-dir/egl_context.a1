@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3723699501">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 49 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\external\glfw\src\egl_context.c" line="0" column="0"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;index&apos; shadows outer variable" verbose="Local variable &apos;index&apos; shadows outer variable" cwe="398">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\egl_context.c" file="C:\GitHub\raylib\src\external\glfw\src\egl_context.c" line="592" column="13" info="Shadow variable"/>
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\egl_context.c" file="C:\GitHub\raylib\src\external\glfw\src\egl_context.c" line="466" column="9" info="Shadowed declaration"/>
+            <symbol>index</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:90:17" call-funcname="chooseEGLConfig" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="477" col="25" call-argexpr="&config" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="758" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="765" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="769" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="779" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="783" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:750:22" call-funcname="_glfwChooseFBConfig" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="182" col="15" my-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:90:17" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:749:10" call-funcname="_glfwStringInExtensionString" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="246" col="13" my-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:241:12" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:90:17" call-funcname="chooseEGLConfig" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="477" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.h:206:10" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:268:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="276" col="13" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="758" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="765" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="769" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="779" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="783" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:750:22" call-funcname="_glfwChooseFBConfig" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="182" col="15" my-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:90:17" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:749:10" call-funcname="_glfwStringInExtensionString" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="246" col="13" my-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:241:12" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:90:17" call-funcname="chooseEGLConfig" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="477" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:459:10" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:268:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="276" col="13" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:90:17" call-funcname="chooseEGLConfig" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="477" col="25" call-argexpr="&config" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="758" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="765" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="769" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="779" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="783" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:750:22" call-funcname="_glfwChooseFBConfig" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="182" col="15" my-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:90:17" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:749:10" call-funcname="_glfwStringInExtensionString" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="246" col="13" my-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:241:12" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:90:17" call-funcname="chooseEGLConfig" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="477" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.h:206:10" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:268:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="276" col="13" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:90:17" call-funcname="chooseEGLConfig" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="477" col="25" call-argexpr="&config" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="758" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="765" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="769" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="779" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="783" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:750:22" call-funcname="_glfwChooseFBConfig" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="182" col="15" my-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:90:17" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:749:10" call-funcname="_glfwStringInExtensionString" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="246" col="13" my-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:241:12" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:90:17" call-funcname="chooseEGLConfig" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="477" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.h:206:10" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:268:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="276" col="13" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:90:17" call-funcname="chooseEGLConfig" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="477" col="25" call-argexpr="&config" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:90:17" call-funcname="chooseEGLConfig" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="722" col="25" call-argexpr="&native" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="758" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="765" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="769" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="779" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="783" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:749:10" call-funcname="_glfwStringInExtensionString" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="246" col="13" my-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:241:12" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:90:17" call-funcname="chooseEGLConfig" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="477" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.h:206:10" my-argnr="3"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:90:17" call-funcname="chooseEGLConfig" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="722" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.h:210:10" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:90:17" call-funcname="chooseEGLConfig" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="722" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.h:210:10" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/egl_context.c:268:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/egl_context.c" line="273" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="getEGLErrorString" lineNumber="40"/>
+    <functiondecl functionName="getEGLConfigAttrib" lineNumber="81"/>
+    <functiondecl functionName="chooseEGLConfig" lineNumber="90"/>
+    <functiondecl functionName="makeContextCurrentEGL" lineNumber="192"/>
+    <functiondecl functionName="swapBuffersEGL" lineNumber="224"/>
+    <functiondecl functionName="swapIntervalEGL" lineNumber="236"/>
+    <functiondecl functionName="extensionSupportedEGL" lineNumber="241"/>
+    <functiondecl functionName="getProcAddressEGL" lineNumber="253"/>
+    <functiondecl functionName="destroyContextEGL" lineNumber="268"/>
+    <functiondecl functionName="_glfwInitEGL" lineNumber="303"/>
+    <functiondecl functionName="_glfwTerminateEGL" lineNumber="435"/>
+    <functiondecl functionName="_glfwCreateContextEGL" lineNumber="459"/>
+    <functiondecl functionName="glfwGetEGLDisplay" lineNumber="756"/>
+    <functiondecl functionName="glfwGetEGLContext" lineNumber="762"/>
+    <functiondecl functionName="glfwGetEGLSurface" lineNumber="776"/>
+    <functiondecl functionName="getEGLErrorString" lineNumber="40"/>
+    <functiondecl functionName="getEGLConfigAttrib" lineNumber="81"/>
+    <functiondecl functionName="chooseEGLConfig" lineNumber="90"/>
+    <functiondecl functionName="makeContextCurrentEGL" lineNumber="192"/>
+    <functiondecl functionName="swapBuffersEGL" lineNumber="224"/>
+    <functiondecl functionName="swapIntervalEGL" lineNumber="236"/>
+    <functiondecl functionName="extensionSupportedEGL" lineNumber="241"/>
+    <functiondecl functionName="getProcAddressEGL" lineNumber="253"/>
+    <functiondecl functionName="destroyContextEGL" lineNumber="268"/>
+    <functiondecl functionName="_glfwInitEGL" lineNumber="303"/>
+    <functiondecl functionName="_glfwTerminateEGL" lineNumber="435"/>
+    <functiondecl functionName="_glfwCreateContextEGL" lineNumber="459"/>
+    <functiondecl functionName="glfwGetEGLDisplay" lineNumber="756"/>
+    <functiondecl functionName="glfwGetEGLContext" lineNumber="762"/>
+    <functiondecl functionName="glfwGetEGLSurface" lineNumber="776"/>
+    <functiondecl functionName="getEGLErrorString" lineNumber="40"/>
+    <functiondecl functionName="getEGLConfigAttrib" lineNumber="81"/>
+    <functiondecl functionName="chooseEGLConfig" lineNumber="90"/>
+    <functiondecl functionName="makeContextCurrentEGL" lineNumber="192"/>
+    <functiondecl functionName="swapBuffersEGL" lineNumber="224"/>
+    <functiondecl functionName="swapIntervalEGL" lineNumber="236"/>
+    <functiondecl functionName="extensionSupportedEGL" lineNumber="241"/>
+    <functiondecl functionName="getProcAddressEGL" lineNumber="253"/>
+    <functiondecl functionName="destroyContextEGL" lineNumber="268"/>
+    <functiondecl functionName="_glfwInitEGL" lineNumber="303"/>
+    <functiondecl functionName="_glfwTerminateEGL" lineNumber="435"/>
+    <functiondecl functionName="_glfwCreateContextEGL" lineNumber="459"/>
+    <functiondecl functionName="glfwGetEGLDisplay" lineNumber="756"/>
+    <functiondecl functionName="glfwGetEGLContext" lineNumber="762"/>
+    <functiondecl functionName="glfwGetEGLSurface" lineNumber="776"/>
+    <functiondecl functionName="getEGLErrorString" lineNumber="40"/>
+    <functiondecl functionName="getEGLConfigAttrib" lineNumber="81"/>
+    <functiondecl functionName="chooseEGLConfig" lineNumber="90"/>
+    <functiondecl functionName="makeContextCurrentEGL" lineNumber="192"/>
+    <functiondecl functionName="swapBuffersEGL" lineNumber="224"/>
+    <functiondecl functionName="swapIntervalEGL" lineNumber="236"/>
+    <functiondecl functionName="extensionSupportedEGL" lineNumber="241"/>
+    <functiondecl functionName="getProcAddressEGL" lineNumber="253"/>
+    <functiondecl functionName="destroyContextEGL" lineNumber="268"/>
+    <functiondecl functionName="_glfwInitEGL" lineNumber="303"/>
+    <functiondecl functionName="_glfwTerminateEGL" lineNumber="435"/>
+    <functiondecl functionName="_glfwCreateContextEGL" lineNumber="459"/>
+    <functiondecl functionName="glfwGetEGLDisplay" lineNumber="756"/>
+    <functiondecl functionName="glfwGetEGLContext" lineNumber="762"/>
+    <functiondecl functionName="glfwGetEGLSurface" lineNumber="776"/>
+    <functiondecl functionName="getEGLErrorString" lineNumber="40"/>
+    <functiondecl functionName="getEGLConfigAttrib" lineNumber="81"/>
+    <functiondecl functionName="chooseEGLConfig" lineNumber="90"/>
+    <functiondecl functionName="makeContextCurrentEGL" lineNumber="192"/>
+    <functiondecl functionName="swapBuffersEGL" lineNumber="224"/>
+    <functiondecl functionName="swapIntervalEGL" lineNumber="236"/>
+    <functiondecl functionName="extensionSupportedEGL" lineNumber="241"/>
+    <functiondecl functionName="getProcAddressEGL" lineNumber="253"/>
+    <functiondecl functionName="destroyContextEGL" lineNumber="268"/>
+    <functiondecl functionName="_glfwInitEGL" lineNumber="303"/>
+    <functiondecl functionName="_glfwTerminateEGL" lineNumber="435"/>
+    <functiondecl functionName="_glfwCreateContextEGL" lineNumber="459"/>
+    <functiondecl functionName="_glfwChooseVisualEGL" lineNumber="711"/>
+    <functiondecl functionName="glfwGetEGLDisplay" lineNumber="756"/>
+    <functiondecl functionName="glfwGetEGLContext" lineNumber="762"/>
+    <functiondecl functionName="glfwGetEGLSurface" lineNumber="776"/>
+    <functioncall functionName="BindAPI"/>
+    <functioncall functionName="CreateContext"/>
+    <functioncall functionName="CreateWindowSurface"/>
+    <functioncall functionName="DestroyContext"/>
+    <functioncall functionName="DestroySurface"/>
+    <functioncall functionName="EGLConfig"/>
+    <functioncall functionName="EGL_ALPHA_SIZE"/>
+    <functioncall functionName="EGL_BLUE_SIZE"/>
+    <functioncall functionName="EGL_COLOR_BUFFER_TYPE"/>
+    <functioncall functionName="EGL_CONTEXT_CLIENT_VERSION"/>
+    <functioncall functionName="EGL_CONTEXT_FLAGS_KHR"/>
+    <functioncall functionName="EGL_CONTEXT_MAJOR_VERSION_KHR"/>
+    <functioncall functionName="EGL_CONTEXT_MINOR_VERSION_KHR"/>
+    <functioncall functionName="EGL_CONTEXT_OPENGL_NO_ERROR_KHR"/>
+    <functioncall functionName="EGL_CONTEXT_OPENGL_PROFILE_MASK_KHR"/>
+    <functioncall functionName="EGL_CONTEXT_OPENGL_RESET_NOTIFICATION_STRATEGY_KHR"/>
+    <functioncall functionName="EGL_CONTEXT_RELEASE_BEHAVIOR_FLUSH_KHR"/>
+    <functioncall functionName="EGL_CONTEXT_RELEASE_BEHAVIOR_KHR"/>
+    <functioncall functionName="EGL_CONTEXT_RELEASE_BEHAVIOR_NONE_KHR"/>
+    <functioncall functionName="EGL_DEPTH_SIZE"/>
+    <functioncall functionName="EGL_EXTENSIONS"/>
+    <functioncall functionName="EGL_GL_COLORSPACE_KHR"/>
+    <functioncall functionName="EGL_GL_COLORSPACE_SRGB_KHR"/>
+    <functioncall functionName="EGL_GREEN_SIZE"/>
+    <functioncall functionName="EGL_LOSE_CONTEXT_ON_RESET_KHR"/>
+    <functioncall functionName="EGL_NONE"/>
+    <functioncall functionName="EGL_NO_CONTEXT"/>
+    <functioncall functionName="EGL_NO_DISPLAY"/>
+    <functioncall functionName="EGL_NO_RESET_NOTIFICATION_KHR"/>
+    <functioncall functionName="EGL_NO_SURFACE"/>
+    <functioncall functionName="EGL_OPENGL_API"/>
+    <functioncall functionName="EGL_OPENGL_BIT"/>
+    <functioncall functionName="EGL_OPENGL_ES2_BIT"/>
+    <functioncall functionName="EGL_OPENGL_ES_API"/>
+    <functioncall functionName="EGL_OPENGL_ES_BIT"/>
+    <functioncall functionName="EGL_RED_SIZE"/>
+    <functioncall functionName="EGL_RENDERABLE_TYPE"/>
+    <functioncall functionName="EGL_SAMPLES"/>
+    <functioncall functionName="EGL_STENCIL_SIZE"/>
+    <functioncall functionName="EGL_SURFACE_TYPE"/>
+    <functioncall functionName="EGL_WINDOW_BIT"/>
+    <functioncall functionName="FreeLibrary"/>
+    <functioncall functionName="GetConfigAttrib"/>
+    <functioncall functionName="GetConfigs"/>
+    <functioncall functionName="GetDisplay"/>
+    <functioncall functionName="GetError"/>
+    <functioncall functionName="GetProcAddress"/>
+    <functioncall functionName="Initialize"/>
+    <functioncall functionName="KHR_context_flush_control"/>
+    <functioncall functionName="KHR_create_context"/>
+    <functioncall functionName="KHR_create_context_no_error"/>
+    <functioncall functionName="KHR_get_all_proc_addresses"/>
+    <functioncall functionName="KHR_gl_colorspace"/>
+    <functioncall functionName="LoadLibraryA"/>
+    <functioncall functionName="MDT_EFFECTIVE_DPI"/>
+    <functioncall functionName="MakeCurrent"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="PFN_eglBindAPI"/>
+    <functioncall functionName="PFN_eglCreateContext"/>
+    <functioncall functionName="PFN_eglCreateWindowSurface"/>
+    <functioncall functionName="PFN_eglDestroyContext"/>
+    <functioncall functionName="PFN_eglDestroySurface"/>
+    <functioncall functionName="PFN_eglGetConfigAttrib"/>
+    <functioncall functionName="PFN_eglGetConfigs"/>
+    <functioncall functionName="PFN_eglGetDisplay"/>
+    <functioncall functionName="PFN_eglGetError"/>
+    <functioncall functionName="PFN_eglGetProcAddress"/>
+    <functioncall functionName="PFN_eglInitialize"/>
+    <functioncall functionName="PFN_eglMakeCurrent"/>
+    <functioncall functionName="PFN_eglQueryString"/>
+    <functioncall functionName="PFN_eglSwapBuffers"/>
+    <functioncall functionName="PFN_eglSwapInterval"/>
+    <functioncall functionName="PFN_eglTerminate"/>
+    <functioncall functionName="QueryString"/>
+    <functioncall functionName="RTLD_LOCAL"/>
+    <functioncall functionName="SwapBuffers"/>
+    <functioncall functionName="SwapInterval"/>
+    <functioncall functionName="Terminate"/>
+    <functioncall functionName="VisualIDMask"/>
+    <functioncall functionName="Window"/>
+    <functioncall functionName="XFree"/>
+    <functioncall functionName="XGetVisualInfo"/>
+    <functioncall functionName="_GLFW_EGL_NATIVE_DISPLAY"/>
+    <functioncall functionName="_GLFW_EGL_NATIVE_WINDOW"/>
+    <functioncall functionName="_GLFWfbconfig"/>
+    <functioncall functionName="_glfwChooseFBConfig"/>
+    <functioncall functionName="_glfwInputError"/>
+    <functioncall functionName="_glfwIsVisualTransparentX11"/>
+    <functioncall functionName="_glfwPlatformGetTls"/>
+    <functioncall functionName="_glfwPlatformSetTls"/>
+    <functioncall functionName="_glfwStringInExtensionString"/>
+    <functioncall functionName="_glfwTerminateEGL"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="attrib"/>
+    <functioncall functionName="attribs"/>
+    <functioncall functionName="bottomDecoration"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="calloc"/>
+    <functioncall functionName="chooseEGLConfig"/>
+    <functioncall functionName="client"/>
+    <functioncall functionName="closest"/>
+    <functioncall functionName="config"/>
+    <functioncall functionName="contextSlot"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="ctxconfig"/>
+    <functioncall functionName="debug"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="depth"/>
+    <functioncall functionName="desired"/>
+    <functioncall functionName="destroyContextEGL"/>
+    <functioncall functionName="display"/>
+    <functioncall functionName="dlclose"/>
+    <functioncall functionName="dlopen"/>
+    <functioncall functionName="dlsym"/>
+    <functioncall functionName="eglBindAPI"/>
+    <functioncall functionName="eglCreateContext"/>
+    <functioncall functionName="eglCreateWindowSurface"/>
+    <functioncall functionName="eglDestroyContext"/>
+    <functioncall functionName="eglDestroySurface"/>
+    <functioncall functionName="eglGetConfigAttrib"/>
+    <functioncall functionName="eglGetConfigs"/>
+    <functioncall functionName="eglGetDisplay"/>
+    <functioncall functionName="eglGetError"/>
+    <functioncall functionName="eglGetProcAddress"/>
+    <functioncall functionName="eglInitialize"/>
+    <functioncall functionName="eglMakeCurrent"/>
+    <functioncall functionName="eglQueryString"/>
+    <functioncall functionName="eglSwapBuffers"/>
+    <functioncall functionName="eglSwapInterval"/>
+    <functioncall functionName="eglTerminate"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="es1sonames"/>
+    <functioncall functionName="es2sonames"/>
+    <functioncall functionName="extension"/>
+    <functioncall functionName="extensionSupportedEGL"/>
+    <functioncall functionName="extensions"/>
+    <functioncall functionName="fbconfig"/>
+    <functioncall functionName="flags"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="forward"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="getEGLConfigAttrib"/>
+    <functioncall functionName="getEGLErrorString"/>
+    <functioncall functionName="getProcAddressEGL"/>
+    <functioncall functionName="glsonames"/>
+    <functioncall functionName="handle"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="initialized"/>
+    <functioncall functionName="interval"/>
+    <functioncall functionName="leftDecoration"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mainWindow"/>
+    <functioncall functionName="major"/>
+    <functioncall functionName="makeContextCurrentEGL"/>
+    <functioncall functionName="mask"/>
+    <functioncall functionName="minor"/>
+    <functioncall functionName="n"/>
+    <functioncall functionName="native"/>
+    <functioncall functionName="nativeConfigs"/>
+    <functioncall functionName="nativeCount"/>
+    <functioncall functionName="noerror"/>
+    <functioncall functionName="proc"/>
+    <functioncall functionName="procname"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rightDecoration"/>
+    <functioncall functionName="robustness"/>
+    <functioncall functionName="sRGB"/>
+    <functioncall functionName="screen"/>
+    <functioncall functionName="share"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="strncmp"/>
+    <functioncall functionName="surface"/>
+    <functioncall functionName="swapBuffersEGL"/>
+    <functioncall functionName="swapIntervalEGL"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="topDecoration"/>
+    <functioncall functionName="transparent"/>
+    <functioncall functionName="usableConfigs"/>
+    <functioncall functionName="usableCount"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="vi"/>
+    <functioncall functionName="view"/>
+    <functioncall functionName="vimask"/>
+    <functioncall functionName="vis"/>
+    <functioncall functionName="visual"/>
+    <functioncall functionName="visualID"/>
+    <functioncall functionName="visualid"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="window"/>
+  </FileInfo>
+</analyzerinfo>

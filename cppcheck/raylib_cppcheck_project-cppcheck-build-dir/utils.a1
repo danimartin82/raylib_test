@@ -1,0 +1,285 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="626161399">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 13 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\utils.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raylib.h:954:22" my-argnr="2" my-argname="bytesRead" file="C:/GitHub/raylib/src/utils.c" line="171" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raylib.h:954:22" my-argnr="2" my-argname="bytesRead" file="C:/GitHub/raylib/src/utils.c" line="171" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/raylib.h:1233:19" call-funcname="TextFormat" call-argnr="3" file="C:/GitHub/raylib/src/utils.c" line="313" col="22" my-id="C:/GitHub/raylib/src/utils.h:72:7" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Bounds checking">
+    <array-index>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/utils.h:72:7" my-argnr="2" my-argname="mode" file="C:/GitHub/raylib/src/utils.c" line="306" col="9" value="0"/>
+    </array-index>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raylib.h:954:22" my-argnr="2" my-argname="bytesRead" file="C:/GitHub/raylib/src/utils.c" line="171" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/utils.h:72:7" my-argnr="2" my-argname="mode" file="C:/GitHub/raylib/src/utils.c" line="306" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/utils.h:72:7" my-argnr="2" my-argname="mode" file="C:/GitHub/raylib/src/utils.c" line="306" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/raylib.h:954:22" my-argnr="2" my-argname="bytesRead" file="C:/GitHub/raylib/src/utils.c" line="171" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="SetTraceLogLevel" lineNumber="96"/>
+    <functiondecl functionName="SetTraceLogExit" lineNumber="102"/>
+    <functiondecl functionName="SetTraceLogCallback" lineNumber="108"/>
+    <functiondecl functionName="TraceLog" lineNumber="114"/>
+    <functiondecl functionName="LoadFileData" lineNumber="168"/>
+    <functiondecl functionName="SaveFileData" lineNumber="208"/>
+    <functiondecl functionName="LoadFileText" lineNumber="231"/>
+    <functiondecl functionName="SaveFileText" lineNumber="274"/>
+    <functiondecl functionName="SetTraceLogLevel" lineNumber="96"/>
+    <functiondecl functionName="SetTraceLogExit" lineNumber="102"/>
+    <functiondecl functionName="SetTraceLogCallback" lineNumber="108"/>
+    <functiondecl functionName="TraceLog" lineNumber="114"/>
+    <functiondecl functionName="LoadFileData" lineNumber="168"/>
+    <functiondecl functionName="SaveFileData" lineNumber="208"/>
+    <functiondecl functionName="LoadFileText" lineNumber="231"/>
+    <functiondecl functionName="SaveFileText" lineNumber="274"/>
+    <functiondecl functionName="SetTraceLogLevel" lineNumber="96"/>
+    <functiondecl functionName="SetTraceLogExit" lineNumber="102"/>
+    <functiondecl functionName="SetTraceLogCallback" lineNumber="108"/>
+    <functiondecl functionName="TraceLog" lineNumber="114"/>
+    <functiondecl functionName="LoadFileData" lineNumber="168"/>
+    <functiondecl functionName="SaveFileData" lineNumber="208"/>
+    <functiondecl functionName="LoadFileText" lineNumber="231"/>
+    <functiondecl functionName="SaveFileText" lineNumber="274"/>
+    <functiondecl functionName="InitAssetManager" lineNumber="296"/>
+    <functiondecl functionName="android_fopen" lineNumber="304"/>
+    <functiondecl functionName="android_read" lineNumber="331"/>
+    <functiondecl functionName="android_write" lineNumber="336"/>
+    <functiondecl functionName="android_seek" lineNumber="343"/>
+    <functiondecl functionName="android_close" lineNumber="348"/>
+    <functiondecl functionName="SetTraceLogLevel" lineNumber="96"/>
+    <functiondecl functionName="SetTraceLogExit" lineNumber="102"/>
+    <functiondecl functionName="SetTraceLogCallback" lineNumber="108"/>
+    <functiondecl functionName="TraceLog" lineNumber="114"/>
+    <functiondecl functionName="LoadFileData" lineNumber="168"/>
+    <functiondecl functionName="SaveFileData" lineNumber="208"/>
+    <functiondecl functionName="LoadFileText" lineNumber="231"/>
+    <functiondecl functionName="SaveFileText" lineNumber="274"/>
+    <functiondecl functionName="CreateUWPMessage" lineNumber="356"/>
+    <functiondecl functionName="DeleteUWPMessage" lineNumber="371"/>
+    <functiondecl functionName="UWPHasMessages" lineNumber="376"/>
+    <functiondecl functionName="UWPGetMessage" lineNumber="381"/>
+    <functiondecl functionName="UWPSendMessage" lineNumber="388"/>
+    <functiondecl functionName="SendMessageToUWP" lineNumber="398"/>
+    <functiondecl functionName="HasMessageFromUWP" lineNumber="408"/>
+    <functiondecl functionName="GetMessageFromUWP" lineNumber="413"/>
+    <functioncall functionName="AASSET_MODE_UNKNOWN"/>
+    <functioncall functionName="AAssetManager_open"/>
+    <functioncall functionName="AAsset_close"/>
+    <functioncall functionName="AAsset_read"/>
+    <functioncall functionName="AAsset_seek"/>
+    <functioncall functionName="ANDROID_LOG_DEBUG"/>
+    <functioncall functionName="ANDROID_LOG_ERROR"/>
+    <functioncall functionName="ANDROID_LOG_FATAL"/>
+    <functioncall functionName="ANDROID_LOG_INFO"/>
+    <functioncall functionName="ANDROID_LOG_VERBOSE"/>
+    <functioncall functionName="ANDROID_LOG_WARN"/>
+    <functioncall functionName="BLEND_ADDITIVE"/>
+    <functioncall functionName="BLEND_MULTIPLIED"/>
+    <functioncall functionName="CAMERA_FIRST_PERSON"/>
+    <functioncall functionName="CAMERA_FREE"/>
+    <functioncall functionName="CAMERA_ORBITAL"/>
+    <functioncall functionName="CAMERA_ORTHOGRAPHIC"/>
+    <functioncall functionName="CAMERA_THIRD_PERSON"/>
+    <functioncall functionName="COMPRESSED_ASTC_4x4_RGBA"/>
+    <functioncall functionName="COMPRESSED_ASTC_8x8_RGBA"/>
+    <functioncall functionName="COMPRESSED_DXT1_RGB"/>
+    <functioncall functionName="COMPRESSED_DXT1_RGBA"/>
+    <functioncall functionName="COMPRESSED_DXT3_RGBA"/>
+    <functioncall functionName="COMPRESSED_DXT5_RGBA"/>
+    <functioncall functionName="COMPRESSED_ETC1_RGB"/>
+    <functioncall functionName="COMPRESSED_ETC2_EAC_RGBA"/>
+    <functioncall functionName="COMPRESSED_ETC2_RGB"/>
+    <functioncall functionName="COMPRESSED_PVRT_RGB"/>
+    <functioncall functionName="COMPRESSED_PVRT_RGBA"/>
+    <functioncall functionName="CUBEMAP_CROSS_FOUR_BY_THREE"/>
+    <functioncall functionName="CUBEMAP_CROSS_THREE_BY_FOUR"/>
+    <functioncall functionName="CUBEMAP_LINE_HORIZONTAL"/>
+    <functioncall functionName="CUBEMAP_LINE_VERTICAL"/>
+    <functioncall functionName="CUBEMAP_PANORAMA"/>
+    <functioncall functionName="FILTER_ANISOTROPIC_16X"/>
+    <functioncall functionName="FILTER_ANISOTROPIC_4X"/>
+    <functioncall functionName="FILTER_ANISOTROPIC_8X"/>
+    <functioncall functionName="FILTER_BILINEAR"/>
+    <functioncall functionName="FILTER_TRILINEAR"/>
+    <functioncall functionName="FONT_BITMAP"/>
+    <functioncall functionName="FONT_SDF"/>
+    <functioncall functionName="GAMEPAD_AXIS_LEFT_TRIGGER"/>
+    <functioncall functionName="GAMEPAD_AXIS_LEFT_X"/>
+    <functioncall functionName="GAMEPAD_AXIS_LEFT_Y"/>
+    <functioncall functionName="GAMEPAD_AXIS_RIGHT_TRIGGER"/>
+    <functioncall functionName="GAMEPAD_AXIS_RIGHT_X"/>
+    <functioncall functionName="GAMEPAD_AXIS_RIGHT_Y"/>
+    <functioncall functionName="GAMEPAD_BUTTON_LEFT_FACE_DOWN"/>
+    <functioncall functionName="GAMEPAD_BUTTON_LEFT_FACE_LEFT"/>
+    <functioncall functionName="GAMEPAD_BUTTON_LEFT_FACE_RIGHT"/>
+    <functioncall functionName="GAMEPAD_BUTTON_LEFT_FACE_UP"/>
+    <functioncall functionName="GAMEPAD_BUTTON_LEFT_THUMB"/>
+    <functioncall functionName="GAMEPAD_BUTTON_LEFT_TRIGGER_1"/>
+    <functioncall functionName="GAMEPAD_BUTTON_LEFT_TRIGGER_2"/>
+    <functioncall functionName="GAMEPAD_BUTTON_MIDDLE"/>
+    <functioncall functionName="GAMEPAD_BUTTON_MIDDLE_LEFT"/>
+    <functioncall functionName="GAMEPAD_BUTTON_MIDDLE_RIGHT"/>
+    <functioncall functionName="GAMEPAD_BUTTON_RIGHT_FACE_DOWN"/>
+    <functioncall functionName="GAMEPAD_BUTTON_RIGHT_FACE_LEFT"/>
+    <functioncall functionName="GAMEPAD_BUTTON_RIGHT_FACE_RIGHT"/>
+    <functioncall functionName="GAMEPAD_BUTTON_RIGHT_FACE_UP"/>
+    <functioncall functionName="GAMEPAD_BUTTON_RIGHT_THUMB"/>
+    <functioncall functionName="GAMEPAD_BUTTON_RIGHT_TRIGGER_1"/>
+    <functioncall functionName="GAMEPAD_BUTTON_RIGHT_TRIGGER_2"/>
+    <functioncall functionName="HasMessageFromUWP"/>
+    <functioncall functionName="LOC_COLOR_AMBIENT"/>
+    <functioncall functionName="LOC_COLOR_DIFFUSE"/>
+    <functioncall functionName="LOC_COLOR_SPECULAR"/>
+    <functioncall functionName="LOC_MAP_ALBEDO"/>
+    <functioncall functionName="LOC_MAP_BRDF"/>
+    <functioncall functionName="LOC_MAP_CUBEMAP"/>
+    <functioncall functionName="LOC_MAP_EMISSION"/>
+    <functioncall functionName="LOC_MAP_HEIGHT"/>
+    <functioncall functionName="LOC_MAP_IRRADIANCE"/>
+    <functioncall functionName="LOC_MAP_METALNESS"/>
+    <functioncall functionName="LOC_MAP_NORMAL"/>
+    <functioncall functionName="LOC_MAP_OCCLUSION"/>
+    <functioncall functionName="LOC_MAP_PREFILTER"/>
+    <functioncall functionName="LOC_MAP_ROUGHNESS"/>
+    <functioncall functionName="LOC_MATRIX_MODEL"/>
+    <functioncall functionName="LOC_MATRIX_MVP"/>
+    <functioncall functionName="LOC_MATRIX_PROJECTION"/>
+    <functioncall functionName="LOC_MATRIX_VIEW"/>
+    <functioncall functionName="LOC_VECTOR_VIEW"/>
+    <functioncall functionName="LOC_VERTEX_COLOR"/>
+    <functioncall functionName="LOC_VERTEX_NORMAL"/>
+    <functioncall functionName="LOC_VERTEX_TANGENT"/>
+    <functioncall functionName="LOC_VERTEX_TEXCOORD01"/>
+    <functioncall functionName="LOC_VERTEX_TEXCOORD02"/>
+    <functioncall functionName="LOG_DEBUG"/>
+    <functioncall functionName="LOG_ERROR"/>
+    <functioncall functionName="LOG_FATAL"/>
+    <functioncall functionName="LOG_INFO"/>
+    <functioncall functionName="LOG_NONE"/>
+    <functioncall functionName="LOG_TRACE"/>
+    <functioncall functionName="LOG_WARNING"/>
+    <functioncall functionName="MAP_BRDF"/>
+    <functioncall functionName="MAP_CUBEMAP"/>
+    <functioncall functionName="MAP_EMISSION"/>
+    <functioncall functionName="MAP_HEIGHT"/>
+    <functioncall functionName="MAP_IRRADIANCE"/>
+    <functioncall functionName="MAP_OCCLUSION"/>
+    <functioncall functionName="MAP_PREFILTER"/>
+    <functioncall functionName="NPT_3PATCH_HORIZONTAL"/>
+    <functioncall functionName="NPT_3PATCH_VERTICAL"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="SEEK_END"/>
+    <functioncall functionName="SEEK_SET"/>
+    <functioncall functionName="TextFormat"/>
+    <functioncall functionName="TraceLog"/>
+    <functioncall functionName="UNCOMPRESSED_GRAY_ALPHA"/>
+    <functioncall functionName="UNCOMPRESSED_R32"/>
+    <functioncall functionName="UNCOMPRESSED_R32G32B32"/>
+    <functioncall functionName="UNCOMPRESSED_R32G32B32A32"/>
+    <functioncall functionName="UNCOMPRESSED_R4G4B4A4"/>
+    <functioncall functionName="UNCOMPRESSED_R5G5B5A1"/>
+    <functioncall functionName="UNCOMPRESSED_R5G6B5"/>
+    <functioncall functionName="UNCOMPRESSED_R8G8B8"/>
+    <functioncall functionName="UNCOMPRESSED_R8G8B8A8"/>
+    <functioncall functionName="UNIFORM_INT"/>
+    <functioncall functionName="UNIFORM_IVEC2"/>
+    <functioncall functionName="UNIFORM_IVEC3"/>
+    <functioncall functionName="UNIFORM_IVEC4"/>
+    <functioncall functionName="UNIFORM_SAMPLER2D"/>
+    <functioncall functionName="UNIFORM_VEC2"/>
+    <functioncall functionName="UNIFORM_VEC3"/>
+    <functioncall functionName="UNIFORM_VEC4"/>
+    <functioncall functionName="UWPHasMessages"/>
+    <functioncall functionName="UWPInMessageId"/>
+    <functioncall functionName="UWPOutMessageId"/>
+    <functioncall functionName="UWP_MSG_HANDLE_RESIZE"/>
+    <functioncall functionName="UWP_MSG_HIDE_MOUSE"/>
+    <functioncall functionName="UWP_MSG_LOCK_MOUSE"/>
+    <functioncall functionName="UWP_MSG_NONE"/>
+    <functioncall functionName="UWP_MSG_REGISTER_CLICK"/>
+    <functioncall functionName="UWP_MSG_REGISTER_KEY"/>
+    <functioncall functionName="UWP_MSG_SCROLL_WHEEL_UPDATE"/>
+    <functioncall functionName="UWP_MSG_SET_DISPLAY_DIMS"/>
+    <functioncall functionName="UWP_MSG_SET_GAMEPAD_ACTIVE"/>
+    <functioncall functionName="UWP_MSG_SET_GAMEPAD_AXIS"/>
+    <functioncall functionName="UWP_MSG_SET_GAMEPAD_BUTTON"/>
+    <functioncall functionName="UWP_MSG_SET_GAME_TIME"/>
+    <functioncall functionName="UWP_MSG_SET_MOUSE_LOCATION"/>
+    <functioncall functionName="UWP_MSG_SHOW_MOUSE"/>
+    <functioncall functionName="UWP_MSG_UNLOCK_MOUSE"/>
+    <functioncall functionName="UWP_MSG_UPDATE_MOUSE_LOCATION"/>
+    <functioncall functionName="WRAP_CLAMP"/>
+    <functioncall functionName="WRAP_MIRROR_CLAMP"/>
+    <functioncall functionName="WRAP_MIRROR_REPEAT"/>
+    <functioncall functionName="__android_log_vprint"/>
+    <functioncall functionName="android_close"/>
+    <functioncall functionName="android_fopen"/>
+    <functioncall functionName="android_read"/>
+    <functioncall functionName="android_seek"/>
+    <functioncall functionName="android_write"/>
+    <functioncall functionName="args"/>
+    <functioncall functionName="asset"/>
+    <functioncall functionName="assetManager"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="buf"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="bytesToWrite"/>
+    <functioncall functionName="callback"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="cookie"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="dataPath"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="file"/>
+    <functioncall functionName="fileName"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="fread"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="fseek"/>
+    <functioncall functionName="ftell"/>
+    <functioncall functionName="funopen"/>
+    <functioncall functionName="fwrite"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="internalDataPath"/>
+    <functioncall functionName="logCallback"/>
+    <functioncall functionName="logType"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="manager"/>
+    <functioncall functionName="mode"/>
+    <functioncall functionName="msg"/>
+    <functioncall functionName="offset"/>
+    <functioncall functionName="realloc"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="strcat"/>
+    <functioncall functionName="strcpy"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="text"/>
+    <functioncall functionName="textFile"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="v0"/>
+    <functioncall functionName="va_end"/>
+    <functioncall functionName="va_start"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="vprintf"/>
+    <functioncall functionName="whence"/>
+  </FileInfo>
+</analyzerinfo>

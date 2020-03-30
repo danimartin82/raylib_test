@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1286020890">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 47 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\external\glfw\src\win32_init.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_init.c" line="461" col="20" call-argexpr="message" call-argvaluetype="7" call-argvalue="1024"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_init.c" line="461" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/win32_init.c:445:6" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_init.c" line="461" col="20" call-argexpr="message" call-argvaluetype="7" call-argvalue="1024"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_init.c" line="461" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/win32_init.c:445:6" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_init.c" line="461" col="20" call-argexpr="message" call-argvaluetype="7" call-argvalue="1024"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_init.c" line="461" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/win32_init.c:445:6" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_init.c" line="461" col="20" call-argexpr="message" call-argvaluetype="7" call-argvalue="1024"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_platform.h:448:6" call-funcname="_glfwIsWindowsVersionOrGreaterWin32" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_init.c" line="571" col="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/win32_platform.h:448:6" call-funcname="_glfwIsWindowsVersionOrGreaterWin32" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_init.c" line="573" col="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_init.c" line="461" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/win32_platform.h:450:6" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="4" file="C:/GitHub/raylib/src/external/glfw/src/win32_init.c" line="461" col="20" call-argexpr="message" call-argvaluetype="7" call-argvalue="1024"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/win32_init.c" line="461" col="5" my-id="C:/GitHub/raylib/src/external/glfw/src/win32_init.c:445:6" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="loadLibraries" lineNumber="69"/>
+    <functiondecl functionName="freeLibraries" lineNumber="169"/>
+    <functiondecl functionName="createKeyTables" lineNumber="195"/>
+    <functiondecl functionName="createHelperWindow" lineNumber="334"/>
+    <functiondecl functionName="_glfwCreateWideStringFromUTF8Win32" lineNumber="389"/>
+    <functiondecl functionName="_glfwCreateUTF8FromWideStringWin32" lineNumber="417"/>
+    <functiondecl functionName="_glfwInputErrorWin32" lineNumber="445"/>
+    <functiondecl functionName="_glfwUpdateKeyNamesWin32" lineNumber="466"/>
+    <functiondecl functionName="_glfwIsWindowsVersionOrGreaterWin32" lineNumber="520"/>
+    <functiondecl functionName="_glfwIsWindows10BuildOrGreaterWin32" lineNumber="535"/>
+    <functiondecl functionName="_glfwPlatformInit" lineNumber="553"/>
+    <functiondecl functionName="_glfwPlatformTerminate" lineNumber="589"/>
+    <functiondecl functionName="_glfwPlatformGetVersionString" lineNumber="615"/>
+    <functiondecl functionName="loadLibraries" lineNumber="69"/>
+    <functiondecl functionName="freeLibraries" lineNumber="169"/>
+    <functiondecl functionName="createKeyTables" lineNumber="195"/>
+    <functiondecl functionName="createHelperWindow" lineNumber="334"/>
+    <functiondecl functionName="_glfwCreateWideStringFromUTF8Win32" lineNumber="389"/>
+    <functiondecl functionName="_glfwCreateUTF8FromWideStringWin32" lineNumber="417"/>
+    <functiondecl functionName="_glfwInputErrorWin32" lineNumber="445"/>
+    <functiondecl functionName="_glfwUpdateKeyNamesWin32" lineNumber="466"/>
+    <functiondecl functionName="_glfwIsWindowsVersionOrGreaterWin32" lineNumber="520"/>
+    <functiondecl functionName="_glfwIsWindows10BuildOrGreaterWin32" lineNumber="535"/>
+    <functiondecl functionName="_glfwPlatformInit" lineNumber="553"/>
+    <functiondecl functionName="_glfwPlatformTerminate" lineNumber="589"/>
+    <functiondecl functionName="_glfwPlatformGetVersionString" lineNumber="615"/>
+    <functiondecl functionName="loadLibraries" lineNumber="69"/>
+    <functiondecl functionName="freeLibraries" lineNumber="169"/>
+    <functiondecl functionName="createKeyTables" lineNumber="195"/>
+    <functiondecl functionName="createHelperWindow" lineNumber="334"/>
+    <functiondecl functionName="_glfwCreateWideStringFromUTF8Win32" lineNumber="389"/>
+    <functiondecl functionName="_glfwCreateUTF8FromWideStringWin32" lineNumber="417"/>
+    <functiondecl functionName="_glfwInputErrorWin32" lineNumber="445"/>
+    <functiondecl functionName="_glfwUpdateKeyNamesWin32" lineNumber="466"/>
+    <functiondecl functionName="_glfwIsWindowsVersionOrGreaterWin32" lineNumber="520"/>
+    <functiondecl functionName="_glfwIsWindows10BuildOrGreaterWin32" lineNumber="535"/>
+    <functiondecl functionName="_glfwPlatformInit" lineNumber="553"/>
+    <functiondecl functionName="_glfwPlatformTerminate" lineNumber="589"/>
+    <functiondecl functionName="_glfwPlatformGetVersionString" lineNumber="615"/>
+    <functiondecl functionName="loadLibraries" lineNumber="69"/>
+    <functiondecl functionName="freeLibraries" lineNumber="169"/>
+    <functiondecl functionName="createKeyTables" lineNumber="195"/>
+    <functiondecl functionName="createHelperWindow" lineNumber="334"/>
+    <functiondecl functionName="_glfwCreateWideStringFromUTF8Win32" lineNumber="389"/>
+    <functiondecl functionName="_glfwCreateUTF8FromWideStringWin32" lineNumber="417"/>
+    <functiondecl functionName="_glfwInputErrorWin32" lineNumber="445"/>
+    <functiondecl functionName="_glfwUpdateKeyNamesWin32" lineNumber="466"/>
+    <functiondecl functionName="_glfwIsWindowsVersionOrGreaterWin32" lineNumber="520"/>
+    <functiondecl functionName="_glfwIsWindows10BuildOrGreaterWin32" lineNumber="535"/>
+    <functiondecl functionName="_glfwPlatformInit" lineNumber="553"/>
+    <functiondecl functionName="_glfwPlatformTerminate" lineNumber="589"/>
+    <functiondecl functionName="_glfwPlatformGetVersionString" lineNumber="615"/>
+    <functiondecl functionName="loadLibraries" lineNumber="69"/>
+    <functiondecl functionName="freeLibraries" lineNumber="169"/>
+    <functiondecl functionName="createKeyTables" lineNumber="195"/>
+    <functiondecl functionName="createHelperWindow" lineNumber="334"/>
+    <functiondecl functionName="_glfwCreateWideStringFromUTF8Win32" lineNumber="389"/>
+    <functiondecl functionName="_glfwCreateUTF8FromWideStringWin32" lineNumber="417"/>
+    <functiondecl functionName="_glfwInputErrorWin32" lineNumber="445"/>
+    <functiondecl functionName="_glfwUpdateKeyNamesWin32" lineNumber="466"/>
+    <functiondecl functionName="_glfwIsWindowsVersionOrGreaterWin32" lineNumber="520"/>
+    <functiondecl functionName="_glfwIsWindows10BuildOrGreaterWin32" lineNumber="535"/>
+    <functiondecl functionName="_glfwPlatformInit" lineNumber="553"/>
+    <functiondecl functionName="_glfwPlatformTerminate" lineNumber="589"/>
+    <functiondecl functionName="_glfwPlatformGetVersionString" lineNumber="615"/>
+    <functioncall functionName="CP_UTF8"/>
+    <functioncall functionName="CreateWindowExW"/>
+    <functioncall functionName="DBT_DEVTYP_DEVICEINTERFACE"/>
+    <functioncall functionName="DEVICE_NOTIFY_WINDOW_HANDLE"/>
+    <functioncall functionName="DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2"/>
+    <functioncall functionName="DestroyWindow"/>
+    <functioncall functionName="DispatchMessageW"/>
+    <functioncall functionName="FORMAT_MESSAGE_MAX_WIDTH_MASK"/>
+    <functioncall functionName="FormatMessageW"/>
+    <functioncall functionName="FreeLibrary"/>
+    <functioncall functionName="GetLastError"/>
+    <functioncall functionName="GetModuleHandleW"/>
+    <functioncall functionName="GetProcAddress"/>
+    <functioncall functionName="IsWindows8Point1OrGreater"/>
+    <functioncall functionName="IsWindowsVistaOrGreater"/>
+    <functioncall functionName="LANG_NEUTRAL"/>
+    <functioncall functionName="LoadLibraryA"/>
+    <functioncall functionName="MAPVK_VSC_TO_VK"/>
+    <functioncall functionName="MDT_EFFECTIVE_DPI"/>
+    <functioncall functionName="MapVirtualKey"/>
+    <functioncall functionName="MultiByteToWideChar"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="PFN_AdjustWindowRectExForDpi"/>
+    <functioncall functionName="PFN_ChangeWindowMessageFilterEx"/>
+    <functioncall functionName="PFN_DirectInput8Create"/>
+    <functioncall functionName="PFN_DwmEnableBlurBehindWindow"/>
+    <functioncall functionName="PFN_DwmFlush"/>
+    <functioncall functionName="PFN_DwmIsCompositionEnabled"/>
+    <functioncall functionName="PFN_EnableNonClientDpiScaling"/>
+    <functioncall functionName="PFN_GetDpiForMonitor"/>
+    <functioncall functionName="PFN_GetDpiForWindow"/>
+    <functioncall functionName="PFN_RtlVerifyVersionInfo"/>
+    <functioncall functionName="PFN_SetProcessDPIAware"/>
+    <functioncall functionName="PFN_SetProcessDpiAwareness"/>
+    <functioncall functionName="PFN_SetProcessDpiAwarenessContext"/>
+    <functioncall functionName="PFN_XInputGetCapabilities"/>
+    <functioncall functionName="PFN_XInputGetState"/>
+    <functioncall functionName="PFN_timeGetTime"/>
+    <functioncall functionName="PM_REMOVE"/>
+    <functioncall functionName="PROCESS_PER_MONITOR_DPI_AWARE"/>
+    <functioncall functionName="PeekMessageW"/>
+    <functioncall functionName="RegisterDeviceNotificationW"/>
+    <functioncall functionName="RtlVerifyVersionInfo"/>
+    <functioncall functionName="RtlVerifyVersionInfo_"/>
+    <functioncall functionName="SPIF_SENDCHANGE"/>
+    <functioncall functionName="SPI_GETFOREGROUNDLOCKTIMEOUT"/>
+    <functioncall functionName="SPI_SETFOREGROUNDLOCKTIMEOUT"/>
+    <functioncall functionName="SUBLANG_DEFAULT"/>
+    <functioncall functionName="SetProcessDPIAware"/>
+    <functioncall functionName="SetProcessDPIAware_"/>
+    <functioncall functionName="SetProcessDpiAwareness"/>
+    <functioncall functionName="SetProcessDpiAwarenessContext"/>
+    <functioncall functionName="SetProcessDpiAwarenessContext_"/>
+    <functioncall functionName="SetProcessDpiAwareness_"/>
+    <functioncall functionName="ShowWindow"/>
+    <functioncall functionName="SystemParametersInfoW"/>
+    <functioncall functionName="ToUnicode"/>
+    <functioncall functionName="TranslateMessage"/>
+    <functioncall functionName="UIntToPtr"/>
+    <functioncall functionName="UnregisterDeviceNotification"/>
+    <functioncall functionName="VER_BUILDNUMBER"/>
+    <functioncall functionName="VER_GREATER_EQUAL"/>
+    <functioncall functionName="VER_MAJORVERSION"/>
+    <functioncall functionName="VER_MINORVERSION"/>
+    <functioncall functionName="VER_SERVICEPACKMAJOR"/>
+    <functioncall functionName="VerSetConditionMask"/>
+    <functioncall functionName="WS_CLIPCHILDREN"/>
+    <functioncall functionName="WS_EX_OVERLAPPEDWINDOW"/>
+    <functioncall functionName="WideCharToMultiByte"/>
+    <functioncall functionName="_GLFW_WNDCLASSNAME"/>
+    <functioncall functionName="_WIN32_WINNT_VISTA"/>
+    <functioncall functionName="_glfwInitJoysticksWin32"/>
+    <functioncall functionName="_glfwInitTimerWin32"/>
+    <functioncall functionName="_glfwInputError"/>
+    <functioncall functionName="_glfwInputErrorWin32"/>
+    <functioncall functionName="_glfwIsWindows10BuildOrGreaterWin32"/>
+    <functioncall functionName="_glfwIsWindows10CreatorsUpdateOrGreaterWin32"/>
+    <functioncall functionName="_glfwIsWindowsVersionOrGreaterWin32"/>
+    <functioncall functionName="_glfwPollMonitorsWin32"/>
+    <functioncall functionName="_glfwRegisterWindowClassWin32"/>
+    <functioncall functionName="_glfwTerminateEGL"/>
+    <functioncall functionName="_glfwTerminateJoysticksWin32"/>
+    <functioncall functionName="_glfwTerminateWGL"/>
+    <functioncall functionName="_glfwUnregisterWindowClassWin32"/>
+    <functioncall functionName="_glfwUpdateKeyNamesWin32"/>
+    <functioncall functionName="_glfw_GUID_DEVINTERFACE_HID"/>
+    <functioncall functionName="bottomDecoration"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="build"/>
+    <functioncall functionName="calloc"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="chars"/>
+    <functioncall functionName="clipboardString"/>
+    <functioncall functionName="cond"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="createHelperWindow"/>
+    <functioncall functionName="createKeyTables"/>
+    <functioncall functionName="dbi"/>
+    <functioncall functionName="description"/>
+    <functioncall functionName="deviceNotificationHandle"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="foregroundLockTimeout"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="freeLibraries"/>
+    <functioncall functionName="helperWindowHandle"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="instance"/>
+    <functioncall functionName="key"/>
+    <functioncall functionName="keycodes"/>
+    <functioncall functionName="keynames"/>
+    <functioncall functionName="leftDecoration"/>
+    <functioncall functionName="loadLibraries"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mainWindow"/>
+    <functioncall functionName="major"/>
+    <functioncall functionName="mask"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="minor"/>
+    <functioncall functionName="msg"/>
+    <functioncall functionName="osvi"/>
+    <functioncall functionName="rawInput"/>
+    <functioncall functionName="rightDecoration"/>
+    <functioncall functionName="scancode"/>
+    <functioncall functionName="scancodes"/>
+    <functioncall functionName="short"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="source"/>
+    <functioncall functionName="sp"/>
+    <functioncall functionName="state"/>
+    <functioncall functionName="target"/>
+    <functioncall functionName="topDecoration"/>
+    <functioncall functionName="vk"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="wchar_t"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

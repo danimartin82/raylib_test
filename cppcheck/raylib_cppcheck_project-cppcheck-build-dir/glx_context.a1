@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="633626329">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 46 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\external\glfw\src\glx_context.c" line="0" column="0"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;attribs&apos; can be reduced." verbose="The scope of the variable &apos;attribs&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file0="C:\GitHub\raylib\src\external\glfw\src\glx_context.c" file="C:\GitHub\raylib\src\external\glfw\src\glx_context.c" line="449" column="9"/>
+            <symbol>attribs</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="674" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="678" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="688" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="692" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:749:10" call-funcname="_glfwStringInExtensionString" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="214" col="13" my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:208:12" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:52:17" call-funcname="chooseGLXFBConfig" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="456" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:445:10" my-argnr="3"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:52:17" call-funcname="chooseGLXFBConfig" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="644" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:636:10" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:184:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="186" col="39" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:231:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="233" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:445:10" my-argnr="2" my-argname="ctxconfig" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="453" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="674" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="678" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="688" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="692" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:749:10" call-funcname="_glfwStringInExtensionString" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="214" col="13" my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:208:12" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:52:17" call-funcname="chooseGLXFBConfig" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="456" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:445:10" my-argnr="3"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:52:17" call-funcname="chooseGLXFBConfig" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="644" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:636:10" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:184:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="186" col="39" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:231:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="233" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:445:10" my-argnr="2" my-argname="ctxconfig" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="453" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="674" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="678" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="688" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="692" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:749:10" call-funcname="_glfwStringInExtensionString" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="214" col="13" my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:208:12" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:52:17" call-funcname="chooseGLXFBConfig" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="456" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:445:10" my-argnr="3"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:52:17" call-funcname="chooseGLXFBConfig" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="644" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:636:10" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:184:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="186" col="39" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:231:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="233" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:445:10" my-argnr="2" my-argname="ctxconfig" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="453" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="674" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="678" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="688" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="692" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:749:10" call-funcname="_glfwStringInExtensionString" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="214" col="13" my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:208:12" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:52:17" call-funcname="chooseGLXFBConfig" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="456" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:445:10" my-argnr="3"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:52:17" call-funcname="chooseGLXFBConfig" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="644" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:636:10" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:184:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="186" col="39" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:231:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="233" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:445:10" my-argnr="2" my-argname="ctxconfig" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="453" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:52:17" call-funcname="chooseGLXFBConfig" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="456" col="27" call-argexpr="&native" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:52:17" call-funcname="chooseGLXFBConfig" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="644" col="27" call-argexpr="&native" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="674" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="678" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="688" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="692" col="24" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:749:10" call-funcname="_glfwStringInExtensionString" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="214" col="13" my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:208:12" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:52:17" call-funcname="chooseGLXFBConfig" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="456" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.h:173:10" my-argnr="3"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:52:17" call-funcname="chooseGLXFBConfig" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="644" col="10" my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.h:177:10" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:184:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="186" col="39" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.c:231:13" my-argnr="1" my-argname="window" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="233" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/glx_context.h:173:10" my-argnr="2" my-argname="ctxconfig" file="C:/GitHub/raylib/src/external/glfw/src/glx_context.c" line="453" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="getGLXFBConfigAttrib" lineNumber="43"/>
+    <functiondecl functionName="chooseGLXFBConfig" lineNumber="52"/>
+    <functiondecl functionName="createLegacyContextGLX" lineNumber="147"/>
+    <functiondecl functionName="makeContextCurrentGLX" lineNumber="158"/>
+    <functiondecl functionName="swapBuffersGLX" lineNumber="184"/>
+    <functiondecl functionName="swapIntervalGLX" lineNumber="189"/>
+    <functiondecl functionName="extensionSupportedGLX" lineNumber="208"/>
+    <functiondecl functionName="getProcAddressGLX" lineNumber="221"/>
+    <functiondecl functionName="destroyContextGLX" lineNumber="231"/>
+    <functiondecl functionName="_glfwInitGLX" lineNumber="253"/>
+    <functiondecl functionName="_glfwTerminateGLX" lineNumber="424"/>
+    <functiondecl functionName="_glfwCreateContextGLX" lineNumber="445"/>
+    <functiondecl functionName="_glfwChooseVisualGLX" lineNumber="636"/>
+    <functiondecl functionName="glfwGetGLXContext" lineNumber="671"/>
+    <functiondecl functionName="glfwGetGLXWindow" lineNumber="685"/>
+    <functiondecl functionName="getGLXFBConfigAttrib" lineNumber="43"/>
+    <functiondecl functionName="chooseGLXFBConfig" lineNumber="52"/>
+    <functiondecl functionName="createLegacyContextGLX" lineNumber="147"/>
+    <functiondecl functionName="makeContextCurrentGLX" lineNumber="158"/>
+    <functiondecl functionName="swapBuffersGLX" lineNumber="184"/>
+    <functiondecl functionName="swapIntervalGLX" lineNumber="189"/>
+    <functiondecl functionName="extensionSupportedGLX" lineNumber="208"/>
+    <functiondecl functionName="getProcAddressGLX" lineNumber="221"/>
+    <functiondecl functionName="destroyContextGLX" lineNumber="231"/>
+    <functiondecl functionName="_glfwInitGLX" lineNumber="253"/>
+    <functiondecl functionName="_glfwTerminateGLX" lineNumber="424"/>
+    <functiondecl functionName="_glfwCreateContextGLX" lineNumber="445"/>
+    <functiondecl functionName="_glfwChooseVisualGLX" lineNumber="636"/>
+    <functiondecl functionName="glfwGetGLXContext" lineNumber="671"/>
+    <functiondecl functionName="glfwGetGLXWindow" lineNumber="685"/>
+    <functiondecl functionName="getGLXFBConfigAttrib" lineNumber="43"/>
+    <functiondecl functionName="chooseGLXFBConfig" lineNumber="52"/>
+    <functiondecl functionName="createLegacyContextGLX" lineNumber="147"/>
+    <functiondecl functionName="makeContextCurrentGLX" lineNumber="158"/>
+    <functiondecl functionName="swapBuffersGLX" lineNumber="184"/>
+    <functiondecl functionName="swapIntervalGLX" lineNumber="189"/>
+    <functiondecl functionName="extensionSupportedGLX" lineNumber="208"/>
+    <functiondecl functionName="getProcAddressGLX" lineNumber="221"/>
+    <functiondecl functionName="destroyContextGLX" lineNumber="231"/>
+    <functiondecl functionName="_glfwInitGLX" lineNumber="253"/>
+    <functiondecl functionName="_glfwTerminateGLX" lineNumber="424"/>
+    <functiondecl functionName="_glfwCreateContextGLX" lineNumber="445"/>
+    <functiondecl functionName="_glfwChooseVisualGLX" lineNumber="636"/>
+    <functiondecl functionName="glfwGetGLXContext" lineNumber="671"/>
+    <functiondecl functionName="glfwGetGLXWindow" lineNumber="685"/>
+    <functiondecl functionName="getGLXFBConfigAttrib" lineNumber="43"/>
+    <functiondecl functionName="chooseGLXFBConfig" lineNumber="52"/>
+    <functiondecl functionName="createLegacyContextGLX" lineNumber="147"/>
+    <functiondecl functionName="makeContextCurrentGLX" lineNumber="158"/>
+    <functiondecl functionName="swapBuffersGLX" lineNumber="184"/>
+    <functiondecl functionName="swapIntervalGLX" lineNumber="189"/>
+    <functiondecl functionName="extensionSupportedGLX" lineNumber="208"/>
+    <functiondecl functionName="getProcAddressGLX" lineNumber="221"/>
+    <functiondecl functionName="destroyContextGLX" lineNumber="231"/>
+    <functiondecl functionName="_glfwInitGLX" lineNumber="253"/>
+    <functiondecl functionName="_glfwTerminateGLX" lineNumber="424"/>
+    <functiondecl functionName="_glfwCreateContextGLX" lineNumber="445"/>
+    <functiondecl functionName="_glfwChooseVisualGLX" lineNumber="636"/>
+    <functiondecl functionName="glfwGetGLXContext" lineNumber="671"/>
+    <functiondecl functionName="glfwGetGLXWindow" lineNumber="685"/>
+    <functiondecl functionName="getGLXFBConfigAttrib" lineNumber="43"/>
+    <functiondecl functionName="chooseGLXFBConfig" lineNumber="52"/>
+    <functiondecl functionName="createLegacyContextGLX" lineNumber="147"/>
+    <functiondecl functionName="makeContextCurrentGLX" lineNumber="158"/>
+    <functiondecl functionName="swapBuffersGLX" lineNumber="184"/>
+    <functiondecl functionName="swapIntervalGLX" lineNumber="189"/>
+    <functiondecl functionName="extensionSupportedGLX" lineNumber="208"/>
+    <functiondecl functionName="getProcAddressGLX" lineNumber="221"/>
+    <functiondecl functionName="destroyContextGLX" lineNumber="231"/>
+    <functiondecl functionName="_glfwInitGLX" lineNumber="253"/>
+    <functiondecl functionName="_glfwTerminateGLX" lineNumber="424"/>
+    <functiondecl functionName="_glfwCreateContextGLX" lineNumber="445"/>
+    <functiondecl functionName="_glfwChooseVisualGLX" lineNumber="636"/>
+    <functiondecl functionName="glfwGetGLXContext" lineNumber="671"/>
+    <functiondecl functionName="glfwGetGLXWindow" lineNumber="685"/>
+    <functioncall functionName="ARB_context_flush_control"/>
+    <functioncall functionName="ARB_create_context"/>
+    <functioncall functionName="ARB_create_context_no_error"/>
+    <functioncall functionName="ARB_create_context_profile"/>
+    <functioncall functionName="ARB_create_context_robustness"/>
+    <functioncall functionName="ARB_multisample"/>
+    <functioncall functionName="CreateContextAttribsARB"/>
+    <functioncall functionName="CreateNewContext"/>
+    <functioncall functionName="CreateWindow"/>
+    <functioncall functionName="DestroyContext"/>
+    <functioncall functionName="DestroyWindow"/>
+    <functioncall functionName="EXT_create_context_es2_profile"/>
+    <functioncall functionName="EXT_framebuffer_sRGB"/>
+    <functioncall functionName="EXT_swap_control"/>
+    <functioncall functionName="FreeLibrary"/>
+    <functioncall functionName="GLXFBConfig"/>
+    <functioncall functionName="GLX_ACCUM_ALPHA_SIZE"/>
+    <functioncall functionName="GLX_ACCUM_BLUE_SIZE"/>
+    <functioncall functionName="GLX_ACCUM_GREEN_SIZE"/>
+    <functioncall functionName="GLX_ACCUM_RED_SIZE"/>
+    <functioncall functionName="GLX_ALPHA_SIZE"/>
+    <functioncall functionName="GLX_AUX_BUFFERS"/>
+    <functioncall functionName="GLX_BLUE_SIZE"/>
+    <functioncall functionName="GLX_CONTEXT_FLAGS_ARB"/>
+    <functioncall functionName="GLX_CONTEXT_MAJOR_VERSION_ARB"/>
+    <functioncall functionName="GLX_CONTEXT_MINOR_VERSION_ARB"/>
+    <functioncall functionName="GLX_CONTEXT_OPENGL_NO_ERROR_ARB"/>
+    <functioncall functionName="GLX_CONTEXT_PROFILE_MASK_ARB"/>
+    <functioncall functionName="GLX_CONTEXT_RELEASE_BEHAVIOR_ARB"/>
+    <functioncall functionName="GLX_CONTEXT_RELEASE_BEHAVIOR_FLUSH_ARB"/>
+    <functioncall functionName="GLX_CONTEXT_RELEASE_BEHAVIOR_NONE_ARB"/>
+    <functioncall functionName="GLX_CONTEXT_RESET_NOTIFICATION_STRATEGY_ARB"/>
+    <functioncall functionName="GLX_DEPTH_SIZE"/>
+    <functioncall functionName="GLX_DOUBLEBUFFER"/>
+    <functioncall functionName="GLX_DRAWABLE_TYPE"/>
+    <functioncall functionName="GLX_FRAMEBUFFER_SRGB_CAPABLE_ARB"/>
+    <functioncall functionName="GLX_GREEN_SIZE"/>
+    <functioncall functionName="GLX_LOSE_CONTEXT_ON_RESET_ARB"/>
+    <functioncall functionName="GLX_NO_RESET_NOTIFICATION_ARB"/>
+    <functioncall functionName="GLX_RED_SIZE"/>
+    <functioncall functionName="GLX_RENDER_TYPE"/>
+    <functioncall functionName="GLX_RGBA_BIT"/>
+    <functioncall functionName="GLX_RGBA_TYPE"/>
+    <functioncall functionName="GLX_SAMPLES"/>
+    <functioncall functionName="GLX_STENCIL_SIZE"/>
+    <functioncall functionName="GLX_STEREO"/>
+    <functioncall functionName="GLX_VENDOR"/>
+    <functioncall functionName="GLX_WINDOW_BIT"/>
+    <functioncall functionName="GetClientString"/>
+    <functioncall functionName="GetFBConfigAttrib"/>
+    <functioncall functionName="GetFBConfigs"/>
+    <functioncall functionName="GetProcAddress"/>
+    <functioncall functionName="GetProcAddressARB"/>
+    <functioncall functionName="GetVisualFromFBConfig"/>
+    <functioncall functionName="LoadLibraryA"/>
+    <functioncall functionName="MDT_EFFECTIVE_DPI"/>
+    <functioncall functionName="MESA_swap_control"/>
+    <functioncall functionName="MakeCurrent"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="None"/>
+    <functioncall functionName="PFNGLXCREATECONTEXTATTRIBSARBPROC"/>
+    <functioncall functionName="PFNGLXSWAPINTERVALEXTPROC"/>
+    <functioncall functionName="PFNGLXSWAPINTERVALMESAPROC"/>
+    <functioncall functionName="PFNGLXSWAPINTERVALSGIPROC"/>
+    <functioncall functionName="QueryExtension"/>
+    <functioncall functionName="QueryExtensionsString"/>
+    <functioncall functionName="QueryVersion"/>
+    <functioncall functionName="RTLD_LOCAL"/>
+    <functioncall functionName="SGI_swap_control"/>
+    <functioncall functionName="SwapBuffers"/>
+    <functioncall functionName="SwapIntervalEXT"/>
+    <functioncall functionName="SwapIntervalMESA"/>
+    <functioncall functionName="SwapIntervalSGI"/>
+    <functioncall functionName="True"/>
+    <functioncall functionName="XFree"/>
+    <functioncall functionName="_GLFWfbconfig"/>
+    <functioncall functionName="_glfwChooseFBConfig"/>
+    <functioncall functionName="_glfwGrabErrorHandlerX11"/>
+    <functioncall functionName="_glfwInputError"/>
+    <functioncall functionName="_glfwInputErrorX11"/>
+    <functioncall functionName="_glfwIsVisualTransparentX11"/>
+    <functioncall functionName="_glfwPlatformGetTls"/>
+    <functioncall functionName="_glfwPlatformSetTls"/>
+    <functioncall functionName="_glfwReleaseErrorHandlerX11"/>
+    <functioncall functionName="_glfwStringInExtensionString"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="attrib"/>
+    <functioncall functionName="attribs"/>
+    <functioncall functionName="bottomDecoration"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="calloc"/>
+    <functioncall functionName="chooseGLXFBConfig"/>
+    <functioncall functionName="closest"/>
+    <functioncall functionName="contextSlot"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="createLegacyContextGLX"/>
+    <functioncall functionName="debug"/>
+    <functioncall functionName="depth"/>
+    <functioncall functionName="desired"/>
+    <functioncall functionName="destroyContextGLX"/>
+    <functioncall functionName="display"/>
+    <functioncall functionName="dlclose"/>
+    <functioncall functionName="dlopen"/>
+    <functioncall functionName="dlsym"/>
+    <functioncall functionName="errorBase"/>
+    <functioncall functionName="eventBase"/>
+    <functioncall functionName="extension"/>
+    <functioncall functionName="extensionSupportedGLX"/>
+    <functioncall functionName="extensions"/>
+    <functioncall functionName="fbconfig"/>
+    <functioncall functionName="flags"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="forward"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="getGLXFBConfigAttrib"/>
+    <functioncall functionName="getProcAddressGLX"/>
+    <functioncall functionName="glXCreateNewContext"/>
+    <functioncall functionName="glXCreateWindow"/>
+    <functioncall functionName="glXDestroyContext"/>
+    <functioncall functionName="glXDestroyWindow"/>
+    <functioncall functionName="glXGetClientString"/>
+    <functioncall functionName="glXGetFBConfigAttrib"/>
+    <functioncall functionName="glXGetFBConfigs"/>
+    <functioncall functionName="glXGetVisualFromFBConfig"/>
+    <functioncall functionName="glXMakeCurrent"/>
+    <functioncall functionName="glXQueryExtension"/>
+    <functioncall functionName="glXQueryExtensionsString"/>
+    <functioncall functionName="glXQueryVersion"/>
+    <functioncall functionName="glXSwapBuffers"/>
+    <functioncall functionName="handle"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="initialized"/>
+    <functioncall functionName="interval"/>
+    <functioncall functionName="leftDecoration"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mainWindow"/>
+    <functioncall functionName="major"/>
+    <functioncall functionName="makeContextCurrentGLX"/>
+    <functioncall functionName="mask"/>
+    <functioncall functionName="minor"/>
+    <functioncall functionName="n"/>
+    <functioncall functionName="native"/>
+    <functioncall functionName="nativeConfigs"/>
+    <functioncall functionName="nativeCount"/>
+    <functioncall functionName="noerror"/>
+    <functioncall functionName="procname"/>
+    <functioncall functionName="profile"/>
+    <functioncall functionName="release"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rightDecoration"/>
+    <functioncall functionName="robustness"/>
+    <functioncall functionName="screen"/>
+    <functioncall functionName="share"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="swapBuffersGLX"/>
+    <functioncall functionName="swapIntervalGLX"/>
+    <functioncall functionName="topDecoration"/>
+    <functioncall functionName="transparent"/>
+    <functioncall functionName="trustWindowBit"/>
+    <functioncall functionName="usableConfigs"/>
+    <functioncall functionName="usableCount"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="vendor"/>
+    <functioncall functionName="vi"/>
+    <functioncall functionName="visual"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="window"/>
+  </FileInfo>
+</analyzerinfo>

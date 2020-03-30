@@ -1,0 +1,323 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3620742933">
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 of 44 configurations. Use --force to check all configurations." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time." cwe="398">
+            <location file="C:\GitHub\raylib\src\external\glfw\src\x11_monitor.c" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:734:6" call-funcname="_glfwInputMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="195" col="30" call-argexpr="type" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_monitor.c" line="191" col="24" info="Assignment 'type=0', assigned value is 0"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:734:6" call-funcname="_glfwInputMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="209" col="34" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:734:6" call-funcname="_glfwInputMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="219" col="26" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" call-funcname="_glfwPlatformGetVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="235" col="34" call-argexpr="&current" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" call-funcname="_glfwPlatformGetVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="235" col="34" call-argexpr="current" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:759:5" call-funcname="_glfwCompareVideoModes" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="236" col="35" call-argexpr="&current" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:759:5" call-funcname="_glfwCompareVideoModes" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="251" col="39" call-argexpr="&mode" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:759:5" call-funcname="_glfwCompareVideoModes" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="466" col="43" call-argexpr="&mode" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="604" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="611" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:757:20" call-funcname="_glfwChooseVideoMode" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="234" col="35" my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:227:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:757:20" call-funcname="_glfwChooseVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="234" col="35" my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:227:6" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:762:6" call-funcname="_glfwAllocGammaArrays" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="531" col="9" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:623:10" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:47:12" my-argnr="1" my-argname="mi" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="49" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:57:27" my-argnr="1" my-argname="sr" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="59" col="26" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:70:20" my-argnr="2" my-argname="ci" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="75" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:621:14" my-argnr="2" my-argname="count" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="444" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:40:17" my-argnr="1" my-argname="mi" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="42" col="13" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:734:6" call-funcname="_glfwInputMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="195" col="30" call-argexpr="type" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_monitor.c" line="191" col="24" info="Assignment 'type=0', assigned value is 0"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:734:6" call-funcname="_glfwInputMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="209" col="34" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:734:6" call-funcname="_glfwInputMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="219" col="26" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" call-funcname="_glfwPlatformGetVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="235" col="34" call-argexpr="&current" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" call-funcname="_glfwPlatformGetVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="235" col="34" call-argexpr="current" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:759:5" call-funcname="_glfwCompareVideoModes" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="236" col="35" call-argexpr="&current" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:759:5" call-funcname="_glfwCompareVideoModes" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="251" col="39" call-argexpr="&mode" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:759:5" call-funcname="_glfwCompareVideoModes" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="466" col="43" call-argexpr="&mode" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="604" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="611" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:757:20" call-funcname="_glfwChooseVideoMode" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="234" col="35" my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:227:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:757:20" call-funcname="_glfwChooseVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="234" col="35" my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:227:6" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:762:6" call-funcname="_glfwAllocGammaArrays" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="531" col="9" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:623:10" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:47:12" my-argnr="1" my-argname="mi" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="49" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:57:27" my-argnr="1" my-argname="sr" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="59" col="26" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:70:20" my-argnr="2" my-argname="ci" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="75" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:621:14" my-argnr="2" my-argname="count" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="444" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:40:17" my-argnr="1" my-argname="mi" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="42" col="13" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:734:6" call-funcname="_glfwInputMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="195" col="30" call-argexpr="type" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_monitor.c" line="191" col="24" info="Assignment 'type=0', assigned value is 0"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:734:6" call-funcname="_glfwInputMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="209" col="34" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:734:6" call-funcname="_glfwInputMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="219" col="26" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" call-funcname="_glfwPlatformGetVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="235" col="34" call-argexpr="&current" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" call-funcname="_glfwPlatformGetVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="235" col="34" call-argexpr="current" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:759:5" call-funcname="_glfwCompareVideoModes" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="236" col="35" call-argexpr="&current" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:759:5" call-funcname="_glfwCompareVideoModes" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="251" col="39" call-argexpr="&mode" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:759:5" call-funcname="_glfwCompareVideoModes" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="466" col="43" call-argexpr="&mode" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="604" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="611" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:757:20" call-funcname="_glfwChooseVideoMode" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="234" col="35" my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:227:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:757:20" call-funcname="_glfwChooseVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="234" col="35" my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:227:6" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:762:6" call-funcname="_glfwAllocGammaArrays" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="531" col="9" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:623:10" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:47:12" my-argnr="1" my-argname="mi" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="49" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:57:27" my-argnr="1" my-argname="sr" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="59" col="26" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:70:20" my-argnr="2" my-argname="ci" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="75" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:621:14" my-argnr="2" my-argname="count" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="444" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:40:17" my-argnr="1" my-argname="mi" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="42" col="13" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:734:6" call-funcname="_glfwInputMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="195" col="30" call-argexpr="type" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_monitor.c" line="191" col="24" info="Assignment 'type=0', assigned value is 0"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:734:6" call-funcname="_glfwInputMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="209" col="34" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:734:6" call-funcname="_glfwInputMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="219" col="26" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" call-funcname="_glfwPlatformGetVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="235" col="34" call-argexpr="&current" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" call-funcname="_glfwPlatformGetVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="235" col="34" call-argexpr="current" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:759:5" call-funcname="_glfwCompareVideoModes" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="236" col="35" call-argexpr="&current" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:759:5" call-funcname="_glfwCompareVideoModes" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="251" col="39" call-argexpr="&mode" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:759:5" call-funcname="_glfwCompareVideoModes" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="466" col="43" call-argexpr="&mode" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="604" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="611" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:757:20" call-funcname="_glfwChooseVideoMode" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="234" col="35" my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:227:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:757:20" call-funcname="_glfwChooseVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="234" col="35" my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:227:6" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:762:6" call-funcname="_glfwAllocGammaArrays" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="531" col="9" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:623:10" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:47:12" my-argnr="1" my-argname="mi" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="49" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:57:27" my-argnr="1" my-argname="sr" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="59" col="26" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:70:20" my-argnr="2" my-argname="ci" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="75" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:621:14" my-argnr="2" my-argname="count" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="444" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:40:17" my-argnr="1" my-argname="mi" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="42" col="13" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:734:6" call-funcname="_glfwInputMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="195" col="30" call-argexpr="type" call-argvaluetype="0" call-argvalue="0">
+  <path file="C:\GitHub\raylib\src\external\glfw\src\x11_monitor.c" line="191" col="24" info="Assignment 'type=0', assigned value is 0"/>
+</function-call><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:734:6" call-funcname="_glfwInputMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="209" col="34" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:734:6" call-funcname="_glfwInputMonitor" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="219" col="26" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" call-funcname="_glfwPlatformGetVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="235" col="34" call-argexpr="&current" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:622:6" call-funcname="_glfwPlatformGetVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="235" col="34" call-argexpr="current" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:759:5" call-funcname="_glfwCompareVideoModes" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="236" col="35" call-argexpr="&current" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:759:5" call-funcname="_glfwCompareVideoModes" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="251" col="39" call-argexpr="&mode" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:759:5" call-funcname="_glfwCompareVideoModes" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="466" col="43" call-argexpr="&mode" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="604" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:741:6" call-funcname="_glfwInputError" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="611" col="5" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:757:20" call-funcname="_glfwChooseVideoMode" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="234" col="35" my-id="C:/GitHub/raylib/src/external/glfw/src/x11_platform.h:443:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:757:20" call-funcname="_glfwChooseVideoMode" call-argnr="2" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="234" col="35" my-id="C:/GitHub/raylib/src/external/glfw/src/x11_platform.h:443:6" my-argnr="2"/>
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:762:6" call-funcname="_glfwAllocGammaArrays" call-argnr="1" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="531" col="9" my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:623:10" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:47:12" my-argnr="1" my-argname="mi" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="49" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:57:27" my-argnr="1" my-argname="sr" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="59" col="26" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:70:20" my-argnr="2" my-argname="ci" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="75" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/internal.h:621:14" my-argnr="2" my-argname="count" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="444" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c:40:17" my-argnr="1" my-argname="mi" file="C:/GitHub/raylib/src/external/glfw/src/x11_monitor.c" line="42" col="13" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="modeIsGood" lineNumber="40"/>
+    <functiondecl functionName="calculateRefreshRate" lineNumber="47"/>
+    <functiondecl functionName="getModeInfo" lineNumber="57"/>
+    <functiondecl functionName="vidmodeFromModeInfo" lineNumber="70"/>
+    <functiondecl functionName="_glfwPollMonitorsX11" lineNumber="101"/>
+    <functiondecl functionName="_glfwSetVideoModeX11" lineNumber="227"/>
+    <functiondecl functionName="_glfwRestoreVideoModeX11" lineNumber="281"/>
+    <functiondecl functionName="_glfwPlatformFreeMonitor" lineNumber="313"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorPos" lineNumber="317"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorContentScale" lineNumber="339"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorWorkarea" lineNumber="348"/>
+    <functiondecl functionName="_glfwPlatformGetVideoModes" lineNumber="440"/>
+    <functiondecl functionName="_glfwPlatformGetVideoMode" lineNumber="492"/>
+    <functiondecl functionName="_glfwPlatformGetGammaRamp" lineNumber="522"/>
+    <functiondecl functionName="_glfwPlatformSetGammaRamp" lineNumber="560"/>
+    <functiondecl functionName="glfwGetX11Adapter" lineNumber="601"/>
+    <functiondecl functionName="glfwGetX11Monitor" lineNumber="608"/>
+    <functiondecl functionName="modeIsGood" lineNumber="40"/>
+    <functiondecl functionName="calculateRefreshRate" lineNumber="47"/>
+    <functiondecl functionName="getModeInfo" lineNumber="57"/>
+    <functiondecl functionName="vidmodeFromModeInfo" lineNumber="70"/>
+    <functiondecl functionName="_glfwPollMonitorsX11" lineNumber="101"/>
+    <functiondecl functionName="_glfwSetVideoModeX11" lineNumber="227"/>
+    <functiondecl functionName="_glfwRestoreVideoModeX11" lineNumber="281"/>
+    <functiondecl functionName="_glfwPlatformFreeMonitor" lineNumber="313"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorPos" lineNumber="317"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorContentScale" lineNumber="339"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorWorkarea" lineNumber="348"/>
+    <functiondecl functionName="_glfwPlatformGetVideoModes" lineNumber="440"/>
+    <functiondecl functionName="_glfwPlatformGetVideoMode" lineNumber="492"/>
+    <functiondecl functionName="_glfwPlatformGetGammaRamp" lineNumber="522"/>
+    <functiondecl functionName="_glfwPlatformSetGammaRamp" lineNumber="560"/>
+    <functiondecl functionName="glfwGetX11Adapter" lineNumber="601"/>
+    <functiondecl functionName="glfwGetX11Monitor" lineNumber="608"/>
+    <functiondecl functionName="modeIsGood" lineNumber="40"/>
+    <functiondecl functionName="calculateRefreshRate" lineNumber="47"/>
+    <functiondecl functionName="getModeInfo" lineNumber="57"/>
+    <functiondecl functionName="vidmodeFromModeInfo" lineNumber="70"/>
+    <functiondecl functionName="_glfwPollMonitorsX11" lineNumber="101"/>
+    <functiondecl functionName="_glfwSetVideoModeX11" lineNumber="227"/>
+    <functiondecl functionName="_glfwRestoreVideoModeX11" lineNumber="281"/>
+    <functiondecl functionName="_glfwPlatformFreeMonitor" lineNumber="313"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorPos" lineNumber="317"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorContentScale" lineNumber="339"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorWorkarea" lineNumber="348"/>
+    <functiondecl functionName="_glfwPlatformGetVideoModes" lineNumber="440"/>
+    <functiondecl functionName="_glfwPlatformGetVideoMode" lineNumber="492"/>
+    <functiondecl functionName="_glfwPlatformGetGammaRamp" lineNumber="522"/>
+    <functiondecl functionName="_glfwPlatformSetGammaRamp" lineNumber="560"/>
+    <functiondecl functionName="glfwGetX11Adapter" lineNumber="601"/>
+    <functiondecl functionName="glfwGetX11Monitor" lineNumber="608"/>
+    <functiondecl functionName="modeIsGood" lineNumber="40"/>
+    <functiondecl functionName="calculateRefreshRate" lineNumber="47"/>
+    <functiondecl functionName="getModeInfo" lineNumber="57"/>
+    <functiondecl functionName="vidmodeFromModeInfo" lineNumber="70"/>
+    <functiondecl functionName="_glfwPollMonitorsX11" lineNumber="101"/>
+    <functiondecl functionName="_glfwSetVideoModeX11" lineNumber="227"/>
+    <functiondecl functionName="_glfwRestoreVideoModeX11" lineNumber="281"/>
+    <functiondecl functionName="_glfwPlatformFreeMonitor" lineNumber="313"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorPos" lineNumber="317"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorContentScale" lineNumber="339"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorWorkarea" lineNumber="348"/>
+    <functiondecl functionName="_glfwPlatformGetVideoModes" lineNumber="440"/>
+    <functiondecl functionName="_glfwPlatformGetVideoMode" lineNumber="492"/>
+    <functiondecl functionName="_glfwPlatformGetGammaRamp" lineNumber="522"/>
+    <functiondecl functionName="_glfwPlatformSetGammaRamp" lineNumber="560"/>
+    <functiondecl functionName="glfwGetX11Adapter" lineNumber="601"/>
+    <functiondecl functionName="glfwGetX11Monitor" lineNumber="608"/>
+    <functiondecl functionName="modeIsGood" lineNumber="40"/>
+    <functiondecl functionName="calculateRefreshRate" lineNumber="47"/>
+    <functiondecl functionName="getModeInfo" lineNumber="57"/>
+    <functiondecl functionName="vidmodeFromModeInfo" lineNumber="70"/>
+    <functiondecl functionName="_glfwPollMonitorsX11" lineNumber="101"/>
+    <functiondecl functionName="_glfwSetVideoModeX11" lineNumber="227"/>
+    <functiondecl functionName="_glfwRestoreVideoModeX11" lineNumber="281"/>
+    <functiondecl functionName="_glfwPlatformFreeMonitor" lineNumber="313"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorPos" lineNumber="317"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorContentScale" lineNumber="339"/>
+    <functiondecl functionName="_glfwPlatformGetMonitorWorkarea" lineNumber="348"/>
+    <functiondecl functionName="_glfwPlatformGetVideoModes" lineNumber="440"/>
+    <functiondecl functionName="_glfwPlatformGetVideoMode" lineNumber="492"/>
+    <functiondecl functionName="_glfwPlatformGetGammaRamp" lineNumber="522"/>
+    <functiondecl functionName="_glfwPlatformSetGammaRamp" lineNumber="560"/>
+    <functiondecl functionName="glfwGetX11Adapter" lineNumber="601"/>
+    <functiondecl functionName="glfwGetX11Monitor" lineNumber="608"/>
+    <functioncall functionName="AllocGamma"/>
+    <functioncall functionName="CurrentTime"/>
+    <functioncall functionName="DefaultDepth"/>
+    <functioncall functionName="DisplayHeight"/>
+    <functioncall functionName="DisplayHeightMM"/>
+    <functioncall functionName="DisplayWidth"/>
+    <functioncall functionName="DisplayWidthMM"/>
+    <functioncall functionName="FreeCrtcInfo"/>
+    <functioncall functionName="FreeGamma"/>
+    <functioncall functionName="FreeOutputInfo"/>
+    <functioncall functionName="FreeScreenResources"/>
+    <functioncall functionName="GetCrtcGamma"/>
+    <functioncall functionName="GetCrtcGammaSize"/>
+    <functioncall functionName="GetCrtcInfo"/>
+    <functioncall functionName="GetGammaRamp"/>
+    <functioncall functionName="GetGammaRampSize"/>
+    <functioncall functionName="GetOutputInfo"/>
+    <functioncall functionName="GetOutputPrimary"/>
+    <functioncall functionName="GetScreenResourcesCurrent"/>
+    <functioncall functionName="MDT_EFFECTIVE_DPI"/>
+    <functioncall functionName="NET_CURRENT_DESKTOP"/>
+    <functioncall functionName="NET_WORKAREA"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="None"/>
+    <functioncall functionName="QueryScreens"/>
+    <functioncall functionName="SetCrtcConfig"/>
+    <functioncall functionName="SetCrtcGamma"/>
+    <functioncall functionName="SetGammaRamp"/>
+    <functioncall functionName="XA_CARDINAL"/>
+    <functioncall functionName="XF86VidModeGetGammaRamp"/>
+    <functioncall functionName="XF86VidModeGetGammaRampSize"/>
+    <functioncall functionName="XF86VidModeSetGammaRamp"/>
+    <functioncall functionName="XFree"/>
+    <functioncall functionName="XRRAllocGamma"/>
+    <functioncall functionName="XRRFreeCrtcInfo"/>
+    <functioncall functionName="XRRFreeGamma"/>
+    <functioncall functionName="XRRFreeOutputInfo"/>
+    <functioncall functionName="XRRFreeScreenResources"/>
+    <functioncall functionName="XRRGetCrtcGamma"/>
+    <functioncall functionName="XRRGetCrtcGammaSize"/>
+    <functioncall functionName="XRRGetCrtcInfo"/>
+    <functioncall functionName="XRRGetOutputInfo"/>
+    <functioncall functionName="XRRGetOutputPrimary"/>
+    <functioncall functionName="XRRGetScreenResourcesCurrent"/>
+    <functioncall functionName="XRRSetCrtcConfig"/>
+    <functioncall functionName="XRRSetCrtcGamma"/>
+    <functioncall functionName="XineramaQueryScreens"/>
+    <functioncall functionName="_glfwAllocGammaArrays"/>
+    <functioncall functionName="_glfwAllocMonitor"/>
+    <functioncall functionName="_glfwChooseVideoMode"/>
+    <functioncall functionName="_glfwCompareVideoModes"/>
+    <functioncall functionName="_glfwGetWindowPropertyX11"/>
+    <functioncall functionName="_glfwInputError"/>
+    <functioncall functionName="_glfwInputMonitor"/>
+    <functioncall functionName="_glfwPlatformGetVideoMode"/>
+    <functioncall functionName="_glfwSplitBPP"/>
+    <functioncall functionName="areaHeight"/>
+    <functioncall functionName="areaWidth"/>
+    <functioncall functionName="areaX"/>
+    <functioncall functionName="areaY"/>
+    <functioncall functionName="available"/>
+    <functioncall functionName="best"/>
+    <functioncall functionName="blue"/>
+    <functioncall functionName="blueBits"/>
+    <functioncall functionName="bottomDecoration"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="calculateRefreshRate"/>
+    <functioncall functionName="calloc"/>
+    <functioncall functionName="ci"/>
+    <functioncall functionName="contentScaleX"/>
+    <functioncall functionName="contentScaleY"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="crtc"/>
+    <functioncall functionName="current"/>
+    <functioncall functionName="desired"/>
+    <functioncall functionName="desktop"/>
+    <functioncall functionName="disconnected"/>
+    <functioncall functionName="disconnectedCount"/>
+    <functioncall functionName="display"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="extents"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="gamma"/>
+    <functioncall functionName="gammaBroken"/>
+    <functioncall functionName="getModeInfo"/>
+    <functioncall functionName="globalHeight"/>
+    <functioncall functionName="globalWidth"/>
+    <functioncall functionName="globalX"/>
+    <functioncall functionName="globalY"/>
+    <functioncall functionName="green"/>
+    <functioncall functionName="greenBits"/>
+    <functioncall functionName="handle"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="heightMM"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="initialized"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="j"/>
+    <functioncall functionName="leftDecoration"/>
+    <functioncall functionName="mainWindow"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="mi"/>
+    <functioncall functionName="mm_height"/>
+    <functioncall functionName="mm_width"/>
+    <functioncall functionName="mode"/>
+    <functioncall functionName="modeIsGood"/>
+    <functioncall functionName="monitor"/>
+    <functioncall functionName="monitorBroken"/>
+    <functioncall functionName="monitorCount"/>
+    <functioncall functionName="monitors"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="native"/>
+    <functioncall functionName="nmode"/>
+    <functioncall functionName="noutput"/>
+    <functioncall functionName="oi"/>
+    <functioncall functionName="oldMode"/>
+    <functioncall functionName="output"/>
+    <functioncall functionName="outputs"/>
+    <functioncall functionName="ramp"/>
+    <functioncall functionName="red"/>
+    <functioncall functionName="redBits"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rightDecoration"/>
+    <functioncall functionName="root"/>
+    <functioncall functionName="rotation"/>
+    <functioncall functionName="round"/>
+    <functioncall functionName="screen"/>
+    <functioncall functionName="screenCount"/>
+    <functioncall functionName="screens"/>
+    <functioncall functionName="short"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="sr"/>
+    <functioncall functionName="topDecoration"/>
+    <functioncall functionName="type"/>
+    <functioncall functionName="vTotal"/>
+    <functioncall functionName="vidmodeFromModeInfo"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="widthMM"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="xpos"/>
+    <functioncall functionName="xscale"/>
+    <functioncall functionName="y"/>
+    <functioncall functionName="ypos"/>
+    <functioncall functionName="yscale"/>
+  </FileInfo>
+</analyzerinfo>

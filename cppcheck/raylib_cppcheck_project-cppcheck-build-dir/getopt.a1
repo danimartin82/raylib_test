@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2671128638">
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/raylib/src/external/glfw/deps/getopt.h:48:5" call-funcname="getopt" call-argnr="3" file="C:/GitHub/raylib/src/external/glfw/deps/getopt.c" line="174" col="12" my-id="C:/GitHub/raylib/src/external/glfw/deps/getopt.h:50:5" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/deps/getopt.h:48:5" my-argnr="3" my-argname="optstring" file="C:/GitHub/raylib/src/external/glfw/deps/getopt.c" line="98" col="20" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/raylib/src/external/glfw/deps/getopt.h:48:5" my-argnr="3" my-argname="optstring" file="C:/GitHub/raylib/src/external/glfw/deps/getopt.c" line="98" col="20" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="getopt" lineNumber="52"/>
+    <functiondecl functionName="getopt_long" lineNumber="158"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="argc"/>
+    <functioncall functionName="argument_name_length"/>
+    <functioncall functionName="argv"/>
+    <functioncall functionName="current_argument"/>
+    <functioncall functionName="flag"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="getopt"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="longindex"/>
+    <functioncall functionName="longopts"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="no_more_optchars"/>
+    <functioncall functionName="o"/>
+    <functioncall functionName="optchar"/>
+    <functioncall functionName="optdecl"/>
+    <functioncall functionName="optind"/>
+    <functioncall functionName="optstring"/>
+    <functioncall functionName="strchr"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="strcspn"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="strncmp"/>
+    <functioncall functionName="val"/>
+  </FileInfo>
+</analyzerinfo>
