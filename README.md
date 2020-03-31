@@ -6,8 +6,8 @@ https://github.com/raysan5/raylib
 
 In this repository two main contents can be found:
 
-* **cppcheck** project and test resulst of raylib/src code
-* **Unit test** done with Google Test for raylib/src code.
+* **cppcheck** project and test resulst of raylib/src code. This tool performs a static analysis of the code and generates a report.
+* **Unit test** done with Google Test for raylib functions. This folder contains a set of black box test of the `raylib` functions.
 
 The best proposal for running this tools is to organize the repositories in the next way:
 
@@ -66,6 +66,8 @@ If a different one is choosen, please update the path in the bat file.
 This repository contains a folder called `raylib_test\gtest` with the implemented Unit Test, and a batch file for its compilation and execution. 
 
 **IMPORTANT**:
+* This tests are black box tests: the library is already compiled, and only the public interfaces defined in `raylib.h` are abailable for test.
+
 * The batch file contains the absolute paths to the Google test static library compiled in the previous steps. If the paths are different, please update them.
 
 * As we are going to test **raylib** and its included in the compilation via `-lraylib` sure that MINGGW contains your last compilation of raylib, so you are testing the latest changes in raylib. Copy libraylib.a from `raylib\src` to `C:\MinGW\i686-w64-mingw32\lib` and `raylib.h` to  `C:\MinGW\i686-w64-mingw32\include`.

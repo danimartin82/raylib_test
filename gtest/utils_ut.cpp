@@ -1,6 +1,6 @@
 #include "gtest/gtest.h"
 #include "raylib.h" 
-#include "../..//fff/fff.h"
+//#include "../..//fff/fff.h"
 
 
 
@@ -10,7 +10,7 @@
 /*                                                                                 */
 /***********************************************************************************/
 
-DEFINE_FFF_GLOBALS;
+/*DEFINE_FFF_GLOBALS;
 FAKE_VOID_FUNC(vprintf);
 
 void setup()
@@ -19,7 +19,7 @@ void setup()
     FFF_RESET_HISTORY();
 }
 
-
+*/
 
 /***********************************************************************************/
 /*                                                                                 */
