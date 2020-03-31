@@ -8,7 +8,8 @@
 /***********************************************************************************/
 
 // We expect storing and loading OK in position 0
-TEST(SaveStorageValue, test_basic_save_load) {
+TEST(SaveStorageValue, test_basic_save_load)
+{
 	int in=19;
 	int out=0;
 	unsigned int position=0;
@@ -22,7 +23,8 @@ TEST(SaveStorageValue, test_basic_save_load) {
 
 
 // We expect to create file storage.data and save/load OK
-TEST(SaveStorageValue, create_storage_data_file) {
+TEST(SaveStorageValue, create_storage_data_file)
+{
 	int in=19;
 	int out=0;
 	unsigned int position=0;
@@ -35,7 +37,8 @@ TEST(SaveStorageValue, create_storage_data_file) {
 
 
 // We expect to create and increase the size of the file storage.data save/load OK
-TEST(SaveStorageValue, increase_storage_data_file) {
+TEST(SaveStorageValue, increase_storage_data_file)
+{
 	int in=19;
 	int out=0;
 	unsigned int position=0;
@@ -54,7 +57,8 @@ TEST(SaveStorageValue, increase_storage_data_file) {
 
 
   // We expect a failure in SaveStorageValue, and so save is not performed. Load gives different data than save
-TEST(SaveStorageValue, fail_realloc_in_SaveStorageValue) {
+TEST(SaveStorageValue, fail_realloc_in_SaveStorageValue)
+{
 	int in=19;
 	int out=0;
 	unsigned int position=INT_MAX;
@@ -74,7 +78,8 @@ TEST(SaveStorageValue, fail_realloc_in_SaveStorageValue) {
 /*                                                                                 */
 /***********************************************************************************/
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv)
+{
     ::testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
 }
