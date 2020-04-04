@@ -3,48 +3,6 @@
 
 /***********************************************************************************/
 /*                                                                                 */
-/*     Function InitWindow()                                                       */
-/*                                                                                 */
-/***********************************************************************************/
-
-// We expect creating and closing a window
-TEST(InitWindow, test_basic_initWindow)
-{
-	int w=1000;
-	int h=1000;
-	bool isReady;
-	bool isResized1;
-	bool isResized2;
-	bool isFullScreen1;
-	bool isFullScreen2;
-	bool windowShouldClose;
-	const char* title="Hello World!";
-
-	InitWindow(w,h,title);
-	isReady=IsWindowReady();
-
-    isResized1=IsWindowResized();   
-    isFullScreen1=IsWindowFullscreen();
-	ToggleFullscreen();
-    isResized2=IsWindowResized();
-    isFullScreen2=IsWindowFullscreen();
-	
-	windowShouldClose=WindowShouldClose();
-	CloseWindow();
-
-    
-    EXPECT_EQ (isReady,true);
-    EXPECT_EQ (isFullScreen1,false);
-    EXPECT_EQ (isFullScreen2,true);
-    EXPECT_EQ (isResized1,false);
-    EXPECT_EQ (isResized2,true);
-    EXPECT_EQ (windowShouldClose,false);
-
-}
-
-
-/***********************************************************************************/
-/*                                                                                 */
 /*     Functions SaveStorageValue() and LoadStorageValue()                         */
 /*                                                                                 */
 /***********************************************************************************/
@@ -55,7 +13,9 @@ TEST(SaveStorageValue, test_basic_save_load)
 	int in=19;
 	int out=0;
 	unsigned int position=0;
-
+	
+	SetTraceLogLevel(LOG_ALL);
+	
 	SaveStorageValue(position,in);
 	out=LoadStorageValue(position);
     
